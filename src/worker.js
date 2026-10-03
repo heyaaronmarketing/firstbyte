@@ -43,36 +43,63 @@ export default {
 };
 
 /* ---------------- /api/contact ---------------- */
+// Accepts two kinds of form:
+//   v2 (new design, sends _v=2): name + email required, every other field is optional and
+//        listed in the email. Hidden "_honey" is the spam trap. "_subject" sets the subject.
+//        Newsletter signups send list="#SundayByte newsletter" and only need an email.
+//   v1 (pages still on the old design): unchanged — name, email and message required,
+//        hidden "company" field is the spam trap.
+
+const SKIP_KEYS = new Set(["_v", "_honey", "_subject", "_next", "_template", "_captcha", "name", "email", "phone", "message"]);
+const LABELS = { company: "Company & website", budget: "Monthly budget", services: "Services", page: "Page", list: "List" };
 
 async function handleContact(request, env) {
   try {
     const data = await readBody(request);
+    const v2 = str(data._v) === "2";
 
-    // Honeypot: real users never fill the hidden "company" field.
-    if (data.company) return json({ ok: true });
+    // Honeypots: real visitors never fill these hidden fields.
+    if (v2 ? str(data._honey) : str(data.company)) return respond(request, true, "Thanks! We’ll be in touch shortly.", 200, v2);
 
-    const name = str(data.name);
-    const email = str(data.email);
-    const phone = str(data.phone);
-    const message = str(data.message);
+    const name = str(data.name).slice(0, 200);
+    const email = str(data.email).slice(0, 200);
+    const phone = str(data.phone).slice(0, 60);
+    const message = str(data.message).slice(0, 5000);
+    const isNews = v2 && !!str(data.list);
+    const okEmail = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
 
-    if (!name || !message || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-      return respond(request, false, "Please add your name, a valid email, and a message.", 400);
+    if (!okEmail || (!isNews && !name) || (!v2 && !message)) {
+      return respond(request, false, v2 ? "Please add your name and a valid email." : "Please add your name, a valid email, and a message.", 400, v2);
     }
 
     if (!env.RESEND_API_KEY) {
-      return respond(request, false, "Email isn’t configured yet. Please call us at (713) 578-0634.", 500);
+      return respond(request, false, "Email isn’t configured yet. Please call us at (713) 578-0634.", 500, v2);
     }
     const to = env.CONTACT_TO || DEFAULT_TO;
     const from = env.CONTACT_FROM || DEFAULT_FROM;
 
-    const text = `Name: ${name}\nEmail: ${email}\nPhone: ${phone || "—"}\n\n${message}`;
-    const html = `<h2>New website enquiry</h2>
-<p><strong>Name:</strong> ${esc(name)}</p>
-<p><strong>Email:</strong> ${esc(email)}</p>
-<p><strong>Phone:</strong> ${esc(phone || "—")}</p>
+    // Every extra field the form sent (company, budget, services, interests, page, list…)
+    const extras = [];
+    for (const [k, val] of Object.entries(data)) {
+      if (SKIP_KEYS.has(k) || k.startsWith("_")) continue;
+      const v = str(val).slice(0, 1000);
+      if (!v) continue;
+      extras.push([LABELS[k] || k.charAt(0).toUpperCase() + k.slice(1), v]);
+    }
+    const who = name || email;
+    const subject = (str(data._subject).replace(/[\r\n]+/g, " ").slice(0, 120) || "New website enquiry") + ` — ${who}`;
+
+    const lines = [`Name: ${name || "—"}`, `Email: ${email}`, `Phone: ${phone || "—"}`, ...extras.map(([k, v]) => `${k}: ${v}`)];
+    const text = `${lines.join("\n")}\n\n${message || "(no message)"}`;
+    const html = `<h2>${esc(isNews ? "New #SundayByte newsletter signup" : "New website enquiry")}</h2>
+<table cellpadding="6" style="border-collapse:collapse">
+<tr><td><strong>Name</strong></td><td>${esc(name || "—")}</td></tr>
+<tr><td><strong>Email</strong></td><td>${esc(email)}</td></tr>
+<tr><td><strong>Phone</strong></td><td>${esc(phone || "—")}</td></tr>
+${extras.map(([k, v]) => `<tr><td><strong>${esc(k)}</strong></td><td>${esc(v)}</td></tr>`).join("\n")}
+</table>
 <p><strong>Message:</strong></p>
-<p>${esc(message).replace(/\n/g, "<br>")}</p>`;
+<p>${esc(message || "(no message)").replace(/\n/g, "<br>")}</p>`;
 
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -80,26 +107,20 @@ async function handleContact(request, env) {
         Authorization: `Bearer ${env.RESEND_API_KEY}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        from,
-        to: [to],
-        reply_to: email,
-        subject: `New website enquiry from ${name}`,
-        text,
-        html,
-      }),
+      body: JSON.stringify({ from, to: [to], reply_to: email, subject, text, html }),
     });
 
     if (!res.ok) {
-      return respond(request, false, "Couldn’t send your message. Please call us at (713) 578-0634.", 502);
+      return respond(request, false, "Couldn’t send your message. Please call us at (713) 578-0634.", 502, v2);
     }
 
     // Persist to KV (both the anonymized recent list AND the full lead history).
-    try { await saveLead(env, request, { name, email, phone, message }); } catch (_e) { /* never block on log */ }
+    const stored = [extras.map(([k, v]) => `${k}: ${v}`).join("\n"), message].filter(Boolean).join("\n\n");
+    try { await saveLead(env, request, { name: name || "Newsletter subscriber", email, phone, message: stored || "(no message)", noToast: isNews }); } catch (_e) { /* never block on log */ }
 
-    return respond(request, true, "Thanks! We’ll be in touch shortly.", 200);
+    return respond(request, true, "Thanks! We’ll be in touch shortly.", 200, v2);
   } catch (_e) {
-    return respond(request, false, "Something went wrong. Please try again or call (713) 578-0634.", 500);
+    return respond(request, false, "Something went wrong. Please try again or call (713) 578-0634.", 500, true);
   }
 }
 
@@ -131,7 +152,8 @@ async function saveLead(env, request, lead) {
   if (list.length > MAX_LEADS) list.length = MAX_LEADS;
   await env.LEADS_KV.put(LEADS_KEY, JSON.stringify(list));
 
-  // 2) Anonymized recent list for the public social-proof toasts.
+  // 2) Anonymized recent list for the public social-proof toasts (not for newsletter signups).
+  if (lead.noToast) return;
   const first = (lead.name.split(/\s+/)[0] || "Someone").slice(0, 40);
   const rraw = await env.LEADS_KV.get(RECENT_KEY);
   const rlist = rraw ? safeJson(rraw, []) : [];
@@ -305,10 +327,11 @@ async function readBody(request) {
   return out;
 }
 
-function respond(request, ok, msg, status) {
+function respond(request, ok, msg, status, v2) {
   const accept = request.headers.get("accept") || "";
-  // No-JS form post -> redirect back to the contact page with a status flag.
+  // No-JS form post -> redirect. New-design forms land on /thank-you/ when sent.
   if (!accept.includes("application/json")) {
+    if (ok && v2) return Response.redirect(new URL("/thank-you/", request.url).toString(), 303);
     const url = new URL("/contact/", request.url);
     url.searchParams.set("sent", ok ? "1" : "0");
     return Response.redirect(url.toString(), 303);
