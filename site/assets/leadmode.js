@@ -96,9 +96,9 @@
     overlay.innerHTML =
       '<div class="fblm-modal">' +
       '<button class="fblm-close" aria-label="Close">&times;</button>' +
-      '<span class="fblm-badge">Free • Limited this month</span>' +
-      '<h2>Get your <span class="a">free 2026 growth plan</span></h2>' +
-      '<p class="fblm-sub">A no-obligation website + local-SEO audit for your business — what\'s working, what\'s leaking leads, and the 3 fastest wins. ($500 value.)</p>' +
+      '<span class="fblm-badge">Free • Video in 48 hours</span>' +
+      '<h2>Get your free <span class="a">Ad Spend Leak Check</span></h2>' +
+      '<p class="fblm-sub">A 10-minute video showing where your Google or Meta budget is leaking — and the 3 fastest fixes. In your inbox within 48 hours.</p>' +
       '<div class="fblm-bjstage fblm-hidden fblm-bj">' +
         '<button type="button" class="fblm-mute" data-mute aria-label="Toggle sound">🔊</button>' +
         '<div class="fblm-bj-burst fblm-hidden" data-burst></div>' +
@@ -410,7 +410,7 @@
   /* ---------------- Individual mechanisms ---------------- */
   function helloBar() {
     if (!FEAT.hello) return;
-    var bar = el('<div class="fblm-hellobar"><span>🎯 <b>This month only:</b> free website + SEO audit for ' + new Date().toLocaleString("en-US", { month: "long" }) + ' — limited spots.</span><button>Claim mine</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
+    var bar = el('<div class="fblm-hellobar"><span>🎯 <b>Free:</b> an Ad Spend Leak Check — a 10-minute video showing where your ad budget is leaking.</span><button>Claim mine</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
     document.body.appendChild(bar);
     bar.querySelector("button").addEventListener("click", function () { openModal("hellobar"); });
     bar.querySelector(".fblm-x").addEventListener("click", function () { bar.classList.remove("fblm-show"); });
@@ -418,13 +418,13 @@
   }
   function fab() {
     if (!FEAT.fab) return;
-    var b = el('<button class="fblm-fab">💬 Get my free plan</button>');
+    var b = el('<button class="fblm-fab">💬 Get my free Leak Check</button>');
     b.addEventListener("click", function () { openModal("fab"); });
     document.body.appendChild(b);
   }
   function mobileBar() {
     if (!FEAT.mobile) return;
-    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">⚡ Free quote</button></div>');
+    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">⚡ Free Leak Check</button></div>');
     b.querySelector(".fblm-quote").addEventListener("click", function () { openModal("mobilebar"); });
     document.body.appendChild(b);
   }
@@ -458,7 +458,7 @@
        are none yet, nothing is shown. Clearly-labeled SAMPLE data is shown only
        in the owner demo (/?demo=1) so the owner can preview the look. */
     var SAMPLES = [
-      { name: "Mike R.", text: "in Conroe requested a free audit", real: false },
+      { name: "Mike R.", text: "in Conroe requested a Leak Check", real: false },
       { name: "Sarah L.", text: "in Spring booked a strategy call", real: false },
       { name: "Carlos M.", text: "in Katy claimed the monthly offer", real: false },
       { name: "Jen P.", text: "in Tomball requested a quote", real: false }

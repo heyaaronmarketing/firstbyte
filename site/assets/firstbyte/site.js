@@ -242,6 +242,13 @@
           if (ok) ok.removeAttribute('hidden');
           busy(false);
         } else {
+          try {
+            win.dataLayer = win.dataLayer || [];
+            win.dataLayer.push({ event: 'generate_lead', lead_offer: data.offer || '', lead_industry: data.industry || '', lead_ad_spend: data.ad_spend || '' });
+            if (typeof win.gtag === 'function') win.gtag('event', 'generate_lead', { offer: data.offer || '', industry: data.industry || '', ad_spend: data.ad_spend || '' });
+            if (typeof win.fbq === 'function') win.fbq('track', 'Lead');
+            win.sessionStorage.setItem('fb_lead', JSON.stringify({ name: (data.name || '').split(' ')[0], email: data.email || '' }));
+          } catch (_e) { /* tracking never blocks the redirect */ }
           location.href = '/thank-you/';
         }
       };
@@ -266,6 +273,61 @@
         .catch(function () { return viaFormSubmit(); })
         .catch(function () { fail(); });
     });
+  });
+  /* ---------- Lead form: pre-select Industry ----------
+     ?industry=<slug> in the URL, or a click on any link with data-industry="<slug>",
+     selects that option in every lead form on the page (slugs: see tools/apply_lead_form.py). */
+  var setIndustry = function (slug) {
+    if (!slug) return;
+    $$('form[data-lead] select[name="industry"]').forEach(function (sel) {
+      var opt = $('option[data-slug="' + slug.replace(/[^a-z0-9-]/gi, '') + '"]', sel);
+      if (opt) { sel.value = opt.value; sel.dispatchEvent(new Event('change', { bubbles: true })); }
+    });
+  };
+  try { setIndustry(new URLSearchParams(location.search).get('industry')); } catch (_e) { /* old browsers */ }
+  $$('a[data-industry]').forEach(function (a) {
+    a.addEventListener('click', function () { setIndustry(a.getAttribute('data-industry')); });
+  });
+
+  /* ---------- Hero trust line: Google rating ----------
+     Shown only when BOTH data-rating and data-count are filled in the HTML. */
+  $$('.g-rating').forEach(function (g) {
+    var r = (g.getAttribute('data-rating') || '').trim(), c = (g.getAttribute('data-count') || '').trim();
+    if (!r || !c) return;
+    var rb = $('.g-r', g), cb = $('.g-c', g);
+    if (rb) rb.textContent = r;
+    if (cb) cb.textContent = c;
+    g.classList.add('on');
+  });
+
+  /* ---------- Thank-you page: booking calendar ----------
+     The page's [data-booking] element holds the Google Calendar booking-page link in
+     data-url. Empty = the calendar stays hidden and the call button shows instead. */
+  $$('[data-booking]').forEach(function (box) {
+    var url = (box.getAttribute('data-url') || '').trim();
+    if (!/^https:\/\/(calendar\.google\.com|calendar\.app\.google)\//.test(url)) return;
+    var frame = doc.createElement('iframe');
+    frame.src = url + (url.indexOf('?') < 0 ? '?' : '&') + 'gv=true';
+    frame.title = 'Book 15 minutes with Sean';
+    frame.loading = 'lazy';
+    frame.setAttribute('frameborder', '0');
+    var slot = $('.bk-frame', box) || box;
+    slot.appendChild(frame);
+    box.classList.add('on');
+  });
+  try {
+    var lead = JSON.parse(win.sessionStorage.getItem('fb_lead') || 'null');
+    var hi = $('[data-lead-name]');
+    if (lead && lead.name && hi) { hi.textContent = lead.name; var wr = $('[data-lead-name-wrap]'); if (wr) wr.removeAttribute('hidden'); }
+  } catch (_e) { /* no storage */ }
+  /* ---------- Client results: drafts stay hidden until approved ----------
+     ?preview=results shows draft cards (with a DRAFT label) for review. */
+  if (/[?&]preview=results\b/.test(location.search)) doc.documentElement.classList.add('show-drafts');
+  $$('.tcards').forEach(function (g) {
+    var live = $$('.tc', g).filter(function (c) { return c.getAttribute('data-status') !== 'draft'; }).length;
+    var show = live || doc.documentElement.classList.contains('show-drafts');
+    var sec = g.closest('section');
+    if (show && sec) sec.classList.add('has-results');
   });
   /* no-JS fallback error redirect: /contact/?sent=0 */
   if (/[?&]sent=0\b/.test(location.search)) {
