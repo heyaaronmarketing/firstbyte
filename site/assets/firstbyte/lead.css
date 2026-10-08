@@ -73,3 +73,14 @@
 /* Blog sidebar offer box: the button sits in a narrow column, so let it wrap instead of clipping */
 .bp-card .btn{white-space:normal;text-align:center;line-height:1.25;padding:12px 16px;gap:8px;font-size:15px;height:auto}
 .bp-tbl{overflow-x:auto;margin:28px 0 10px}.bp-tbl table{margin:0;min-width:520px}
+
+/* ---------- Buttons: never clip or overflow their label ----------
+   The theme sets .btn to nowrap + overflow:hidden, which cuts off longer labels on phones.
+   Buttons may grow to fit and wrap onto two lines; rows of buttons stack when narrow. */
+.btn{max-width:100%}
+.mid-cta-b,.cta-row,.ct-btns{flex-wrap:wrap}
+@media (max-width:767px){
+  .btn{white-space:normal;text-align:center;line-height:1.25;height:auto;padding-top:12px;padding-bottom:12px}
+  .cta-row .btn,.mid-cta-b .btn,.bp-inline .btn{flex:1 1 100%;justify-content:center}
+  .cs-cta{white-space:normal}
+}
