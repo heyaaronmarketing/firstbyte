@@ -236,23 +236,25 @@
         if (btn) { btn.disabled = on; btn.style.opacity = on ? '.7' : ''; btn.setAttribute('aria-busy', on ? 'true' : 'false'); }
       };
       var done = function () {
+        var track = win.fbTrack || function (n, p, o) { if (o && o.callback) o.callback(); };
+        var loc = f.closest('.bp-side') ? 'blog_sidebar' : (f.closest('footer, .foot') ? 'footer' : (f.closest('#contact, .contact') || f.id === 'contact' ? 'contact' : 'body'));
         if (isNews) {
           f.setAttribute('hidden', '');
           var ok = f.parentElement ? f.parentElement.querySelector('.news-ok') : null;
           if (ok) ok.removeAttribute('hidden');
           busy(false);
+          track('sign_up', { method: 'sundaybyte_newsletter', form_location: loc });
         } else {
           try {
-            win.dataLayer = win.dataLayer || [];
-            win.dataLayer.push({ event: 'generate_lead', lead_offer: data.offer || '', lead_industry: data.industry || '', lead_ad_spend: data.ad_spend || '' });
-            if (typeof win.gtag === 'function') win.gtag('event', 'generate_lead', { offer: data.offer || '', industry: data.industry || '', ad_spend: data.ad_spend || '' });
-            if (typeof win.fbq === 'function') win.fbq('track', 'Lead');
             win.sessionStorage.setItem('fb_lead', JSON.stringify({ name: (data.name || '').split(' ')[0], email: data.email || '' }));
-          } catch (_e) { /* tracking never blocks the redirect */ }
-          location.href = '/thank-you/';
+            if (typeof win.fbq === 'function') win.fbq('track', 'Lead');
+          } catch (_e) { /* storage or pixel blocked: carry on */ }
+          /* the redirect waits for GA to confirm the hit (max ~0.9 s) */
+          track('generate_lead', { offer: data.offer || '', industry: data.industry || '', ad_spend: data.ad_spend || '', form_location: loc, value: 1, currency: 'USD' },
+                { callback: function () { location.href = '/thank-you/'; } });
         }
       };
-      var fail = function (msg) { busy(false); showErr(f, msg || 'We couldn’t send that. Please call (713) 578-0634 or email contact@firstbyte.agency.'); };
+      var fail = function (msg) { busy(false); if (win.fbTrack) win.fbTrack('form_error', { error: (msg || 'send_failed').slice(0, 80) }); showErr(f, msg || 'We couldn’t send that. Please call (713) 578-0634 or email contact@firstbyte.agency.'); };
       var viaFormSubmit = function () {
         var d = {};
         Object.keys(data).forEach(function (k) { if (k !== '_v' && k !== '_honey' && k !== '_next') d[k] = data[k]; });

@@ -408,6 +408,7 @@ These live in `tools/` and are all safe to re-run. Run `seo_pass.py` last.
 | `tools/build_new_posts.py` | Renders posts from `tools/posts_oct_2026.py` in the current blog design and adds them to the blog index, homepage and sitemap. |
 | `tools/seo_pass.py` | Titles, meta descriptions, social tags, H1s, canonicals and schema for local search. See `SEO-AUDIT.md`. |
 | `tools/seo_audit.py` | Read-only SEO report for every page. |
+| `tools/apply_analytics.py` | Installs GA4 (set `MEASUREMENT_ID`) and `assets/firstbyte/analytics.js` event tracking on every page. The event list is at the top of `analytics.js`. |
 
 ## 11. Common tasks (cheat sheet)
 
