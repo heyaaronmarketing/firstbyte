@@ -409,6 +409,7 @@ These live in `tools/` and are all safe to re-run. Run `seo_pass.py` last.
 | `tools/seo_pass.py` | Titles, meta descriptions, social tags, H1s, canonicals and schema for local search. See `SEO-AUDIT.md`. |
 | `tools/seo_audit.py` | Read-only SEO report for every page. |
 | `tools/apply_analytics.py` | Installs GA4 (set `MEASUREMENT_ID`) and `assets/firstbyte/analytics.js` event tracking on every page. The event list is at the top of `analytics.js`. |
+| `tools/retire_old_design.py` | Deletes every page still on the old design, 301-redirects it to the closest new-design page (`site/_redirects`), fixes internal links and the sitemap. **Run it last** after any older generator (geo_pages.py, industries.py, service_pages.py…), since those can recreate retired pages. The old→new map is `MAP` at the top. |
 
 ## 11. Common tasks (cheat sheet)
 
