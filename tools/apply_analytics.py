@@ -15,7 +15,7 @@ import glob
 import re
 import sys
 
-MEASUREMENT_ID = ""  # e.g. "G-ABC123XYZ9"
+MEASUREMENT_ID = "G-E2VCEXB09T"  # First Byte account 411246391, property 558124894
 
 START, END = "<!-- fb-analytics:start -->", "<!-- fb-analytics:end -->"
 
@@ -26,7 +26,7 @@ def block(mid):
         parts.append(f'<script async src="https://www.googletagmanager.com/gtag/js?id={mid}"></script>')
         parts.append("<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                      f"gtag('js',new Date());gtag('config','{mid}');</script>")
-    parts.append('<script src="/assets/firstbyte/analytics.js?v=1" defer></script>')
+    parts.append('<script src="/assets/firstbyte/analytics.js?v=2" defer></script>')
     parts.append(END)
     return "\n".join(parts)
 
