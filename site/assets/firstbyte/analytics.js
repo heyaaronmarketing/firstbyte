@@ -4,7 +4,7 @@
 
    Events (all carry page_type):
      generate_lead      lead form sent (site.js)                 offer, industry, ad_spend, form_location
-     form_start         first interaction with a lead form        form_location
+     lead_form_start    first interaction with a lead form        form_location
      form_error         a lead form failed to send (site.js)      form_location, error
      sign_up            #SundayByte newsletter signup (site.js)   method
      click_to_call      tel: link                                 link_location
@@ -91,10 +91,10 @@
     }
   }, true);
 
-  /* form_start: first focus inside each lead form */
+  /* lead_form_start: first focus inside each lead form (GA4's own form_start is separate) */
   Array.prototype.forEach.call(doc.querySelectorAll('form[data-lead]'), function (f) {
     var started = false;
-    f.addEventListener('focusin', function () { if (!started) { started = true; track('form_start', { form_location: where(f) }); } });
+    f.addEventListener('focusin', function () { if (!started) { started = true; track('lead_form_start', { form_location: where(f) }); } });
   });
 
   /* scroll depth on long-form pages */
