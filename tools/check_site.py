@@ -18,7 +18,7 @@ for r, _, fs in os.walk(ROOT):
             p = '/' + os.path.relpath(os.path.join(r, f), ROOT).replace(os.sep, '/')
             pages[p[:-10] if p.endswith('/index.html') else p] = open(os.path.join(r, f), encoding='utf-8', errors='replace').read()
 ids = {u: set(re.findall(r'\sid="([^"]+)"', s)) for u, s in pages.items()}
-new = {u for u, s in pages.items() if '/assets/firstbyte/' in s}
+new = {u for u, s in pages.items() if '/assets/firstbyte/firstbyte' in s}  # new-design stylesheet (analytics.js alone doesn't count)
 
 def exists(path):
     fp = os.path.join(ROOT, unquote(path).lstrip('/'))
