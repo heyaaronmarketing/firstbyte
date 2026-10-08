@@ -21,7 +21,13 @@
   var PHONE = "+1-713-578-0634", PHONE_D = "(713) 578-0634";
   var fired = {};
 
-  function track(ev, data) { try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(Object.assign({ event: "lead_engine_" + ev }, data || {})); } catch (e) {} }
+  function track(ev, data) {
+    try {
+      if (window.fbTrack) window.fbTrack("lead_engine_" + ev, Object.assign({}, data || {}));
+      else { window.dataLayer = window.dataLayer || []; window.dataLayer.push(Object.assign({ event: "lead_engine_" + ev }, data || {})); }
+      if (ev === "success" && window.fbTrack) window.fbTrack("generate_lead", { offer: "Blackjack credit", form_location: "blackjack_widget", value: 1, currency: "USD" });
+    } catch (e) {}
+  }
   function el(html) { var d = document.createElement("div"); d.innerHTML = html.trim(); return d.firstChild; }
   function once(k) { if (fired[k]) return false; fired[k] = 1; return true; }
 
