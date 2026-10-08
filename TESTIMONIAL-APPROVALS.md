@@ -1,8 +1,10 @@
 # Client result approvals
 
-The three result cards on the homepage are **drafts**. They do not appear on the live
-site until a client approves their card. Preview them at
-`https://firstbyte.agency/?preview=results`.
+**Status (Oct 8, 2026): all three cards approved and live.**
+
+The three result cards on the homepage are set to `data-status="approved"`. For any future
+card, start it as `data-status="draft"`: drafts stay hidden on the live site and can be
+previewed at `https://firstbyte.agency/?preview=results`.
 
 ## How to publish a card
 

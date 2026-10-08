@@ -53,6 +53,8 @@ tpl = read(f"{SITE}/industries/service/index.html")
 # ---- pieces of the shell ----------------------------------------------------
 head_m = re.search(r"<head>(.*?)</head>", tpl, re.S)
 head_tail = re.search(r'<link rel="preconnect".*', head_m.group(1), re.S).group(0)  # fonts, css, js
+# the template's own JSON-LD (an industry page's FAQ/Service schema) must not leak into these pages
+head_tail = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', "", head_tail, flags=re.S)
 icons = "\n".join(re.findall(r'<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>', head_m.group(1)))
 body_open = re.search(r"<body.*?</header>", tpl, re.S).group(0)
 form_section = re.findall(r'<section class="sec sv-sec"[^>]*>(?:(?!<section).)*?<form.*?</section>', tpl, re.S)[-1]
@@ -142,8 +144,15 @@ for key, (slug, name, industry, label) in CASES.items():
     a = re.sub(r'<a class="cs-more"[^>]*>.*?</a>', "", a)
     top = mets[0] if mets else ("", "")
     url = f"{BASE}/case-studies/{slug}/"
-    title = f"{name} Case Study: {headline} | First Byte"
+    stat = f"{strip_tags(top[0])} {strip_tags(top[1]).lower()}" if top[0] else headline
+    title = f"{name} Case Study: {stat}"
+    if len(title + " | First Byte") <= 60:
+        title += " | First Byte"
+    elif len(title) > 60:
+        title = f"{name} Case Study | First Byte"
     desc = f"{chal} How First Byte did it" + (f": {strip_tags(top[0])} {strip_tags(top[1]).lower()}." if top[0] else ".")
+    if len(desc) > 158:
+        desc = f"How First Byte got {name} " + (f"{strip_tags(top[0])} {strip_tags(top[1]).lower()}" if top[0] else "results") + ": the challenge, the plan and the numbers."
     body = f'''{body_open}
 
 <section class="sv-hero ix-hero" style="padding-bottom: 40px">

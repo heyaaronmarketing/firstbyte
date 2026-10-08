@@ -19,8 +19,6 @@
   var FEAT_DEFAULT = { hello: 0, fab: 0, mobile: 1, exit: 0, scroll: 0, social: 1, blackjack: 1 };
   var FEAT = Object.assign({}, FEAT_DEFAULT, JSON.parse(localStorage.getItem("fblm_feat") || "{}"));
   var PHONE = "+1-713-578-0634", PHONE_D = "(713) 578-0634";
-  // Owner: replace with your real Calendly (or other) booking link.
-  var CALENDLY = "https://calendly.com/firstbyte-agency/free-audit";
   var fired = {};
 
   function track(ev, data) { try { window.dataLayer = window.dataLayer || []; window.dataLayer.push(Object.assign({ event: "lead_engine_" + ev }, data || {})); } catch (e) {} }
@@ -390,12 +388,12 @@
               '<div style="text-align:center;padding:.5rem 0">' +
               '<div style="font-size:3rem">🎉</div>' +
               '<h2>Your credit is reserved!</h2>' +
-              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. <b style="color:#fff">Skip the wait</b> — grab a time on the calendar now and we\'ll map out exactly how to put it to work.</p>' +
-              '<a class="fblm-cta" style="display:inline-block;text-decoration:none;max-width:300px" href="' + CALENDLY + '" target="_blank" rel="noopener" data-book>📅 Book your free call now</a>' +
-              '<p class="fblm-fine">Prefer the phone? Call <a href="tel:' + PHONE + '">' + PHONE_D + '</a>.</p>' +
+              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. We reply within 1 hour, Mon–Fri, and your Ad Spend Leak Check video lands within 48 hours.</p>' +
+              '<a class="fblm-cta" style="display:inline-block;text-decoration:none;max-width:300px" href="tel:' + PHONE + '" data-book>📞 Can\'t wait? Call Sean</a>' +
+              '<p class="fblm-fine">' + PHONE_D + ' · Mon–Fri, 8am–6pm CT</p>' +
               '</div>';
             overlay.querySelector(".fblm-close").addEventListener("click", closeModal);
-            var bk = overlay.querySelector("[data-book]"); if (bk) bk.addEventListener("click", function () { track("book_click"); });
+            var bk = overlay.querySelector("[data-book]"); if (bk) bk.addEventListener("click", function () { track("call_click"); });
             track("success");
           }
           else { msg.className = "fblm-msg err"; msg.textContent = d.error || "Something went wrong — please call us."; btn.disabled = false; }

@@ -395,6 +395,20 @@ You almost never need the full chain — for everyday edits, only run the one or
 
 ---
 
+### 10.1 Lead-gen and SEO tools (October 2026)
+
+These live in `tools/` and are all safe to re-run. Run `seo_pass.py` last.
+
+| Script | What it does |
+|---|---|
+| `tools/apply_leak_check_copy.py` | Keeps "free audit" wording out of the site; swaps in the Ad Spend Leak Check offer and the 1-hour reply promise. |
+| `tools/apply_lead_form.py` | Rebuilds every lead form as the one standard form (name, email, phone, website, industry, monthly ad spend). |
+| `tools/apply_partner_badges.py` | Puts the six partner logos in every awards bar. Drop an official badge in `site/assets/firstbyte/partners/<key>-badge.svg` to use it instead. |
+| `tools/build_case_studies.py` | Builds `/case-studies/` and one page per homepage case study. Edit the story on the homepage, then re-run. |
+| `tools/build_new_posts.py` | Renders posts from `tools/posts_oct_2026.py` in the current blog design and adds them to the blog index, homepage and sitemap. |
+| `tools/seo_pass.py` | Titles, meta descriptions, social tags, H1s, canonicals and schema for local search. See `SEO-AUDIT.md`. |
+| `tools/seo_audit.py` | Read-only SEO report for every page. |
+
 ## 11. Common tasks (cheat sheet)
 
 ### Change the phone number site-wide

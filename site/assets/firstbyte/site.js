@@ -300,21 +300,6 @@
     g.classList.add('on');
   });
 
-  /* ---------- Thank-you page: booking calendar ----------
-     The page's [data-booking] element holds the Google Calendar booking-page link in
-     data-url. Empty = the calendar stays hidden and the call button shows instead. */
-  $$('[data-booking]').forEach(function (box) {
-    var url = (box.getAttribute('data-url') || '').trim();
-    if (!/^https:\/\/(calendar\.google\.com|calendar\.app\.google)\//.test(url)) return;
-    var frame = doc.createElement('iframe');
-    frame.src = url + (url.indexOf('?') < 0 ? '?' : '&') + 'gv=true';
-    frame.title = 'Book 15 minutes with Sean';
-    frame.loading = 'lazy';
-    frame.setAttribute('frameborder', '0');
-    var slot = $('.bk-frame', box) || box;
-    slot.appendChild(frame);
-    box.classList.add('on');
-  });
   try {
     var lead = JSON.parse(win.sessionStorage.getItem('fb_lead') || 'null');
     var hi = $('[data-lead-name]');
