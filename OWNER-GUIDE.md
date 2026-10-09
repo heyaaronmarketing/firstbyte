@@ -410,6 +410,8 @@ These live in `tools/` and are all safe to re-run. Run `seo_pass.py` last.
 | `tools/seo_audit.py` | Read-only SEO report for every page. |
 | `tools/apply_analytics.py` | Installs GA4 (set `MEASUREMENT_ID`) and `assets/firstbyte/analytics.js` event tracking on every page. The event list is at the top of `analytics.js`. |
 | `tools/retire_old_design.py` | Deletes every page still on the old design, 301-redirects it to the closest new-design page (`site/_redirects`), fixes internal links and the sitemap. **Run it last** after any older generator (geo_pages.py, industries.py, service_pages.py…), since those can recreate retired pages. The old→new map is `MAP` at the top. |
+| `tools/posts_oct_2026_b.py` + `tools/posts_b_*.py` | The 10 industry posts (HVAC, roofing, restaurants, wedding venues, chiropractors, medical practices, pool builders, real estate, gyms, hotels). Rebuild with `python3 tools/build_new_posts.py posts_oct_2026_b`, then `python3 tools/render_og.py posts_oct_2026_b`. |
+| `tools/blog_figures.py` | Draws the on-brand blog visuals (charts, maps, checklists, steps, hero art) from simple specs; each figure gets a desktop and a phone version. `tools/validate_posts.py <module>` checks a new post before you build it. |
 
 ## 11. Common tasks (cheat sheet)
 

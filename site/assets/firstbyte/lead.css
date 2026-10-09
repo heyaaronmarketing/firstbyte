@@ -84,3 +84,10 @@
   .cta-row .btn,.mid-cta-b .btn,.bp-inline .btn{flex:1 1 100%;justify-content:center}
   .cs-cta{white-space:normal}
 }
+
+/* ---------- Blog figures (charts, maps, checklists rendered by tools/blog_figures.py) ---------- */
+.bp-body .bp-fig{margin:34px 0 30px}
+.bp-body .bp-fig img{display:block;width:100%;height:auto;border-radius:22px}
+.bp-body .bp-fig figcaption{margin-top:10px;font-size:13.5px;line-height:1.5;color:var(--muted,#8f8a93)}
+.bp-body .bp-fig-hero{margin:0 0 34px}
+.bp-body .bp-fig-hero img{border:1px solid var(--line,rgba(255,255,255,.09))}
