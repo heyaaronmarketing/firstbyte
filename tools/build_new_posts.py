@@ -5,7 +5,14 @@ blog design, then add them to the blog index, the homepage blog section and the 
 The page shell (head, nav, sidebar offer, contact form, footer) is copied from an existing
 post, so new posts always match the live design. Idempotent.
 
-Run from the repo root:  python3 tools/build_new_posts.py
+Run from the repo root:  python3 tools/build_new_posts.py [posts_module]
+  (default module: posts_oct_2026; the October batch 2 posts are posts_oct_2026_b)
+Posts may also carry:
+  "hero":    a motif name from blog_figures._motif (hvac, roof, pool, ...) -> hero illustration
+             at the top of the article plus /assets/firstbyte/blog/<slug>/og.png (made by
+             tools/render_og.js) used as the share image and schema image.
+  "figures": {name: spec}; put <!--fig:name--> in a section's HTML where the figure goes.
+             Specs are documented in tools/blog_figures.py.
 """
 import html
 import json
@@ -14,8 +21,12 @@ import re
 import sys
 from datetime import date
 
+import importlib
+
 sys.path.insert(0, os.path.dirname(__file__))
-from posts_oct_2026 import POSTS, DATE  # noqa: E402
+_mod = importlib.import_module(sys.argv[1] if len(sys.argv) > 1 else "posts_oct_2026")
+POSTS, DATE = _mod.POSTS, _mod.DATE
+from blog_figures import render as render_fig, hero as render_hero  # noqa: E402
 
 SITE = "site"
 BASE = "https://firstbyte.agency"
@@ -117,6 +128,11 @@ for p in POSTS:
         {"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["faq"]]},
     ]
+    if p.get("hero"):
+        og = f"{BASE}/assets/firstbyte/blog/{p['slug']}/og.png"
+        graph[0]["image"] = og
+        s = re.sub(r'(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*(")', lambda m: m.group(1) + og + m.group(2), s)
+        s = re.sub(r'(<meta property="og:image:alt" content=")[^"]*(")', lambda m: m.group(1) + esc(p["title"]) + m.group(2), s)
     schema = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)
     s = re.sub(r'<script type="application/ld\+json">.*?</script>', lambda _: f'<script type="application/ld+json">\n{schema}\n</script>', s, count=1, flags=re.S)
     # ---- hero ---------------------------------------------------------------------
@@ -135,10 +151,31 @@ for p in POSTS:
     inline = re.search(r'<aside class="bp-inline">.*?</aside>', tpl, re.S).group(0)
     author = re.search(r'<div class="bp-author">.*?</div></div>', tpl, re.S).group(0)
     body = []
+    asset_dir = f"{SITE}/assets/firstbyte/blog/{p['slug']}"
+    if p.get("hero"):
+        write(f"{asset_dir}/hero.svg", render_hero(p["hero"]))
+        body.append(f'<figure class="bp-fig bp-fig-hero"><img src="/assets/firstbyte/blog/{p["slug"]}/hero.svg" width="1200" height="600" '
+                    f'alt="{esc(p.get("hero_alt", p["title"]))}" fetchpriority="high"></figure>')
+
+    def fig(m):
+        name = m.group(1)
+        spec = p["figures"][name]
+        svg = render_fig(spec)
+        wh = re.search(r'width="(\d+)" height="(\d+)"', svg)
+        write(f"{asset_dir}/{name}.svg", svg)
+        svg_m = render_fig(spec, 440)  # narrow version for phones, so chart text stays readable
+        whm = re.search(r'width="(\d+)" height="(\d+)"', svg_m)
+        write(f"{asset_dir}/{name}-m.svg", svg_m)
+        cap = f'<figcaption>{spec["caption"]}</figcaption>' if spec.get("caption") else ""
+        src = f"/assets/firstbyte/blog/{p['slug']}/{name}"
+        return (f'<figure class="bp-fig"><picture><source media="(max-width: 600px)" srcset="{src}-m.svg" width="{whm.group(1)}" height="{whm.group(2)}">'
+                f'<img src="{src}.svg" width="{wh.group(1)}" height="{wh.group(2)}" '
+                f'alt="{esc(spec.get("alt", spec["title"]))}" loading="lazy" decoding="async"></picture>{cap}</figure>')
+
     for i, (h, content) in enumerate(p["sections"]):
         if h:
             body.append(f'<h2 id="{slugify(h)}">{esc(h)}</h2>')
-        body.append(content.strip())
+        body.append(re.sub(r"<!--fig:([a-z0-9_-]+)-->", fig, content.strip()))
         if i == 2:
             body.append(inline)
     body.append(f'<h2 id="{slugify("Frequently asked questions")}">Frequently asked questions</h2>')
