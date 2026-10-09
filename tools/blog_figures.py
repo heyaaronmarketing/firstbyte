@@ -391,6 +391,32 @@ def _motif(m):
                 + "".join(f'<rect x="{-90 + (i % 4) * 48}" y="{-120 + (i // 4) * 50}" width="30" height="30" rx="4" fill="{MAG if i in (5, 10) else "rgba(255,255,255,.18)"}"/>' for i in range(16))
                 + f'<rect x="-26" y="90" width="52" height="50" rx="6" {sw} stroke="{INK}" stroke-width="4"/>'
                 + "".join(f'<path d="M{170 + i * 26} -60 l6 -16 l6 16 l16 2 l-12 10 l4 16 l-14 -9 l-14 9 l4 -16 l-12 -10z" fill="#ffd23f"/>' for i in range(3)))
+    if m == "billboard":
+        return (f'<rect x="-210" y="-150" width="420" height="190" rx="10" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<rect x="-180" y="-120" width="230" height="22" rx="6" fill="{MAG}" fill-opacity=".8"/>'
+                f'<rect x="-180" y="-82" width="160" height="14" rx="6" fill="rgba(255,255,255,.35)"/><rect x="-180" y="-58" width="120" height="14" rx="6" fill="rgba(255,255,255,.2)"/>'
+                f'<circle cx="130" cy="-62" r="44" {sw} stroke="#ffd23f" stroke-width="4"/>'
+                f'<path d="M-90 40 V150 M90 40 V150 M-90 90 H90" {sw} stroke="{g}" stroke-width="5"/>'
+                f'<path d="M-260 150 H260" {sw} stroke="{g}" stroke-width="3" stroke-dasharray="18 14"/>')
+    if m == "phone":
+        return (f'<rect x="-80" y="-150" width="160" height="300" rx="28" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<rect x="-30" y="-134" width="60" height="10" rx="5" fill="{g}"/>'
+                f'<circle cx="0" cy="-30" r="40" fill="{MAG}" fill-opacity=".2" stroke="{MAG}" stroke-width="4"/>'
+                f'<path d="M-14 -46 l28 32 M14 -46 l-28 32" stroke="{MAG}" stroke-width="5" stroke-linecap="round"/>'
+                f'<rect x="-50" y="40" width="100" height="14" rx="7" fill="rgba(255,255,255,.3)"/><rect x="-36" y="66" width="72" height="14" rx="7" fill="rgba(255,255,255,.18)"/>'
+                + "".join(f'<path d="M{110 + i * 28} {-60 - i * 6} a{40 + i * 28} {40 + i * 28} 0 0 1 0 {80 + i * 56}" {sw} stroke="{c}" stroke-opacity="{0.8 - i * 0.25:.2f}" stroke-width="4"/>' for i in range(3)))
+    if m == "stars":
+        pts = lambda cx, cy, r: " ".join(f"{cx + (r if k % 2 == 0 else r * .42) * math.sin(k * math.pi / 5):.0f},{cy - (r if k % 2 == 0 else r * .42) * math.cos(k * math.pi / 5):.0f}" for k in range(10))
+        return ("".join(f'<polygon points="{pts(-200 + i * 100, -40, 42)}" fill="{"#ffd23f" if i < 3 else "none"}" stroke="#ffd23f" stroke-width="4" stroke-linejoin="round" opacity="{1 if i < 3 else .5}"/>' for i in range(5))
+                + f'<rect x="-230" y="40" width="460" height="100" rx="18" {sw} stroke="{c}" stroke-width="4"/>'
+                f'<rect x="-200" y="66" width="260" height="14" rx="7" fill="rgba(255,255,255,.3)"/><rect x="-200" y="94" width="190" height="14" rx="7" fill="rgba(255,255,255,.18)"/>'
+                f'<path d="M140 70 l40 40 M180 70 l-40 40" stroke="{MAG}" stroke-width="6" stroke-linecap="round"/>')
+    if m == "tools":
+        return (f'<rect x="-190" y="-30" width="380" height="170" rx="18" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-70 -30 v-40 a16 16 0 0 1 16 -16 h108 a16 16 0 0 1 16 16 v40" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-190 40 H190" stroke="{g}" stroke-width="4"/><rect x="-24" y="26" width="48" height="30" rx="6" fill="{MAG}"/>'
+                f'<path d="M150 -150 l-90 90 M60 -60 l-14 30 l30 -14" {sw} stroke="#ffd23f" stroke-width="5"/>'
+                f'<path d="M-150 -150 a26 26 0 1 0 30 30 l60 60" {sw} stroke="{INK}" stroke-width="5"/>')
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 
