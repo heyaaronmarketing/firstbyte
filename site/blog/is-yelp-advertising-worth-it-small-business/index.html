@@ -50,6 +50,7 @@
    "dateModified": "2026-10-09",
    "author": {
     "@type": "Organization",
+    "@id": "https://firstbyte.agency/#organization",
     "name": "First Byte",
     "url": "https://firstbyte.agency/"
    },
@@ -59,11 +60,18 @@
     "name": "First Byte",
     "logo": {
      "@type": "ImageObject",
-     "url": "https://firstbyte.agency/icon-512.png"
+     "url": "https://firstbyte.agency/icon-512.png",
+     "width": 512,
+     "height": 512
     }
    },
    "mainEntityOfPage": "https://firstbyte.agency/blog/is-yelp-advertising-worth-it-small-business/",
-   "image": "https://firstbyte.agency/assets/firstbyte/blog/is-yelp-advertising-worth-it-small-business/og.png",
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://firstbyte.agency/assets/firstbyte/blog/is-yelp-advertising-worth-it-small-business/og.png",
+    "width": 1200,
+    "height": 630
+   },
    "articleSection": "Paid ads",
    "wordCount": 2715,
    "inLanguage": "en-US",
@@ -155,6 +163,8 @@
 <link rel="stylesheet" href="/assets/firstbyte/firstbyte-blog.css">
 <script src="/assets/firstbyte/site.js?v=2" defer></script>
 <link rel="stylesheet" href="/assets/firstbyte/lead.css?v=7">
+<link rel="alternate" type="application/rss+xml" title="First Byte blog" href="https://firstbyte.agency/blog/feed.xml">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 <body style="margin: 0; background: #0a090b">
 <div class="fb svc-page " style="--cyan: #01f6f2">

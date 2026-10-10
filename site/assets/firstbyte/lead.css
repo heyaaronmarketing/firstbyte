@@ -91,3 +91,6 @@
 .bp-body .bp-fig figcaption{margin-top:10px;font-size:13.5px;line-height:1.5;color:var(--muted,#8f8a93)}
 .bp-body .bp-fig-hero{margin:0 0 34px}
 .bp-body .bp-fig-hero img{border:1px solid var(--line,rgba(255,255,255,.09))}
+
+/* case-study pages: first heading is an h2 (was h3) */
+.cs-copy h2.cs-h{font-family:"Funnel Display",sans-serif;font-size:clamp(28px,2.6vw,40px);font-weight:600;letter-spacing:-.035em;line-height:1.02;margin:6px 0 0}

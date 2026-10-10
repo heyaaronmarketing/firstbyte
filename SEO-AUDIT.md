@@ -96,3 +96,57 @@ index, the homepage blog section and the sitemap.
 6. **Official partner badges**: for Google and Meta especially, download the badge from each
    partner portal and drop it in `site/assets/firstbyte/partners/<key>-badge.svg`, then run
    `python3 tools/apply_partner_badges.py`.
+
+---
+
+## Full-site audit: October 9, 2026
+
+Scope: all 137 pages (135 indexable). Every JSON-LD block, title, description, heading, canonical,
+Open Graph tag, image, internal link, the sitemap, robots, redirects, response headers, live
+redirect behaviour and Core Web Vitals on representative pages.
+
+### Fixed (tools/seo_fixes_oct_2026.py — run after any generator)
+| Issue | Pages | Fix |
+|---|---|---|
+| Organization / LocalBusiness `logo` and `image` pointed at a deleted WordPress file | home, contact | `icon-512.png` logo (ImageObject 512x512) and `og-image.png` |
+| Breadcrumbs pointed at redirected URLs (`/services/`, `/industries/`) | 13 pages (26 crumbs) | redirected steps removed, positions renumbered |
+| Case-study `Article` lacked `@id`, `mainEntityOfPage`, `image`, dates | 8 | complete Article markup linked to `#organization` |
+| Generic share image on posts, case studies, services, industries, city and hub pages | 118 | page-specific 1200x630 share images in `/assets/firstbyte/og/`, also used as `BlogPosting`/`Article` image |
+| Blog author/publisher not tied to the site entity | 87 | author + publisher reference `#organization` |
+| Pages with few internal links | 33 hub pages | "From the blog" section with 3 relevant guides on every industry, service and city page |
+| Case-study pages skipped from h1 to h3 | 8 | first heading is now an h2 (same styling) |
+| No RSS feed | — | `/blog/feed.xml` (87 posts) + `<link rel="alternate">` on every page |
+| No web app manifest | — | `/site.webmanifest` + `<link rel="manifest">` |
+| `llms.txt` listed retired pages and only 10 posts | — | key pages, case studies and all 87 guides; retired links removed |
+| Sitemap entries without `lastmod` | 9 | filled in; changed pages get today's date |
+| No HSTS / Permissions-Policy header | all | added to `_headers` |
+| `office.webp` 285 KB | 1 | recompressed (186 KB) |
+| Terms page title under 30 characters | 1 | lengthened |
+
+### Checked and fine
+Valid JSON-LD on every page; no undefined `@id` references; FAQ schema matches visible text; one H1
+per page; self-referencing absolute canonicals; robots meta with `max-image-preview:large`; no broken
+internal links or links to redirects; every indexable page in the sitemap and nothing noindex in it;
+HTTPS, zstd compression, 404 status for missing pages, trailing-slash redirects; Core Web Vitals on the
+live site: LCP 0.12–0.24 s, CLS 0–0.001, TTFB about 55 ms.
+
+### Needs the owner (outside the code)
+1. **www.firstbyte.agency is broken** (Cloudflare Error 1000, "DNS points to prohibited IP"). In Cloudflare
+   DNS, replace the `www` record with a proxied `CNAME www -> firstbyte.agency` (or `AAAA www -> 100::`, proxied),
+   then add a Redirect Rule: hostname `www.firstbyte.agency` -> `https://firstbyte.agency${uri}` (301).
+2. **Google Search Console**: verify the domain, submit `sitemap.xml`, check Page indexing for the retired URLs.
+3. **sameAs**: only Facebook and LinkedIn are listed. Add the Google Business Profile (Maps) URL, Instagram,
+   YouTube, Clutch, etc. when available.
+4. **Named author**: posts are credited to "First Byte". Crediting Sean Melton (`/about/#sean-melton`) adds
+   experience/expertise signals, if Sean is comfortable being the byline.
+5. **Homepage vs Houston city page** both target "digital marketing agency ... Houston". Consider making the
+   homepage title lead with The Woodlands and let `/digital-marketing-agency-houston-tx/` own Houston.
+6. **Reviews**: no review/rating markup is used (correct: self-serving ratings aren't eligible). Grow
+   Google reviews; the hero trust line shows the rating once filled in.
+7. **Pricing in llms.txt**: it still describes the $250/month Launch plan. Confirm it's still offered.
+
+### Left as-is, on purpose
+- 741 images without `width`/`height`: measured layout shift is ~0 because CSS sizes them.
+- 31 older posts linked from only 1–2 pages: all are linked from the blog index (2 clicks from home).
+- `dateModified` is only changed when a post's content changes.
+- City pages share about a third of their wording (median); each has unique local sections.
