@@ -417,6 +417,23 @@ def _motif(m):
                 f'<path d="M-190 40 H190" stroke="{g}" stroke-width="4"/><rect x="-24" y="26" width="48" height="30" rx="6" fill="{MAG}"/>'
                 f'<path d="M150 -150 l-90 90 M60 -60 l-14 30 l30 -14" {sw} stroke="#ffd23f" stroke-width="5"/>'
                 f'<path d="M-150 -150 a26 26 0 1 0 30 30 l60 60" {sw} stroke="{INK}" stroke-width="5"/>')
+    if m == "search":
+        return (f'<circle cx="-70" cy="-30" r="100" {sw} stroke="{c}" stroke-width="6"/>'
+                f'<path d="M2 42 L120 160" stroke="{c}" stroke-width="16" stroke-linecap="round"/>'
+                f'<path d="M-70 -90 a40 40 0 0 1 40 40 c0 34 -40 70 -40 70 s-40 -36 -40 -70 a40 40 0 0 1 40 -40z" {sw} stroke="{MAG}" stroke-width="5"/>'
+                f'<circle cx="-70" cy="-50" r="13" fill="{MAG}"/>'
+                + "".join(f'<rect x="110" y="{-130 + i * 34}" width="{100 - i * 20}" height="14" rx="7" fill="rgba(255,255,255,{.35 - i * .07:.2f})"/>' for i in range(4)))
+    if m == "growth":
+        return (f'<path d="M-230 130 H230 M-230 130 V-140" {sw} stroke="{g}" stroke-width="4"/>'
+                + "".join(f'<rect x="{-200 + i * 80}" y="{110 - h}" width="46" height="{h}" rx="8" fill="{c}" fill-opacity="{.25 + i * .15:.2f}"/>' for i, h in enumerate((50, 90, 120, 170, 220)))
+                + f'<path d="M-190 40 L-100 0 L-20 -20 L60 -80 L180 -150" {sw} stroke="{MAG}" stroke-width="6"/>'
+                f'<path d="M150 -156 L184 -152 L176 -120" {sw} stroke="{MAG}" stroke-width="6"/>')
+    if m == "browser":
+        return (f'<rect x="-230" y="-150" width="460" height="300" rx="18" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-230 -105 H230" stroke="{c}" stroke-width="4"/>'
+                + "".join(f'<circle cx="{-200 + i * 24}" cy="-128" r="7" fill="{col}"/>' for i, col in enumerate((MAG, "#ffd23f", c)))
+                + f'<rect x="-196" y="-76" width="210" height="26" rx="8" fill="rgba(255,255,255,.4)"/><rect x="-196" y="-36" width="160" height="14" rx="7" fill="rgba(255,255,255,.2)"/>'
+                f'<rect x="-196" y="0" width="110" height="38" rx="19" fill="{c}"/><rect x="40" y="-76" width="156" height="190" rx="12" fill="{MAG}" fill-opacity=".25" stroke="{MAG}" stroke-width="3"/>')
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 
