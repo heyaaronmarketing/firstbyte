@@ -38,6 +38,12 @@ LOGO = {"@type": "ImageObject", "url": BASE + "/icon-512.png", "width": 512, "he
 ORG_REF = {"@type": "Organization", "@id": BASE + "/#organization", "name": "First Byte", "url": BASE + "/"}
 PUBLISHER = {"@type": "Organization", "@id": BASE + "/#organization", "name": "First Byte", "logo": LOGO}
 GENERIC_OG = BASE + "/og-image.png"
+SEAN = {"@type": "Person", "@id": BASE + "/#sean-melton", "name": "Sean Melton", "url": BASE + "/about/",
+        "jobTitle": "Founder", "image": BASE + "/assets/firstbyte/sean.webp", "worksFor": {"@id": BASE + "/#organization"}}
+SEAN_IMG = '<img src="/assets/firstbyte/sean.webp" alt="Sean Melton" width="{0}" height="{0}" loading="lazy" decoding="async">'
+SEAN_BIO = ("Sean Melton is the founder of First Byte, a digital marketing agency in The Woodlands, TX. A former global CMO "
+            "of a $250M software company, he has spent his career inside the businesses he markets. His team runs paid social, "
+            "search, CTV and creative for brands like Equinox, Kroger and Viceroy, and shares what works here.")
 
 
 def read(p):
@@ -168,10 +174,14 @@ def fix_jsonld(u, s, og_url):
         for n in nodes:
             t = n.get("@type")
             if t == "BlogPosting":
-                n["author"] = dict(ORG_REF)
+                n["author"] = dict(SEAN)
                 n["publisher"] = dict(PUBLISHER)
                 if og_url:
                     n["image"] = {"@type": "ImageObject", "url": og_url, "width": 1200, "height": 630}
+            if t == "Person" and n.get("@id") == SEAN["@id"]:
+                n["url"] = SEAN["url"]
+                n.setdefault("description", "Founder of First Byte and former global CMO of a $250M software company.")
+                n.setdefault("knowsAbout", ["Digital marketing", "Google Ads", "Paid social advertising", "Local SEO", "Brand strategy"])
             if t == "Article" and page_kind(u) == "case":
                 url = BASE + u
                 n["@id"] = url + "#article"
@@ -314,6 +324,13 @@ def main():
             s = re.sub(r'(<meta property="og:image:alt" content=")[^"]*(")', lambda m: m.group(1) + alt + m.group(2), s)
         s = fix_jsonld(u, s, og_url if og_url and og_url != GENERIC_OG else None)
         s = re.sub(r'(<meta property="article:(?:published|modified)_time" content=")(\d{4}-\d{2}-\d{2})(")', r"\1\2T09:00:00-05:00\3", s)
+        # author byline on posts (meta row + author box)
+        if page_kind(u) == "post":
+            s = s.replace('<span class="bp-av">FB</span><div><b>First Byte team</b>',
+                          '<span class="bp-av bp-av-img">' + SEAN_IMG.format(44) + '</span><div><b><a href="/about/" rel="author">Sean Melton</a></b>')
+            s = re.sub(r'<div class="bp-author"><span class="bp-av lg">FB</span><div><b>Written by the First Byte team</b><p>.*?</p></div></div>',
+                       lambda _: '<div class="bp-author"><span class="bp-av lg bp-av-img">' + SEAN_IMG.format(64) + '</span><div><b>Written by <a href="/about/" rel="author">Sean Melton</a></b><p>'
+                       + SEAN_BIO + '</p></div></div>', s, flags=re.S)
         # related guides
         slugs, city = related_for(u, city_i)
         if slugs:
@@ -339,6 +356,10 @@ def main():
 
     # ---- case-study heading style
     css_p = f"{SITE}/assets/firstbyte/lead.css"
+    css = read(css_p)
+    av = ".bp-av.bp-av-img{overflow:hidden;background:none}.bp-av.bp-av-img img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}.bp-meta b a,.bp-author b a{color:inherit;text-decoration:none}.bp-meta b a:hover,.bp-author b a:hover{color:var(--cyan,#01f6f2)}"
+    if av not in read(css_p):
+        write(css_p, read(css_p) + "\n/* blog author avatar (Sean Melton) */\n" + av + "\n")
     css = read(css_p)
     rule = '.cs-copy h2.cs-h{font-family:"Funnel Display",sans-serif;font-size:clamp(28px,2.6vw,40px);font-weight:600;letter-spacing:-.035em;line-height:1.02;margin:6px 0 0}'
     if rule not in css:

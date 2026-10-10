@@ -94,3 +94,6 @@
 
 /* case-study pages: first heading is an h2 (was h3) */
 .cs-copy h2.cs-h{font-family:"Funnel Display",sans-serif;font-size:clamp(28px,2.6vw,40px);font-weight:600;letter-spacing:-.035em;line-height:1.02;margin:6px 0 0}
+
+/* blog author avatar (Sean Melton) */
+.bp-av.bp-av-img{overflow:hidden;background:none}.bp-av.bp-av-img img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}.bp-meta b a,.bp-author b a{color:inherit;text-decoration:none}.bp-meta b a:hover,.bp-author b a:hover{color:var(--cyan,#01f6f2)}

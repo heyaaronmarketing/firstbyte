@@ -137,8 +137,7 @@ live site: LCP 0.12–0.24 s, CLS 0–0.001, TTFB about 55 ms.
 2. **Google Search Console**: verify the domain, submit `sitemap.xml`, check Page indexing for the retired URLs.
 3. **sameAs**: only Facebook and LinkedIn are listed. Add the Google Business Profile (Maps) URL, Instagram,
    YouTube, Clutch, etc. when available.
-4. **Named author**: posts are credited to "First Byte". Crediting Sean Melton (`/about/#sean-melton`) adds
-   experience/expertise signals, if Sean is comfortable being the byline.
+4. **Named author** (done Oct 9): all posts now credit Sean Melton (`/about/#sean-melton`) in the byline, author box and BlogPosting schema.
 5. **Homepage vs Houston city page** both target "digital marketing agency ... Houston". Consider making the
    homepage title lead with The Woodlands and let `/digital-marketing-agency-houston-tx/` own Houston.
 6. **Reviews**: no review/rating markup is used (correct: self-serving ratings aren't eligible). Grow
