@@ -128,6 +128,13 @@ def fix_jsonld(u, s, og_url):
         def walk(o, parent_key=None):
             if isinstance(o, dict):
                 for k, v in list(o.items()):
+                    if k == "numberOfEmployees" and isinstance(v, str):
+                        lo, _, hi = v.partition("-")
+                        o[k] = {"@type": "QuantitativeValue", "minValue": int(lo), "maxValue": int(hi or lo)}
+                        continue
+                    if k in ("datePublished", "dateModified", "uploadDate") and isinstance(v, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", v):
+                        o[k] = v + "T09:00:00-05:00"  # Google wants a time + timezone
+                        continue
                     if v == WP_IMG:
                         o[k] = LOGO if k == "logo" else GENERIC_OG
                     elif isinstance(v, dict) and v.get("url") == WP_IMG:
@@ -172,8 +179,8 @@ def fix_jsonld(u, s, og_url):
                 n["mainEntityOfPage"] = url
                 n["author"] = dict(ORG_REF)
                 n["publisher"] = dict(PUBLISHER)
-                n.setdefault("datePublished", "2026-10-03")
-                n["dateModified"] = n.get("dateModified") or TODAY
+                n.setdefault("datePublished", "2026-10-03T09:00:00-05:00")
+                n["dateModified"] = n.get("dateModified") or TODAY + "T09:00:00-05:00"
                 if og_url:
                     n["image"] = {"@type": "ImageObject", "url": og_url, "width": 1200, "height": 630}
                 n.setdefault("inLanguage", "en-US")
@@ -306,6 +313,7 @@ def main():
             alt = esc(og_title(s))
             s = re.sub(r'(<meta property="og:image:alt" content=")[^"]*(")', lambda m: m.group(1) + alt + m.group(2), s)
         s = fix_jsonld(u, s, og_url if og_url and og_url != GENERIC_OG else None)
+        s = re.sub(r'(<meta property="article:(?:published|modified)_time" content=")(\d{4}-\d{2}-\d{2})(")', r"\1\2T09:00:00-05:00\3", s)
         # related guides
         slugs, city = related_for(u, city_i)
         if slugs:
