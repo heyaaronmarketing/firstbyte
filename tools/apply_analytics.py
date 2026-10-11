@@ -26,7 +26,7 @@ def block(mid):
         parts.append(f'<script async src="https://www.googletagmanager.com/gtag/js?id={mid}"></script>')
         parts.append("<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                      f"gtag('js',new Date());gtag('config','{mid}');</script>")
-    parts.append('<script src="/assets/firstbyte/analytics.js?v=2" defer></script>')
+    parts.append('<script src="/assets/firstbyte/analytics.js?v=3" defer></script>')
     parts.append(END)
     return "\n".join(parts)
 
