@@ -10,7 +10,7 @@
      click_to_call      tel: link                                 link_location
      email_click        mailto: link                              link_location
      cta_click          primary button (Leak Check, etc.)         cta_text, cta_location, cta_destination
-     case_study_cta     "Run a business like X?" button           case_study, industry
+     case_study_cta     "Run a business like X?" button or a service-page example card   case_study, industry
      case_study_tab     a homepage case study tab opened          case_study
      scroll_depth       25/50/75/100% on blog posts + case studies  percent
      lead_engine_*      blackjack widget steps (leadmode.js)
@@ -81,6 +81,11 @@
     if (/^mailto:/i.test(href)) { track('email_click', { link_location: where(a) }); return; }
     if (a.classList.contains('cst')) {
       var t = a.querySelector('b'); track('case_study_tab', { case_study: t ? t.textContent.trim() : label(a) }); return;
+    }
+    if (a.matches('a.excard')) {
+      var sm = a.querySelector('.ex-b small');
+      track('case_study_cta', { case_study: sm ? sm.textContent.trim() : label(a), cta_location: 'service_examples', cta_destination: href.slice(0, 120) });
+      return;
     }
     if (a.matches('.cs-cta, .cta-row .btn[data-industry]')) {
       var stage = a.closest('.cs-stage'), brand = stage && stage.querySelector('.cs-logo');

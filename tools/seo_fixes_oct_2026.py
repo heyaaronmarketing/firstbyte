@@ -265,6 +265,27 @@ def insert_related(s, block):
     return s[:at] + block + s[at:] if at != -1 else s
 
 
+# ------------------------------------------------------------------ "Proof, not promises" example cards
+CASE_LINKS = {"celsius": "/case-studies/celsius/", "vital proteins": "/case-studies/vital-proteins/",
+              "viceroy los cabos": "/case-studies/viceroy-los-cabos/", "kroger": "/case-studies/kroger/",
+              "equinox": "/case-studies/equinox/", "skinlab by dr. roth": "/case-studies/skinlab-by-dr-roth/",
+              "the toasted yolk": "/case-studies/the-toasted-yolk-cafe/", "ionstream": "/case-studies/ionstream/"}
+
+
+def link_example_cards(s):
+    """Turn each example card on the service pages into a link to its case study."""
+    def card(m):
+        inner = m.group(1)
+        brand = html.unescape(re.search(r'<div class="ex-b"><small>(.*?)</small>', inner).group(1)).strip()
+        href = CASE_LINKS.get(brand.lower(), "/case-studies/")
+        label = "Read the case study" if brand.lower() in CASE_LINKS else "See all case studies"
+        inner = re.sub(r'<span class="ex-go">.*?</span>', "", inner)
+        inner = re.sub(r'(<div class="ex-b">.*?)(</div>)$', lambda k: k.group(1) + f'<span class="ex-go">{label} <i>→</i></span>' + k.group(2), inner, flags=re.S)
+        return f'<a class="excard rv" href="{href}" aria-label="{esc(brand)} case study">{inner}</a>'
+    s = re.sub(r'<a class="excard rv" href="[^"]*"(?: aria-label="[^"]*")?>(.*?<div class="ex-b">.*?</div>)</a>', card, s, flags=re.S)
+    return re.sub(r'<div class="excard rv">(.*?<div class="ex-b">.*?</div>)</div>', card, s, flags=re.S)
+
+
 # ------------------------------------------------------------------ main
 def main():
     pages = {}
@@ -331,6 +352,8 @@ def main():
             s = re.sub(r'<div class="bp-author"><span class="bp-av lg">FB</span><div><b>Written by the First Byte team</b><p>.*?</p></div></div>',
                        lambda _: '<div class="bp-author"><span class="bp-av lg bp-av-img">' + SEAN_IMG.format(64) + '</span><div><b>Written by <a href="/about/" rel="author">Sean Melton</a></b><p>'
                        + SEAN_BIO + '</p></div></div>', s, flags=re.S)
+        if 'class="excard' in s:
+            s = link_example_cards(s)
         # related guides
         slugs, city = related_for(u, city_i)
         if slugs:
@@ -360,6 +383,10 @@ def main():
     av = ".bp-av.bp-av-img{overflow:hidden;background:none}.bp-av.bp-av-img img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}.bp-meta b a,.bp-author b a{color:inherit;text-decoration:none}.bp-meta b a:hover,.bp-author b a:hover{color:var(--cyan,#01f6f2)}"
     if av not in read(css_p):
         write(css_p, read(css_p) + "\n/* blog author avatar (Sean Melton) */\n" + av + "\n")
+    css = read(css_p)
+    exc = "a.excard{display:flex;flex-direction:column;color:inherit;text-decoration:none}a.excard .ex-b{flex:1;display:flex;flex-direction:column}a.excard .ex-go{margin-top:auto;padding-top:14px}a.excard:focus-visible{outline:2px solid var(--cyan,#01f6f2);outline-offset:4px}.excard .ex-go{display:inline-flex;gap:6px;font-size:14px;font-weight:600;color:var(--cyan,#01f6f2)}.excard .ex-go i{font-style:normal;transition:transform .3s}a.excard:hover .ex-go i{transform:translateX(4px)}"
+    if exc not in read(css_p):
+        write(css_p, read(css_p) + "\n/* service-page example cards link to their case studies */\n" + exc + "\n")
     css = read(css_p)
     rule = '.cs-copy h2.cs-h{font-family:"Funnel Display",sans-serif;font-size:clamp(28px,2.6vw,40px);font-weight:600;letter-spacing:-.035em;line-height:1.02;margin:6px 0 0}'
     if rule not in css:
