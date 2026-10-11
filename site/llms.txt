@@ -137,7 +137,7 @@ Launch plan at https://firstbyte.agency/contact/.
 - [Case studies](https://firstbyte.agency/case-studies/): Results for Equinox, Kroger, Celsius, Vital Proteins, Viceroy Los Cabos and more.
 - [Service areas](https://firstbyte.agency/service-areas/): The 20 Greater Houston cities we serve.
 - [About](https://firstbyte.agency/about/): Founder Sean Melton's story and how First Byte works.
-- [Blog](https://firstbyte.agency/blog/): 87 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
+- [Blog](https://firstbyte.agency/blog/): 92 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
 - [Contact](https://firstbyte.agency/contact/): (713) 578-0634, contact@firstbyte.agency.
 ## About
 First Byte is an independent agency in The Woodlands, TX, founded by
@@ -187,6 +187,7 @@ the new generation of AI search engines.
 - [Real Estate Agent Marketing in The Woodlands & Houston: Own Your Leads](https://firstbyte.agency/blog/real-estate-agent-marketing-the-woodlands-houston/)
 - [Reaching Customers in Conroe & Montgomery County](https://firstbyte.agency/blog/reaching-customers-conroe-montgomery/)
 - [How to Rank in the Google Map Pack Across Greater Houston](https://firstbyte.agency/blog/rank-in-google-map-pack-houston/)
+- [Radio Advertising Cost in Houston, Plus TV: Real 2026 Rates](https://firstbyte.agency/blog/radio-tv-advertising-cost-houston/)
 - [Questions to Ask Before Hiring a Marketing Agency](https://firstbyte.agency/blog/questions-before-hiring-marketing-agency/)
 - [The Psychology of Logos: What Yours Says About You](https://firstbyte.agency/blog/psychology-of-logos/)
 - [The Power of Local Landing Pages for Service Areas](https://firstbyte.agency/blog/power-of-local-landing-pages/)
@@ -206,6 +207,7 @@ the new generation of AI search engines.
 - [Law Firm Marketing in Houston: SEO, Google Ads & Local Services Ads for Attorneys](https://firstbyte.agency/blog/law-firm-marketing-houston/)
 - [Landing Pages 101: Why Your Ads Need Them](https://firstbyte.agency/blog/landing-pages-101/)
 - [Is Yelp Advertising Worth It for Small Business? A 2026 Answer](https://firstbyte.agency/blog/is-yelp-advertising-worth-it-small-business/)
+- [Is Nextdoor Advertising Worth It? An Honest 2026 Answer for Houston](https://firstbyte.agency/blog/is-nextdoor-advertising-worth-it/)
 - [HVAC Marketing in Houston & The Woodlands: More Calls, All Year](https://firstbyte.agency/blog/hvac-marketing-houston-the-woodlands/)
 - [How to Rebrand Without Losing Your Customers](https://firstbyte.agency/blog/how-to-rebrand-without-losing-customers/)
 - [How Much Does a Website Cost in The Woodlands, TX? (2026 Guide)](https://firstbyte.agency/blog/how-much-does-a-website-cost-the-woodlands/)
@@ -214,6 +216,8 @@ the new generation of AI search engines.
 - [The Holiday Marketing Checklist for Local Businesses](https://firstbyte.agency/blog/holiday-marketing-checklist/)
 - [Gym Marketing Ideas for The Woodlands & Houston Fitness Studios](https://firstbyte.agency/blog/gym-fitness-studio-marketing-the-woodlands-houston/)
 - [The 30-Day Grand Opening Marketing Plan for Local Businesses](https://firstbyte.agency/blog/grand-opening-marketing-plan-30-days/)
+- [Google Guaranteed vs Google Verified: What Changed and What It Costs](https://firstbyte.agency/blog/google-guaranteed-vs-google-verified/)
+- [Google Business Profile Video Verification: A Shot List That Passes](https://firstbyte.agency/blog/google-business-profile-video-verification/)
 - [Google Business Profile Suspended? How to Get Reinstated (Step by Step)](https://firstbyte.agency/blog/google-business-profile-suspended-reinstatement/)
 - [Why Your Google Business Profile Is Your #1 Local Marketing Asset](https://firstbyte.agency/blog/google-business-profile-number-one-asset/)
 - [Google Business Listing Scam Calls: What Google Really Does](https://firstbyte.agency/blog/google-business-listing-scam-calls/)
@@ -234,6 +238,7 @@ the new generation of AI search engines.
 - [The Complete Guide to Google Reviews for Local Businesses](https://firstbyte.agency/blog/complete-guide-google-reviews/)
 - [From Clicks to Customers: Optimizing Your Conversion Funnel](https://firstbyte.agency/blog/clicks-to-customers-conversion-funnel/)
 - [Chiropractic Marketing in The Woodlands & Houston: Get More New Patients](https://firstbyte.agency/blog/chiropractor-marketing-the-woodlands-houston/)
+- [Google Business Profile Suspended After Changing Address? How to Avoid It](https://firstbyte.agency/blog/change-business-address-google-without-suspension/)
 - [Call Tracking for Local Businesses: Know Which Ads Make the Phone Ring](https://firstbyte.agency/blog/call-tracking-which-ads-make-phone-ring/)
 - [Brand Voice: How to Sound Like You Everywhere](https://firstbyte.agency/blog/brand-voice-sound-like-you/)
 - [Choosing Brand Colors That Build Trust](https://firstbyte.agency/blog/brand-colors-that-build-trust/)
