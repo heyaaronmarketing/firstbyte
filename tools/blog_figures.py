@@ -434,6 +434,18 @@ def _motif(m):
                 + "".join(f'<circle cx="{-200 + i * 24}" cy="-128" r="7" fill="{col}"/>' for i, col in enumerate((MAG, "#ffd23f", c)))
                 + f'<rect x="-196" y="-76" width="210" height="26" rx="8" fill="rgba(255,255,255,.4)"/><rect x="-196" y="-36" width="160" height="14" rx="7" fill="rgba(255,255,255,.2)"/>'
                 f'<rect x="-196" y="0" width="110" height="38" rx="19" fill="{c}"/><rect x="40" y="-76" width="156" height="190" rx="12" fill="{MAG}" fill-opacity=".25" stroke="{MAG}" stroke-width="3"/>')
+    if m == "tv":
+        return (f'<rect x="-220" y="-140" width="300" height="200" rx="16" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-120 90 h100 M-70 60 v30" {sw} stroke="{g}" stroke-width="5"/>'
+                f'<path d="M-100 -80 l60 40 l-60 40z" fill="{MAG}"/>'
+                f'<rect x="120" y="-60" width="110" height="150" rx="14" {sw} stroke="#ffd23f" stroke-width="4"/>'
+                f'<circle cx="175" cy="30" r="32" {sw} stroke="#ffd23f" stroke-width="4"/><path d="M140 -30 h70" stroke="#ffd23f" stroke-width="4"/>'
+                f'<path d="M150 -60 L200 -130" stroke="{g}" stroke-width="4" stroke-linecap="round"/>')
+    if m == "shield":
+        return (f'<path d="M0 -160 L130 -110 V-10 C130 80 60 130 0 160 C-60 130 -130 80 -130 -10 V-110 Z" fill="{c}" fill-opacity=".1" stroke="{c}" stroke-width="6" stroke-linejoin="round"/>'
+                f'<path d="M-55 0 L-15 40 L60 -50" fill="none" stroke="{c}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>'
+                + "".join(f'<circle cx="{-230 + i * 470}" cy="{-90 + (i % 2) * 140}" r="10" fill="{MAG}"/>' for i in range(2))
+                + f'<path d="M170 -40 h80 M170 -10 h55 M-250 60 h80 M-250 90 h55" stroke="{g}" stroke-width="6" stroke-linecap="round"/>')
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 
