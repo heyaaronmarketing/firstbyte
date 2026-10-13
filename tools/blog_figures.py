@@ -313,7 +313,8 @@ def funnel(s):
     row = 58
     parts = []
     for i, (lab, disp) in enumerate(st):
-        base = W - 300 if W >= 600 else W - 140
+        dispw = max(len(str(d)) for _, d in st) * 9.5 + 24
+        base = W - 300 if W >= 600 else min(W - 140, W - 54 - dispw)
         w = base * (1 - i * 0.16)
         x = 36 + (base - w) / 2
         y = top + i * row
@@ -446,6 +447,36 @@ def _motif(m):
                 f'<path d="M-55 0 L-15 40 L60 -50" fill="none" stroke="{c}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>'
                 + "".join(f'<circle cx="{-230 + i * 470}" cy="{-90 + (i % 2) * 140}" r="10" fill="{MAG}"/>' for i in range(2))
                 + f'<path d="M170 -40 h80 M170 -10 h55 M-250 60 h80 M-250 90 h55" stroke="{g}" stroke-width="6" stroke-linecap="round"/>')
+    if m == "plumbing":
+        return (f'<path d="M-230 -60 H-60 a40 40 0 0 1 40 40 V150" {sw} stroke="{c}" stroke-width="22"/>'
+                f'<path d="M-230 -60 H-60 a40 40 0 0 1 40 40 V150" {sw} stroke="{CARD}" stroke-width="10"/>'
+                f'<rect x="-78" y="-90" width="34" height="60" rx="6" fill="{g}"/>'
+                f'<path d="M60 -150 c-40 60 -70 100 -70 140 a70 70 0 0 0 140 0 c0 -40 -30 -80 -70 -140z" fill="{c}" fill-opacity=".18" stroke="{c}" stroke-width="5"/>'
+                f'<path d="M150 40 l70 -70 a34 34 0 1 0 -26 -26 l-70 70" {sw} stroke="#ffd23f" stroke-width="6"/>'
+                f'<circle cx="-20" cy="170" r="8" fill="{MAG}"/><circle cx="-20" cy="200" r="5" fill="{MAG}" opacity=".6"/>')
+    if m == "pest":
+        return (f'<ellipse cx="0" cy="20" rx="70" ry="95" {sw} stroke="{c}" stroke-width="5"/><circle cx="0" cy="-95" r="38" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M0 -75 V115" stroke="{g}" stroke-width="3"/>'
+                + "".join(f'<path d="M{sx * 65} {y} l{sx * 70} {d}" stroke="{c}" stroke-width="5" stroke-linecap="round"/>' for sx in (-1, 1) for y, d in ((-20, -40), (20, 0), (60, 40)))
+                + f'<path d="M-15 -130 q-30 -40 -60 -40 M15 -130 q30 -40 60 -40" {sw} stroke="{g}" stroke-width="4"/>'
+                f'<circle r="190" {sw} stroke="{MAG}" stroke-width="7"/><path d="M-134 134 L134 -134" stroke="{MAG}" stroke-width="7" stroke-linecap="round"/>')
+    if m == "lawn":
+        return (f'<path d="M-260 140 H260" stroke="{g}" stroke-width="4"/>'
+                + "".join(f'<path d="M{x} 140 l{6 + (x % 7)} -{30 + (x * 7) % 40}" stroke="{c}" stroke-width="4" stroke-linecap="round"/>' for x in range(-250, 251, 22))
+                + f'<path d="M-120 140 V20" stroke="{INK}" stroke-width="10" stroke-linecap="round"/><circle cx="-120" cy="-40" r="80" fill="{c}" fill-opacity=".16" stroke="{c}" stroke-width="5"/>'
+                f'<rect x="60" y="60" width="140" height="60" rx="12" {sw} stroke="#ffd23f" stroke-width="5"/><circle cx="90" cy="125" r="18" {sw} stroke="#ffd23f" stroke-width="5"/><circle cx="175" cy="125" r="18" {sw} stroke="#ffd23f" stroke-width="5"/>'
+                f'<path d="M200 60 L250 -40" stroke="{INK}" stroke-width="5" stroke-linecap="round"/><circle cx="170" cy="-110" r="30" {sw} stroke="{MAG}" stroke-width="4"/>')
+    if m == "remodel":
+        return (f'<rect x="-220" y="-40" width="300" height="170" rx="8" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-220 30 H80 M-140 -40 V130 M-60 30 V130" stroke="{g}" stroke-width="4"/>'
+                f'<rect x="-200" y="-140" width="120" height="70" rx="6" {sw} stroke="{g}" stroke-width="4"/><rect x="-40" y="-140" width="120" height="70" rx="6" {sw} stroke="{g}" stroke-width="4"/>'
+                f'<circle cx="-10" cy="-10" r="10" fill="{MAG}"/>'
+                f'<path d="M140 -120 h100 v260 h-100z" {sw} stroke="#ffd23f" stroke-width="5"/><path d="M140 -60 h100 M140 0 h100 M140 60 h100" stroke="#ffd23f" stroke-width="3" stroke-dasharray="10 8"/>')
+    if m == "care":
+        return (f'<path d="M0 120 C-150 20 -170 -70 -110 -115 C-60 -150 -15 -110 0 -80 C15 -110 60 -150 110 -115 C170 -70 150 20 0 120Z" fill="{MAG}" fill-opacity=".18" stroke="{MAG}" stroke-width="6" stroke-linejoin="round"/>'
+                f'<path d="M-250 150 C-180 90 -110 100 -60 140 L40 140" {sw} stroke="{c}" stroke-width="6"/>'
+                f'<path d="M250 150 C180 90 110 100 60 140" {sw} stroke="{c}" stroke-width="6"/>'
+                f'<path d="M-40 -20 h80 M0 -60 v80" stroke="{INK}" stroke-width="10" stroke-linecap="round"/>')
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 
