@@ -25,7 +25,7 @@ BANNED = [
 ICONS = {"Meta", "Instagram", "Facebook", "TikTok", "YouTube", "Google Ads", "Google", "Google Business Profile",
          "HubSpot", "Google Analytics", "Tag Manager", "Semrush", "Search Console", "Yelp", "Nextdoor", "LinkedIn",
          "Microsoft Ads"}
-MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield"}
+MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield", "plumbing", "pest", "lawn", "remodel", "care"}
 
 
 def text(h):
@@ -36,14 +36,15 @@ def main(modname):
     mod = importlib.import_module(modname)
     existing = set(os.listdir("site/blog"))
     errs, warns = [], []
+    batch_slugs = {p.get("slug") for p in mod.POSTS}  # posts in the same module may link to each other
     for p in mod.POSTS:
         sl = p.get("slug", "?")
         E = lambda m: errs.append(f"[{sl}] {m}")  # noqa: E731
         W = lambda m: warns.append(f"[{sl}] {m}")  # noqa: E731
-        for k in ("slug", "title", "seo_title", "desc", "category", "icons", "art", "related", "sections", "faq", "hero", "figures"):
-            if k not in p:
-                E(f"missing key {k}")
-        if errs:
+        missing = [k for k in ("slug", "title", "seo_title", "desc", "category", "icons", "art", "related", "sections", "faq", "hero", "figures") if k not in p]
+        for k in missing:
+            E(f"missing key {k}")
+        if missing:
             continue
         if not re.fullmatch(r"[a-z0-9-]+", sl):
             E("slug must be lowercase-hyphenated")
@@ -94,7 +95,7 @@ def main(modname):
         inner = re.findall(r'href="(/[^"#]*)"', body)
         for u in inner:
             path = "site" + u + ("index.html" if u.endswith("/") else "")
-            if not os.path.exists(path):
+            if not os.path.exists(path) and u.strip("/").split("/")[-1] not in batch_slugs:
                 E(f"internal link to missing page {u}")
         if len(inner) < 3:
             W(f"only {len(inner)} internal links")

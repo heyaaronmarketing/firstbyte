@@ -137,7 +137,7 @@ Launch plan at https://firstbyte.agency/contact/.
 - [Case studies](https://firstbyte.agency/case-studies/): Results for Equinox, Kroger, Celsius, Vital Proteins, Viceroy Los Cabos and more.
 - [Service areas](https://firstbyte.agency/service-areas/): The 20 Greater Houston cities we serve.
 - [About](https://firstbyte.agency/about/): Founder Sean Melton's story and how First Byte works.
-- [Blog](https://firstbyte.agency/blog/): 92 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
+- [Blog](https://firstbyte.agency/blog/): 102 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
 - [Contact](https://firstbyte.agency/contact/): (713) 578-0634, contact@firstbyte.agency.
 ## About
 First Byte is an independent agency in The Woodlands, TX, founded by
@@ -192,6 +192,8 @@ the new generation of AI search engines.
 - [The Psychology of Logos: What Yours Says About You](https://firstbyte.agency/blog/psychology-of-logos/)
 - [The Power of Local Landing Pages for Service Areas](https://firstbyte.agency/blog/power-of-local-landing-pages/)
 - [Pool Builder Marketing in Houston & The Woodlands: How to Get Pool Leads](https://firstbyte.agency/blog/pool-builder-marketing-houston-the-woodlands/)
+- [Plumbing SEO Keywords for Houston: A Keyword Map That Books Jobs](https://firstbyte.agency/blog/plumbing-seo-keywords-houston/)
+- [Pest Control Google Ads: A 2026 Setup Guide for Houston Exterminators](https://firstbyte.agency/blog/pest-control-google-ads-guide/)
 - [Performance Max vs. Search Campaigns: Which Should a Local Business Run?](https://firstbyte.agency/blog/performance-max-vs-search-campaigns-local/)
 - [Mobile-First Design: Why It Matters for Houston Service Businesses](https://firstbyte.agency/blog/mobile-first-design-houston-service-businesses/)
 - [Micro-Influencers vs. Big Names: What Works for Local Brands](https://firstbyte.agency/blog/micro-influencers-vs-big-names/)
@@ -206,13 +208,21 @@ the new generation of AI search engines.
 - [The Local SEO Checklist Every The Woodlands Business Needs](https://firstbyte.agency/blog/local-seo-checklist-the-woodlands/)
 - [Law Firm Marketing in Houston: SEO, Google Ads & Local Services Ads for Attorneys](https://firstbyte.agency/blog/law-firm-marketing-houston/)
 - [Landing Pages 101: Why Your Ads Need Them](https://firstbyte.agency/blog/landing-pages-101/)
+- [Kitchen Remodeling Marketing for High-End Jobs in The Woodlands](https://firstbyte.agency/blog/kitchen-bath-remodeling-marketing-the-woodlands/)
 - [Is Yelp Advertising Worth It for Small Business? A 2026 Answer](https://firstbyte.agency/blog/is-yelp-advertising-worth-it-small-business/)
 - [Is Nextdoor Advertising Worth It? An Honest 2026 Answer for Houston](https://firstbyte.agency/blog/is-nextdoor-advertising-worth-it/)
 - [HVAC Marketing in Houston & The Woodlands: More Calls, All Year](https://firstbyte.agency/blog/hvac-marketing-houston-the-woodlands/)
 - [How to Rebrand Without Losing Your Customers](https://firstbyte.agency/blog/how-to-rebrand-without-losing-customers/)
+- [How to Get More Remodeling Leads in Houston (and Stop Renting Them)](https://firstbyte.agency/blog/how-to-get-more-remodeling-leads-houston/)
+- [How to Get More Plumbing Service Calls in Houston: A 2026 Playbook](https://firstbyte.agency/blog/how-to-get-more-plumbing-service-calls-houston/)
+- [How to Get More Pest Control Customers in Houston: A Seasonal Plan](https://firstbyte.agency/blog/how-to-get-more-pest-control-customers-houston/)
+- [How to Get More Lawn Care Customers in The Woodlands and Houston](https://firstbyte.agency/blog/how-to-get-more-lawn-care-customers-the-woodlands/)
+- [How to Get Commercial Landscaping Contracts in North Houston](https://firstbyte.agency/blog/how-to-get-commercial-landscaping-contracts-houston/)
 - [How Much Does a Website Cost in The Woodlands, TX? (2026 Guide)](https://firstbyte.agency/blog/how-much-does-a-website-cost-the-woodlands/)
 - [How Fast Should Your Website Load? Core Web Vitals Explained](https://firstbyte.agency/blog/how-fast-should-your-website-load/)
+- [How Do Home Care Agencies Get Clients? A Houston Referral Playbook](https://firstbyte.agency/blog/how-do-home-care-agencies-get-clients/)
 - [Hotel Marketing in Houston: How to Get More Direct Bookings](https://firstbyte.agency/blog/hotel-marketing-houston-direct-bookings/)
+- [Home Care SEO: Rank for “Home Care Near Me” in The Woodlands](https://firstbyte.agency/blog/home-care-seo-the-woodlands-houston/)
 - [The Holiday Marketing Checklist for Local Businesses](https://firstbyte.agency/blog/holiday-marketing-checklist/)
 - [Gym Marketing Ideas for The Woodlands & Houston Fitness Studios](https://firstbyte.agency/blog/gym-fitness-studio-marketing-the-woodlands-houston/)
 - [The 30-Day Grand Opening Marketing Plan for Local Businesses](https://firstbyte.agency/blog/grand-opening-marketing-plan-30-days/)
