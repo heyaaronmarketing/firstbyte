@@ -97,7 +97,8 @@ def columns(s):
         on = i in hl
         parts.append(f'<rect x="{x:.1f}" y="{y1 - bh:.1f}" width="{bw * 0.64:.1f}" height="{max(bh, 2):.1f}" rx="6" '
                      f'fill="{"BARFILL" if on else "rgba(255,255,255,.14)"}"/>')
-        parts.append(f'<text x="{x + bw * 0.32:.1f}" y="{y1 + 22}" text-anchor="middle" fill="{INK if on else MUTED}" '
+        stag = 16 if (W < 600 and n >= 7 and max(len(str(l)) for l in labels) > 3 and i % 2) else 0
+        parts.append(f'<text x="{x + bw * 0.32:.1f}" y="{y1 + 22 + stag}" text-anchor="middle" fill="{INK if on else MUTED}" '
                      f'font-family="{FONT}" font-size="13" font-weight="{600 if on else 400}">{e(lab)}</text>')
     return frame(h, s["title"], s.get("sub"), "".join(parts), s.get("note"), s.get("alt"))[0]
 
@@ -477,6 +478,52 @@ def _motif(m):
                 f'<path d="M-250 150 C-180 90 -110 100 -60 140 L40 140" {sw} stroke="{c}" stroke-width="6"/>'
                 f'<path d="M250 150 C180 90 110 100 60 140" {sw} stroke="{c}" stroke-width="6"/>'
                 f'<path d="M-40 -20 h80 M0 -60 v80" stroke="{INK}" stroke-width="10" stroke-linecap="round"/>')
+    if m == "iv":  # IV bag, drip line, droplets
+        return (f'<path d="M-150 -170 h120 a14 14 0 0 1 14 14 v150 a40 40 0 0 1 -40 40 h-62 a40 40 0 0 1 -40 -40 v-150 a14 14 0 0 1 14 -14z" fill="{c}" fill-opacity=".12" stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-160 -70 h140" stroke="{c}" stroke-width="3" stroke-dasharray="8 8"/><path d="M-120 -130 h60 M-120 -105 h40" stroke="{g}" stroke-width="5" stroke-linecap="round"/>'
+                f'<rect x="-100" y="34" width="20" height="34" rx="6" fill="{g}"/>'
+                f'<path d="M-90 68 V110 C-90 170 40 170 90 110 L180 0" {sw} stroke="{INK}" stroke-width="4"/>'
+                f'<path d="M180 0 l40 -40" stroke="{MAG}" stroke-width="8" stroke-linecap="round"/>'
+                + "".join(f'<path d="M{60 + i * 60} {-150 + i * 30} c-12 18 -18 28 -18 38 a18 18 0 0 0 36 0 c0 -10 -6 -20 -18 -38z" fill="{c}" fill-opacity="{.7 - i * .2:.1f}"/>' for i in range(3)))
+    if m == "spa":  # stacked stones, leaf, steam
+        return ("".join(f'<ellipse cx="{dx}" cy="{y}" rx="{rx}" ry="{ry}" fill="{col}" fill-opacity=".2" stroke="{col}" stroke-width="5"/>'
+                        for dx, y, rx, ry, col in ((-10, 120, 150, 42, c), (10, 40, 115, 36, c), (-5, -30, 82, 30, g), (5, -86, 52, 24, MAG)))
+                + f'<path d="M150 140 C150 40 210 -20 270 -40 C270 40 230 110 150 140Z M150 140 L240 -10" {sw} stroke="#7ee0a1" stroke-width="5"/>'
+                + "".join(f'<path d="M{-40 + i * 40} -122 c-12 -14 12 -26 0 -40 s12 -26 0 -40" {sw} stroke="{g}" stroke-width="4"/>' for i in range(3)))
+    if m == "beauty":  # mirror with eye and lashes
+        return (f'<ellipse cx="-30" cy="-30" rx="150" ry="130" {sw} stroke="{c}" stroke-width="6"/><path d="M-30 100 V170 M-90 170 H30" {sw} stroke="{g}" stroke-width="6"/>'
+                f'<path d="M-130 -30 Q-30 -110 70 -30 Q-30 50 -130 -30Z" {sw} stroke="{INK}" stroke-width="5"/><circle cx="-30" cy="-30" r="26" fill="{MAG}"/>'
+                + "".join(f'<path d="M{-110 + i * 26} {-50 - 20 * math.sin(math.pi * (i + 1) / 9):.0f} l{-6 + i * 1.5:.0f} -22" stroke="{INK}" stroke-width="4" stroke-linecap="round"/>' for i in range(8))
+                + "".join(f'<path d="M{170 + i * 40} {-120 + i * 70} l6 -16 l6 16 l16 6 l-16 6 l-6 16 l-6 -16 l-16 -6z" fill="#ffd23f"/>' for i in range(3)))
+    if m == "pet":  # dog head, paw prints
+        return (f'<circle cx="-60" cy="-10" r="110" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-150 -70 C-210 -60 -210 40 -160 60 M30 -70 C90 -60 90 40 40 60" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<circle cx="-100" cy="-30" r="11" fill="{INK}"/><circle cx="-20" cy="-30" r="11" fill="{INK}"/>'
+                f'<ellipse cx="-60" cy="20" rx="24" ry="16" fill="{MAG}"/><path d="M-60 36 v20 M-90 60 q30 24 60 0" {sw} stroke="{INK}" stroke-width="4"/>'
+                + "".join(f'<g transform="translate({150 + i * 50} {100 - i * 90}) scale(.8)"><ellipse cx="0" cy="12" rx="22" ry="18" fill="#ffd23f"/>'
+                          + "".join(f'<circle cx="{x}" cy="{y}" r="8" fill="#ffd23f"/>' for x, y in ((-24, -14), (-8, -26), (8, -26), (24, -14))) + '</g>' for i in range(3)))
+    if m == "car":  # car silhouette with shine and spray
+        return (f'<path d="M-240 60 V20 C-240 0 -220 -10 -190 -14 L-120 -24 L-60 -84 C-50 -94 -36 -100 -20 -100 H90 C110 -100 125 -92 135 -80 L190 -20 L230 -10 C246 -6 250 6 250 20 V60 Z" {sw} stroke="{c}" stroke-width="6"/>'
+                f'<path d="M-100 -24 L-48 -76 H30 V-24Z M50 -24 V-76 H95 L140 -24Z" fill="{c}" fill-opacity=".14" stroke="{g}" stroke-width="3"/>'
+                f'<circle cx="-150" cy="64" r="40" fill="{CARD}" stroke="{INK}" stroke-width="6"/><circle cx="150" cy="64" r="40" fill="{CARD}" stroke="{INK}" stroke-width="6"/>'
+                f'<path d="M-200 0 Q0 -30 200 0" {sw} stroke="#fff" stroke-opacity=".5" stroke-width="3"/>'
+                + "".join(f'<path d="M{-40 + i * 70} -150 l8 -22 l8 22 l22 8 l-22 8 l-8 22 l-8 -22 l-22 -8z" fill="{MAG if i == 1 else "#ffd23f"}"/>' for i in range(3)))
+    if m == "snow":  # cryo: snowflake + thermometer
+        return ("".join(f'<g transform="rotate({a} -60 0)"><path d="M-60 0 V-150 M-60 -100 l-30 -30 M-60 -100 l30 -30 M-60 -50 l-24 -24 M-60 -50 l24 -24" {sw} stroke="{c}" stroke-width="6"/></g>' for a in range(0, 360, 60))
+                + f'<circle cx="-60" cy="0" r="20" fill="{c}" fill-opacity=".3"/>'
+                f'<path d="M150 -140 a26 26 0 0 1 52 0 V60 a46 46 0 1 1 -52 0z" {sw} stroke="{INK}" stroke-width="5"/>'
+                f'<circle cx="176" cy="100" r="30" fill="{MAG}"/><path d="M176 70 V-40" stroke="{MAG}" stroke-width="14" stroke-linecap="round"/>')
+    if m == "pilates":  # reformer + figure
+        return (f'<rect x="-240" y="60" width="480" height="40" rx="12" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-220 100 v40 M220 100 v40 M200 60 V-40" {sw} stroke="{g}" stroke-width="6"/><rect x="-100" y="34" width="150" height="26" rx="8" fill="{c}" fill-opacity=".3" stroke="{c}" stroke-width="4"/>'
+                f'<circle cx="-70" cy="-10" r="26" fill="{MAG}"/><path d="M-50 10 L40 30 L120 -40 M40 30 L160 -10 L200 -40" {sw} stroke="{INK}" stroke-width="9"/>'
+                + "".join(f'<path d="M-200 {-140 + i * 22} q20 -12 40 0 t40 0" {sw} stroke="{g}" stroke-width="3"/>' for i in range(3)))
+    if m == "scale":  # weight-loss clinic: scale + measuring tape
+        return (f'<rect x="-170" y="-130" width="240" height="260" rx="40" fill="{c}" fill-opacity=".08" stroke="{c}" stroke-width="6"/>'
+                f'<path d="M-110 -60 a60 60 0 0 1 120 0" {sw} stroke="{INK}" stroke-width="6"/><path d="M-50 -60 L-20 -100" stroke="{MAG}" stroke-width="6" stroke-linecap="round"/>'
+                f'<rect x="-120" y="20" width="140" height="40" rx="10" fill="rgba(255,255,255,.12)"/>'
+                f'<path d="M120 -140 C220 -140 240 -40 180 0 C120 40 150 140 250 140" {sw} stroke="#ffd23f" stroke-width="22"/>'
+                + "".join(f'<circle cx="{x}" cy="{y}" r="3" fill="{BG}"/>' for x, y in ((150, -138), (190, -128), (220, -100), (226, -60), (204, -22))))
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 

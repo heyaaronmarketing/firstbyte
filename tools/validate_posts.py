@@ -21,11 +21,13 @@ BANNED = [
     "let's dive", "let’s dive", "dive into", "dive in", "plays a crucial role", "crucial", "pivotal", "boasts",
     "not just about", "it's not just", "it’s not just", "in the realm", "bustling", "vibrant", "nestled",
     "treasure trove", "one-stop", "paramount", "myriad", "plethora", "empower", "foster", "holistic",
+    "here's the thing", "here’s the thing", "let's break", "let’s break", "the good news is", "the bottom line",
+    "key takeaways", "in summary", "whether it's", "whether it’s", "in short,", "rest assured", "stand out from the crowd",
 ]
 ICONS = {"Meta", "Instagram", "Facebook", "TikTok", "YouTube", "Google Ads", "Google", "Google Business Profile",
          "HubSpot", "Google Analytics", "Tag Manager", "Semrush", "Search Console", "Yelp", "Nextdoor", "LinkedIn",
          "Microsoft Ads"}
-MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield", "plumbing", "pest", "lawn", "remodel", "care"}
+MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield", "plumbing", "pest", "lawn", "remodel", "care", "iv", "spa", "beauty", "pet", "car", "snow", "pilates", "scale"}
 
 
 def text(h):
