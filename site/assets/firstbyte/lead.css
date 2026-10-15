@@ -100,3 +100,9 @@
 
 /* service-page example cards link to their case studies */
 a.excard{display:flex;flex-direction:column;color:inherit;text-decoration:none}a.excard .ex-b{flex:1;display:flex;flex-direction:column}a.excard .ex-go{margin-top:auto;padding-top:14px}a.excard:focus-visible{outline:2px solid var(--cyan,#01f6f2);outline-offset:4px}.excard .ex-go{display:inline-flex;gap:6px;font-size:14px;font-weight:600;color:var(--cyan,#01f6f2)}.excard .ex-go i{font-style:normal;transition:transform .3s}a.excard:hover .ex-go i{transform:translateX(4px)}
+
+/* blog posts: More guides list */
+.bp-more{margin-top:44px}.bp-more h3{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#8f8a93);font-weight:600;margin:0 0 14px}.bp-more ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px}.bp-more a{color:var(--soft,#cfcad2);text-decoration:none;font-size:16px;line-height:1.4;display:block;padding:8px 0;border-bottom:1px solid var(--line,rgba(255,255,255,.09))}.bp-more a:hover{color:var(--cyan,#01f6f2)}@media (max-width:700px){.bp-more ul{grid-template-columns:1fr}}
+
+/* phone legibility: nothing real under 11px (Oct 15 audit) */
+@media (max-width:560px){.bp-body th{font-size:11.5px;letter-spacing:.08em}.st-tag{font-size:11px}}.pbadge small{font-size:11px}.csl-card .cs-logo{height:48px!important;max-height:48px;max-width:170px;width:auto;object-fit:contain;object-position:left center}

@@ -27,7 +27,7 @@ BRAND = " | First Byte"
 # Page-specific titles (without the brand suffix; it is added when it fits in 60).
 # ---------------------------------------------------------------------------------
 TITLES = {
-    "/": "The Woodlands & Houston Digital Marketing Agency | First Byte",  # brand kept on the homepage
+    "/": "Digital Marketing Agency in The Woodlands, TX | First Byte",  # brand kept; Houston has its own page (Oct 15: was 61 chars + overlapped /digital-marketing-agency-houston-tx/)
     "/about/": "About First Byte | Marketing Agency in The Woodlands, TX",
     "/contact/": "Contact First Byte | Marketing Agency in The Woodlands",
     "/blog/": "Houston Marketing Blog: SEO, Ads & Local Growth",

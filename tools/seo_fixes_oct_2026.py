@@ -19,6 +19,7 @@ What it does
              llms.txt key pages / guides / case studies refreshed, sitemap lastmod filled in,
              _headers gains HSTS + Permissions-Policy, two oversized hero photos recompressed
 """
+import collections
 import datetime
 import html
 import json
@@ -286,6 +287,127 @@ def link_example_cards(s):
     return re.sub(r'<div class="excard rv">(.*?<div class="ex-b">.*?</div>)</div>', card, s, flags=re.S)
 
 
+_DIMS = {}
+IMG_DIM_SKIP = {  # srcs whose CSS sets only one dimension, so width/height attrs would distort them (Oct 15 box audit)
+    "/assets/firstbyte/Anytime-Fitness-Logo.png",
+    "/assets/firstbyte/YakAttack_USA-white.png",
+    "/assets/firstbyte/budweiser.png",
+    "/assets/firstbyte/cel_can.webp",
+    "/assets/firstbyte/cel_hero.webp",
+    "/assets/firstbyte/delfriscos.png",
+    "/assets/firstbyte/equinox.png",
+    "/assets/firstbyte/eqx.webp",
+    "/assets/firstbyte/gu.png",
+    "/assets/firstbyte/happydad.png",
+    "/assets/firstbyte/hilton.png",
+    "/assets/firstbyte/hiya.png",
+    "/assets/firstbyte/img-124a5354fd09.webp",
+    "/assets/firstbyte/img-1c29b5e45eaa.webp",
+    "/assets/firstbyte/img-1c95e0e16086.webp",
+    "/assets/firstbyte/img-31a09d3a8219.webp",
+    "/assets/firstbyte/img-4d4fd9dee0a9.webp",
+    "/assets/firstbyte/img-54639f57b81a.webp",
+    "/assets/firstbyte/img-55da5a6df5c7.webp",
+    "/assets/firstbyte/img-59e8f99ec672.webp",
+    "/assets/firstbyte/img-700b1b7a4b22.webp",
+    "/assets/firstbyte/img-a9c11b8bc737.webp",
+    "/assets/firstbyte/img-c4afe218f97f.webp",
+    "/assets/firstbyte/img-cba6f4a52b4c.webp",
+    "/assets/firstbyte/img-d55e0b22f5c2.webp",
+    "/assets/firstbyte/img-d5aff94cb44b.webp",
+    "/assets/firstbyte/img-e0ab2b1102a3.webp",
+    "/assets/firstbyte/ionstream.png",
+    "/assets/firstbyte/jq2.png",
+    "/assets/firstbyte/kroger.png",
+    "/assets/firstbyte/land-shark-logo.png",
+    "/assets/firstbyte/margaritaville.png",
+    "/assets/firstbyte/nascar.png",
+    "/assets/firstbyte/omega.png",
+    "/assets/firstbyte/patterson.png",
+    "/assets/firstbyte/skinlab.png",
+    "/assets/firstbyte/sl_facial.webp",
+    "/assets/firstbyte/sl_lounge.webp",
+    "/assets/firstbyte/sl_morph.webp",
+    "/assets/firstbyte/tesla.png",
+    "/assets/firstbyte/texans.png",
+    "/assets/firstbyte/thrive.png",
+    "/assets/firstbyte/tmobile.png",
+    "/assets/firstbyte/toastedyolk.png",
+    "/assets/firstbyte/ty.webp",
+    "/assets/firstbyte/vic.webp",
+    "/assets/firstbyte/vic_s.webp",
+    "/assets/firstbyte/viceroy.png",
+    "/assets/firstbyte/vitalproteins.png",
+    "/assets/firstbyte/vp.webp",
+    "/assets/firstbyte/webpros.png",
+    "/assets/firstbyte/wyndham.png",
+}
+
+
+def _intrinsic(src):
+    """Intrinsic (w, h) of a local image, or None."""
+    if src in _DIMS:
+        return _DIMS[src]
+    path = os.path.join(SITE, src.split("?")[0].lstrip("/"))
+    dim = None
+    try:
+        if path.endswith(".svg"):
+            t = read(path)[:2000]
+            vb = re.search(r'viewBox="\s*[-\d.]+[ ,]+[-\d.]+[ ,]+([\d.]+)[ ,]+([\d.]+)', t)
+            if vb:
+                dim = (round(float(vb.group(1))), round(float(vb.group(2))))
+        else:
+            from PIL import Image
+            with Image.open(path) as im:
+                dim = im.size
+    except Exception:  # noqa: BLE001
+        dim = None
+    _DIMS[src] = dim
+    return dim
+
+
+def add_img_dims(s, skip=None):
+    """Give local <img>s width/height so browsers reserve space before they load (stops layout shift)."""
+    skip = IMG_DIM_SKIP if skip is None else skip
+
+    def fix(m):
+        tag = m.group(0)
+        if re.search(r'\swidth=', tag) or re.search(r'\sheight=', tag):
+            return tag
+        src = re.search(r'\ssrc="(/[^"]+)"', tag)
+        if not src or src.group(1) in skip:
+            return tag
+        d = _intrinsic(src.group(1))
+        if not d or not d[0] or not d[1]:
+            return tag
+        return tag[:-1].rstrip("/").rstrip() + f' width="{d[0]}" height="{d[1]}">'
+    return re.sub(r"<img\b[^>]*>", fix, s)
+
+
+def service_providers(s):
+    """Every schema.org Service names First Byte as its provider (Google's Service guidance)."""
+    def fix(m):
+        try:
+            d = json.loads(m.group(1))
+        except ValueError:
+            return m.group(0)
+        hit = [False]
+
+        def walk(o):
+            if isinstance(o, dict):
+                if o.get("@type") == "Service" and not o.get("provider"):
+                    o["provider"] = {"@id": BASE + "/#organization"}
+                    hit[0] = True
+                for v in o.values():
+                    walk(v)
+            elif isinstance(o, list):
+                for v in o:
+                    walk(v)
+        walk(d)
+        return ('<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False, indent=1) + "</script>") if hit[0] else m.group(0)
+    return re.sub(r'<script type="application/ld\+json">(.*?)</script>', fix, s, flags=re.S)
+
+
 # ------------------------------------------------------------------ main
 def main():
     pages = {}
@@ -370,12 +492,91 @@ def main():
         # feed + manifest links
         if 'type="application/rss+xml"' not in s:
             s = s.replace("</head>", '<link rel="alternate" type="application/rss+xml" title="First Byte blog" href="https://firstbyte.agency/blog/feed.xml">\n</head>', 1)
+        s = re.sub(r'lead\.css\?v=\d+', 'lead.css?v=9', s)  # bump when lead.css changes
+        s = add_img_dims(s)
+        s = service_providers(s)
+        if u == "/case-studies/":  # card logos are height:auto with a max-height, so attrs size them correctly
+            s = re.sub(r'<div class="csl-grid">.*?</section>', lambda m: add_img_dims(m.group(0), skip=set()), s, count=1, flags=re.S)
         if 'rel="manifest"' not in s:
             s = s.replace("</head>", '<link rel="manifest" href="/site.webmanifest">\n</head>', 1)
         if s != orig:
             write(p, s)
             changed.add(u)
             pages[p] = s
+
+    # ---- blog index: make each blogPost summary a complete reference to the post's own BlogPosting
+    bi = f"{SITE}/blog/index.html"
+    s = pages[bi]
+
+    def post_node(url):
+        pp = f"{SITE}{url.split('firstbyte.agency', 1)[1]}index.html"
+        for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', pages.get(pp, ""), re.S):
+            try:
+                d = json.loads(b)
+            except ValueError:
+                continue
+            for n in d.get("@graph", [d]):
+                if n.get("@type") == "BlogPosting":
+                    return n
+        return None
+
+    def enrich(m):
+        d = json.loads(m.group(1))
+        for n in d.get("@graph", [d]):
+            if n.get("@type") != "Blog":
+                continue
+            for bp in n.get("blogPost", []):
+                full = post_node(bp.get("url", ""))
+                if not full:
+                    continue
+                bp["@id"] = full.get("@id", bp["url"] + "#article")
+                for k in ("datePublished", "dateModified", "image", "mainEntityOfPage"):
+                    if full.get(k):
+                        bp[k] = full[k]
+                bp["author"] = {"@id": SEAN["@id"], "name": SEAN["name"]} if isinstance(SEAN, dict) else full.get("author")
+        return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False) + "</script>"
+    s2 = re.sub(r'<script type="application/ld\+json">\s*(\{[^<]*"@type": "Blog"[^<]*)</script>', enrich, s, count=1)
+    if s2 != s:
+        write(bi, s2)
+        pages[bi] = s2
+
+    # ---- "More guides": every post links 4 under-linked posts (internal-link balance, Oct 15 audit)
+    MORE_RE = re.compile(r'\n?<div class="wrap bp-more">.*?</div><!--/bp-more-->\n?', re.S)
+    post_files = sorted(p for p in pages if re.search(r"/blog/[a-z0-9-]+/index\.html$", p))
+    meta_of = {}
+    for p in post_files:
+        s = pages[p]
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", s, re.S)
+        cat = re.search(r'"articleSection": "([^"]+)"', s)
+        meta_of[url_of(p)] = (html.unescape(re.sub(r"<[^>]+>", "", h1.group(1))).strip() if h1 else url_of(p), cat.group(1) if cat else "")
+    inbound = collections.Counter()
+    for p, s in pages.items():
+        u0 = url_of(p)
+        for h in set(re.findall(r'href="(/blog/[a-z0-9-]+/)"', MORE_RE.sub("", s))):
+            if h != u0:
+                inbound[h] += 1
+    for p in post_files:
+        u0 = url_of(p)
+        s = MORE_RE.sub("", pages[p])
+        linked = set(re.findall(r'href="(/blog/[a-z0-9-]+/)"', s))
+        cands = [v for v in meta_of if v != u0 and v not in linked]
+        cands.sort(key=lambda v: (meta_of[v][1] != meta_of[u0][1], inbound[v], v))
+        pick = cands[:4]
+        for v in pick:
+            inbound[v] += 1
+        items = "".join(f'<li><a href="{v}">{esc(meta_of[v][0])}</a></li>' for v in pick)
+        block = (f'\n<div class="wrap bp-more"><h3>More guides</h3><ul>{items}</ul></div><!--/bp-more-->')
+        i = s.find('<div class="posts">')
+        k = s.find("</section>", i) if i > 0 else -1
+        if k > 0:
+            s = s[:k] + block + "\n" + s[k:]
+        if s != pages[p]:
+            write(p, s)
+            pages[p] = s
+    more_css = ".bp-more{margin-top:44px}.bp-more h3{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#8f8a93);font-weight:600;margin:0 0 14px}.bp-more ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px}.bp-more a{color:var(--soft,#cfcad2);text-decoration:none;font-size:16px;line-height:1.4;display:block;padding:8px 0;border-bottom:1px solid var(--line,rgba(255,255,255,.09))}.bp-more a:hover{color:var(--cyan,#01f6f2)}@media (max-width:700px){.bp-more ul{grid-template-columns:1fr}}"
+    lp = f"{SITE}/assets/firstbyte/lead.css"
+    if more_css not in read(lp):
+        write(lp, read(lp) + "\n/* blog posts: More guides list */\n" + more_css + "\n")
 
     # ---- case-study heading style
     css_p = f"{SITE}/assets/firstbyte/lead.css"
@@ -387,6 +588,10 @@ def main():
     exc = "a.excard{display:flex;flex-direction:column;color:inherit;text-decoration:none}a.excard .ex-b{flex:1;display:flex;flex-direction:column}a.excard .ex-go{margin-top:auto;padding-top:14px}a.excard:focus-visible{outline:2px solid var(--cyan,#01f6f2);outline-offset:4px}.excard .ex-go{display:inline-flex;gap:6px;font-size:14px;font-weight:600;color:var(--cyan,#01f6f2)}.excard .ex-go i{font-style:normal;transition:transform .3s}a.excard:hover .ex-go i{transform:translateX(4px)}"
     if exc not in read(css_p):
         write(css_p, read(css_p) + "\n/* service-page example cards link to their case studies */\n" + exc + "\n")
+    css = read(css_p)
+    legible = "@media (max-width:560px){.bp-body th{font-size:11.5px;letter-spacing:.08em}.st-tag{font-size:11px}}.pbadge small{font-size:11px}.csl-card .cs-logo{height:48px!important;max-height:48px;max-width:170px;width:auto;object-fit:contain;object-position:left center}"
+    if legible not in css:
+        write(css_p, css + "\n/* phone legibility: nothing real under 11px (Oct 15 audit) */\n" + legible + "\n")
     css = read(css_p)
     rule = '.cs-copy h2.cs-h{font-family:"Funnel Display",sans-serif;font-size:clamp(28px,2.6vw,40px);font-weight:600;letter-spacing:-.035em;line-height:1.02;margin:6px 0 0}'
     if rule not in css:
