@@ -64,7 +64,7 @@ POSTS = [
 <p>(If you’re brand new to the platform, our {f'<a href="/blog/small-business-guide-google-ads-2026/">small business guide to Google Ads</a>'} covers the basics. This post assumes the account is already spending.)</p>"""),
 
             ("Why are my Google Ads getting clicks but no calls?", f"""<p>Because something between the click and the ringing phone is broken, and the account can’t tell you which piece on its own. Clicks are counted perfectly. Calls and form fills are only as real as your tracking, so a campaign can look dead when it’s working, or healthy while it buys junk.</p>
-<p>Order matters. If you start by rewriting ads while the conversion tag has been dead since your website update in March, you’re tuning a car with no speedometer. So we go tracking first, then traffic quality, then the page and the phone, then bidding and budget.</p>
+<p>Order matters. If you start by rewriting ads while the conversion tag has been dead since your website update in March, you’re tuning a car with no speedometer.</p>
 <!--fig:order-->
 <p>Know what “working” means before you judge anything. Our post on {f'<a href="/blog/understanding-cost-per-lead/">understanding cost per lead</a>'} shows how to set a target from your close rate and average job.</p>"""),
 
@@ -101,7 +101,7 @@ POSTS = [
 <p>Under <b>Ad schedule</b>, either limit ads to staffed hours, or keep running after hours with call assets scheduled to your open hours and a form as the main action. For emergency trades (AC in August, a burst pipe on a holiday weekend), an answering service often pays for itself.</p>
 <h3>Check 7: Search partners and Display</h3>
 <p>{SRC['net']} says plainly that “search partners are included by default” when you create a Search campaign, and that clicks from them “may not always reflect highly targeted traffic.” Many Search campaigns also have the <b>Display Network</b> box ticked from setup.</p>
-<p>Add the <b>Network</b> segment to your campaign view and compare cost per conversion for Google search, search partners and Display. If partners or Display are spending money with no leads, turn them off. We’d start most local Search campaigns with both unchecked and only test partners later.</p>
+<p>Add the <b>Network</b> segment to your campaign view and compare cost per conversion by network. If partners or Display spend money with no leads, turn them off. We’d start most local Search campaigns with both unchecked and only test partners later.</p>
 <!--fig:leaks-->"""),
 
             ("Check 8: Is Performance Max spending your budget somewhere else?", f"""<p>Performance Max can show your ads on Search, Maps, YouTube, Display, Gmail and Discover from one campaign. That reach is the appeal. It’s also how a $3,000 month can turn into a pile of YouTube views and junk form fills.</p>
@@ -280,10 +280,8 @@ POSTS = [
 <p>If a redesign is coming anyway, our post on {f'<a href="/blog/signs-your-website-needs-a-redesign/">signs your website needs a redesign</a>'} helps decide whether to migrate the old site or start over. And our <a href="/services/web-design-seo-pr/">web design service</a> sets every site up in the client’s own hosting account, for exactly this reason.</p>"""),
 
             ("GA4, Tag Manager and Search Console", f"""<p>GA4 is where agencies most often “own” data without meaning to. Someone creates a property inside the agency’s own Analytics account because it’s quicker, and three years later you discover your history lives somewhere you can’t reach.</p>
-<p>Moving a property later is harder than it sounds. {SRC['ga4move']} require Administrator and Editor roles on both the source and destination accounts, and the two accounts must belong to the same Google Marketing Platform organization. Most small businesses don’t have one. In practice, the fix is usually one of these:</p>
-<ul><li>Get <b>Administrator</b> on the property now, so you can add and remove users yourself.</li>
-<li>If the agency’s Analytics account holds only your property, have them make you an Administrator at the account level too.</li>
-<li>If neither works, create a new property in your own account, run both side by side for a few months, and export the reports you care about from the old one.</li></ul>
+<p>Moving a property later is harder than it sounds. {SRC['ga4move']} require Administrator and Editor roles on both the source and destination accounts, and the two accounts must belong to the same Google Marketing Platform organization. Most small businesses don’t have one.</p>
+<p>So in practice, get <b>Administrator</b> on the property now, so you can add and remove users yourself. If the agency’s Analytics account holds only your property, have them make you an Administrator at the account level too. If neither happens, create a new property in your own account, run both side by side for a few months, and export the reports you care about from the old one. It’s tedious. It works.</p>
 <p>Do the same for Google Tag Manager (you want admin and publish rights on the container) and Search Console (you want to be a verified owner). Tag Manager matters more than people think. Whoever controls it controls your conversion tracking, which is the foundation of everything in our {f'<a href="{AUDIT}">Google Ads self-audit</a>'}.</p>"""),
 
             ("Google Business Profile: primary owner, owners and managers", f"""<p>Your Business Profile is the asset that’s hardest to replace. The reviews, photos and years of history on it can’t be moved to a new listing. Every profile has exactly one <b>primary owner</b>, can have several owners, and can have managers, per {SRC['gbproles']}. Owners control users and can delete the profile. Managers can edit almost everything but can’t add or remove people.</p>
@@ -300,18 +298,18 @@ POSTS = [
 <li>The agency gets access as a <b>Partner</b>, which you can remove in one click.</li></ul>
 <p>If you’re running Meta ads now, our guide to {f'<a href="/blog/facebook-instagram-ads-local-businesses/">Facebook and Instagram ads for local businesses</a>'} covers the campaign side.</p>"""),
 
-            ("Call-tracking numbers and phone porting", f"""<p>Here’s the one nobody thinks about until the line goes dead. Agencies often buy tracking numbers in their own CallRail (or similar) account and put them on your ads, your website, and sometimes your Business Profile and directory listings. When the contract ends and they cancel those numbers, every place they appear now rings nowhere.</p>
+            ("Call-tracking numbers and phone porting", f"""<p>Nobody thinks about this one until the line goes dead. Agencies often buy tracking numbers in their own CallRail (or similar) account and put them on your ads, your website, and sometimes your Business Profile and directory listings. When the contract ends and they cancel those numbers, every place they appear now rings nowhere.</p>
 <p>Numbers can usually move. Per the {SRC['fcc']}, you can generally keep a number when you change providers if you stay in the same area, you should start service with the new provider before cancelling the old one, simple ports are supposed to be processed in one business day, and the old provider can’t refuse a port over an unpaid balance. The catch for agency-held numbers: the port request comes from the account holder, which is the agency. So ask, in writing, for every tracking number to be ported to your own call-tracking or carrier account before the end date.</p>
 <p>Two rules we follow: your main business number is never a tracking number on paper you don’t own, and on your Business Profile a tracking number goes in as primary only with your real number listed as an additional phone. Our {f'<a href="/blog/call-tracking-which-ads-make-phone-ring/">call tracking guide</a>'} explains why.</p>
 <!--fig:waits-->"""),
 
             ("Contract clauses to look for, and how to switch marketing agencies", f"""<p>Before you sign with anyone (us included), look for these in the agreement:</p>
-<ul><li><b>Account ownership:</b> all ad, analytics, profile and social accounts are created in the client’s name, or transferred to the client on request.</li>
-<li><b>IP assignment:</b> copyright in the website, ad creative, photos and copy you paid for passes to you on payment.</li>
-<li><b>Ad spend paid directly</b> by you to Google and Meta, or, if the agency bills it, an itemized split of media vs. fees every month.</li>
-<li><b>Notice period:</b> 30 days is common. Watch for auto-renewing 12-month terms with a short cancellation window.</li>
-<li><b>Exit deliverables:</b> admin access confirmed, backups, DNS records, number ports, and reports handed over within a set number of business days.</li>
-<li><b>No exit fees for access.</b> Paying a reasonable fee for migration labor is normal. Paying to get your own accounts back is not.</li></ul>
+<ul><li>All ad, analytics, profile and social accounts are created in the client’s name, or transferred to the client on request.</li>
+<li>Copyright in the website, ad creative, photos and copy you paid for passes to you on payment.</li>
+<li>You pay Google and Meta directly. If the agency bills media, you get an itemized split of media vs. fees every month.</li>
+<li>A notice period you can live with. Thirty days is common; watch for auto-renewing 12-month terms with a short cancellation window.</li>
+<li>Exit deliverables (admin access confirmed, backups, DNS records, number ports, reports) due within a set number of business days.</li>
+<li>No fee to get your access back. A reasonable charge for migration labor is normal, but you shouldn’t pay ransom for your own accounts.</li></ul>
 <p>Our post on {f'<a href="/blog/questions-before-hiring-marketing-agency/">questions to ask before hiring a marketing agency</a>'} adds the performance questions.</p>
 <h3>A 30-day offboarding timeline</h3>
 <!--fig:timeline-->

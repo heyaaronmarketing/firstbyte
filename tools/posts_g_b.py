@@ -47,47 +47,47 @@ POSTS = [
         "related": ["diy-vs-hiring-an-agency", "questions-before-hiring-marketing-agency", "digital-marketing-cost-the-woodlands-houston"],
         "sections": [
             (None, f"""<p>It’s Sunday night, you’re approving payroll, and the Google Ads invoice is bigger than last month. Nobody can say if it worked. So you start pricing help: a marketing manager, an agency, or the “fractional CMO” a friend mentioned over lunch at Hughes Landing.</p>
-<p>The short answer to fractional CMO vs agency vs an in-house hire: a fractional CMO sells senior judgment by the hour, an agency sells execution by the month, and a full-time hire sells one person’s full attention by the year. In the Houston metro, marketing managers averaged <b>$154,220 a year</b> in the most recent metro-level {SRC['oews']} we could open, before benefits. Fractional CMOs commonly quote $3,000 to $15,000 a month. Agencies vary with the work.</p>
+<p>The short answer to fractional CMO vs agency vs an in-house hire is that you’re buying different things. A fractional CMO rents you senior judgment for some hours a week, while an agency is mostly hands, the people who build and run campaigns. Only a full-time hire gives you one person’s whole attention. In the Houston metro, marketing managers averaged <b>$154,220 a year</b> in the most recent metro-level {SRC['oews']} we could open, before benefits. Fractional CMOs commonly quote $3,000 to $15,000 a month. Agencies vary with the work.</p>
 <p>Our opinion, for most owners in The Woodlands, Spring, Conroe and greater Houston doing under about $5 million a year: an agency for execution plus one person inside the company who owns the numbers beats both a pricey full-time hire and a part-time strategist with nobody to do the work. Above that, the math changes. Below is how to tell which side of the line you’re on.</p>"""),
 
             ("Fractional CMO vs agency vs in-house hire: what you’re actually buying", f"""<p>The three options get compared as if they were one product at three prices. They aren’t, and most bad marketing hires come from buying the wrong thing well.</p>
-<h3>A fractional CMO buys direction</h3>
+<h3>The fractional CMO</h3>
 <p>A fractional chief marketing officer is a senior marketer who works for you part time, usually a set number of hours a week, on a monthly retainer. Expect a plan, a budget split across channels, a sane reporting setup, and someone who can interview candidates and fire a vendor. Don’t expect them to build your Meta campaigns at 10 p.m. Most won’t touch the ad accounts at all; they manage the people who do.</p>
-<h3>An agency buys hands and specialists</h3>
+<h3>What an agency brings</h3>
 <p>An agency gives you a team: someone who lives inside Google Ads, someone who designs, someone who writes, someone who knows why your conversion tracking double-counts calls. You get breadth that no single hire has. The trade-off is attention. Your account is one of many, and the person you met in the pitch is rarely the person pulling the levers. (That’s true of us too, to a degree. Ask who will actually run your account.)</p>
-<h3>An in-house hire buys context</h3>
+<h3>Where an in-house hire still wins</h3>
 <p>A full-time marketing person knows your techs by name, hears the customer complaints, and can shoot a reel at the job site on a Tuesday afternoon. Nobody outside the building can match that. The weakness is range. One person is rarely strong at paid search, Meta, SEO, design, analytics and email at once, and the ones who are cost a lot more than the job posting says.</p>
-<p>So the real question isn’t which is “best.” It’s which gap is hurting you right now: lack of a plan, lack of hands, or lack of someone who cares about this every single day.</p>"""),
+<p>Before you compare prices, name what’s actually missing. Is it a plan, people to do the work, or somebody in the building who thinks about marketing every day? Most owners already know.</p>"""),
 
             ("What a marketing manager costs in Houston (salary is only the start)", f"""<p>Owners almost always underestimate this one.</p>
-<p>The {SRC['oews']} (May 2023 estimates, the latest metro-level page we could verify) shows 7,890 marketing managers working in the Houston-The Woodlands-Sugar Land area, with a mean wage of $74.15 an hour and a mean salary of $154,220. The median hourly wage was $65.85, which works out to roughly $137,000 a year. Nationally, the {SRC['ooh']} puts the median for marketing managers at $166,790 as of May 2025, so the Houston figure has very likely moved up since 2023.</p>
+<p>The {SRC['oews']} (May 2023 estimates, the latest metro-level page we could verify) shows 7,890 marketing managers working in the Houston-The Woodlands-Sugar Land area, with a mean wage of $74.15 an hour and a mean salary of $154,220. The median hourly wage was $65.85, which works out to roughly $137,000 a year. Nationally, the {SRC['ooh']} puts the median for marketing managers at $166,790 as of May 2025, so Houston has likely moved up since 2023.</p>
 <!--fig:houston-->
 <p>“But I don’t need a manager, I need a marketing person.” Fair. The same Houston data shows market research analysts and marketing specialists (the category most “marketing coordinator” roles fall into) at a mean of $71,550 and a median of about $62,650. That person can post, schedule, update the website and coordinate vendors. They usually can’t set strategy or rescue a Performance Max campaign that’s spending on junk placements.</p>
 <p>Then add what isn’t on the offer letter. The {SRC['ecec']} for June 2026 found benefits made up 30.0 percent of what private employers spend on compensation: $14.07 an hour in benefits against $32.82 in wages. Senior salaried roles often run a little lower as a percentage, so we use 30 percent on top of salary as a planning number. On a $137,000 manager that’s about $178,000 a year in real cost, before a laptop, software, recruiting fees or the bonus they’ll ask for in year two.</p>
-<p>And the Houston market makes this harder than it looks. Plenty of strong marketers here work for energy, healthcare and engineering firms that pay corporate salaries. A local HVAC company or a dental group in Kingwood is competing with those offers, and with the commute: a great candidate in Katy is not going to drive the Grand Parkway to The Woodlands every morning for long.</p>"""),
+<p>And the Houston market makes this harder than it looks. Plenty of strong marketers here work for energy, healthcare and engineering firms that pay corporate salaries. A local HVAC company or a Kingwood dental group is competing with those offers, and with the commute. A great candidate in Katy won’t drive the Grand Parkway to The Woodlands every morning for long.</p>"""),
 
-            ("How much does a fractional CMO cost?", f"""<p>Fractional pricing is less standardized than salaries, and almost all of the published numbers come from firms that sell fractional executives. Keep that in mind. Here’s what we could verify.</p>
+            ("How much does a fractional CMO cost?", f"""<p>Fractional pricing is less standardized than salaries, and almost all of the published numbers come from firms that sell fractional executives. Grain of salt. This is what we could verify.</p>
 <ul>
 <li>{SRC['mh']} lists $3,000 to $15,000 a month, with most fractional CMOs working 10 to 20 hours a week per client. Their tiers: strategy only at 5 to 10 hours a week runs about $3,000 to $6,000 a month; strategy plus oversight of execution at 15 to 20 hours runs about $7,000 to $12,000.</li>
 <li>{SRC['gf']} puts the typical retainer at $4,000 to $20,000 a month, with an average of $12,000 a month ($144,000 a year), and says its people average around 20 hours a week.</li>
 <li>{SRC['wt']} cites a median hourly rate for fractional marketing leadership of $175, with the middle half of rates between $130 and $220, and a typical commitment of about nine hours a week.</li>
 </ul>
 <p>Those numbers don’t perfectly agree (Go Fractional’s own page lists an average hourly rate of $325), which tells you how wide the market is. A former Fortune 500 CMO and a marketer who ran one regional brand will both call themselves fractional CMOs.</p>
-<p>What the hours buy matters more than the rate. Five hours a week is an advisor: a monthly planning session, a look at the dashboard, a call when something breaks. Fifteen to twenty hours a week is a real leader who runs your weekly marketing meeting and holds vendors accountable. If you have no one to execute and no budget for an agency, paying for the advisor tier mostly buys you a very well-informed to-do list.</p>
+<p>What the hours buy matters more than the rate. Five hours a week gets you an advisor, someone who runs a monthly planning session, glances at the dashboard and picks up when something breaks. Fifteen to twenty hours a week is a real leader who runs your weekly marketing meeting and holds vendors accountable. If you have no one to execute and no budget for an agency, paying for the advisor tier mostly buys you a very well-informed to-do list.</p>
 <p>Houston note: local fractional CMOs exist, and so do national firms that will match you with someone remote. For a home services company in Montgomery County, we’d weight local knowledge (storm seasons, which suburbs actually buy, what a Conroe homeowner expects from a contractor) above a résumé full of SaaS launches.</p>"""),
 
-            ("What agencies cost, and where the money goes", f"""<p>Agency pricing has two parts that get blurred together in proposals: the management fee you pay the agency, and the media budget that goes to Google, Meta or a TV network. We broke down typical channel costs in our <a href="/blog/digital-marketing-cost-the-woodlands-houston/">digital marketing cost guide</a>, so we won’t repeat it here. The short version for a local business is that management for one or two channels often lands in the low thousands a month, and a full-service retainer covering ads, SEO, content and design climbs from there.</p>
+            ("What agencies cost, and where the money goes", f"""<p>Agency pricing has two parts that get blurred together in proposals: the management fee you pay the agency, and the media budget that goes to Google, Meta or a TV network. We broke down typical channel costs in our <a href="/blog/digital-marketing-cost-the-woodlands-houston/">digital marketing cost guide</a>, so we won’t repeat it here. For a local business, managing one or two channels often lands in the low thousands a month, and full service climbs from there.</p>
 <p>What owners don’t see in the proposal:</p>
 <ul>
-<li><b>Who does the work.</b> A senior strategist sells the deal; a coordinator two years out of school may run it. Ask for names.</li>
-<li><b>Setup fees and minimum terms.</b> A 12-month contract on a channel you’ve never tested is a bet on the agency, not on the channel.</li>
-<li><b>Account ownership.</b> Your Google Ads account, Meta Business Manager, Google Business Profile and analytics should be in your name, with the agency added as a user. If they own it, leaving costs you your history.</li>
-<li><b>Media markups.</b> Some agencies take a percentage of ad spend on top of the fee. That’s fine if it’s disclosed. It’s a problem if the invoice from Google never reaches you.</li>
-<li><b>Account manager turnover.</b> Agencies lose people too. Every handoff costs you a month of someone relearning your business.</li>
+<li>Who actually does the work. A senior strategist sells the deal, and a coordinator two years out of school may run it. Ask for names.</li>
+<li>Setup fees and minimum terms. Signing 12 months on a channel you’ve never tested means betting on the agency before you know whether the channel works.</li>
+<li>Account ownership. Your Google Ads account, Meta Business Manager, Google Business Profile and analytics should be in your name, with the agency added as a user. If they own it, leaving costs you your history.</li>
+<li>Media markups. Some agencies take a percentage of ad spend on top of the fee, which is fine if it’s disclosed. If the invoice from Google never reaches you, ask why.</li>
+<li>Turnover on their side. Agencies lose people too, and every handoff costs you about a month of someone relearning your business.</li>
 </ul>
 <p>Our list of <a href="/blog/questions-before-hiring-marketing-agency/">questions to ask before hiring a marketing agency</a> covers how to pressure-test a proposal. We’d add one more for this decision: ask the agency what they would <i>not</i> do for you. A good one will say, plainly, that they don’t replace someone inside the business who answers the phone well and follows up on leads.</p>"""),
 
-            ("Side-by-side: what each option costs in a year", f"""<p>Here’s the comparison we’d sketch on a whiteboard for an owner. Salaries come from the BLS Houston data above with our 30 percent benefits planning figure; fractional numbers come from the published ranges; agency numbers are typical local ranges, not quotes.</p>
+            ("Side-by-side: what each option costs in a year", f"""<p>This is roughly what we’d sketch on a whiteboard for an owner. Salaries come from the BLS Houston data above with our 30 percent benefits planning figure; fractional numbers come from the published ranges; agency numbers are typical local ranges, not quotes.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Option</th><th>Typical annual cost</th><th>Hours of attention</th><th>Best at</th><th>Weak at</th></tr></thead>
 <tbody>
@@ -110,23 +110,23 @@ POSTS = [
 <tr><td>$5M to $20M</td><td>25 to 100 staff, several locations or service lines</td><td>Fractional CMO plus agency, or an in-house coordinator plus agency</td><td>Five separate freelancers with nobody steering</td></tr>
 <tr><td>$20M+</td><td>100+ staff</td><td>Full-time marketing leader with a small team, plus specialist agencies</td><td>Handing all strategy to an agency with no internal owner</td></tr>
 </tbody></table></div>
-<p>If the table and your gut disagree, run the questions below. They take ten minutes and they’re the same ones we’d ask on a first call.</p>
+<p>If the table and your gut disagree, run the five questions below. We ask the same ones on a first call.</p>
 <!--fig:decide-->
-<p>One honest caveat. If you’re early and the problem is “we don’t get enough leads,” you may not need any of these yet. Our post on <a href="/blog/diy-vs-hiring-an-agency/">DIY vs hiring an agency</a> covers when doing it yourself stops paying off.</p>"""),
+<p>One honest caveat. If you’re early and the problem is “we don’t get enough leads,” you may not need any of these yet. Our post on <a href="/blog/diy-vs-hiring-an-agency/">DIY vs hiring an agency</a> covers when DIY stops paying off.</p>"""),
 
-            ("Hidden costs nobody puts in the proposal", f"""<p>Every option has costs that don’t show up on the first invoice. These are the ones we see owners miss most often.</p>
-<p><b>Your own management time.</b> A new hire needs onboarding, weekly one-on-ones and a boss who understands marketing well enough to judge their work. If that boss is you, budget three to five hours a week for the first few months. A fractional CMO needs less of your time; an agency needs a monthly review and fast answers when they ask for photos or approvals.</p>
-<p><b>Software.</b> An agency usually brings its own SEO tools, call tracking and reporting dashboards. An in-house person needs those subscriptions in your name (SEO tool, scheduler, design software, maybe a CRM upgrade), often a few hundred to a couple thousand dollars a month.</p>
-<p><b>Turnover.</b> {SRC['gallup']} estimates that replacing an employee can cost one-half to two times their annual salary. For a $137,000 marketing manager that’s a range of roughly $68,000 to $274,000, counting recruiting, ramp time and work that stalls while the seat is empty. Agencies and fractional CMOs can leave too, but the replacement cost is a few weeks of transition, not a six-month search.</p>
-<p><b>Ramp time.</b> Anyone new needs 60 to 90 days to learn your customers, your seasons (hello, hurricane season and August heat) and your numbers. Plan for that quarter to be slow no matter which option you pick.</p>
+            ("Hidden costs nobody puts in the proposal", f"""<p>Every option has costs that don’t show up on the first invoice.</p>
+<p>Start with your own time. A new hire needs onboarding, weekly one-on-ones and a boss who understands marketing well enough to judge their work. If that boss is you, budget three to five hours a week for the first few months. A fractional CMO needs less of your time; an agency needs a monthly review and fast answers when they ask for photos or approvals.</p>
+<p>Software is the next surprise. An agency usually brings its own SEO tools, call tracking and reporting dashboards. An in-house person needs those subscriptions in your name (SEO tool, scheduler, design software, maybe a CRM upgrade), often a few hundred to a couple thousand dollars a month.</p>
+<p>Turnover is the expensive one. {SRC['gallup']} estimates that replacing an employee can cost one-half to two times their annual salary. For a $137,000 marketing manager that’s a range of roughly $68,000 to $274,000, counting recruiting, ramp time and work that stalls while the seat is empty. Agencies and fractional CMOs leave too, though replacing one usually means a few weeks of transition rather than a six-month search.</p>
+<p>Whoever you pick needs 60 to 90 days to learn your customers, your seasons (hello, hurricane season and August heat) and your numbers. Expect a slow first quarter whichever way you go.</p>
 <!--fig:hidden-->
-<p><b>Conflicts of interest.</b> Some fractional CMOs are owned by, or refer work to, an agency. That’s not automatically bad, but ask directly. A fractional lead who recommends their own shop for every channel isn’t really independent oversight.</p>"""),
+<p>And ask about conflicts. Some fractional CMOs are owned by, or refer work to, an agency. That can be fine, but you want to hear it from them up front. A fractional lead who recommends their own shop for every channel isn’t really independent oversight.</p>"""),
 
-            ("Combinations that work (and one that usually doesn’t)", f"""<p>The best setups we see around The Woodlands and Houston are hybrids. A few that hold up:</p>
+            ("Combinations that work (and one that usually doesn’t)", f"""<p>The best setups we see around The Woodlands and Houston are hybrids.</p>
 <h3>Fractional lead plus agency execution</h3>
 <p>The fractional CMO sets the plan and budget, sits in the monthly agency review, and asks the uncomfortable questions (“why did cost per lead go up 40 percent in September?”). The agency runs the campaigns. This works well for companies in the $5 million to $20 million range with several service lines, say a home services company doing HVAC, plumbing and electrical across Montgomery and north Harris counties.</p>
 <h3>In-house coordinator plus agency</h3>
-<p>The coordinator handles everything that needs to be local and fast: job-site photos, review requests, social posts, Business Profile updates, the Waterway Square event booth. The agency handles paid media, SEO and web work. This is the most common setup we’d recommend for growing local businesses, and it costs far less than a manager.</p>
+<p>The coordinator handles anything that needs to be local and fast, from job-site photos and review requests to the Waterway Square event booth. The agency handles paid media, SEO and web work. It’s the setup we recommend most often for growing local businesses, at far less than a manager costs.</p>
 <h3>In-house manager plus specialist agencies</h3>
 <p>At larger companies, a full-time marketing leader manages two or three specialist firms (paid media, SEO, creative) instead of one full-service agency. More coordination, sharper specialists.</p>
 <h3>The one that usually doesn’t work</h3>
@@ -135,11 +135,11 @@ POSTS = [
 
             ("How to make the call this month", f"""<p>You don’t need a consultant to make this decision. You need about two hours and your last 12 months of numbers.</p>
 <ol>
-<li><b>Write down what marketing cost last year</b>, all in: media, agency fees, software, the hours your office manager spent posting on Facebook.</li>
-<li><b>Count your leads and booked jobs by source</b>, even roughly. If you can’t, tracking is the first problem to solve, before hiring anyone.</li>
-<li><b>Name the gap.</b> No plan? Look at fractional. No hands? Look at an agency. No one who cares daily? Look at a coordinator.</li>
-<li><b>Price the loaded cost</b> using the table above, not the salary or the retainer alone.</li>
-<li><b>Test before you commit.</b> A 90-day agency engagement or a three-month fractional trial beats a 12-month contract or a hire you can’t easily unwind.</li>
+<li>Write down what marketing cost last year, all in. Media, agency fees, software, even the hours your office manager spent posting on Facebook.</li>
+<li>Count your leads and booked jobs by source, even roughly. If you can’t, tracking is the first problem to solve, before hiring anyone.</li>
+<li>Name the gap from the first section and match it. A missing plan points to a fractional lead and missing hands to an agency; if nobody cares about marketing day to day, that’s a coordinator.</li>
+<li>Price the loaded cost from the table above, not the salary or the retainer alone.</li>
+<li>Test before you commit. A 90-day agency engagement or a three-month fractional trial beats a 12-month contract or a hire you can’t easily unwind.</li>
 </ol>
 <p>If paid ads are already part of your spend, start by finding out what they’re actually returning. Our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. Whatever you decide about people, it’s worth knowing which dollars are working first. You can also see how we run <a href="/services/search-marketing/">Google Ads management</a> for local businesses.</p>"""),
         ],
@@ -148,7 +148,7 @@ POSTS = [
             ("Is a fractional CMO worth it for a small business?", "Usually only once you have several channels, a real budget and someone to do the work. Below about $5 million in revenue, most local businesses get more from an agency plus an internal owner of the numbers. A fractional CMO pays off when you have vendors or staff who need direction and nobody senior setting goals or judging results."),
             ("Should I hire a marketing manager or an agency?", "Compare loaded cost to what you spend on media. A Houston marketing manager costs around $178,000 a year with benefits, more than many local businesses spend on ads. If your media budget is modest, an agency for execution plus a coordinator or office manager who follows up on leads is typically the better use of money."),
             ("What does a fractional CMO actually do?", "They build the marketing plan, split the budget across channels, set up reporting, manage agencies and freelancers, and help hire. Most do not run ad campaigns or design content themselves. Think of them as a part-time head of marketing who makes decisions and holds people accountable, working a set number of hours each week."),
-            ("Can a fractional CMO work with my existing agency?", "Yes, and that pairing is one of the most effective setups. The fractional CMO sets goals and reviews the agency’s work each month, while the agency handles execution. Ask whether the fractional CMO has any financial ties to agencies they recommend, so their oversight stays independent."),
+            ("Can a fractional CMO work with my existing agency?", "Yes, and it's one of the pairings we see work best. The fractional CMO sets goals and reviews the agency’s work each month, while the agency handles execution. Ask whether the fractional CMO has any financial ties to agencies they recommend, so their oversight stays independent."),
         ],
         "figures": {
             "houston": {
@@ -218,13 +218,14 @@ POSTS = [
         "sections": [
             (None, f"""<p>You launched the new website in March. It’s June. You search “roof repair Conroe” from your phone in the truck and you’re on page four, behind a directory, two franchises and a guy who hasn’t updated his site since 2019.</p>
 <p>So how long does SEO take? For most local businesses in Houston and The Woodlands, the first measurable movement shows up in one to three months (impressions in Search Console, views on your Business Profile), steady calls start somewhere around months four to six, and the gains keep compounding through month twelve. Business Profile fixes can move map pack rankings within weeks. A brand-new domain in a crowded category like roofing or personal injury can take a year or more to reach page one for the big terms.</p>
-<p>That’s a wide range, and anyone who gives you a single number without asking about your site, your category and your competitors is guessing. Below is what Google actually says, what happens month by month, and how to read Search Console for progress long before the phone rings.</p>"""),
+<p>That’s a wide range, and anyone who gives you a single number without asking about your site, your category and your competitors is guessing.</p>
+<p>We’ll start with what Google itself says, then walk through the year month by month. The most useful part comes near the end: how to read Search Console for progress long before the phone rings.</p>"""),
 
             ("What Google says about how long SEO takes", f"""<p>Google doesn’t publish a timeline, but its documentation is more useful than most agency blog posts on the subject.</p>
 <p>The {SRC['starter']} says: “Some changes might take effect in a few hours, others could take several months.” It also says you “likely want to wait a few weeks to assess whether your work had beneficial effects.” That second line matters. If you rewrite a page on Monday and check rankings on Friday, you’re reading noise.</p>
 <p>On new or updated pages, Google’s {SRC['recrawl']} says “crawling can take anywhere from a few days to a few weeks,” and that “requesting a recrawl multiple times for the same URL won’t get it crawled any faster.” Clicking “Request indexing” ten times is a very common way to spend an afternoon. It doesn’t help.</p>
-<p>And on the local side, Google’s {SRC['local']} says rankings come from relevance, distance and prominence, and that “there’s no way to request or pay for a better local ranking on Google.” Prominence (reviews, links, how well known you are) is the slow one. It builds over months, not days.</p>
-<p>We’d add one thing Google doesn’t say outright: SEO is a race against competitors who are also working. Six months is fast if the plumber ahead of you has 900 reviews and a 15-year-old domain. It’s slow if nobody in your niche has touched their site since COVID.</p>"""),
+<p>And on the local side, Google’s {SRC['local']} says rankings come from relevance, distance and prominence, and that “there’s no way to request or pay for a better local ranking on Google.” Prominence (reviews, links, how well known you are) is the slow one, and it builds over months.</p>
+<p>What Google doesn’t say outright is that you’re racing competitors who are also working. Six months is fast if the plumber ahead of you has 900 reviews and a 15-year-old domain. It’s slow if nobody in your niche has touched their site since COVID.</p>"""),
 
             ("How long for a new website to rank on Google?", f"""<p>Before a page can rank it has to be found, crawled and indexed. With a new site, each step can stall, and owners rarely look at where.</p>
 <p>Google’s {SRC['starter']} notes that Google “primarily finds pages through links from other pages it already crawled.” A new domain has almost no links pointing at it, so discovery is slow. A sitemap helps Google find your URLs, but Google itself says it isn’t required and it doesn’t guarantee anything gets indexed.</p>
@@ -235,12 +236,12 @@ POSTS = [
 </ul>
 <p>Google is blunt about the rest: “Don’t expect every URL on your site to be indexed.” If you published 40 near-identical city pages (“Plumber in Spring,” “Plumber in Tomball,” same text with the town swapped), don’t be surprised when most of them sit in those two buckets for months.</p>
 <!--fig:pipeline-->
-<p>What to do about it: link every important page from your main navigation or service pages, cut or merge thin pages, and give each city page something real (jobs you’ve done there, neighborhoods you serve, a photo from the job site). Then wait. A new site getting most of its core pages indexed within the first month or two is normal. Ranking them is the next, longer step.</p>"""),
+<p>So link every important page from your main navigation or service pages, cut or merge thin pages, and give each city page something real (jobs you’ve done there, neighborhoods you serve, a photo from the job site). Then wait. A new site getting most of its core pages indexed within the first month or two is normal. Ranking them is the next, longer step.</p>"""),
 
             ("How long does local SEO take to work? Map pack vs organic", f"""<p>Local search has two sets of results, and they move at different speeds.</p>
-<p><b>The map pack</b> (the three businesses under the map) runs off your Google Business Profile. Fixes there can show up fast. Changing a wrong primary category, adding services, correcting hours, filling in the description and uploading real photos can move map visibility within a few weeks. A brand-new profile has to be verified first, and Google’s {SRC['verify']} says verification reviews take up to 5 business days, sometimes longer.</p>
+<p>The map pack (the three businesses under the map) runs off your Google Business Profile. Fixes there can show up fast. Changing a wrong primary category, adding services, correcting hours, filling in the description and uploading real photos can move map visibility within a few weeks. A brand-new profile has to be verified first, and Google’s {SRC['verify']} says verification reviews take up to 5 business days, sometimes longer.</p>
 <p>The catch is distance, which you can’t optimize. If your shop is off Research Forest Drive, you can rank well in the map for searchers in The Woodlands and Spring and still never show up for someone in Pearland. That’s Google working as designed. Our guide to <a href="/blog/rank-in-google-map-pack-houston/">ranking in the Google map pack in Houston</a> goes deeper on what you can control.</p>
-<p><b>The organic results</b> (the blue links below the map) run off your website. Service pages, city pages, links and content all feed them, and they usually take longer: two to four months for a new service page to settle on a site that already has some history, longer on a new domain or in a tough category.</p>
+<p>Organic results, the blue links below the map, run off your website. Service pages, city pages, links and content all feed them, and they usually take longer: two to four months for a new service page to settle on a site that already has some history, longer on a new domain or in a tough category.</p>
 <p>Say you run a two-truck HVAC company in Spring. A cleaned-up Business Profile and a steady stream of new reviews might put you in the map pack for “ac repair spring tx” within a couple of months, at least for searchers close to you. Ranking your website on page one for “ac repair houston” is a different job, probably a year or more of work, and maybe not worth chasing at all compared with the suburbs you actually serve.</p>"""),
 
             ("A realistic month-by-month SEO timeline", f"""<p>This is the timeline we’d give a local service business starting from an existing site with a basic Business Profile. A brand-new domain should add a few months to every row. A low-competition niche in a smaller town (a pool service in Magnolia, a dog groomer in Montgomery) may run ahead of it.</p>
@@ -255,13 +256,13 @@ POSTS = [
 <!--fig:curve-->
 <p>The shape is the important part. Most of the visible payoff arrives in the back half of the year, after months where the only proof is a rising line in Search Console. That gap is where most owners quit, and also where most SEO budgets do their work. Our <a href="/blog/seo-cost-houston-the-woodlands/">SEO cost guide for Houston and The Woodlands</a> covers what a year of this should cost.</p>"""),
 
-            ("Leading indicators to watch in Search Console", f"""<p>You don’t have to wait for leads to know whether SEO is working. Here’s the 15-minute monthly check we’d have any owner do, using the free {SRC['perf']} in Google Search Console.</p>
+            ("Leading indicators to watch in Search Console", f"""<p>You don’t have to wait for leads to know whether SEO is working. This is the 15-minute monthly check we’d have any owner do, using the free {SRC['perf']} in Google Search Console.</p>
 <ol>
 <li><b>Open Performance, then Search results.</b> Set the date range to “Compare” and pick the last 3 months vs the previous 3 months. Short ranges bounce around; Google even flags the newest data as preliminary.</li>
 <li><b>Filter out your brand.</b> Click “+ Add filter,” choose Query, pick “Queries not containing,” and type your business name. Brand searches come from people who already know you. Non-brand impressions show whether new people are finding you.</li>
-<li><b>Look at impressions before clicks.</b> Impressions count how many times your site appeared in results. They rise first, often months before clicks do.</li>
+<li>Look at impressions before clicks. Impressions count how many times your site appeared in results, and they rise first, often months before clicks do.</li>
 <li><b>Sort the Queries tab by impressions</b> and check the average position column. Queries sitting at positions 11 to 20 are page-two terms that a better page or a few links could push onto page one.</li>
-<li><b>Click the Pages tab.</b> Are your service and city pages each getting impressions, or is the home page doing all the work?</li>
+<li>Then the <b>Pages</b> tab. Are your service and city pages each getting impressions, or is the home page doing all the work? (On most small sites we open, it’s the home page.)</li>
 <li><b>Check Indexing, then Pages.</b> Watch the indexed count and the “Discovered” and “Crawled” not-indexed lists from the section above.</li>
 </ol>
 <p>For the map pack, open your Business Profile, go to Performance, and compare calls, website clicks and direction requests month over month. Note any spike around storms or the first heat wave so you don’t confuse weather with SEO progress. (In Houston, a busy July for an AC company says more about the thermometer than your rankings.)</p>"""),
@@ -269,20 +270,18 @@ POSTS = [
             ("What speeds SEO up (and what slows it down)", f"""<p>Some things reliably shorten the timeline. Others quietly add months.</p>
 <!--fig:speed-->
 <h3>What speeds it up</h3>
-<ul>
-<li><b>A complete Business Profile.</b> Right primary category, every relevant secondary category, services listed, accurate hours, real photos. Google says businesses with complete and accurate info are more likely to show up in local results.</li>
-<li><b>Steady review velocity.</b> Ten reviews a month for six months beats sixty in one week followed by silence. Ask every happy customer, by text, the day the job is done. Google says more reviews and positive ratings can help local ranking.</li>
-<li><b>One page per service, and real city pages.</b> A page for “water heater replacement” will rank for that phrase far faster than a single “Services” page listing twelve things.</li>
-<li><b>Local links.</b> Sponsor a youth league in Tomball, join the chamber, get listed by your suppliers and the manufacturers you’re certified with. A handful of genuine local links moves a small site more than hundreds of directory links.</li>
-<li><b>An older domain with clean history.</b> If you have one, keep it. Don’t rebrand onto a new domain without page-by-page redirects.</li>
-</ul>
+<p>A complete Business Profile, first. That means the right primary category, every relevant secondary category, services listed, accurate hours and real photos. Google says businesses with complete and accurate info are more likely to show up in local results, and it’s the cheapest work in this whole post.</p>
+<p>Reviews help, but the pace matters more than the pile. Ten reviews a month for six months beats sixty in one week followed by silence. Ask every happy customer by text, the day the job is done. (Google says more reviews and positive ratings can help local ranking, which is about as close to an endorsement as Google gets.)</p>
+<p>Give each service its own page. A page for “water heater replacement” will rank for that phrase far faster than a single “Services” page listing twelve things, and the same goes for city pages with something real on them.</p>
+<p>Local links are slower to earn and worth more. Sponsor a youth league in Tomball, join the chamber, get listed by your suppliers and the manufacturers you’re certified with. A handful of genuine local links moves a small site more than hundreds of directory links.</p>
+<p>If you already have an older domain with a clean history, keep it. Don’t rebrand onto a new domain without page-by-page redirects.</p>
 <h3>What slows it down</h3>
 <ul>
-<li><b>A brand-new domain.</b> No links, no history, no reviews tied to a site. Expect the slow end of every range.</li>
-<li><b>Thin or duplicate pages.</b> Copy-paste city pages and 200-word service pages tend to sit unindexed.</li>
-<li><b>Competitive niches.</b> Personal injury, roofing, HVAC, plumbing and med spas in Houston have competitors with years of reviews and links. Plan for twelve months or more for the head terms.</li>
-<li><b>Migrations done wrong.</b> A redesign that changes every URL without redirects can erase years of progress in a week. We see it every few months.</li>
-<li><b>Inconsistent name, address and phone.</b> Moving from a suite on Woodlands Parkway to a warehouse in Conroe and only updating half your listings confuses Google about where you are.</li>
+<li>Starting on a brand-new domain. No links, no history, no reviews tied to a site, so expect the slow end of every range.</li>
+<li>Thin or duplicate pages. Copy-paste city pages and 200-word service pages tend to sit unindexed.</li>
+<li>A competitive niche. Personal injury, roofing, HVAC, plumbing and med spas in Houston have competitors with years of reviews and links. Plan for twelve months or more for the head terms.</li>
+<li>A redesign that changes every URL without redirects. It can erase years of progress in a week, and we see it every few months.</li>
+<li>Inconsistent name, address and phone. Moving from a suite on Woodlands Parkway to a warehouse in Conroe and only updating half your listings confuses Google about where you are.</li>
 </ul>
 <p>Our <a href="/blog/local-seo-checklist-the-woodlands/">local SEO checklist for The Woodlands</a> lists the setup items in order, if you want to work through them yourself.</p>"""),
 
