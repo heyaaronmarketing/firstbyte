@@ -64,11 +64,11 @@ POSTS = [
         "related": ["power-of-local-landing-pages", "rank-in-google-map-pack-houston", "google-business-profile-number-one-asset"],
         "sections": [
             (None, f"""<p>You have six locations, Kingwood to Katy. You search your own brand from the parking lot of the Cypress store and Google shows you the Tomball one. One profile still lists a suite you moved out of two years ago. Another sends calls to a corporate line that rings out after 5 p.m.</p>
-<p>That mess is where most multi-location local SEO work starts. The fix: every real location gets its own verified Google Business Profile, its own page on your site with content about that specific place, the same name, address and phone everywhere it appears, LocalBusiness schema on each page, reviews asked for and answered at the location level, and tracking that tells you which store the calls came from.</p>
-<p>Google ranks each location on its own. A strong brand does not carry a neglected listing.</p>
+<p>Most multi-location local SEO work starts with a mess like that. Every real location needs its own verified Google Business Profile and its own page on your site. Name, address and phone should match everywhere. Add schema per page, handle reviews store by store, and track which location the calls came from.</p>
+<p>Google ranks each location on its own. A strong brand doesn’t carry a neglected listing.</p>
 <p>This is for owners running 2 to 50 locations around Greater Houston: franchisees, regional chains, multi-office practices, home service companies with shops in Conroe and Pearland. It’s the order we work in, and you can do most of it without us.</p>"""),
             ("How does local SEO work when you have multiple locations?", f"""<p>Google’s own {SRC['rank']} names three factors: relevance, distance and prominence. The second one is the reason a chain can’t treat local SEO as a brand-level project. Distance is measured from the person searching to each individual location. Your Katy store has no chance in a Kingwood search, and it shouldn’t.</p>
-<p>So you aren’t running one local SEO program. You’re running six, or twenty, small ones that share a brand and a website. The Sugar Land store might face two national chains; the Magnolia store might face one guy with 400 reviews who has owned that market since 2009.</p>
+<p>What you actually have is six (or twenty) small local SEO programs sharing a brand and a website. The Sugar Land store might face two national chains; the Magnolia store might face one guy with 400 reviews who has owned that market since 2009.</p>
 <!--fig:footprint-->
 <p>It’s also why chains often lose to single-location shops. The independent in Spring has one owner answering every review; the chain has a profile nobody at corporate looks at. Prominence is earned per location, and only real, staffed locations qualify for a profile at all. For how a single profile climbs, see <a href="/blog/rank-in-google-map-pack-houston/">how to rank in the Google map pack in Houston</a>.</p>"""),
             ("Google Business Profile for multiple locations: groups, bulk verification and store codes", f"""<h3>Business groups</h3>
@@ -79,17 +79,17 @@ POSTS = [
 <li>Agencies holding several different businesses in one account can’t bulk verify; the brand does it from its own account.</li>
 <li>Google may still ask for video verification at a location.</li>
 <li>No timeline is given. Don’t schedule a grand opening around it.</li></ul>
-<p>Under 10 locations, you verify one at a time. Tedious, not hard; our <a href="/blog/google-business-profile-video-verification/">video verification walkthrough</a> covers the tricky part.</p>
+<p>Under 10 locations, you verify one at a time. It’s tedious work, though none of it is hard. Our <a href="/blog/google-business-profile-video-verification/">video verification walkthrough</a> covers the tricky part.</p>
 <h3>Store codes</h3>
 <p>Every location in a bulk spreadsheet needs a unique store code. Google’s {SRC['codes']} says any identifier works as long as it never changes for that location: “HOU-KATY-01” or just “114”. The warning on that page is worth reading twice. If you add or change a store code on an existing location through a spreadsheet upload, Google creates a duplicate location. Change codes in Business Profile Manager under Advanced settings, and use spreadsheets only for new locations.</p>
 <h3>Names and categories</h3>
 <p>Google’s {SRC['guide']} require all locations in the same country to use the same name, unless a location consistently uses a different name on its signage and website. Store codes and city names don’t belong in the business name; Google’s own example says “The UPS Store - 2872” is not acceptable. Adding “Katy” to the name because it might help rankings is a common route to a suspension. All locations should also share the one primary category that best fits the business.</p>
 <h3>Practitioners, departments and shared addresses</h3>
-<ul><li><b>Practitioners</b> (doctors, dentists, lawyers, agents) can have their own profiles if they’re public-facing and reachable at the location. Support staff can’t, and one practitioner shouldn’t have a profile per specialty.</li>
-<li><b>Departments</b> that operate as distinct public entities, like a dealership’s service center, can have their own profile and hours. A counter inside a bigger store doesn’t qualify.</li>
-<li><b>One profile per location</b>, in one account or across several. Two brands under one roof get separate profiles only if they operate independently.</li></ul>
+<p>Practitioners (doctors, dentists, lawyers, agents) can have their own profiles if they’re public-facing and reachable at the location. Support staff can’t, and one practitioner shouldn’t have a profile per specialty. Departments that operate as distinct public entities, like a dealership’s service center, can get their own profile and hours; a counter inside a bigger store doesn’t qualify.</p>
+<p>Otherwise it’s one profile per location. Two brands under one roof get separate profiles only if they operate independently.</p>
 <!--fig:setup-->"""),
-            ("Keeping NAP consistent across every location", f"""<p>NAP is name, address, phone. With 15 locations, the problems are rarely in Google. They’re in the Yelp listing a former manager claimed, the Apple Maps pin still pointing to the old strip center on FM 1960, the Facebook page a franchisee made in 2019. Build one master location record and update everything from it, never the other way around.</p>
+            ("Keeping NAP consistent across every location", f"""<p>NAP is name, address, phone. With 15 locations, the problems are rarely in Google. They live in the Yelp listing a former manager claimed, or the Apple Maps pin still sitting on the old strip center on FM 1960.</p>
+<p>Build one master location record and update everything from it. Never the other way around.</p>
 <div class="bp-tbl"><table><thead><tr><th>Field</th><th>Example</th><th>Rule we follow</th></tr></thead><tbody>
 <tr><td>Store code</td><td>HOU-SPR-03</td><td>Never changes, even if the store moves down the street</td></tr>
 <tr><td>Business name</td><td>Brand name only</td><td>Identical at every location, no city or keywords added</td></tr>
@@ -99,20 +99,20 @@ POSTS = [
 <tr><td>Hours and holiday hours</td><td>Mon to Sat 8 to 6</td><td>Updated before every holiday and every hurricane closure</td></tr>
 <tr><td>Primary category</td><td>Same for all</td><td>Matches the brand; secondary categories can vary by what the store offers</td></tr>
 </tbody></table></div>
-<p>Check, roughly in order: Business Profile, your location pages, Apple Business Connect, Bing Places, Facebook, Yelp, and your industry’s big directory (Healthgrades, Avvo, Houzz). We skip 80-directory syndication packages for most clients; the first eight or ten listings do nearly all the work.</p>
+<p>Check, roughly in order: Business Profile, your location pages, Apple Business Connect, Bing Places, Facebook, Yelp, and your industry’s big directory (Healthgrades, Avvo, Houzz). We skip 80-directory syndication packages for most clients. The first eight or ten listings do nearly all the work; the rest mostly generate invoices.</p>
 <p>On call tracking, the usual practice is a tracking number per store as the profile’s primary phone, with the real local number kept as an additional phone. Never a different tracking number on every directory; that’s 40 numbers for one store and a confused Google.</p>
 <p>When a store closes, mark it permanently closed instead of deleting it. When one moves, read <a href="/blog/change-business-address-google-without-suspension/">changing a business address without a suspension</a> first. Moves are the most common way we see chain profiles get flagged.</p>"""),
             ("Location pages SEO: one page per profile, without building doorway pages", f"""<p>Every Business Profile should link to its own page on your site, not the homepage or a bare store locator.</p>
 <p>The risk is the shortcut. Google’s {SRC['doorway']} list “having multiple domain names or pages targeted at specific regions or cities that funnel users to one page” and “creating substantially similar pages that are closer to search results than a clearly defined, browseable hierarchy” as doorway abuse. Twelve location pages where only the city name changes is that, more or less word for word.</p>
 <!--fig:pages-->
-<p>What makes a location page unique is boring, specific information that only someone who works there knows:</p>
+<p>A location page earns its keep with boring, specific details that only someone who works there would know.</p>
 <ul><li>The manager and staff, with real photos and a sentence each.</li>
 <li>Directions that help: which side of the road, where to park, “the turn-in off Kuykendahl comes up fast if you’re heading north.”</li>
 <li>Which services this store does and doesn’t offer. Chains almost always have some variation, and hiding it costs you angry reviews.</li>
-<li>Hours, holiday hours, and what happens during a hurricane or freeze closure.</li>
+<li>Holiday hours, and what happens during a hurricane or freeze closure.</li>
 <li>Reviews and a few photos from this location, not a brand-wide carousel.</li>
 <li>A few FAQs this store actually gets (parking at Market Street on a Saturday is its own question).</li></ul>
-<p>Write them one at a time, with 20 minutes of input from each store manager. It’s slow, and it’s the part competitors skip.</p>
+<p>Write them one at a time, with 20 minutes of input from each store manager. Slow going, and most competitors skip it.</p>
 <p>City pages where you have no store are a separate question. A page or two for areas your Spring store genuinely serves can be legitimate. Forty pages for every suburb within 60 miles is a doorway problem waiting for a core update. More in <a href="/blog/power-of-local-landing-pages/">the power of local landing pages</a>.</p>"""),
             ("LocalBusiness schema for each location (and where department and branchOf fit)", f"""<p>Schema won’t rank a weak location, but it removes ambiguity about which store is which. Google’s {SRC['lb']} says to define each location as its own LocalBusiness (<b>name</b> and <b>address</b> required). Put each block on that location’s page, not 15 blocks on the homepage, and include <b>geo</b> and opening hours.</p>
 <div class="bp-tbl"><table><thead><tr><th>Property</th><th>What to put there</th><th>Multi-location note</th></tr></thead><tbody>
@@ -131,28 +131,28 @@ POSTS = [
 <tr><td>Franchisee controlled</td><td>Each franchisee, brand has no access</td><td>Very small systems or loose licensing deals</td><td>Inconsistent names and categories, profiles lost when owners exit</td></tr>
 <tr><td>Hybrid (our usual pick)</td><td>Brand is owner; franchisee is manager</td><td>Most 2 to 50 location systems</td><td>Needs a written rule on who edits what</td></tr>
 </tbody></table></div>
-<p>In the hybrid model the brand controls what should be identical (name, primary category, website URL) and the franchisee handles what only they do well: review replies, real photos, hours. Worth knowing: when a business group bulk verifies through its main owner, Google says no one else can own those profiles. If the brand bulk verifies, franchisees become managers by design. Decide that on purpose.</p>
-<p>The other trap is the franchisee who builds a separate territory website. It competes with the brand’s location page for the same searches. Give franchisees a way to add local content to their page on the main site instead.</p>"""),
+<p>In the hybrid model the brand controls what should be identical (name, primary category, website URL) and the franchisee handles what only they do well: review replies, real photos, hours. One wrinkle catches people. When a business group bulk verifies through its main owner, Google says no one else can own those profiles, so if the brand bulk verifies, franchisees become managers by design. Decide that on purpose.</p>
+<p>Then there’s the franchisee who builds a separate territory website (sometimes with a nephew’s help) that competes with the brand’s location page. Let franchisees add local content to their page on the main site and most will happily drop it.</p>"""),
             ("Review management at scale: asking and replying per location", f"""<p>One store has 900 reviews and a manager who replies to every one. The store 20 minutes away has 41, and the last reply is from 2022. Customers notice, and so does the map pack.</p>
 <p>Start with what you can’t do. Google’s {SRC['fake']} bans discouraging negative reviews, selectively asking only happy customers, incentives, and pressuring people while they’re still on the premises. A “rate us 1 to 5, and fives go to Google” flow is selective solicitation, and we see it in franchise review software all the time. (The FTC has rules too; see <a href="/blog/fake-reviews-rule-local-businesses/">the fake reviews rule</a>.)</p>
-<p>What works at scale:</p>
+<p>At scale, this is the routine we set up:</p>
 <ol><li>Give every location its own review link and QR code from its own profile. Brand-wide links that land on the wrong store are common.</li>
 <li>Ask every customer the same way, at the same moment. A text after the job beats a card at the counter.</li>
 <li>Local managers reply within two business days. Corporate takes legal threats, injuries and press.</li>
 <li>Mention something real from the review. Thirty stores posting “Thanks for your feedback!” reads as nobody listening.</li>
 <li>Track monthly per store: new reviews, rating, reply rate, oldest unanswered review.</li></ol>
 <p>Per Google’s {SRC['reply']}, replies are checked before they appear (usually within 10 minutes, sometimes up to 30 days) and show as the business, not the person. Basics on getting reviews are in our <a href="/blog/complete-guide-google-reviews/">complete guide to Google reviews</a>.</p>"""),
-            ("Tracking each location: UTM tags, calls and Business Profile performance", f"""<p>If you can’t see results per location, you can’t manage them per location.</p>
-<p><b>UTM tags on every profile’s website link.</b> Without them, profile clicks blend into organic search in Google Analytics. Tag each profile’s link with something like <i>?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=gbp&amp;utm_content=spring</i>. Google’s {SRC['utm']} recommends always including source, medium and campaign, and warns that values are case-sensitive: “Spring” and “spring” become two rows in your report. Pick lowercase and stick to it. In GA4, the Traffic acquisition report then splits profile traffic by store.</p>
-<p><b>Call tracking per location.</b> For most local businesses the call is the conversion that matters, and a tracking number per store shows which location’s calls are growing.</p>
-<p><b>Profile performance and rank grids.</b> Each profile reports its own calls, direction requests and clicks. Pair that with a grid rank tracker, because rankings around Hughes Landing can look nothing like rankings near Waterway Square.</p>
+            ("Tracking each location: UTM tags, calls and Business Profile performance", f"""<p>Most chains we audit know total leads and nothing about which store produced them.</p>
+<p>Start with UTM tags on every profile’s website link. Without them, profile clicks blend into organic search in Google Analytics. Tag each profile’s link with something like <i>?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=gbp&amp;utm_content=spring</i>. Google’s {SRC['utm']} recommends always including source, medium and campaign, and warns that values are case-sensitive: “Spring” and “spring” become two rows in your report. Pick lowercase and stick to it. In GA4, the Traffic acquisition report then splits profile traffic by store.</p>
+<p>Calls come next. For most local businesses the call is the conversion that matters, and a tracking number per store shows which location’s calls are growing.</p>
+<p>Each profile also reports its own calls, direction requests and clicks. Pair that with a grid rank tracker, because rankings around Hughes Landing can look nothing like rankings near Waterway Square.</p>
 <!--fig:monthly-->
-<p>One sheet, one row per location, refreshed monthly. Within a quarter the weak stores are obvious, usually for a fixable reason: no location page, a wrong category, a manager who never asks for reviews.</p>"""),
-            ("Google Ads location assets for multi-location businesses", f"""<p>Linking your Business Profiles to Google Ads turns on {SRC['locassets']}: the nearest store’s address, distance and call button alongside your ads. The data comes from Business Profile and Maps, so a wrong profile address becomes a wrong ad address.</p>
+<p>Keep one sheet, a row per location, refreshed monthly. Within a quarter the weak stores stand out, usually for a fixable reason like a missing location page or a manager who never asks for reviews.</p>"""),
+            ("Google Ads location assets for multi-location businesses", f"""<p>Link your Business Profiles to Google Ads and you get {SRC['locassets']}: the nearest store’s address, distance and call button alongside your ads. The data comes from Business Profile and Maps, so a wrong profile address becomes a wrong ad address.</p>
 <p>Set it up in <b>Tools</b>, <b>Shared library</b>, <b>Location manager</b>. For chains:</p>
-<ul><li><b>Location groups</b> let each campaign use only the stores it’s about.</li>
-<li><b>Campaign-level settings override account-level ones</b>, so remove the broad account-level asset if you manage locations per campaign.</li>
-<li><b>Video ads show locations by default</b> unless you opt out.</li>
+<ul><li>Location groups let each campaign use only the stores it’s about.</li>
+<li>Campaign-level settings override account-level ones, so remove the broad account-level asset if you manage locations per campaign.</li>
+<li>Video ads show locations by default unless you opt out.</li>
 <li>Removing all locations also removes location-based targeting, bidding and store visit tracking. Don’t switch it off to tidy up.</li></ul>
 <p>Match targeting to each store’s real trade area. A Conroe campaign that also targets The Woodlands competes with your own Woodlands store. We set a radius per store and add negative locations where stores sit close together; our <a href="/services/search-marketing/">Google Ads management</a> for chains usually starts with that cleanup.</p>"""),
             ("A multi-location local SEO audit you can run this week", f"""<p>Score each location 0 to 2 per line, one column per store. Anything under 11 out of 18 gets your time first.</p>
@@ -167,7 +167,7 @@ POSTS = [
 <tr><td>Review replies</td><td>Unanswered reviews older than a month</td><td>Replies within a few days, specific</td></tr>
 <tr><td>Tracking</td><td>No UTM, no call tracking</td><td>Both, reported monthly</td></tr>
 </tbody></table></div>
-<p>Can you do this in-house? Under five locations, with someone who has four hours a week, yes. Past ten, or with franchisees involved, the work becomes governance (who owns what, who replies, who updates hours during a storm), and that’s where outside help tends to pay off. It’s part of our <a href="/services/web-design-seo-pr/">SEO and web work</a>, and we’ll say so if a store manager with a checklist would do the job.</p>
+<p>Can you do this in-house? Under five locations, with someone who has four hours a week, yes. Past ten, or once franchisees are involved, the job turns into governance (who owns what, who updates hours during a storm), and outside help tends to pay off there. It’s part of our <a href="/services/web-design-seo-pr/">SEO and web work</a>, and we’ll say so if a store manager with a checklist would do the job.</p>
 <p>If you also run Google or Meta ads across those stores, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where that budget leaks, overlapping store radiuses included, in your inbox within 48 hours. For the profile side, start with <a href="/blog/google-business-profile-number-one-asset/">why your Business Profile is your number one asset</a>, then score your weakest store.</p>"""),
         ],
         "faq": [
@@ -246,15 +246,14 @@ POSTS = [
         "hero_alt": "Illustration of a video player with a play button for a guide to YouTube ads cost for local businesses in Houston",
         "related": ["streaming-tv-ads-worth-it-small-business", "retargeting-explained", "radio-tv-advertising-cost-houston"],
         "sections": [
-            (None, f"""<p>A roofer in The Woodlands spends $1,500 on a YouTube ad, gets 31,000 views and doesn’t get a single call he can trace to it. He decides YouTube doesn’t work. Maybe it doesn’t, for him. More often the ad ran across half of Texas, the logo showed up at second 27, and nobody was measuring anything beyond views.</p>
-<p>Here’s the short answer on YouTube ads cost for a local business: you pay per view or per thousand impressions, and the price depends heavily on the format and targeting. In {SRC['webfx']}, the most common answer (43% of respondents) was $0.11 to $0.40 per view. A useful local test runs about $1,000 to $1,500 a month for two or three months. Less than that and you mostly learn what a small sample looks like.</p>
-<p>Below: what each format costs, how to keep ads inside your service area, what makes the first five seconds work, and how to measure it honestly.</p>"""),
-            ("How much do YouTube ads cost?", f"""<p>YouTube doesn’t have a price list. It’s an auction, and what you pay depends on how you buy. Google’s {SRC['formats']} spells out the billing for each format:</p>
-<ul><li><b>Skippable in-stream with cost-per-view bidding:</b> you pay when someone watches 30 seconds (or the whole ad if it’s shorter) or interacts with it, whichever comes first. Skip at second 6 and you pay nothing.</li>
-<li><b>Skippable in-stream with Target CPM or conversion bidding:</b> you pay per impression, skipped or not.</li>
-<li><b>Bumpers and non-skippable ads:</b> always per impression (CPM).</li>
-<li><b>In-feed video:</b> you pay when someone clicks to watch.</li>
-<li><b>Shorts ads on CPV:</b> a view counts at 10 seconds, at the end of the ad, or on a click, like, comment or share.</li></ul>
+            (None, f"""<p>A roofer in The Woodlands spends $1,500 on a YouTube ad, gets 31,000 views and doesn’t get a single call he can trace to it. He decides YouTube doesn’t work. Maybe it doesn’t, for him. More often the ad ran across half of Texas with the logo showing up at second 27, and nobody measured anything past views.</p>
+<p>On YouTube ads cost for a local business, the short version is that you pay per view or per thousand impressions, and format and targeting move the price a lot. In {SRC['webfx']}, the most common answer (43% of respondents) was $0.11 to $0.40 per view. A useful local test runs about $1,000 to $1,500 a month for two or three months. Less than that and you mostly learn what a small sample looks like.</p>
+<p>The rest of this covers format pricing, keeping ads inside your service area, the opening seconds of the ad, and measuring results without kidding yourself.</p>"""),
+            ("How much do YouTube ads cost?", f"""<p>There’s no price list. YouTube is an auction, and what you pay depends on how you buy. Google’s {SRC['formats']} spells out the billing for each format.</p>
+<p>Skippable in-stream ads on cost-per-view bidding charge you when someone watches 30 seconds (or the whole ad if it’s shorter) or interacts with it, whichever comes first. Skip at second 6 and you pay nothing. Switch the same ad to Target CPM or conversion bidding and you pay per impression, skipped or not.</p>
+<ul><li>Bumpers and non-skippable ads are always per impression (CPM).</li>
+<li>In-feed video charges when someone clicks to watch.</li>
+<li>Shorts ads on CPV count a view at 10 seconds, at the end of the ad, or on a click, like, comment or share.</li></ul>
 <p>In our experience, tightly targeted local campaigns cost more per view than national ones, because you’re competing with every advertiser who wants Montgomery County homeowners. Fine. A $0.25 view in Spring beats a $0.04 view in Lubbock.</p>
 <p>Illustrative monthly ranges for planning (not sourced benchmarks):</p>
 <div class="bp-tbl"><table><thead><tr><th>Goal</th><th>Typical setup</th><th>Illustrative monthly budget</th><th>What you’d judge it on</th></tr></thead><tbody>
@@ -265,7 +264,7 @@ POSTS = [
 <tr><td>Multi-location or seasonal push</td><td>Several markets, CTV included</td><td>$5,000+</td><td>Store-level leads and reach on TV screens</td></tr>
 </tbody></table></div>
 <!--fig:budget-->
-<p>Creative is the other cost people forget. A phone-shot 30-second ad can cost you an afternoon. A produced spot with a crew, a script and color grading usually runs from the low thousands up, depending on the shop. More on that trade-off below.</p>"""),
+<p>People forget about creative. A phone-shot 30-second ad can cost you an afternoon, while a produced spot with a crew and a script usually starts in the low thousands, depending on the shop.</p>"""),
             ("YouTube ad formats in 2026, and which ones local businesses should use", f"""<p>Discovery campaigns are gone. Google’s {SRC['disc']} says remaining Discovery campaigns were automatically upgraded to Demand Gen between January and March 2024. Video action campaigns followed: per Google’s {SRC['vac']}, new ones couldn’t be created after April 2025, existing ones were auto-upgraded in batches in September 2025, and the last stragglers were scheduled for April 2026. If an agency pitches you a “Video action campaign” today, ask what they mean.</p>
 <div class="bp-tbl"><table><thead><tr><th>Format</th><th>Length and skip</th><th>How you pay</th><th>Local use we like</th></tr></thead><tbody>
 <tr><td>Skippable in-stream</td><td>Skip after 5 seconds; under 3 minutes recommended</td><td>CPV, CPM or per impression on conversion bidding</td><td>The workhorse: a 15 to 45 second ad with a clear offer</td></tr>
@@ -276,21 +275,20 @@ POSTS = [
 </tbody></table></div>
 <p>For most Houston service businesses, skippable in-stream and Shorts carry the load, with bumpers as a cheap reminder layer. In-feed is underrated for businesses that already have useful videos (a pool builder explaining permits, a dentist walking through an implant consult) because the viewer chose to click.</p>"""),
             ("Video views, Video reach or Demand Gen: which campaign type?", f"""<p>Inside Google Ads, the format choice mostly comes through the campaign type and its bidding.</p>
-<p><b>Video views</b> uses Target CPV. Google’s page on {SRC['views']} describes it as getting more views at a lower cost, spread across in-stream, in-feed and Shorts. You set an average amount you’re willing to pay per view and some views cost more or less. For a local business testing YouTube, this is where we usually start. It’s simple, cheap per view, and you only pay for people who watched.</p>
-<p><b>Video reach</b> uses Target CPM and aims for unique people at a set frequency. Good for bumpers and for covering an area before a busy season, like HVAC before the first 95-degree week.</p>
+<p><b>Video views</b> uses Target CPV. Google’s page on {SRC['views']} describes it as getting more views at a lower cost, spread across in-stream, in-feed and Shorts. You set an average amount you’re willing to pay per view and some views cost more or less. For a local business testing YouTube, we usually start here, mostly because you only pay for people who actually watched.</p>
+<p>Video reach uses Target CPM and aims for unique people at a set frequency. Good for bumpers and for covering an area before a busy season, like HVAC before the first 95-degree week.</p>
 <p><b>Demand Gen</b> runs video and images across YouTube, Discover and Gmail with conversion bidding: Target CPA, Maximize conversions and their value-based versions. On paper it’s the lead-generation option. In practice, read Google’s {SRC['dgbudget']} before you commit. It recommends a budget of at least 20 times your target CPA for conversion bidding, at least $100 a day per ad group to avoid a cold start, and $500 a day per ad group for “effective and efficient performance.”</p>
-<p>Do that math for a business with a $100 target cost per lead. That’s a $2,000 budget recommendation per campaign before Google’s algorithm is even comfortable. Plenty of local businesses can’t feed Demand Gen enough conversions to learn, and a starved Demand Gen campaign tends to wander. We’d rather see a $1,200 Video views test plus solid remarketing than a $1,200 Demand Gen campaign that never exits learning.</p>
-<p>Once you have dependable conversion tracking (qualified calls, booked appointments, CRM imports) and the budget, Demand Gen earns its place.</p>"""),
-            ("YouTube ads for local business: targeting by radius and ZIP code", f"""<p>The number one reason local YouTube campaigns flop is geography. Google’s {SRC['geo']} gives you the tools, but the defaults aren’t built for a plumber in Tomball.</p>
-<p>What we set on every local video campaign:</p>
-<ol><li><b>Target ZIP codes or a radius, not “Houston.”</b> Radius targeting needs at least 1 km. ZIP codes work in the US, and bulk entry wants the state included (“77381, Texas”). For a Woodlands business we’ll often use 77380, 77381, 77382, 77384, 77385 and 77389 plus Spring and Conroe ZIPs, rather than a circle that drags in half of north Houston.</li>
-<li><b>Set location options to Presence.</b> “Presence or interest” includes people who are merely interested in your area. Google’s help page suggests Presence when you only want people physically in your locations, which describes almost every service business.</li>
-<li><b>Match the radius to how far you’ll drive.</b> If your techs won’t go south of Beltway 8, don’t pay for views there.</li>
-<li><b>Exclude where you can’t serve.</b> Negative locations are cheap insurance.</li>
-<li><b>Check the “where your ads showed” report after week one.</b> Locations report, then filter by matched location. Surprises show up fast.</li></ol>
+<p>Run that for a business with a $100 target cost per lead and you get a $2,000 budget recommendation per campaign before Google’s algorithm is even comfortable. Plenty of local businesses can’t feed Demand Gen enough conversions to learn, and a starved Demand Gen campaign tends to wander. We’d rather see a $1,200 Video views test plus solid remarketing than a $1,200 Demand Gen campaign that never exits learning.</p>
+<p>Later, with dependable conversion tracking (qualified calls, booked appointments, CRM imports) and money to spare, it’s worth a look.</p>"""),
+            ("YouTube ads for local business: targeting by radius and ZIP code", f"""<p>Local YouTube campaigns flop on geography more than anything else. Google’s {SRC['geo']} gives you the tools, but the defaults weren’t built for a plumber in Tomball.</p>
+<p>On every local video campaign we set these:</p>
+<ol><li><b>ZIP codes or a radius instead of “Houston.”</b> Radius targeting needs at least 1 km. ZIP codes work in the US, and bulk entry wants the state included (“77381, Texas”). For a Woodlands business we’ll often use 77380, 77381, 77382, 77384, 77385 and 77389 plus Spring and Conroe ZIPs, rather than a circle that drags in half of north Houston.</li>
+<li><b>Location options set to Presence.</b> “Presence or interest” includes people who are merely interested in your area. Google’s help page suggests Presence when you only want people physically in your locations, which describes almost every service business.</li>
+<li>A radius that matches how far you’ll actually drive. If your techs won’t go south of Beltway 8, don’t pay for views there, and add negative locations for anywhere you can’t serve. Cheap insurance.</li>
+<li>A look at the Locations report after week one, filtered by matched location. Surprises show up fast.</li></ol>
 <!--fig:area-->
-<p>Houston’s sprawl matters here. Someone living in Kingwood who commutes down 59 to Greenway Plaza watches YouTube at home in the evening. Target where people live, not where they work, for most home and personal services. For lunch spots near the Energy Corridor or Hughes Landing, it’s the reverse.</p>"""),
-            ("YouTube remarketing and Customer Match", f"""<p>The cheapest, most reliable YouTube spend for a local business is usually remarketing: showing video to people who already visited your site or watched your channel. They know your name. A 20-second clip with your reviews and an offer meets them halfway.</p>
+<p>Houston’s sprawl matters here. Someone living in Kingwood who commutes down 59 to Greenway Plaza watches YouTube at home in the evening. For most home and personal services, target where people live. For lunch spots near the Energy Corridor or Hughes Landing, it’s the reverse.</p>"""),
+            ("YouTube remarketing and Customer Match", f"""<p>The cheapest, most reliable YouTube spend for a local business is usually remarketing: showing video to people who already visited your site or watched your channel. They already know your name, so a 20-second clip with a couple of reviews and an offer doesn’t have to do much.</p>
 <p>Link your YouTube channel to Google Ads, and you can build {SRC['segments']} for people who watched any video on your channel, watched specific videos, subscribed, visited the channel page, liked a video or saved one to a playlist. Combine those with website visitors from your Google tag, and you have a warm audience that grows every time someone finds you.</p>
 <p>Customer Match (uploading your customer emails or phone numbers) is more restricted than people assume. Google’s {SRC['cm']} requires a good history of policy compliance and payment. It also still lists 90 days of account history and more than $50,000 in lifetime spend for using lists in the “Targeting” setting, while every compliant account can use them for Observation and Exclusions. Check what your own account allows before planning around it. Excluding current customers from a new-customer offer is useful even if you can’t target them.</p>
 <p>Cap frequency (a few impressions per person per week is plenty) and rotate creative every six to eight weeks. Our <a href="/blog/retargeting-explained/">retargeting explainer</a> covers the setup across Google and Meta.</p>"""),
@@ -299,44 +297,38 @@ POSTS = [
 <li>Use more than two shots in the first five seconds. A static opening frame loses people.</li>
 <li>Brand mentions land better when spoken by someone on screen than by a voiceover.</li>
 <li>Make the call to action both audible and visible.</li></ul>
-<p>The same guide cites Nielsen Catalina Solutions research, across nearly 500 campaigns, attributing 49% of sales contribution to creative versus 36% to media. Google notes the findings are correlational, but it matches what we see. Targeting tweaks rarely rescue a weak ad.</p>
+<p>The same guide cites Nielsen Catalina Solutions research, across nearly 500 campaigns, attributing 49% of sales contribution to creative versus 36% to media. Google notes the findings are correlational. Still, it matches what we see: we’ve never watched a targeting tweak rescue a weak ad.</p>
 <!--fig:creative-->
 <p>For Shorts, Google’s {SRC['shorts']} is clear: vertical 9:16 video is best, horizontal video shows with blurred bars, under 60 seconds is recommended, and for action-focused ads 10 to 30 seconds works best. It also says ads with sound (music, voiceover or both) have “been shown to increase conversions by over 20%” and recommends ads that blend in with organic Shorts. Google’s guidance doesn’t say much about captions, but we burn them in on every ad anyway. Plenty of people watch on a phone with the sound off in a waiting room or at the kids’ practice.</p>
-<p>What a decent local 30-second ad looks like, roughly:</p>
+<p>A decent local 30-second ad, roughly:</p>
 <ol><li><b>Seconds 0 to 5:</b> the problem in the customer’s words, the owner or tech on camera, logo and name visible. “If your AC is blowing warm air in Spring this week, this is for you.”</li>
 <li><b>Seconds 5 to 20:</b> one reason to choose you. A real job, a real review, a guarantee. Not a list of eight services.</li>
 <li><b>Seconds 20 to 30:</b> what to do next, said out loud and on screen. “Call or book online, same-day in The Woodlands and Spring.”</li></ol>"""),
-            ("Shooting on a phone or hiring a production company?", f"""<p>We get this question in almost every first meeting. Our honest answer: start with a phone, then pay for production where it earns its keep.</p>
+            ("Shooting on a phone or hiring a production company?", f"""<p>It comes up in almost every first meeting. Start with a phone, and pay for production later where it earns its keep.</p>
 <p>A modern phone, a $30 clip-on mic, daylight and a steady hand produce video that fits Shorts and in-stream perfectly well. People on YouTube are used to creators shooting on phones. An owner talking straight to the camera in the shop or in front of a finished job often outperforms a glossy spot, because it looks like the content around it. Shoot five or six versions of the opening line in one session and test two of them.</p>
-<p>Production is worth paying for when:</p>
-<ul><li>The ad will run on TV screens, where shaky phone footage looks worse at 65 inches.</li>
-<li>Your brand sells on polish (luxury remodels, med spas, custom homes).</li>
-<li>You’ll run the same spot for a year across YouTube, CTV and maybe broadcast.</li>
-<li>Your phone tests already found a message that works, and you want a better version of it.</li></ul>
-<p>What we’d skip: a $10,000 brand film before you know which message makes people call. Spend the first few hundred dollars learning, then spend on production. (Our <a href="/services/creative-branding/">creative team</a> does both, and we’ll still tell you to start with the phone.)</p>"""),
+<p>Production is worth paying for when the ad will run on TV screens (shaky phone footage looks worse at 65 inches) or when your brand sells on polish, like luxury remodels, med spas and custom homes. It also makes sense if you’ll run one spot for a year across YouTube, CTV and maybe broadcast, or if phone tests already found a message that works and you want a better version of it.</p>
+<p>We’d skip the $10,000 brand film before you know which message makes people call. Spend the first few hundred dollars learning, then spend on production. (Our <a href="/services/creative-branding/">creative team</a> does both, and we’ll still tell you to start with the phone.)</p>"""),
             ("YouTube on the TV screen (CTV)", f"""<p>YouTube isn’t only phones. According to {SRC['nielsen']}, YouTube accounted for 12.4% of all TV viewing time in the US in April 2025, the largest share of any media company that month. {SRC['advtv']} puts it at a platform-best 13.8% in May 2026.</p>
 <!--fig:tv-->
-<p>That changes the creative and the buying. On a TV, nobody clicks. The ad is closer to a TV commercial that you can target by ZIP code, which is genuinely new for a business that could never afford Houston broadcast. You can segment by device in Google Ads and check how much of your spend lands on TV screens versus phones.</p>
-<p>A few things we’ve learned running it:</p>
-<ul><li>TV views look great on reports and are hard to tie to leads. Judge them on branded search, direct traffic and calls from the targeted ZIPs, not clicks.</li>
-<li>Put the phone number and a short URL on screen long enough to read from a couch.</li></ul>
+<p>On a TV, nobody clicks. The ad is closer to a TV commercial that you can target by ZIP code, which is genuinely new for a business that could never afford Houston broadcast. You can segment by device in Google Ads and check how much of your spend lands on TV screens versus phones.</p>
+<p>TV views look great on reports and are hard to tie to leads, so we judge them on branded search, direct traffic and calls from the targeted ZIPs. Keep the phone number and a short URL on screen long enough to read from a couch. Longer than feels necessary.</p>
 <p>If TV screens are the main reason you’re interested, compare YouTube with other streaming buys. Our post on <a href="/blog/streaming-tv-ads-worth-it-small-business/">whether streaming TV ads are worth it for small businesses</a> walks through that, and our <a href="/services/ctv-ooh-streaming-radio/">CTV and streaming service</a> covers buying across Hulu, Roku and the rest.</p>"""),
             ("How to measure YouTube ads without fooling yourself", f"""<p>YouTube reporting is generous with credit, so know which column you’re reading.</p>
 <p><b>Engaged-view conversions</b> count when someone watches a meaningful chunk of your ad and converts later without clicking. Per Google’s page on {SRC['evc']}, that’s 10 seconds for skippable in-stream (or the full ad if shorter), 5 seconds for in-feed, and 5 seconds or a click for Shorts. The default window for website conversions is 3 days.</p>
 <p><b>View-through conversions</b> are looser: someone saw the ad, didn’t interact, and converted later. Google’s page on {SRC['vtc']} notes they’re not included in the main Conversions column. They show in their own column and in All conversions. Report them separately or you’ll double count what Search already gets credit for.</p>
-<p><b>Brand Lift</b> studies survey people who saw your ad against people who didn’t. Google’s {SRC['lift']} page calls it free, but it has a spend requirement, runs over about 10 days, and isn’t available to every account; you need to go through a Google rep. For most local budgets it’s not realistic.</p>
-<p>What we use for local businesses instead:</p>
+<p>Brand Lift studies survey people who saw your ad against people who didn’t. Google’s {SRC['lift']} page calls it free, but it has a spend requirement, runs over about 10 days, and isn’t available to every account; you need to go through a Google rep. We rarely see a local budget that qualifies.</p>
+<p>For local businesses we lean on cruder tools:</p>
 <ol><li>Track calls and forms properly first. If your Google Ads conversions aren’t clean, YouTube numbers are meaningless.</li>
 <li>Watch branded search volume and Business Profile calls in the targeted ZIPs before and during the campaign.</li>
 <li>Run a simple geo split: advertise in one set of ZIPs (say Spring and Klein) and hold back a similar set (say Humble and Atascocita) for six to eight weeks, then compare leads per household. It’s rough, but it’s honest.</li>
 <li>Ask new customers how they heard about you, and log it.</li></ol>"""),
-            ("Are YouTube ads worth it for a small business?", f"""<p>Sometimes. We’d say yes when most of these are true:</p>
+            ("Are YouTube ads worth it for a small business?", f"""<p>Sometimes. We lean yes when most of these hold:</p>
 <ul><li>Your Google Search and Business Profile are already working, and you want more people searching your name.</li>
 <li>Your average job or customer value is high enough that a few extra customers a month pays for $1,000 or more in media.</li>
 <li>You can show what you do on camera: a finished pool, a before-and-after, a tech explaining a repair.</li>
 <li>You serve a defined area you can target by ZIP code.</li>
 <li>You’ll give it at least two to three months and measure it with something beyond views.</li></ul>
-<p>We’d hold off if your search campaigns are still leaking money, your website doesn’t convert on mobile, or you need leads next week. YouTube builds demand that Search then captures. If the capture side is broken, YouTube just makes the leak bigger. That’s why we usually look at <a href="/services/search-marketing/">search</a> first.</p>
+<p>We’d hold off if your search campaigns are still leaking money, your website doesn’t convert on mobile, or you need leads next week. YouTube builds demand that Search then captures, and if the capture side is broken, YouTube just makes the leak bigger. So we usually look at <a href="/services/search-marketing/">search</a> first.</p>
 <p>If you want an outside look before spending on video, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your current Google or Meta budget is leaking, in your inbox within 48 hours. Fix those leaks, then give YouTube a real test with a phone-shot ad and a tight ZIP list. For context on what TV and radio cost by comparison, see <a href="/blog/radio-tv-advertising-cost-houston/">radio and TV advertising costs in Houston</a>.</p>"""),
         ],
         "faq": [
