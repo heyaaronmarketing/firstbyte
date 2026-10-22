@@ -70,14 +70,14 @@ POSTS = [
 <p>She hangs up and calls the next company.</p>
 <p>That’s how most Hispanic marketing in Houston fails. The ad was fine. Everything after the click wasn’t.</p>
 <p>Spanish-language marketing works when Spanish gets treated as its own channel. That means Spanish keywords and ads, Spanish pages at their own URLs, a Google Business Profile a Spanish speaker can actually read, and somebody who picks up the phone and answers in Spanish. Owners almost always ask us about the ads first. We’d start with the phone and work backward.</p>
-<p>What follows is how each piece works in 2026, including a Google Ads change from this September that most Spanish campaigns still haven’t caught up with.</p>"""),
+<p>Below is how each piece works in 2026, including a September Google Ads change most Spanish campaigns haven’t caught up with.</p>"""),
 
-            ("How many Houston customers speak Spanish at home?", f"""<p>The numbers are bigger than most owners guess, and they mislead in a specific way.</p>
+            ("How many Houston customers speak Spanish at home?", f"""<p>More than most owners guess.</p>
 <p>According to {S1['qfh']}, 46.1% of Harris County residents are Hispanic or Latino, and 45.0% of residents age 5 and up speak a language other than English at home. Montgomery County, where we’re based, is 30.2% Hispanic per {S1['qfm']}. Inside Houston city limits, the {S1['coh']} built on the 2020-2024 American Community Survey counts 808,128 residents age 5 and older who speak Spanish at home, or 37%. For the whole metro, the {S1['ghp']} put it at 29.5% speaking Spanish at home.</p>
 <!--fig:market-->
 <p>The trap is assuming Hispanic and Spanish-dominant mean the same audience. They don’t. In its 2023 report, {S1['pew']} found that 75% of U.S. Latinos say they can carry on a conversation in Spanish pretty well or very well. Among third-generation-or-later Latinos, though, 65% say they can’t. And 72% of second-generation Latinos say they use Spanglish at least sometimes.</p>
 <p>A customer in Cypress whose grandparents came up from Monterrey is probably reached just fine by your English campaigns. A family that landed in Gulfton three years ago needs Spanish from the ad all the way to the invoice. We plan by language. Never by last name.</p>
-<p>To size it for your own shop, pull your last 200 calls or CRM records and count the people who asked for Spanish. If it’s around 5%, you need a solid Spanish page and one bilingual person on the phone. Closer to 30% and you’re looking at a full Spanish program.</p>"""),
+<p>To size it for your shop, pull your last 200 calls or CRM records and count who asked for Spanish. Around 5% calls for a solid Spanish page and one bilingual person on the phone. Closer to 30%, you want a full Spanish program.</p>"""),
 
             ("Spanish Google Ads after the September 2026 language change", f"""<p>Until this fall, every Search campaign had a language setting, and the standard advice was to build a Spanish campaign and set it to Spanish. Google’s {S1['glang']} says it judges which languages someone understands from the search term, their language settings and preferences.</p>
 <p>In September 2026 the campaign-level language setting for Search went away. Per the same page, “Search ads will automatically match based on the language of your ads,” and Google prioritizes ads that match the language of the search term. In Performance Max, the setting no longer applies on the Search Network, though it still governs YouTube, Display, Discover and Gmail. {S1['tw']} points out a gap: Google hasn’t announced reporting that shows which language an ad actually served in.</p>
@@ -96,7 +96,7 @@ POSTS = [
 <tr><td>Brand</td><td>your name + “en español”</td><td>Brand campaign, Spanish page</td></tr>
 </tbody></table></div>
 <p>“Aseguranza” is why a native speaker should build the list. It’s everyday Texas Spanish for insurance. A translator trained on formal Spanish writes “seguro” and misses half the searches.</p>
-<p>Our favorite row is the third one. “Spanish speaking ___ near me” is typed in English, the intent couldn’t be clearer, and in a lot of trades almost nobody bids on it. In Houston service categories we’ve usually seen Spanish CPCs come in under English ones. That’s our experience, though, and nobody publishes a benchmark for it, so run Keyword Planner on your own zip codes. Our <a href="/blog/plumbing-seo-keywords-houston/">plumbing keyword guide</a> has a worked Spanish cluster, and our <a href="/services/search-marketing/">search marketing team</a> builds these accounts every week.</p>"""),
+<p>Our favorite row is the third. “Spanish speaking ___ near me” is typed in English, the intent couldn’t be clearer, and in many trades almost nobody bids on it. We’ve usually seen Spanish CPCs come in under English ones in Houston service categories, but that’s our experience, not a published benchmark. Run Keyword Planner on your own zip codes. Our <a href="/blog/plumbing-seo-keywords-houston/">plumbing keyword guide</a> has a worked Spanish cluster, and our <a href="/services/search-marketing/">search marketing team</a> builds these accounts every week.</p>"""),
 
             ("Translation vs transcreation: why word-for-word Spanish ads flop", f"""<p>Translation swaps the words. Transcreation rewrites the message so it hits a Spanish speaker the way the English version hits an English speaker, and for ads it’s the only version that pulls its weight.</p>
 <p>We fix the same things over and over. A literal “free estimates” is grammatically fine, but plenty of Houston customers say “cotización gratis.” “Licensed and insured” should name the Texas license, since someone calling a stranger in their second language leans harder on proof. Register trips people up too. “Usted” is polite and safe for most service businesses; “tú” suits a gym or a taquería with a younger crowd. Pick one and stick with it everywhere.</p>
@@ -122,7 +122,7 @@ POSTS = [
 <li>Ask Spanish-speaking customers for reviews in Spanish (send the request by text, also in Spanish), and reply in whatever language the review came in.</li>
 <li>Check for <b>language attributes</b> under Edit profile. Some categories now let you list languages your staff speak, and in {S1['lsf']} a GBP specialist called them a cleaner fix than splitting the profile.</li>
 <li>Photograph your Spanish signage, if you really have some. “Se habla español” on the front door does more than you’d think.</li></ul>
-<p>For phones set to Spanish, Google translates the standardized fields (categories, attributes, hours) on its own. Free-text fields stay exactly as you typed them, which is one more argument for putting a Spanish paragraph in the description. For everything else on the profile, our <a href="/blog/google-business-profile-number-one-asset/">Google Business Profile guide</a> covers the basics.</p>"""),
+<p>For phones set to Spanish, Google translates standardized fields like categories and hours itself. Free-text fields stay as you typed them, hence the Spanish paragraph in the description. For the rest of the profile, our <a href="/blog/google-business-profile-number-one-asset/">Google Business Profile guide</a> covers the basics.</p>"""),
 
             ("Facebook and Instagram ads in Spanish", f"""<p>Meta used to offer a “Hispanic Affinity” targeting option. {S1['bbg']} that Facebook retired it in August 2020. Good riddance, frankly; ethnicity was the wrong proxy for the Pew reasons above.</p>
 <p>Language and place do the job better. The ad set’s audience controls include a Languages field that almost everyone leaves blank. For a Spanish campaign, set it to Spanish (All) and run Spanish creative. Meta also supports {S1['mml']}, where one ad carries several language versions and each viewer sees the one matching their settings. We still prefer separate ad sets for an ongoing program, for clean budgets and reporting.</p>
@@ -139,7 +139,7 @@ POSTS = [
 <li>{S1['kltn']} plays Regional Mexican under TelevisaUnivision’s Uforia group.</li>
 <li>{S1['kove']} is Spanish adult contemporary, also Uforia, also licensed to Galveston.</li></ul>
 <p>Spanish streaming, TelevisaUnivision’s ViX for one, is reachable through programmatic connected TV.</p>
-<p>We’d hold off on any radio flight until Spanish search, Spanish pages and the phones are working. Radio makes people go search for you. If that search lands on an English-only site, you’ve paid for a competitor’s lead. Once the basics are live, a two-month test with its own tracking number is a fair bet. Our <a href="/blog/radio-tv-advertising-cost-houston/">Houston radio and TV cost guide</a> has the pricing side, and our <a href="/services/ctv-ooh-streaming-radio/">CTV, streaming and radio</a> page covers how we buy it.</p>"""),
+<p>We’d hold off on radio until Spanish search, Spanish pages and the phones work. Radio makes people search for you, and if that search lands on an English-only site, you’ve paid for a competitor’s lead. After that, a two-month test with its own tracking number is fair. Our <a href="/blog/radio-tv-advertising-cost-houston/">Houston radio and TV cost guide</a> has the pricing side, and our <a href="/services/ctv-ooh-streaming-radio/">CTV, streaming and radio</a> page covers how we buy it.</p>"""),
 
             ("Answering the phone in Spanish (where most campaigns break)", f"""<p>This is the part most shops get wrong, and it’s the cheapest one to fix.</p>
 <p>A Spanish-speaking caller who hits an English greeting, a buried menu option or an English-only voicemail does not leave a message. They call the next ad.</p>
@@ -148,7 +148,7 @@ POSTS = [
 <ol><li>Give the Spanish campaigns their own tracking number. You’ll know how many Spanish calls the ads produced.</li>
 <li>Route that number straight to the bilingual staff first, then to the main line. No menu.</li>
 <li>Record a short bilingual greeting and voicemail on every line, with Spanish in the first five seconds.</li>
-<li>Put the Spanish hours in the ads (“Hablamos español, lunes a sábado”). If nobody speaks Spanish on Sundays, say so; it’s better than a confused call.</li>
+<li>Put the Spanish hours in the ads (“Hablamos español, lunes a sábado”). No Spanish on Sundays? Say so.</li>
 <li>Send missed-call texts in Spanish from the Spanish number.</li>
 <li>Once a month, listen to a handful of Spanish calls. Did someone answer, did the job get booked, and did the caller understand the price?</li></ol>
 <p>The tools are covered in our <a href="/blog/call-tracking-which-ads-make-phone-ring/">call tracking guide</a>. For what it’s worth, a part-time bilingual dispatcher is cheaper than most leaky Spanish ad budgets we’ve audited.</p>"""),
@@ -179,7 +179,7 @@ POSTS = [
             ("Do Spanish Google Ads cost less than English ads in Houston?",
              "Often, though not always. Fewer advertisers bid on Spanish keywords in many service categories, so clicks tend to cost less, but there is also less search volume. Prices vary by trade and zip code, so check Keyword Planner for your own terms. What happens after the click matters more. A Spanish ad that leads to an English page or an English-only phone line throws the savings away."),
             ("Can I have a Google Business Profile in Spanish and English?",
-             "Not as two separate profiles for one location. Google allows one profile per location and does not allow repeating your business name in multiple languages. You can write a bilingual description, publish Spanish posts, collect and reply to Spanish reviews, add photos of Spanish signage, and use language-related attributes if your category offers them. Google translates standardized fields like categories and hours automatically."),
+             "Not as two profiles for one location. Google allows one profile per location and bans repeating your business name in multiple languages. You can still write a bilingual description, publish Spanish posts, collect and answer Spanish reviews, show Spanish signage in photos, and use language attributes if your category has them. Google translates standardized fields like categories and hours on its own."),
             ("How do I target Hispanic customers on Facebook?",
              "Target by language and location, not ethnicity. Meta removed its Hispanic Affinity option in 2020. In the ad set audience settings, set Languages to Spanish for Spanish campaigns and pair it with Spanish creative, Spanish instant forms and a Spanish-speaking follow-up. Many Hispanic customers in Houston prefer English, so your English campaigns should already reach them with relevant, inclusive creative."),
             ("What is the difference between translation and transcreation?",
@@ -236,11 +236,12 @@ POSTS = [
         "sections": [
             (None, f"""<p>The sales VP at a 60-person valve and actuator distributor off the Sam Houston Tollway (a hypothetical, but you’ve met him) forwards the monthly marketing report. 212 leads. He replies with one line: “Which of these turned into a PO?”</p>
 <p>Nobody can answer.</p>
-<p>That’s the usual state of B2B marketing in Houston’s energy, industrial and oilfield services companies. The work is real. The reporting measures the wrong thing. And the sales cycle runs long enough that by the time a deal closes, nobody remembers which campaign or trade show started it.</p>
-<p>Industrial B2B marketing in Houston works when you aim at the whole buying committee and plan for a long cycle. LinkedIn reaches the named accounts and job titles. Google Ads catches the few searches that signal a live project. Technical content does the selling engineers actually want. Trade shows like OTC create the meetings, and a CRM tracks pipeline instead of form fills. Here’s how we’d set up each piece, with current costs, and where we think firms waste money.</p>"""),
+<p>We see some version of that at most Houston energy, industrial and oilfield services companies. The marketing work is real enough, but the report counts the wrong thing, and the sales cycle is so long that by the time a deal closes nobody remembers which campaign or trade show started it.</p>
+<p>Industrial B2B marketing in Houston works when you aim at the whole buying committee and plan for a long cycle. In practice that usually means LinkedIn for named accounts and job titles, Google Ads for the handful of searches that signal a live project, and technical content that engineers will actually read. Trade shows like OTC produce meetings. A CRM has to track pipeline, because form fills tell you very little.</p>
+<p>Below: how we’d set up each piece, current costs, and where firms throw money away.</p>"""),
 
             ("Long sales cycles and buying committees: who you’re really selling to", f"""<p>A pump, a coating contract or a turnaround crew is rarely bought by one person. At an operator, a midstream company or a Ship Channel plant, the decision usually touches engineering, operations, procurement and safety, and someone above them signs. Add vendor prequalification (many operators require contractors to be approved through platforms like ISNetworld or Avetta before a PO can be cut) and an MSA that legal has to bless, and six months is fast.</p>
-<p>Each of those people needs something different from your marketing:</p>
+<p>Each of them reads your marketing looking for something different.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Role</th><th>What they care about</th><th>Content that answers it</th></tr></thead>
 <tbody>
@@ -250,62 +251,61 @@ POSTS = [
 <tr><td>HSE</td><td>Safety record and programs</td><td>EMR, TRIR, safety program summary, prequal status</td></tr>
 <tr><td>Executive sponsor</td><td>Risk, cost over the life of the asset</td><td>Short ROI case study, references, company stability</td></tr>
 </tbody></table></div>
-<p>Most industrial websites only talk to one of these people, usually the engineer, and usually with a PDF from 2017. The firms that win longer contracts give each role something to forward to the others.</p>
-<p>The buyers are also less local than you’d think. Houston is where many of them work, from the Energy Corridor along I-10 to Greenspoint and ExxonMobil’s campus in Spring, which {S2['xom']} reported would become its corporate headquarters. But an oilfield services firm based in Conroe may sell into Midland, Lafayette and Oklahoma City too. Build your targeting around where the buyers sit, not where your yard is.</p>"""),
+<p>Most industrial websites talk to exactly one of these people, usually the engineer, usually through a PDF from 2017. Firms that land the longer contracts tend to give every role something they can forward down the hall.</p>
+<p>Buyers are less local than you’d think, too. Houston is where many of them work, from the Energy Corridor along I-10 to Greenspoint and ExxonMobil’s campus in Spring, which {S2['xom']} reported would become its corporate headquarters. But an oilfield services firm based in Conroe may also sell into Midland, Lafayette and Oklahoma City. Your targeting should follow the buyers. Where your yard happens to be is mostly irrelevant.</p>"""),
 
             ("LinkedIn Ads for B2B: targeting, formats and cost", f"""<p>LinkedIn is the only major ad platform where you can say “show this to maintenance managers and reliability engineers at these 150 companies” and have it mostly work. That’s why it’s expensive.</p>
 <h3>Targeting that matters for energy and industrial firms</h3>
-<ul><li><b>Company and job filters.</b> In Campaign Manager you can target by company name, industry and company size, then layer job title, job function, seniority or skills. Start with titles and functions; skills targeting gets broad fast.</li>
-<li><b>Matched Audiences.</b> Upload a list of target companies. Per {S2['licl']}, a CSV can hold up to 300,000 records, audiences take 24 to 48 hours to build, and a campaign can serve once the list matches at least 300 members. LinkedIn suggests at least 1,000 companies for best results, which is more than most Houston service firms have; a list of 150 named operators still works, but expect higher costs.</li>
-<li><b>Contact lists and website retargeting.</b> Upload your CRM contacts and target people who visited your spec sheet pages.</li></ul>
-<p>Before launch, uncheck Audience Expansion and look hard at the LinkedIn Audience Network setting. Both widen delivery beyond the people you picked, which defeats the point of a tight industrial audience.</p>
+<p>Campaign Manager lets you target by company name, industry and company size, then layer on job title, function, seniority or skills. Start with titles and functions. Skills targeting gets broad fast.</p>
+<p>The more useful tool for most industrial firms is a Matched Audience built from a company list. Per {S2['licl']}, a CSV can hold up to 300,000 records, audiences take 24 to 48 hours to build, and a campaign can serve once the list matches at least 300 members. LinkedIn suggests 1,000+ companies for best results. Most Houston service firms don’t have 1,000 realistic targets, and a list of 150 named operators still works; expect to pay more for it. You can also upload CRM contacts and retarget people who looked at your spec sheet pages.</p>
+<p>Before launch, uncheck Audience Expansion and look hard at the LinkedIn Audience Network setting. Both push delivery past the people you chose, which is the opposite of what a tight industrial audience needs.</p>
 <h3>Formats worth testing</h3>
-<p>{S2['lidoc']} let people read a document in the feed, and you can gate it behind a lead form or share it openly. A six-page technical brief on, say, corrosion under insulation inspection intervals is a good fit. {S2['lilgf']} pre-fill with the member’s LinkedIn profile data, which is why they convert better than sending a field engineer to a website form on a phone. LinkedIn says 90% of its pilot customers beat their cost-per-lead goals with them.</p>
+<p>{S2['lidoc']} let people read a document in the feed, and you can gate it behind a lead form or share it openly. A six-page technical brief on, say, corrosion under insulation inspection intervals is a good fit. {S2['lilgf']} pre-fill from the member’s profile, so a field engineer on a phone doesn’t have to thumb-type into your website form. LinkedIn says 90% of its pilot customers beat their cost-per-lead goals with them (a vendor stat, so weigh it accordingly).</p>
 <h3>How much do LinkedIn ads cost for B2B?</h3>
 <p>Per {S2['libud']}, the minimum daily budget is $10 for any format, and a new campaign needs at least a $100 lifetime budget. Those minimums are not a realistic budget. {S2['meta']}, drawn from 138 advertisers on LinkedIn in 2025, show what real spend buys:</p>
 <!--fig:linkedin-->
-<p>At around $200 a lead, a $5,000 month buys you about 25 leads, some of which will be students, competitors and vendors. That’s fine if your average contract is $250,000. It’s a bad deal if you sell $3,000 jobs. We’d spend LinkedIn money on a defined account list and let Google handle broader demand. Our <a href="/services/paid-social-advertising/">paid social team</a> runs LinkedIn alongside Meta for exactly this reason.</p>"""),
+<p>At around $200 a lead, a $5,000 month buys roughly 25 leads, and a few of those will be students, competitors or somebody trying to sell you software. Fine if your average contract is $250,000. Painful if you sell $3,000 jobs. We’d point LinkedIn money at a defined account list and let Google pick up the broader demand. Our <a href="/services/paid-social-advertising/">paid social team</a> runs LinkedIn alongside Meta for exactly this reason.</p>"""),
 
-            ("Google Ads for high-intent industrial searches", f"""<p>Industrial search volume is small. That’s fine. One search for “hydrostatic testing services houston” or “api 6a gate valve supplier” from the right person is worth more than a thousand impressions on LinkedIn.</p>
-<p>How we’d build it:</p>
-<ul><li><b>Exact and phrase match on service + location and product + spec terms.</b> Part numbers, standards (API, ASME, NACE), material grades, “rental,” “repair,” “supplier,” “near me,” and city names like Pasadena, Baytown, La Porte and Channelview.</li>
-<li><b>A heavy negative list from day one.</b> Jobs, careers, salary, training, certification, course, OSHA 10, PDF, free, used, Wikipedia, definition. Industrial terms attract job seekers and students like nothing else.</li>
-<li><b>Location set to “Presence.”</b> {S2['gloc']} shows the default is “Presence or Interest,” which includes people who are merely interested in your area. For a field service company, that wastes money.</li>
-<li><b>Send product searches to product pages.</b> Not the homepage, not the capability PDF.</li>
-<li><b>Keep Performance Max off</b> until you have real conversion data. With a handful of conversions a month, it has nothing to learn from and drifts toward cheap, irrelevant traffic.</li></ul>
-<p>Microsoft Advertising is worth a test here. Its LinkedIn profile targeting lets you adjust bids by company, industry and job function on search campaigns, and a lot of corporate desktops in Houston still default to Bing.</p>
-<p>One note on the {S2['meta']}: their Google Ads cost per lead was $524, higher than LinkedIn’s $202. Don’t read that as “Google is worse.” Search leads often arrive with a project already in hand. Judge each channel on opportunities and revenue, not cost per form. For local CPC context, see our <a href="/blog/google-ads-cost-per-click-houston-benchmarks/">Houston CPC benchmarks</a> and our <a href="/services/search-marketing/">search marketing</a> service.</p>"""),
+            ("Google Ads for high-intent industrial searches", f"""<p>Industrial search volume is tiny, and we’ve stopped apologizing for it. One search for “hydrostatic testing services houston” or “api 6a gate valve supplier” from the right person beats a thousand LinkedIn impressions.</p>
+<p>We build these accounts on exact and phrase match, pairing services with locations and products with spec terms: part numbers, standards (API, ASME, NACE), material grades, “rental,” “repair,” “supplier,” “near me,” plus city names like Pasadena, Baytown, La Porte and Channelview.</p>
+<p>The negative keyword list goes in on day one, and it’s long. Jobs, careers, salary, training, certification, course, OSHA 10, PDF, free, used, Wikipedia, definition. Nothing attracts job seekers and students quite like industrial search terms.</p>
+<ul><li>Set location to “Presence.” {S2['gloc']} shows the default is “Presence or Interest,” which counts people merely interested in your area. For a field service company that’s wasted spend.</li>
+<li>Leave <b>Performance Max</b> off until you have real conversion data. On a handful of conversions a month it has nothing to learn from and drifts toward cheap, irrelevant traffic.</li></ul>
+<p>And send product searches to product pages, never the homepage or the capability PDF.</p>
+<p>Microsoft Advertising deserves a test here. Its LinkedIn profile targeting lets you adjust search bids by company, industry and job function, and plenty of corporate desktops in Houston still default to Bing.</p>
+<p>A word on the {S2['meta']}: their Google Ads cost per lead was $524, well above LinkedIn’s $202. We wouldn’t conclude much from that. Search leads often show up with a project already in hand, so we’d compare channels on opportunities and revenue and treat cost per form as a footnote. For local CPC context, see our <a href="/blog/google-ads-cost-per-click-houston-benchmarks/">Houston CPC benchmarks</a> and our <a href="/services/search-marketing/">search marketing</a> service.</p>"""),
 
-            ("Technical content engineers actually use: spec sheets, case studies, capability statements", f"""<p>Engineers don’t want a brochure. They want the answer to “will this work in my application?” and they want it without calling a salesperson.</p>
-<ul><li><b>Spec sheets as web pages, with a PDF download.</b> A spec sheet buried in a PDF is invisible to search and miserable on a phone. Put the specs in HTML, with the PDF as a download link. Don’t gate it.</li>
-<li><b>Case studies with real numbers.</b> Problem, constraints, what you did, how long it took, the result. “Completed a 21-day turnaround scope in 17 days” beats “delivered exceptional value.” Get the client’s written approval, and anonymize if they won’t be named.</li>
-<li><b>A capability statement.</b> One or two pages: what you do, where, NAICS codes, certifications (ISO 9001, API Q1 or Q2, ASME stamps, whatever applies), insurance limits, safety stats like EMR and TRIR, prequal platforms, and a contact. Procurement will ask for this anyway; have it on the site.</li>
-<li><b>A line card</b> if you distribute. Brands, product lines, stocking locations.</li>
-<li><b>Application notes.</b> Short pieces on a specific problem: sour service, high-temperature sealing, H2S monitoring. These are the pages that rank for long-tail technical searches.</li></ul>
-<p>Gate only the deep stuff: a detailed technical guide, a calculator, a webinar recording. Gating a spec sheet just sends the engineer to a competitor’s site that doesn’t.</p>
+            ("Technical content engineers actually use: spec sheets, case studies, capability statements", f"""<p>An engineer wants to know whether your product will work in their application, and would rather find out without a sales call. Brochures don’t help much with that.</p>
+<p>Start with spec sheets. One buried in a PDF is invisible to search and miserable on a phone, so put the specs on an HTML page and offer the PDF as a download. Don’t gate it.</p>
+<p>Case studies need real numbers: the problem, the constraints, what you did, how long it took. “Completed a 21-day turnaround scope in 17 days” will get forwarded; “delivered exceptional value” won’t. Get the client’s written approval, or anonymize it if they won’t be named.</p>
+<ul><li>A <b>capability statement</b>, one or two pages, covering what you do and where, NAICS codes, certifications (ISO 9001, API Q1 or Q2, ASME stamps, whatever applies), insurance limits, EMR and TRIR, prequal platforms and a contact. Procurement will ask for it regardless, so put it on the site.</li>
+<li>A line card if you distribute: brands, product lines, stocking locations.</li>
+<li>Application notes on narrow problems like sour service, high-temperature sealing or H2S monitoring. Unglamorous, and they’re the pages that rank for long-tail technical searches.</li>
+<li>Service area and response-time details for field crews, ideally on a map.</li></ul>
+<p>Save the gate for the deep material, like a detailed technical guide, a calculator or a webinar recording. Gate a spec sheet and the engineer just goes to a competitor who didn’t.</p>
 <p>For energy tech and SaaS firms selling into operators, the same structure applies, with product demos in place of spec sheets; our <a href="/industries/technology/">technology industry</a> page covers that side.</p>"""),
 
             ("Account-based marketing for a target list of operators", f"""<p>ABM sounds like enterprise software. For a 40-person industrial firm it’s mostly a spreadsheet and some discipline.</p>
 <!--fig:abm-->
 <p>The list matters more than anything. Fifty accounts that actually buy what you sell, in places you can serve, beat 2,000 pulled from a database. Pick them with your sales team, not for them.</p>
-<p>The other habit we’d push hard: sales and marketing looking at the same account list every two weeks. LinkedIn’s reporting shows which companies are seeing and clicking your ads. When an account on your list suddenly has five people reading your document ad, that’s a reason for your salesperson to call, with something specific to say.</p>
-<p>What doesn’t work: running ABM ads with no sales follow-up and calling it brand awareness. We’ve watched that burn a year of budget at more than one industrial company.</p>"""),
+<p>We’d also push hard for sales and marketing to sit down with the same account list every two weeks. LinkedIn’s reporting shows which companies are seeing and clicking your ads, so when five people at one target account are suddenly reading your document ad, your salesperson has a reason to call and something specific to say.</p>
+<p>ABM ads with no sales follow-up, filed under “brand awareness,” are a slow way to spend a year’s budget. We’ve watched it happen at more than one industrial company.</p>"""),
 
             ("Trade shows in Houston: OTC and the rest of the calendar", f"""<p>The Offshore Technology Conference is the big one. {S2['otc']} and {S2['aime']} list OTC 2027 for May 3 to 5, 2027, in Houston at NRG Park (the 2027 toolkit still uses the venue’s old name, Reliant Park). Houston also hosts CERAWeek every March and the Turbomachinery and Pump Symposium, among many smaller regional shows. Check each show’s site for the current year’s dates before you book anything.</p>
-<p>Trade shows are expensive, and most of the money is wasted after the show, not at it. Here’s how we’d run one:</p>
-<ol><li><b>Four weeks out:</b> start a LinkedIn campaign to your account list and to relevant titles in Greater Houston, with your booth number and a link to book a meeting. Pre-booked meetings are the real goal.</li>
-<li><b>Two weeks out:</b> email your customers and open opportunities. Offer something specific at the booth, like a live demo or a technical session.</li>
-<li><b>Show days:</b> scan badges into a form that tags every contact with the show name and a note on what they asked about. A location-based campaign around NRG Park can add reach, but keep expectations modest; our <a href="/blog/geo-fencing-ads-target-customers-nearby/">geofencing guide</a> explains why.</li>
+<p>Shows are expensive, and in our experience most of the waste happens in the weeks after the booth comes down. A timeline we’d use:</p>
+<ol><li><b>Four weeks out:</b> start a LinkedIn campaign to your account list and to relevant titles in Greater Houston, with your booth number and a link to book a meeting. Pre-booked meetings are the whole game.</li>
+<li><b>Two weeks out:</b> email customers and open opportunities with something specific to see at the booth, like a live demo or a technical session.</li>
+<li><b>Show days:</b> scan badges into a form that tags each contact with the show name and a note on what they asked about. A location-based campaign around NRG Park can add reach, but keep expectations modest; our <a href="/blog/geo-fencing-ads-target-customers-nearby/">geofencing guide</a> explains why.</li>
 <li><b>Within five business days:</b> follow up with every scan, personally for the good ones. Load them into the CRM tagged “OTC 2027” so you can see what the show produced 12 months later.</li></ol>
-<p>If you can’t afford a booth, walk the floor with a meeting schedule. Some of the best industrial relationships we know of started in a hallway.</p>"""),
+<p>Can’t justify a booth? Walk the floor with a full meeting schedule. A surprising number of good industrial relationships started in a hallway near the coffee line.</p>"""),
 
-            ("Getting leads into the CRM and out to sales", f"""<p>This is where B2B campaigns quietly fail. The lead exists, but it sits in a LinkedIn download or an inbox nobody checks.</p>
-<ul><li><b>Connect lead sources directly to the CRM.</b> LinkedIn Lead Gen Forms sync with HubSpot, Salesforce and other tools. Website forms should write straight to the CRM, not just send an email.</li>
-<li><b>Capture the source.</b> Hidden form fields for UTM parameters and the Google click ID (gclid), so each record shows the campaign, keyword or ad it came from.</li>
-<li><b>Agree on definitions.</b> What counts as a qualified lead? Who calls it, and how fast? Write it down.</li>
-<li><b>Route by territory or product line.</b> A Permian inquiry shouldn’t sit in the Gulf Coast rep’s queue.</li>
-<li><b>Close the loop.</b> When an opportunity is created or won, send that back to Google Ads (offline conversion import) and LinkedIn (its Conversions API or offline uploads), so the platforms learn which clicks produced real business.</li></ul>
-<p>We’d rather a client have a simple HubSpot setup that sales actually uses than a complex Salesforce instance nobody updates. Our <a href="/blog/landing-pages-101/">landing page guide</a> covers form design, which affects lead quality more than most people expect.</p>"""),
+            ("Getting leads into the CRM and out to sales", f"""<p>Plenty of B2B campaigns die right here, quietly. The lead exists. It’s sitting in a LinkedIn CSV download or a shared inbox nobody opens.</p>
+<p>Wire every lead source straight into the CRM. LinkedIn Lead Gen Forms sync with HubSpot, Salesforce and others, and website forms should write a CRM record rather than just firing off an email. Add hidden fields for UTM parameters and the Google click ID (gclid) so each record carries the campaign, keyword or ad that produced it.</p>
+<ul><li>Write down what counts as a qualified lead, who calls it and how fast.</li>
+<li>Route by territory or product line. A Permian inquiry shouldn’t sit in the Gulf Coast rep’s queue for a week.</li>
+<li>Close the loop. When an opportunity is created or won, send it back to Google Ads (offline conversion import) and LinkedIn (Conversions API or offline uploads) so the platforms learn which clicks turned into business.</li>
+<li>Recheck the form fields quarterly. Someone always adds a mandatory “budget” dropdown.</li></ul>
+<p>Honestly, we’d rather see a simple HubSpot setup that sales actually uses than an elaborate Salesforce instance nobody updates. Our <a href="/blog/landing-pages-101/">landing page guide</a> covers form design, which affects lead quality more than most people expect.</p>"""),
 
             ("Measuring pipeline, not leads", f"""<p>Lead counts are easy to inflate. Pipeline is hard to fake.</p>
 <!--fig:pipeline-->
@@ -316,18 +316,17 @@ POSTS = [
 <li>Pipeline by source (LinkedIn, search, trade show, referral, outbound)</li>
 <li>Win rate and average sales cycle length</li>
 <li>Cost per opportunity, alongside cost per lead</li></ul>
-<p>Expect a lag. A campaign that starts in January may not show closed revenue until the following fall. That’s normal in industrial sales, and it’s why opportunity creation is the best early signal. If you’ve read our posts on <a href="/blog/measure-marketing-success-metrics/">marketing metrics</a> and <a href="/blog/understanding-cost-per-lead/">cost per lead</a>, this is the B2B version of the same idea: the cheapest leads are rarely the best ones.</p>"""),
+<p>Expect a lag. A campaign that launches in January may not show closed revenue until the following fall, which is normal in industrial sales and makes opportunity creation the best early signal you’ll get. Our posts on <a href="/blog/measure-marketing-success-metrics/">marketing metrics</a> and <a href="/blog/understanding-cost-per-lead/">cost per lead</a> make the same case for local businesses. In B2B the gap between cheap leads and good ones is just wider.</p>"""),
 
             ("When oil prices move, marketing budgets move", f"""<p>Anyone who has worked in Houston energy knows the pattern. Prices drop, capex gets cut, and marketing is the first line item to go.</p>
 <!--fig:wti-->
 <p>Per {S2['fred']}, the annual average WTI price fell from $93.17 a barrel in 2014 to $43.29 in 2016, hit $39.16 in 2020, rebounded to $94.90 in 2022, and averaged $65.39 in 2025. Service companies feel those swings on a delay, as operators adjust drilling and maintenance budgets.</p>
-<p>Some practical advice for planning around it:</p>
-<ul><li><b>Keep a floor.</b> Cut ad spend in a downturn if you have to, but keep your website, GBP, case studies and LinkedIn company page active. Rebuilding visibility from zero costs more than holding it.</li>
-<li><b>Shift toward efficiency messaging.</b> In a downturn, operators want lower cost per barrel, less downtime and fewer people on site. Your case studies should say how you deliver that.</li>
-<li><b>Use the cheaper media.</b> When competitors pull out, LinkedIn and search auctions often get less crowded.</li>
-<li><b>Diversify your targets.</b> LNG, petrochemicals, power, water and industrial manufacturing buy many of the same services. A firm that sells only to upstream operators lives and dies by the rig count.</li></ul>"""),
+<p>Nobody knows where the price goes next, whatever your brother-in-law at the operator says. You can still plan for it.</p>
+<p>Keep a floor. Cut ad spend if you must, but keep the website, GBP, case studies and LinkedIn company page alive, because rebuilding visibility from zero costs more than holding it. Downturns also tend to thin out the LinkedIn and search auctions as competitors pull back, so the dollars you do keep often go further.</p>
+<ul><li>Lean into efficiency in your messaging. When prices drop, operators care about cost per barrel, downtime and headcount on site, and your case studies should speak to those.</li>
+<li>Widen the target list. LNG, petrochemicals, power, water and industrial manufacturing buy many of the same services. A firm that sells only to upstream operators lives and dies by the rig count.</li></ul>"""),
 
-            ("B2B marketing budgets in Houston, and when to hire help", f"""<p>These are illustrative monthly ranges for a small-to-mid-size Houston industrial firm, not quotes. A firm selling multimillion-dollar contracts can justify the top of the range; a local service company often shouldn’t.</p>
+            ("B2B marketing budgets in Houston, and when to hire help", f"""<p>Illustrative monthly ranges for a small-to-mid-size Houston industrial firm (not quotes). A company selling multimillion-dollar contracts can justify the top end. A local service outfit usually can’t.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Line item</th><th>Typical monthly range</th><th>What it buys</th></tr></thead>
 <tbody>
@@ -339,7 +338,7 @@ POSTS = [
 <tr><td>Trade shows</td><td>Varies widely</td><td>Get the exhibitor prospectus; budget for follow-up too</td></tr>
 </tbody></table></div>
 <p>You can do a lot of this in-house. If you have an engineer who writes clearly and a sales manager who updates the CRM, start with the capability statement, five spec pages and one Google Ads campaign with a strong negative list. Hire help when you’re spending real money on LinkedIn and Google and still can’t say which campaigns created opportunities, or when the technical content never gets written because everyone is billable.</p>
-<p>A reasonable first step this week: pull your last 20 closed deals and ask where each one first came from. If nobody knows, fix tracking before you spend more. And if you want an outside look at where your Google or LinkedIn budget is going, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your spend is leaking, in your inbox within 48 hours. You can also see how we report results on our <a href="/case-studies/">case studies</a> page.</p>"""),
+<p>Something you can do this week: pull your last 20 closed deals and find out where each one first came from. If nobody knows, fix tracking before you spend another dollar. If you want an outside look at where your Google or LinkedIn budget is going, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your spend is leaking, in your inbox within 48 hours. You can also see how we report results on our <a href="/case-studies/">case studies</a> page.</p>"""),
         ],
         "faq": [
             ("How much do LinkedIn ads cost for B2B companies?",
@@ -351,7 +350,7 @@ POSTS = [
             ("How long is the sales cycle for industrial B2B sales?",
              "It varies by deal size and customer, but six to eighteen months is common for larger industrial and energy contracts, especially when vendor prequalification and a master service agreement are involved. Smaller repair or rental jobs can close in days. Plan marketing around opportunity creation as the early signal, because closed revenue may lag a campaign by a year or more."),
             ("Is the Offshore Technology Conference worth it for small companies?",
-             "It can be, if you treat it as a meeting engine rather than a booth. OTC 2027 is scheduled for May 3 to 5 at NRG Park in Houston. Book meetings with target accounts weeks ahead, scan and tag every contact, and follow up within five business days. If a booth is out of budget, attending with a full meeting schedule is often the better return."),
+             "It can be, if you treat it as a place to hold meetings. OTC 2027 is scheduled for May 3 to 5 at NRG Park in Houston. Book meetings with target accounts weeks ahead, tag every scanned contact, and follow up within five business days. If a booth is out of budget, attending with a full meeting schedule often pays back better."),
         ],
         "figures": {
             "linkedin": {
