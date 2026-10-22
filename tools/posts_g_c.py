@@ -69,24 +69,24 @@ POSTS = [
             (None, f"""<p>Tuesday, 7:15 p.m., somewhere off Airline Drive. A water heater quits. Someone types “plomero cerca de mi,” taps the first ad (which is in Spanish), and lands on an English homepage with a little Translate dropdown in the corner. She calls anyway. The phone menu offers Spanish as option four, after billing.</p>
 <p>She hangs up and calls the next company.</p>
 <p>That’s how most Hispanic marketing in Houston fails. The ad was fine. Everything after the click wasn’t.</p>
-<p>Spanish-language marketing works when you treat Spanish as its own channel: Spanish keywords and ads, Spanish pages at their own URLs, a Google Business Profile that reads naturally to a Spanish speaker, and a person who can answer the phone in Spanish. Owners usually ask us about the ads first. We’d start with the phone, honestly, and then work backward.</p>
-<p>Below is how each piece works in 2026, including a Google Ads change from this September that most Spanish campaigns haven’t caught up with yet.</p>"""),
+<p>Spanish-language marketing works when Spanish gets treated as its own channel. That means Spanish keywords and ads, Spanish pages at their own URLs, a Google Business Profile a Spanish speaker can actually read, and somebody who picks up the phone and answers in Spanish. Owners almost always ask us about the ads first. We’d start with the phone and work backward.</p>
+<p>What follows is how each piece works in 2026, including a Google Ads change from this September that most Spanish campaigns still haven’t caught up with.</p>"""),
 
             ("How many Houston customers speak Spanish at home?", f"""<p>The numbers are bigger than most owners guess, and they mislead in a specific way.</p>
 <p>According to {S1['qfh']}, 46.1% of Harris County residents are Hispanic or Latino, and 45.0% of residents age 5 and up speak a language other than English at home. Montgomery County, where we’re based, is 30.2% Hispanic per {S1['qfm']}. Inside Houston city limits, the {S1['coh']} built on the 2020-2024 American Community Survey counts 808,128 residents age 5 and older who speak Spanish at home, or 37%. For the whole metro, the {S1['ghp']} put it at 29.5% speaking Spanish at home.</p>
 <!--fig:market-->
-<p>Now the misleading part. Hispanic and Spanish-dominant are different audiences. In its 2023 report, {S1['pew']} found that 75% of U.S. Latinos say they can carry on a conversation in Spanish pretty well or very well. Among third-generation-or-later Latinos, though, 65% say they can’t. And 72% of second-generation Latinos say they use Spanglish at least sometimes.</p>
-<p>So the customer in Cypress whose grandparents moved here from Monterrey may be reached perfectly well by your English campaigns. A family that arrived in Gulfton three years ago needs Spanish from the ad all the way through the invoice. We plan by language, never by last name or ethnicity.</p>
-<p>To size your own opportunity, pull your last 200 calls or CRM records and count how many people asked for Spanish. Around 5% means a solid Spanish page and a bilingual person on the phone. Around 30% means a full Spanish program.</p>"""),
+<p>The trap is assuming Hispanic and Spanish-dominant mean the same audience. They don’t. In its 2023 report, {S1['pew']} found that 75% of U.S. Latinos say they can carry on a conversation in Spanish pretty well or very well. Among third-generation-or-later Latinos, though, 65% say they can’t. And 72% of second-generation Latinos say they use Spanglish at least sometimes.</p>
+<p>A customer in Cypress whose grandparents came up from Monterrey is probably reached just fine by your English campaigns. A family that landed in Gulfton three years ago needs Spanish from the ad all the way to the invoice. We plan by language. Never by last name.</p>
+<p>To size it for your own shop, pull your last 200 calls or CRM records and count the people who asked for Spanish. If it’s around 5%, you need a solid Spanish page and one bilingual person on the phone. Closer to 30% and you’re looking at a full Spanish program.</p>"""),
 
-            ("Spanish Google Ads after the September 2026 language change", f"""<p>Until this fall, every Search campaign had a language setting, and the usual advice was “make a Spanish campaign and set it to Spanish.” Google’s {S1['glang']} explains that it judges which languages someone understands from the search term language, their language settings and preferences.</p>
-<p>Starting in September 2026, Google removed the campaign-level language setting for Search. Per the same page, “Search ads will automatically match based on the language of your ads,” and Google prioritizes ads that match the language of the search term. In Performance Max, the setting no longer applies on the Search Network, though it still governs YouTube, Display, Discover and Gmail. {S1['tw']} points out a gap: Google hasn’t announced reporting that shows which language an ad actually served in.</p>
-<p>What we’re doing about it:</p>
-<ul><li><b>Keep Spanish in its own campaign anyway.</b> The reason is no longer targeting. It’s budget and reporting. When Spanish and English ad groups share a budget, one starves the other and you can’t tell which one paid off.</li>
-<li><b>Write the ads and the landing page in Spanish.</b> Those are now the main signals Google reads. A Spanish ad that sends people to an English page is a mismatch, and Google can see it now.</li>
-<li><b>Check auto-generated text.</b> If AI Max or automatically created assets are turned on, read what Google wrote. TechWyse flags that generated creative in one language can serve to someone searching in another.</li>
-<li><b>Set location to “Presence.”</b> Google’s {S1['gloc']} default to “Presence or Interest,” which includes people merely interested in Houston. Switch it.</li></ul>
-<p>Then build keywords the way people actually search, which is messier than any textbook Spanish:</p>
+            ("Spanish Google Ads after the September 2026 language change", f"""<p>Until this fall, every Search campaign had a language setting, and the standard advice was to build a Spanish campaign and set it to Spanish. Google’s {S1['glang']} says it judges which languages someone understands from the search term, their language settings and preferences.</p>
+<p>In September 2026 the campaign-level language setting for Search went away. Per the same page, “Search ads will automatically match based on the language of your ads,” and Google prioritizes ads that match the language of the search term. In Performance Max, the setting no longer applies on the Search Network, though it still governs YouTube, Display, Discover and Gmail. {S1['tw']} points out a gap: Google hasn’t announced reporting that shows which language an ad actually served in.</p>
+<p>What we’re doing in our own accounts:</p>
+<ul><li><b>Spanish still gets its own campaign.</b> Targeting used to be the reason. Now it’s budget and reporting: when Spanish and English ad groups share a budget, one starves the other, and you can’t tell which paid off.</li>
+<li>Ads and landing pages are written in Spanish, since those are now the main signals Google reads. A Spanish ad pointing at an English page is a mismatch Google can see.</li>
+<li>Someone reads the auto-generated text. If AI Max or automatically created assets are on, check what Google wrote; TechWyse flags that generated creative in one language can serve to a searcher using another.</li>
+<li>Location goes to “Presence.” Google’s {S1['gloc']} default to “Presence or Interest,” which pulls in people who are merely curious about Houston.</li></ul>
+<p>Then build keywords the way people really search, which is messier than textbook Spanish.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>How they search</th><th>Examples</th><th>Where it goes</th></tr></thead>
 <tbody>
@@ -95,74 +95,71 @@ POSTS = [
 <tr><td>English, Spanish intent</td><td>spanish speaking dentist houston, bilingual lawyer near me</td><td>Own ad group, English ad that says “Se habla español,” bilingual page</td></tr>
 <tr><td>Brand</td><td>your name + “en español”</td><td>Brand campaign, Spanish page</td></tr>
 </tbody></table></div>
-<p>“Aseguranza” is a good example of why native speakers should build the list. It’s everyday Texas Spanish for insurance, and a translator trained on formal Spanish would write “seguro” and miss it.</p>
-<p>The “spanish speaking ___ near me” searches are our favorite. They’re in English, the intent is unmistakable, and in a lot of trades few competitors bid on them. We’ve generally seen lower Spanish CPCs than English ones in Houston service categories, but that’s our experience, not a published benchmark, so check Keyword Planner for your own zip codes. Our <a href="/blog/plumbing-seo-keywords-houston/">plumbing keyword guide</a> has a worked Spanish cluster, and our <a href="/services/search-marketing/">search marketing team</a> builds these accounts every week.</p>"""),
+<p>“Aseguranza” is why a native speaker should build the list. It’s everyday Texas Spanish for insurance. A translator trained on formal Spanish writes “seguro” and misses half the searches.</p>
+<p>Our favorite row is the third one. “Spanish speaking ___ near me” is typed in English, the intent couldn’t be clearer, and in a lot of trades almost nobody bids on it. In Houston service categories we’ve usually seen Spanish CPCs come in under English ones. That’s our experience, though, and nobody publishes a benchmark for it, so run Keyword Planner on your own zip codes. Our <a href="/blog/plumbing-seo-keywords-houston/">plumbing keyword guide</a> has a worked Spanish cluster, and our <a href="/services/search-marketing/">search marketing team</a> builds these accounts every week.</p>"""),
 
-            ("Translation vs transcreation: why word-for-word Spanish ads flop", f"""<p>Translation swaps the words. Transcreation rewrites the message so it lands the way the English version does. For ads, only the second one works.</p>
-<p>A few examples we fix all the time. “Free estimates” translated literally is fine, but “cotización gratis” is what a lot of Houston customers actually say. “Licensed and insured” needs to mention the Texas license by name, because trust carries more weight when someone is calling a company they’ve never used in a second language. And the tone matters: “usted” reads polite and safe for most service businesses, while “tú” suits a gym or a taquería with a younger crowd. Pick one and use it everywhere.</p>
+            ("Translation vs transcreation: why word-for-word Spanish ads flop", f"""<p>Translation swaps the words. Transcreation rewrites the message so it hits a Spanish speaker the way the English version hits an English speaker, and for ads it’s the only version that pulls its weight.</p>
+<p>We fix the same things over and over. A literal “free estimates” is grammatically fine, but plenty of Houston customers say “cotización gratis.” “Licensed and insured” should name the Texas license, since someone calling a stranger in their second language leans harder on proof. Register trips people up too. “Usted” is polite and safe for most service businesses; “tú” suits a gym or a taquería with a younger crowd. Pick one and stick with it everywhere.</p>
 <!--fig:transcreate-->
-<p>Spanish also runs longer than English, so write Spanish headlines to the 30-character limit instead of squeezing a translation into it.</p>
-<p>Houston’s Hispanic community isn’t one dialect either. It’s heavily Mexican-heritage, with large Central American communities too. Plain, neutral Spanish with a few Texas terms is the safe middle. We’d have a native speaker who lives here review every ad, page and script before it goes live. Machine translation is fine for a first draft. It isn’t fine as the final one.</p>"""),
+<p>Spanish runs longer than English. Write Spanish headlines to the 30-character limit from scratch rather than cramming a translation in.</p>
+<p>And Houston isn’t one dialect. It’s heavily Mexican-heritage, with big Central American communities on top of that, so plain neutral Spanish with a few Texas terms is the safe middle. Before anything goes live we’d have a native speaker who lives here read every ad, page and phone script. Machine translation is a perfectly good first draft (we use it). We’ve never seen it survive as the last one.</p>"""),
 
             ("Bilingual website SEO: /es/ pages, hreflang and the translate widget", f"""<p>If your Spanish plan is a Google Translate dropdown, you don’t have Spanish pages as far as search is concerned. The widget translates in the visitor’s browser; there’s no Spanish URL for Google to crawl, rank or send an ad to.</p>
-<p>Google’s {S1['gsc']} is direct about the alternative: it recommends “using different URLs for each language version of a page” rather than switching language with cookies or browser settings. It also says to avoid automatically redirecting people based on guessed language, to link between language versions, and to keep each page in a single language rather than side-by-side translations.</p>
-<p>In practice, for a small business site:</p>
+<p>Google’s {S1['gsc']} recommends “using different URLs for each language version of a page” rather than switching language with cookies or browser settings. The same page tells you to skip automatic redirects based on a guessed language, link the language versions to each other, and keep each page in one language instead of running translations side by side.</p>
+<p>For a small business site, that works out like this.</p>
 <ul><li>Put Spanish pages in a folder, like <i>/es/plomeria/</i> next to <i>/plumbing/</i>. It’s the simplest setup to manage and to point ads at.</li>
-<li>Add hreflang annotations so each English page names its Spanish twin and vice versa (codes “en-us” and “es-us”, plus an x-default). Each page has to list both versions, including itself, or Google ignores the pair.</li>
-<li>Put a plain “Español” link in the header. Don’t auto-redirect based on browser language; a bilingual customer with an English phone may want the Spanish page and vice versa.</li>
-<li>Translate the title tag, meta description, image alt text, form labels, error messages and the thank-you page. The thank-you page is the one everybody forgets.</li></ul>
+<li>Add hreflang so each English page names its Spanish twin and the reverse (“en-us” and “es-us”, plus an x-default). Each page lists both versions, itself included, or Google ignores the pair.</li>
+<li>Put a plain “Español” link in the header and skip auto-redirects; a bilingual customer with an English phone may still want the Spanish page.</li>
+<li>Translate the title tag, meta description, alt text, form labels, error messages and the thank-you page. Everybody forgets the thank-you page.</li></ul>
 <!--fig:pages-->
-<p>You don’t need the whole site in Spanish on day one. Start with the pages that make money: your top three services, a contact page, and a page for each area you serve. A Spanish page for Pasadena or Channelview will do more than a Spanish “About us.” Our post on <a href="/blog/power-of-local-landing-pages/">local landing pages</a> covers the structure, and our <a href="/services/web-design-seo-pr/">web design and SEO</a> team builds bilingual sites this way.</p>"""),
+<p>You don’t need the whole site in Spanish on day one. Start where the money is, which for most shops means the top few services, the contact page and a page per service area. A Spanish page for Pasadena or Channelview will out-earn a Spanish “About us” every time. Our post on <a href="/blog/power-of-local-landing-pages/">local landing pages</a> covers the structure, and our <a href="/services/web-design-seo-pr/">web design and SEO</a> team builds bilingual sites this way.</p>"""),
 
             ("Google Business Profile in Spanish: what’s possible and what isn’t", f"""<p>There’s no Spanish toggle in Google Business Profile, and a few of the obvious workarounds will get you in trouble.</p>
-<p>Google’s {S1['gbpg']} list “repeating the same business name in multiple scripts or languages” as something you can’t do, and they allow one profile per location. So “Rodriguez Plumbing / Plomería Rodriguez” as the name is out, and a second Spanish-language profile for the same address is a duplicate listing. If your sign and website really do say both, talk to us before you touch the name field.</p>
-<p>What does work:</p>
-<ul><li><b>A bilingual description.</b> You get 750 characters. Put the primary language first and a short Spanish version after it.</li>
-<li><b>Spanish posts.</b> Posts don’t translate themselves. Publish Spanish ones on their own, linking to the Spanish page.</li>
-<li><b>Spanish reviews.</b> Ask Spanish-speaking customers for a review in Spanish, by text, in Spanish. Reply in the language the review was written in.</li>
-<li><b>Language attributes.</b> Some categories now offer attributes about languages spoken by staff. In {S1['lsf']}, a GBP specialist pointed to these as a cleaner option than splitting the profile. Check under Edit profile to see whether yours shows them.</li>
-<li><b>Photos with Spanish signage</b>, if you actually have it. “Se habla español” on the door, photographed, is a trust signal.</li></ul>
-<p>Google does translate standardized fields, like categories, attributes and hours, for people whose phones are set to Spanish. Your free-text fields stay as you wrote them. That’s another reason the description should carry a Spanish paragraph. For everything else on the profile, our <a href="/blog/google-business-profile-number-one-asset/">Google Business Profile guide</a> covers the basics.</p>"""),
+<p>Google’s {S1['gbpg']} rule out “repeating the same business name in multiple scripts or languages,” and they allow one profile per location. So “Rodriguez Plumbing / Plomería Rodriguez” is out as a name, and a second Spanish profile at the same address is a duplicate. If your sign and website genuinely say both, talk to someone before touching the name field.</p>
+<p>What you can do:</p>
+<ul><li>Write a bilingual description. You get 750 characters, so lead with your primary language and follow with a short Spanish version.</li>
+<li>Publish Spanish posts as their own posts, linking to the Spanish page. Nothing translates them for you.</li>
+<li>Ask Spanish-speaking customers for reviews in Spanish (send the request by text, also in Spanish), and reply in whatever language the review came in.</li>
+<li>Check for <b>language attributes</b> under Edit profile. Some categories now let you list languages your staff speak, and in {S1['lsf']} a GBP specialist called them a cleaner fix than splitting the profile.</li>
+<li>Photograph your Spanish signage, if you really have some. “Se habla español” on the front door does more than you’d think.</li></ul>
+<p>For phones set to Spanish, Google translates the standardized fields (categories, attributes, hours) on its own. Free-text fields stay exactly as you typed them, which is one more argument for putting a Spanish paragraph in the description. For everything else on the profile, our <a href="/blog/google-business-profile-number-one-asset/">Google Business Profile guide</a> covers the basics.</p>"""),
 
-            ("Facebook and Instagram ads in Spanish", f"""<p>Meta used to offer a “Hispanic Affinity” targeting option. {S1['bbg']} that Facebook retired it in August 2020. We wouldn’t want it back. Ethnicity is the wrong proxy anyway, for the Pew reasons above.</p>
-<p>Target by language and place instead. In the ad set’s audience controls there’s a Languages field, which is normally left blank. For a Spanish campaign, set it to Spanish (All) and pair it with Spanish creative. Meta also supports {S1['mml']}, where one ad carries several language versions and each viewer sees the one that matches their language setting. For an ongoing Spanish program we still prefer separate ad sets, so budget and reporting stay clean.</p>
-<p>Creative is where Spanish ads on Meta win or lose:</p>
-<ul><li>Use real staff, real trucks, real Houston streets. Stock photos of “Hispanic families” in a beige kitchen read as fake to everyone.</li>
-<li>Film the bilingual tech or front-desk person talking to camera in Spanish. One 30-second phone video often beats a polished production.</li>
-<li>Run instant forms in Spanish, with Spanish questions and a Spanish thank-you screen. Then make sure the person who calls the lead back speaks Spanish.</li>
-<li>Add captions. Plenty of people watch with the sound off.</li></ul>
-<p>If your ads fall under Meta’s special ad categories (housing, employment, credit or financial products), targeting is restricted further, so language and creative do more of the work. Our <a href="/services/paid-social-advertising/">paid social team</a> handles those reviews.</p>"""),
+            ("Facebook and Instagram ads in Spanish", f"""<p>Meta used to offer a “Hispanic Affinity” targeting option. {S1['bbg']} that Facebook retired it in August 2020. Good riddance, frankly; ethnicity was the wrong proxy for the Pew reasons above.</p>
+<p>Language and place do the job better. The ad set’s audience controls include a Languages field that almost everyone leaves blank. For a Spanish campaign, set it to Spanish (All) and run Spanish creative. Meta also supports {S1['mml']}, where one ad carries several language versions and each viewer sees the one matching their settings. We still prefer separate ad sets for an ongoing program, for clean budgets and reporting.</p>
+<p>On Meta, though, the creative decides most of it.</p>
+<ul><li>Shoot your own staff and trucks on actual Houston streets. A stock “Hispanic family” in a beige kitchen reads as fake to everybody, Hispanic or not.</li>
+<li>Have the bilingual tech or front-desk person talk to the camera in Spanish. A 30-second phone video usually beats the polished one.</li>
+<li>Build the instant form in Spanish, down to the thank-you screen, and make sure whoever calls the lead back speaks Spanish.</li>
+<li>Caption everything. Lots of people scroll with the sound off.</li></ul>
+<p>Ads in Meta’s special ad categories (housing, employment, credit or financial products) get even tighter targeting limits, so language and creative carry more weight. Our <a href="/services/paid-social-advertising/">paid social team</a> handles those reviews.</p>"""),
 
-            ("Spanish-language radio, TV and streaming in Houston", f"""<p>Houston has a deep Spanish-language media market, and it’s the one place in this guide where broad reach is still cheap enough to test for some businesses.</p>
-<ul><li>{S1['kxln']} is licensed to Rosenberg and owned by TelevisaUnivision, with UniMás on its second channel.</li>
-<li>{S1['ktmd']} is owned by NBCUniversal’s Telemundo Station Group and licensed to Galveston.</li>
-<li>{S1['kltn']} plays Regional Mexican and is part of TelevisaUnivision’s Uforia group.</li>
-<li>{S1['kove']} is Spanish adult contemporary, also Uforia, licensed to Galveston.</li></ul>
-<p>Spanish-language streaming, like TelevisaUnivision’s ViX, can be reached through programmatic connected TV.</p>
-<p>Our opinion: get Spanish search, Spanish pages and the phones working before you buy a radio flight. Radio makes people search for you, and if that search lands on an English-only site, you’ve paid for someone else’s lead. After that, a two-month test with a dedicated tracking number is fair. Our <a href="/blog/radio-tv-advertising-cost-houston/">Houston radio and TV cost guide</a> has the pricing side, and our <a href="/services/ctv-ooh-streaming-radio/">CTV, streaming and radio</a> page covers how we buy it.</p>"""),
+            ("Spanish-language radio, TV and streaming in Houston", f"""<p>Houston has a deep Spanish-language media market. For some businesses it’s the one place in this guide where broad reach is still cheap enough to test.</p>
+<ul><li>{S1['kxln']}, licensed to Rosenberg and owned by TelevisaUnivision, carries UniMás on its second channel.</li>
+<li>{S1['ktmd']} belongs to NBCUniversal’s Telemundo Station Group and is licensed to Galveston.</li>
+<li>{S1['kltn']} plays Regional Mexican under TelevisaUnivision’s Uforia group.</li>
+<li>{S1['kove']} is Spanish adult contemporary, also Uforia, also licensed to Galveston.</li></ul>
+<p>Spanish streaming, TelevisaUnivision’s ViX for one, is reachable through programmatic connected TV.</p>
+<p>We’d hold off on any radio flight until Spanish search, Spanish pages and the phones are working. Radio makes people go search for you. If that search lands on an English-only site, you’ve paid for a competitor’s lead. Once the basics are live, a two-month test with its own tracking number is a fair bet. Our <a href="/blog/radio-tv-advertising-cost-houston/">Houston radio and TV cost guide</a> has the pricing side, and our <a href="/services/ctv-ooh-streaming-radio/">CTV, streaming and radio</a> page covers how we buy it.</p>"""),
 
             ("Answering the phone in Spanish (where most campaigns break)", f"""<p>This is the part most shops get wrong, and it’s the cheapest one to fix.</p>
-<p>If a Spanish-speaking caller hits an English greeting, a buried Spanish option or an English-only voicemail, they don’t leave a message. They call the next ad.</p>
+<p>A Spanish-speaking caller who hits an English greeting, a buried menu option or an English-only voicemail does not leave a message. They call the next ad.</p>
 <!--fig:phones-->
-<p>Here’s the setup we’d use for a shop with one or two bilingual people:</p>
+<p>For a shop with one or two bilingual people on payroll, we’d set it up roughly like this.</p>
 <ol><li>Give the Spanish campaigns their own tracking number. You’ll know how many Spanish calls the ads produced.</li>
 <li>Route that number straight to the bilingual staff first, then to the main line. No menu.</li>
 <li>Record a short bilingual greeting and voicemail on every line, with Spanish in the first five seconds.</li>
 <li>Put the Spanish hours in the ads (“Hablamos español, lunes a sábado”). If nobody speaks Spanish on Sundays, say so; it’s better than a confused call.</li>
 <li>Send missed-call texts in Spanish from the Spanish number.</li>
-<li>Score a handful of Spanish calls every month. Were they answered? Booked? Was the price explained clearly?</li></ol>
-<p>Our <a href="/blog/call-tracking-which-ads-make-phone-ring/">call tracking guide</a> explains the tools. A part-time bilingual dispatcher costs a lot less than a Spanish ad budget that leaks.</p>"""),
+<li>Once a month, listen to a handful of Spanish calls. Did someone answer, did the job get booked, and did the caller understand the price?</li></ol>
+<p>The tools are covered in our <a href="/blog/call-tracking-which-ads-make-phone-ring/">call tracking guide</a>. For what it’s worth, a part-time bilingual dispatcher is cheaper than most leaky Spanish ad budgets we’ve audited.</p>"""),
 
             ("Cultural do’s and don’ts that don’t rely on stereotypes", f"""<p>Most bad Hispanic marketing is lazy rather than malicious. Papel picado clip art, a mariachi stock photo, a “¡Feliz Cinco de Mayo!” post from a company that ignores Spanish the other 364 days.</p>
-<p>What we’d do instead:</p>
-<ul><li><b>Show up consistently.</b> A steady Spanish presence all year beats a burst during Hispanic Heritage Month (September 15 to October 15). People notice who was there in February.</li>
-<li><b>Match the customer’s language, every time.</b> If someone filled out the English form, follow up in English. Sending Spanish to someone because of their last name is exactly the assumption that annoys bilingual customers. Pew found that 54% of Latinos who speak little or no Spanish say another Latino has made them feel bad about it. Don’t make language a test.</li>
-<li><b>Be clear about price, warranty and payment.</b> Those questions are universal. Spell out financing, deposits and what happens if something goes wrong.</li>
-<li><b>Use your real Spanish-speaking customers</b> (with permission) in reviews and testimonials, in their own words.</li>
-</ul>
-<p>Keep humor and slang out of ads unless a native speaker from here wrote them.</p>"""),
+<p>A steady Spanish presence all year beats a burst during Hispanic Heritage Month (September 15 to October 15). People remember who was around in February.</p>
+<p>Match the language the customer chose, every time. If someone filled out the English form, follow up in English. Switching to Spanish because of a last name is exactly the assumption that grates on bilingual customers, and it can sting: Pew found that 54% of Latinos who speak little or no Spanish say another Latino has made them feel bad about it. Your follow-up email shouldn’t pile on.</p>
+<p>Spell out price, warranty, financing and deposits in plain terms; nobody of any background likes surprises on an invoice. Where you can, feature real Spanish-speaking customers (with permission) in their own words.</p>
+<p>Humor and slang stay out of the ads unless a native speaker from here wrote them.</p>"""),
 
-            ("What Hispanic marketing in Houston costs", f"""<p>These are illustrative ranges for a single-location service business in Greater Houston, not quotes. Your trade and service area change them a lot.</p>
+            ("What Hispanic marketing in Houston costs", f"""<p>Illustrative ranges for a single-location service business in Greater Houston. They aren’t quotes, and your trade and service area move them a lot.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Line item</th><th>Typical range</th><th>Notes</th></tr></thead>
 <tbody>
@@ -173,14 +170,14 @@ POSTS = [
 <tr><td>Bilingual phone coverage</td><td>Staff time</td><td>The piece that decides whether the rest works</td></tr>
 <tr><td>Spanish radio or CTV test</td><td>Varies by station and flight</td><td>Only after the basics above are live</td></tr>
 </tbody></table></div>
-<p>Should you hire help? If you have a bilingual person in the office who enjoys writing, you can do much of this yourself: build five Spanish pages, launch one Spanish search campaign at a modest budget, fix the phones and read the search terms every week. Hire help when the Spanish campaign is spending real money and you can’t tell whether it works, or when nobody on staff has time to write.</p>
-<p>A sensible first week: count your Spanish calls, call your own number and press nothing, and look at what your Spanish ad (if you have one) actually links to. If you’d like a second set of eyes, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, Spanish campaigns included, in your inbox within 48 hours.</p>"""),
+<p>You may not need to hire anyone. A bilingual person in the office who likes to write can build five Spanish pages, launch one modest search campaign, fix the phones and read the search terms weekly. Bring in help once Spanish spend is real money and you can’t tell if it works, or nobody has time to write.</p>
+<p>This week, count your Spanish calls. Call your own number and press nothing. Then click your Spanish ad, if you have one, and see where it lands. If you’d like a second set of eyes, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, Spanish campaigns included, in your inbox within 48 hours.</p>"""),
         ],
         "faq": [
             ("Should I use Google Translate on my website for Spanish customers?",
-             "Not as your Spanish strategy. A translate widget converts text in the visitor’s browser, so there is no Spanish URL for Google to index or for ads to link to, and the translations are often clumsy. Google recommends separate URLs for each language version. Build real Spanish pages for your main services and contact page, reviewed by a native speaker, and link them with hreflang."),
+             "Not as your Spanish strategy. A translate widget converts text in the visitor’s browser, so there is no Spanish URL for Google to index or for an ad to link to, and the wording is often clumsy. Google recommends separate URLs per language. Build real Spanish pages for your main services and contact page, have a native speaker review them, and pair them with hreflang."),
             ("Do Spanish Google Ads cost less than English ads in Houston?",
-             "Often, but not always. Fewer advertisers bid on Spanish keywords in many service categories, so cost per click tends to be lower, but search volume is also smaller. Prices vary by trade and zip code, so check Keyword Planner for your own terms. The bigger cost factor is what happens after the click: a Spanish ad that leads to an English page or English-only phone line wastes the savings."),
+             "Often, though not always. Fewer advertisers bid on Spanish keywords in many service categories, so clicks tend to cost less, but there is also less search volume. Prices vary by trade and zip code, so check Keyword Planner for your own terms. What happens after the click matters more. A Spanish ad that leads to an English page or an English-only phone line throws the savings away."),
             ("Can I have a Google Business Profile in Spanish and English?",
              "Not as two separate profiles for one location. Google allows one profile per location and does not allow repeating your business name in multiple languages. You can write a bilingual description, publish Spanish posts, collect and reply to Spanish reviews, add photos of Spanish signage, and use language-related attributes if your category offers them. Google translates standardized fields like categories and hours automatically."),
             ("How do I target Hispanic customers on Facebook?",
