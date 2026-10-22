@@ -524,6 +524,48 @@ def _motif(m):
                 f'<rect x="-120" y="20" width="140" height="40" rx="10" fill="rgba(255,255,255,.12)"/>'
                 f'<path d="M120 -140 C220 -140 240 -40 180 0 C120 40 150 140 250 140" {sw} stroke="#ffd23f" stroke-width="22"/>'
                 + "".join(f'<circle cx="{x}" cy="{y}" r="3" fill="{BG}"/>' for x, y in ((150, -138), (190, -128), (220, -100), (226, -60), (204, -22))))
+    if m == "speech":  # two speech bubbles, EN / ES
+        return (f'<path d="M-230 -140 h220 a24 24 0 0 1 24 24 v100 a24 24 0 0 1 -24 24 h-150 l-50 40 v-40 h-20 a24 24 0 0 1 -24 -24 v-100 a24 24 0 0 1 24 -24z" fill="{c}" fill-opacity=".1" stroke="{c}" stroke-width="5"/>'
+                f'<text x="-120" y="-38" text-anchor="middle" fill="{INK}" font-family="{DISPLAY}" font-size="64" font-weight="600">EN</text>'
+                f'<path d="M30 -10 h200 a24 24 0 0 1 24 24 v100 a24 24 0 0 1 -24 24 h-20 v40 l-50 -40 h-130 a24 24 0 0 1 -24 -24 v-100 a24 24 0 0 1 24 -24z" fill="{MAG}" fill-opacity=".14" stroke="{MAG}" stroke-width="5"/>'
+                f'<text x="130" y="92" text-anchor="middle" fill="{INK}" font-family="{DISPLAY}" font-size="64" font-weight="600">ES</text>')
+    if m == "industry":  # refinery towers, pipes, gear
+        return (f'<path d="M-250 140 H250" stroke="{g}" stroke-width="4"/>'
+                f'<rect x="-210" y="-60" width="50" height="200" rx="6" {sw} stroke="{c}" stroke-width="5"/><rect x="-140" y="-120" width="44" height="260" rx="6" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<path d="M-210 0 h50 M-210 60 h50 M-140 -40 h44 M-140 40 h44" stroke="{g}" stroke-width="3"/>'
+                f'<path d="M-96 80 H0 V20 H60" {sw} stroke="{INK}" stroke-width="10"/><path d="M-118 -120 c-10 -30 20 -40 10 -70" {sw} stroke="{g}" stroke-width="4"/>'
+                + "".join(f'<rect x="{130 + 70 * math.cos(a) - 14:.0f}" y="{-10 + 70 * math.sin(a) - 14:.0f}" width="28" height="28" rx="4" fill="#ffd23f" transform="rotate({a * 57.3:.0f} {130 + 70 * math.cos(a):.0f} {-10 + 70 * math.sin(a):.0f})"/>' for a in [i * math.pi / 4 for i in range(8)])
+                + f'<circle cx="130" cy="-10" r="66" fill="{BG}" stroke="#ffd23f" stroke-width="6"/><circle cx="130" cy="-10" r="24" {sw} stroke="#ffd23f" stroke-width="6"/>')
+    if m == "ticket":  # admission tickets
+        tk = lambda x, y, r, col: (f'<g transform="translate({x} {y}) rotate({r})"><path d="M-130 -60 h260 v40 a20 20 0 0 0 0 40 v40 h-260 v-40 a20 20 0 0 0 0 -40z" fill="{col}" fill-opacity=".14" stroke="{col}" stroke-width="5"/>'
+                                   f'<path d="M60 -56 v112" stroke="{col}" stroke-width="3" stroke-dasharray="8 8"/><rect x="-100" y="-28" width="120" height="16" rx="8" fill="rgba(255,255,255,.35)"/><rect x="-100" y="4" width="80" height="14" rx="7" fill="rgba(255,255,255,.2)"/></g>')
+        return tk(-50, -40, -8, c) + tk(40, 70, 6, MAG) + "".join(f'<path d="M{150 + i * 40} {-150 + i * 30} l6 -16 l6 16 l16 6 l-16 6 l-6 16 l-6 -16 l-16 -6z" fill="#ffd23f"/>' for i in range(3))
+    if m == "cart":  # shopping cart + product tags
+        return (f'<path d="M-240 -120 h50 l40 190 h220 l40 -140 h-280" {sw} stroke="{c}" stroke-width="6"/>'
+                f'<circle cx="-110" cy="120" r="22" {sw} stroke="{INK}" stroke-width="6"/><circle cx="60" cy="120" r="22" {sw} stroke="{INK}" stroke-width="6"/>'
+                f'<rect x="-120" y="-40" width="60" height="80" rx="8" fill="{MAG}" fill-opacity=".6"/><rect x="-40" y="-60" width="60" height="100" rx="8" fill="{c}" fill-opacity=".5"/><rect x="40" y="-20" width="50" height="60" rx="8" fill="#ffd23f" fill-opacity=".7"/>'
+                f'<path d="M150 -160 h80 l30 30 -80 80 -60 -60z" {sw} stroke="#ffd23f" stroke-width="5"/><circle cx="210" cy="-130" r="8" fill="#ffd23f"/>')
+    if m == "pins":  # several map pins on a grid
+        pin = lambda x, y, s, col: (f'<g transform="translate({x} {y}) scale({s})"><path d="M0 60 C-40 10 -50 -10 -50 -30 a50 50 0 0 1 100 0 c0 20 -10 40 -50 90z" fill="{col}" fill-opacity=".2" stroke="{col}" stroke-width="6"/><circle cy="-30" r="16" fill="{col}"/></g>')
+        return ("".join(f'<path d="M-260 {y} H260" stroke="rgba(255,255,255,.08)" stroke-width="2"/>' for y in range(-150, 170, 50))
+                + "".join(f'<path d="M{x} -160 V160" stroke="rgba(255,255,255,.08)" stroke-width="2"/>' for x in range(-250, 260, 50))
+                + f'<path d="M-170 40 Q-60 -80 20 0 T200 -60" {sw} stroke="{g}" stroke-width="3" stroke-dasharray="8 10"/>'
+                + pin(-170, 0, 1, c) + pin(20, -40, 1.25, MAG) + pin(200, -100, .9, "#ffd23f") + pin(120, 80, .8, c))
+    if m == "play":  # video player + play button
+        return (f'<rect x="-230" y="-140" width="400" height="240" rx="22" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<circle cx="-30" cy="-20" r="62" fill="{MAG}"/><path d="M-50 -55 l60 35 l-60 35z" fill="#fff"/>'
+                f'<path d="M-200 70 H140" stroke="rgba(255,255,255,.2)" stroke-width="6" stroke-linecap="round"/><path d="M-200 70 H-60" stroke="{MAG}" stroke-width="6" stroke-linecap="round"/>'
+                f'<rect x="190" y="-60" width="70" height="120" rx="14" {sw} stroke="#ffd23f" stroke-width="4"/><path d="M212 -16 l26 16 l-26 16z" fill="#ffd23f"/>')
+    if m == "key":  # key + lock (ownership)
+        return (f'<rect x="60" y="-40" width="170" height="150" rx="20" fill="{c}" fill-opacity=".1" stroke="{c}" stroke-width="6"/>'
+                f'<path d="M95 -40 v-40 a50 50 0 0 1 100 0 v40" {sw} stroke="{c}" stroke-width="6"/><circle cx="145" cy="25" r="16" fill="{c}"/><path d="M145 35 v35" stroke="{c}" stroke-width="10" stroke-linecap="round"/>'
+                f'<circle cx="-150" cy="-30" r="60" {sw} stroke="#ffd23f" stroke-width="8"/><circle cx="-150" cy="-30" r="20" {sw} stroke="#ffd23f" stroke-width="6"/>'
+                f'<path d="M-95 0 L20 110 M-10 85 l-28 28 M20 110 l-24 24" {sw} stroke="#ffd23f" stroke-width="10"/>')
+    if m == "clock":  # SEO timeline: clock + rising bars
+        return (f'<circle cx="-110" cy="-10" r="120" fill="{c}" fill-opacity=".06" stroke="{c}" stroke-width="6"/>'
+                + "".join(f'<path d="M{-110 + 100 * math.sin(a):.0f} {-10 - 100 * math.cos(a):.0f} L{-110 + 112 * math.sin(a):.0f} {-10 - 112 * math.cos(a):.0f}" stroke="{g}" stroke-width="4"/>' for a in [i * math.pi / 6 for i in range(12)])
+                + f'<path d="M-110 -10 V-80 M-110 -10 L-60 20" stroke="{INK}" stroke-width="8" stroke-linecap="round"/><circle cx="-110" cy="-10" r="10" fill="{MAG}"/>'
+                + "".join(f'<rect x="{60 + i * 46}" y="{120 - h}" width="32" height="{h}" rx="6" fill="{c}" fill-opacity="{.25 + i * .18:.2f}"/>' for i, h in enumerate((40, 70, 120, 190))))
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 

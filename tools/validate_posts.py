@@ -27,7 +27,7 @@ BANNED = [
 ICONS = {"Meta", "Instagram", "Facebook", "TikTok", "YouTube", "Google Ads", "Google", "Google Business Profile",
          "HubSpot", "Google Analytics", "Tag Manager", "Semrush", "Search Console", "Yelp", "Nextdoor", "LinkedIn",
          "Microsoft Ads"}
-MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield", "plumbing", "pest", "lawn", "remodel", "care", "iv", "spa", "beauty", "pet", "car", "snow", "pilates", "scale"}
+MOTIFS = {"hvac", "roof", "pool", "restaurant", "chiro", "fitness", "realestate", "medical", "wedding", "hotel", "billboard", "phone", "stars", "tools", "search", "growth", "browser", "tv", "shield", "plumbing", "pest", "lawn", "remodel", "care", "iv", "spa", "beauty", "pet", "car", "snow", "pilates", "scale", "speech", "industry", "ticket", "cart", "pins", "play", "key", "clock"}
 
 
 def text(h):
