@@ -18,8 +18,8 @@ A = lambda url, name: f'<a href="{url}" target="_blank" rel="noopener">{name}</a
 SRC = {
     # post 1
     "pollstar": A("https://news.pollstar.com/2024/06/04/last-minute-ticket-buying-eventbrite-releases-study-at-niva-24/", "Eventbrite data reported by Pollstar"),
-    "ebmeta": A("https://support.eventbrite.com/hc/it/articles/34863669333650-Add-a-Meta-Pixel-to-your-event", "Eventbrite’s Meta pixel help page"),
-    "ebga": A("https://support.eventbrite.com/hc/it/articles/34863659861778-Set-up-a-tracking-pixel-with-Google-Analytics", "Google Analytics setup"),
+    "ebmeta": A("https://support.eventbrite.com/hc/en-us/articles/34863669333650-Add-a-Meta-Pixel-to-your-event", "Eventbrite’s Meta pixel help page"),
+    "ebga": A("https://support.eventbrite.com/hc/en-us/articles/34863659861778-Set-up-a-tracking-pixel-with-Google-Analytics", "Google Analytics setup"),
     "universe": A("https://support.universe.com/hc/en-us/articles/360002452312-Use-Facebook-Pixel-on-your-Universe-event", "Universe’s pixel guide"),
     "schema": A("https://developers.google.com/search/docs/appearance/structured-data/event", "Event structured data guidelines"),
     "geo": A("https://support.google.com/google-ads/answer/1722043?hl=en", "location targeting help page"),
@@ -209,7 +209,7 @@ POSTS = [
                     "UTM tags on every ad, email and creator link",
                 ],
                 "alt": "Checklist for ticket pixel and conversion tracking before running ads to sell event tickets in Houston",
-                "caption": f"Based on {A('https://support.eventbrite.com/hc/it/articles/34863669333650-Add-a-Meta-Pixel-to-your-event', 'Eventbrite')} and {A('https://support.universe.com/hc/en-us/articles/360002452312-Use-Facebook-Pixel-on-your-Universe-event', 'Universe')} help pages.",
+                "caption": f"Based on {A('https://support.eventbrite.com/hc/en-us/articles/34863669333650-Add-a-Meta-Pixel-to-your-event', 'Eventbrite')} and {A('https://support.universe.com/hc/en-us/articles/360002452312-Use-Facebook-Pixel-on-your-Universe-event', 'Universe')} help pages.",
             },
             "weather": {
                 "type": "steps",
