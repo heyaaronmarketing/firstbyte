@@ -254,7 +254,7 @@ POSTS = [
 <p>Most industrial websites talk to exactly one of these people, usually the engineer, usually through a PDF from 2017. Firms that land the longer contracts tend to give every role something they can forward down the hall.</p>
 <p>Buyers are less local than you’d think, too. Houston is where many of them work, from the Energy Corridor along I-10 to Greenspoint and ExxonMobil’s campus in Spring, which {S2['xom']} reported would become its corporate headquarters. But an oilfield services firm based in Conroe may also sell into Midland, Lafayette and Oklahoma City. Your targeting should follow the buyers. Where your yard happens to be is mostly irrelevant.</p>"""),
 
-            ("LinkedIn Ads for B2B: targeting, formats and cost", f"""<p>LinkedIn is the only major ad platform where you can say “show this to maintenance managers and reliability engineers at these 150 companies” and have it mostly work. That’s why it’s expensive.</p>
+            ("LinkedIn Ads for B2B: targeting, formats and cost", f"""<p>LinkedIn is the only major ad platform where you can say “show this to maintenance managers and reliability engineers at these 150 companies” and have it mostly work. You pay for that privilege.</p>
 <h3>Targeting that matters for energy and industrial firms</h3>
 <p>Campaign Manager lets you target by company name, industry and company size, then layer on job title, function, seniority or skills. Start with titles and functions. Skills targeting gets broad fast.</p>
 <p>The more useful tool for most industrial firms is a Matched Audience built from a company list. Per {S2['licl']}, a CSV can hold up to 300,000 records, audiences take 24 to 48 hours to build, and a campaign can serve once the list matches at least 300 members. LinkedIn suggests 1,000+ companies for best results. Most Houston service firms don’t have 1,000 realistic targets, and a list of 150 named operators still works; expect to pay more for it. You can also upload CRM contacts and retarget people who looked at your spec sheet pages.</p>
@@ -375,7 +375,7 @@ POSTS = [
                 "stages": [["Target accounts", "150"], ["Accounts engaged", "60"], ["Meetings held", "18"], ["Opportunities", "9"], ["Won", "3"]],
                 "note": "Illustrative example",
                 "alt": "Funnel showing target accounts to won deals, measuring pipeline for B2B marketing in Houston industrial firms",
-                "caption": "Illustrative numbers. The point is the shape: report each stage, not just the top.",
+                "caption": "Illustrative numbers. Watch the shape: report each stage, not just the top.",
             },
             "wti": {
                 "type": "columns",
