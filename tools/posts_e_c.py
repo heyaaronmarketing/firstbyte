@@ -151,7 +151,7 @@ POST1 = {
 <li><b>Price your upsell program</b> and pitch it to existing customers first.</li>
 <li><b>Track it.</b> Ask every new caller how they found you and write it down.</li></ol>
 <p>Once your residential route is full, commercial work is the next step. Our guide on <a href="/blog/{SIB2}/">how to get commercial landscaping contracts</a> covers HOAs, MUDs and public bids. For how we work with home service companies in general, see our <a href="/industries/service/">home services page</a>.</p>
-<p>If you’re paying for Google or Meta ads too, check where the clicks come from. A radius around your shop almost always reaches ZIP codes your crews never drive to. Our free <a href="/contact/">Ad Spend Leak Check</a> flags that kind of spend: we record a 10-minute video of your account, mapped against the route you actually run, and send it within 48 hours.</p>"""),
+<p>If you’re paying for Google or Meta ads too, check where the clicks come from. A radius around your shop almost always reaches ZIP codes your crews never drive to. If you’d like help lining your targeting up with the route you actually run, <a href="/contact/">contact us</a>.</p>"""),
     ],
     "faq": [
         ("How do I get more lawn care customers fast?",
@@ -315,7 +315,7 @@ POST2 = {
 <li>After the award, request the bid tabulation and see where you landed.</li></ol>
 <p>If you win, the first 90 days decide the renewal. Send a monthly report with photos, keep a single point of contact, and fix complaints within 48 hours.</p>
 <p>Your first move doesn’t need a bid package. Open a spreadsheet tonight and add five buyers: two management companies, one MUD, the Township and the ISD closest to your yard. Next to each, write the contract end date if you can find it, or “ask” if you can’t. Then make the calls. Still building your residential base first? See <a href="/blog/{SIB1}/">how to get more lawn care customers</a> in The Woodlands, since good residential references help win the first commercial bids.</p>
-<p>One paid-search warning. Ads on “commercial landscaping” terms can still pull homeowners who just want a big yard done. If your phone is full of those calls, our free <a href="/contact/">Ad Spend Leak Check</a> will show which searches are triggering the ads and what to block. It’s a 10-minute recorded review of your Google or Meta account, delivered within 48 hours.</p>"""),
+<p>One paid-search warning. Ads on “commercial landscaping” terms can still pull homeowners who just want a big yard done. If your phone is full of those calls, <a href="/contact/">get in touch</a> and we can help you work out which searches are triggering the ads and what to block.</p>"""),
     ],
     "faq": [
         ("How do I get commercial lawn care contracts?",

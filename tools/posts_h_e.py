@@ -153,7 +153,7 @@ POSTS = [
 </tbody></table></div>
 <p>Once the table is real for three months, budget decisions get easy. If Meta produces lots of leads and no visits, change the creative or the form questions before you kill it.</p>
 <p>On spend, plenty of small builders put somewhere around 1% to 2% of revenue into marketing, with more during a community launch. Treat that loosely. The better number is marketing cost per closing, which you can only see once the funnel above is wired up.</p>
-<p>If you want a second set of eyes before you spend more, our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {L('/contact/', 'Request one here')}, and send us your quick move-in page while you’re at it.</p>"""),
+<p>If you want a second set of eyes before you spend more, <a href="/contact/">contact us</a>, and send us your quick move-in page while you’re at it.</p>"""),
         ],
         "faq": [
             ("How do home builders get leads?",
@@ -317,7 +317,7 @@ POSTS = [
 </tbody></table></div>
 <!--fig:budget-->
 <p>Start with the profile, reviews and retention, because they cost the least and pay back the fastest. Add paid search once your landing pages show prices and your phone is answered every time. Then test LSA. Shops that start with a big ad budget and a 3.9-star profile usually just pay more to lose the call.</p>
-<p>If you’re already spending and not sure it’s working, our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {L('/contact/', 'Ask for one here')}. And if you also run detail bays, our {L('/blog/auto-detailing-marketing-the-woodlands-houston/', 'auto detailing marketing post')} covers that side.</p>"""),
+<p>If you’re already spending and not sure it’s working, <a href="/contact/">contact us</a> and tell us what you’re running; we reply within an hour on weekdays. And if you also run detail bays, our <a href="/blog/auto-detailing-marketing-the-woodlands-houston/">auto detailing marketing post</a> covers that side.</p>"""),
         ],
         "faq": [
             ("How do I get more customers for my auto repair shop?",

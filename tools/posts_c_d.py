@@ -172,7 +172,7 @@ POSTS = [
 <li>Billing after the fact. On the same forum, a Thumbtack user reported a $91 charge months after cancelling.</li>
 </ul>
 <p>Forum posts skew negative, and these are individual accounts, so treat them as things to check in your own contract rather than a verdict.</p>
-<p>A next step that takes one evening: pull your last three months of marketplace statements, count the jobs you actually sold from them, and divide. That’s your real cost per booked job. Do the same for LSA and Google Ads if you run them. If the Google side looks expensive too, our free <a href="/contact/">Ad Spend Leak Check</a> can tell you whether that’s the channel or the setup. We record a 10-minute video of your Google or Meta account showing where the money is going, and you’ll have it within 48 hours. You can also see how we work with <a href="/industries/service/">home service companies</a> across Greater Houston.</p>"""),
+<p>A next step that takes one evening: pull your last three months of marketplace statements, count the jobs you actually sold from them, and divide. That’s your real cost per booked job. Do the same for LSA and Google Ads if you run them. If the Google side looks expensive too, <a href="/contact/">get in touch</a> and we can help you work out whether that’s the channel or the setup. You can also see how we work with <a href="/industries/service/">home service companies</a> across Greater Houston.</p>"""),
         ],
         "faq": [
             ("What do contractors say about Angi leads?",

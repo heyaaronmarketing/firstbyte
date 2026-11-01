@@ -141,7 +141,7 @@ POSTS = [
 <li>Price the loaded cost from the table above, not the salary or the retainer alone.</li>
 <li>Test before you commit. A 90-day agency engagement or a three-month fractional trial beats a 12-month contract or a hire you can’t easily unwind.</li>
 </ol>
-<p>If paid ads are already part of your spend, start by finding out what they’re actually returning. Our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. Whatever you decide about people, it’s worth knowing which dollars are working first. You can also see how we run <a href="/services/search-marketing/">Google Ads management</a> for local businesses.</p>"""),
+<p>If paid ads are already part of your spend, start by finding out what they’re actually returning. If you’d like help with that, <a href="/contact/">get in touch</a>. Whatever you decide about people, it’s worth knowing which dollars are working first. You can also see how we run <a href="/services/search-marketing/">Google Ads management</a> for local businesses.</p>"""),
         ],
         "faq": [
             ("How much does a fractional CMO cost in Houston?", "Published ranges run about $3,000 to $15,000 a month, with averages near $12,000 for roughly 20 hours a week. Advisory roles at five to ten hours a week sit around $3,000 to $6,000. Houston rates follow national ranges because many fractional CMOs work remotely, so the bigger driver is hours per week and the person’s experience, not the zip code."),
@@ -307,7 +307,7 @@ POSTS = [
 <li>Text five recent customers and ask for a review.</li>
 <li>Put a reminder on your calendar for 90 days from now to run the Search Console check above.</li>
 </ol>
-<p>If you’re running Google or Meta ads to cover the gap, make sure they aren’t wasting money while SEO ramps up. Our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your budget is leaking, delivered within 48 hours. And if you’re weighing who should own all of this long term, our comparison of a <a href="{CMO}">fractional CMO vs an agency vs an in-house hire</a> walks through the costs. When you’re ready for help with the site itself, see our <a href="/services/web-design-seo-pr/">web design and SEO services</a>.</p>"""),
+<p>If you’re running Google or Meta ads to cover the gap, make sure they aren’t wasting money while SEO ramps up. If you’d like a hand with that, <a href="/contact/">contact us</a>; we reply within an hour on weekdays. And if you’re weighing who should own all of this long term, our comparison of a <a href="{CMO}">fractional CMO vs an agency vs an in-house hire</a> walks through the costs. When you’re ready for help with the site itself, see our <a href="/services/web-design-seo-pr/">web design and SEO services</a>.</p>"""),
         ],
         "faq": [
             ("How long does SEO take to show results?", "Most local businesses see early signs in one to three months, such as more impressions and new queries in Search Console. Calls and form leads from organic search usually build between months four and six, and results keep compounding through the first year. Competitive categories and brand-new domains sit at the slow end of that range."),

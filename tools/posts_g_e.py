@@ -168,7 +168,7 @@ POSTS = [
 <tr><td>Tracking</td><td>No UTM, no call tracking</td><td>Both, reported monthly</td></tr>
 </tbody></table></div>
 <p>Can you do this in-house? Under five locations, with someone who has four hours a week, yes. Past ten, or once franchisees are involved, the job turns into governance (who owns what, who updates hours during a storm), and outside help tends to pay off there. It’s part of our <a href="/services/web-design-seo-pr/">SEO and web work</a>, and we’ll say so if a store manager with a checklist would do the job.</p>
-<p>If you also run Google or Meta ads across those stores, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where that budget leaks, overlapping store radiuses included, in your inbox within 48 hours. For the profile side, start with <a href="/blog/google-business-profile-number-one-asset/">why your Business Profile is your number one asset</a>, then score your weakest store.</p>"""),
+<p>If you also run Google or Meta ads across those stores, watch for overlapping store radiuses, and <a href="/contact/">get in touch</a> if you’d like help sorting them out. For the profile side, start with <a href="/blog/google-business-profile-number-one-asset/">why your Business Profile is your number one asset</a>, then score your weakest store.</p>"""),
         ],
         "faq": [
             ("How do I manage Google Business Profiles for multiple locations?",
@@ -329,7 +329,7 @@ POSTS = [
 <li>You serve a defined area you can target by ZIP code.</li>
 <li>You’ll give it at least two to three months and measure it with something beyond views.</li></ul>
 <p>We’d hold off if your search campaigns are still leaking money, your website doesn’t convert on mobile, or you need leads next week. YouTube builds demand that Search then captures, and if the capture side is broken, YouTube just makes the leak bigger. So we usually look at <a href="/services/search-marketing/">search</a> first.</p>
-<p>If you want an outside look before spending on video, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your current Google or Meta budget is leaking, in your inbox within 48 hours. Fix those leaks, then give YouTube a real test with a phone-shot ad and a tight ZIP list. For context on what TV and radio cost by comparison, see <a href="/blog/radio-tv-advertising-cost-houston/">radio and TV advertising costs in Houston</a>.</p>"""),
+<p>Before spending on video, make sure your current Google or Meta budget isn’t leaking, and <a href="/contact/">get in touch</a> if you’d like help with that. Then give YouTube a real test with a phone-shot ad and a tight ZIP list. For context on what TV and radio cost by comparison, see <a href="/blog/radio-tv-advertising-cost-houston/">radio and TV advertising costs in Houston</a>.</p>"""),
         ],
         "faq": [
             ("How much do YouTube ads cost per view?",

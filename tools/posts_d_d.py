@@ -132,7 +132,7 @@ POSTS = [
 <!--fig:checklist-->
 <p>Once you’re settled, go back through the basics in our {'<a href="/blog/local-seo-checklist-the-woodlands/">local SEO checklist for The Woodlands</a>'}. And if you need a reminder why this profile deserves the care, read why your {'<a href="/blog/google-business-profile-number-one-asset/">Google Business Profile is your number one asset</a>'}.</p>
 <p>If a move or rebrand is on the calendar in The Woodlands, Conroe or elsewhere around Houston, our {'<a href="/services/web-design-seo-pr/">web design and SEO team</a>'} can sequence the profile, website and citations with you so nothing goes dark.</p>
-<p>Ads are the piece people forget. Old addresses hide in ad text, location targeting drawn around the old suite and landing pages that still show the old map, and none of that updates when Google approves your profile edit. If you’re running Google or Meta ads through the move, request a free {'<a href="/contact/">Ad Spend Leak Check</a>'} the week you change the address. We’ll record a walkthrough of the account that flags anything still pointing customers to the place you just left.</p>"""),
+<p>Ads are the piece people forget. Old addresses hide in ad text, location targeting drawn around the old suite and landing pages that still show the old map, and none of that updates when Google approves your profile edit. If you’re running Google or Meta ads through the move, <a href="/contact/">get in touch</a> the week you change the address and we can help you find anything still pointing customers to the place you just left.</p>"""),
         ],
         "faq": [
             ("Will I lose my Google reviews if I move my business?",

@@ -153,7 +153,7 @@ POSTS = [
             ("Your Google Verified checklist", f"""<p>Hand this to whoever runs your office.</p>
 <!--fig:checklist-->
 <p>Today, put two dates on the office calendar: 30 days before the insurance renews and 30 days before the state license does. Those two reminders prevent most badge outages we’d otherwise be chasing.</p>
-<p>Then pull the lead report from your LSA account for the last 60 days and listen to five of the charged calls. If some are for work you don’t want, like a doorbell swap billed as an electrical lead, switch off the job types that attract them. If you also run regular Google search campaigns, send us a request for a free <a href="/contact/">Ad Spend Leak Check</a>. We’ll record a walkthrough showing where the search side pays for calls LSA already brings in, or for jobs you’d turn down.</p>"""),
+<p>Then pull the lead report from your LSA account for the last 60 days and listen to five of the charged calls. If some are for work you don’t want, like a doorbell swap billed as an electrical lead, switch off the job types that attract them. If you also run regular Google search campaigns, <a href="/contact/">get in touch</a> if you think the search side is paying for calls LSA already brings in, or for jobs you’d turn down.</p>"""),
         ],
         "faq": [
             ("Is Google Guaranteed still a thing?",

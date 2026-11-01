@@ -101,8 +101,8 @@
       '<div class="fblm-modal">' +
       '<button class="fblm-close" aria-label="Close">&times;</button>' +
       '<span class="fblm-badge">Free • Video in 48 hours</span>' +
-      '<h2>Get your free <span class="a">Ad Spend Leak Check</span></h2>' +
-      '<p class="fblm-sub">A 10-minute video showing where your Google or Meta budget is leaking — and the 3 fastest fixes. In your inbox within 48 hours.</p>' +
+      '<h2>Let’s talk about <span class="a">your marketing</span></h2>' +
+      '<p class="fblm-sub">Tell us what you’re working on and we’ll reply within 1 hour, Mon–Fri. No pressure.</p>' +
       '<div class="fblm-bjstage fblm-hidden fblm-bj">' +
         '<button type="button" class="fblm-mute" data-mute aria-label="Toggle sound">🔊</button>' +
         '<div class="fblm-bj-burst fblm-hidden" data-burst></div>' +
@@ -394,7 +394,7 @@
               '<div style="text-align:center;padding:.5rem 0">' +
               '<div style="font-size:3rem">🎉</div>' +
               '<h2>Your credit is reserved!</h2>' +
-              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. We reply within 1 hour, Mon–Fri, and your Ad Spend Leak Check video lands within 48 hours.</p>' +
+              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. We reply within 1 hour, Mon–Fri.</p>' +
               '<a class="fblm-cta" style="display:inline-block;text-decoration:none;max-width:300px" href="tel:' + PHONE + '" data-book>📞 Can\'t wait? Call Sean</a>' +
               '<p class="fblm-fine">' + PHONE_D + ' · Mon–Fri, 8am–6pm CT</p>' +
               '</div>';
@@ -414,7 +414,7 @@
   /* ---------------- Individual mechanisms ---------------- */
   function helloBar() {
     if (!FEAT.hello) return;
-    var bar = el('<div class="fblm-hellobar"><span>🎯 <b>Free:</b> an Ad Spend Leak Check — a 10-minute video showing where your ad budget is leaking.</span><button>Claim mine</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
+    var bar = el('<div class="fblm-hellobar"><span>👋 <b>Questions about your marketing?</b> Talk to a senior strategist in The Woodlands.</span><button>Contact us</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
     document.body.appendChild(bar);
     bar.querySelector("button").addEventListener("click", function () { openModal("hellobar"); });
     bar.querySelector(".fblm-x").addEventListener("click", function () { bar.classList.remove("fblm-show"); });
@@ -422,13 +422,13 @@
   }
   function fab() {
     if (!FEAT.fab) return;
-    var b = el('<button class="fblm-fab">💬 Get my free Leak Check</button>');
+    var b = el('<button class="fblm-fab">💬 Contact us</button>');
     b.addEventListener("click", function () { openModal("fab"); });
     document.body.appendChild(b);
   }
   function mobileBar() {
     if (!FEAT.mobile) return;
-    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">⚡ Free Leak Check</button></div>');
+    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">✉️ Contact us</button></div>');
     b.querySelector(".fblm-quote").addEventListener("click", function () { openModal("mobilebar"); });
     document.body.appendChild(b);
   }
@@ -462,7 +462,7 @@
        are none yet, nothing is shown. Clearly-labeled SAMPLE data is shown only
        in the owner demo (/?demo=1) so the owner can preview the look. */
     var SAMPLES = [
-      { name: "Mike R.", text: "in Conroe requested a Leak Check", real: false },
+      { name: "Mike R.", text: "in Conroe sent a message", real: false },
       { name: "Sarah L.", text: "in Spring booked a strategy call", real: false },
       { name: "Carlos M.", text: "in Katy claimed the monthly offer", real: false },
       { name: "Jen P.", text: "in Tomball requested a quote", real: false }

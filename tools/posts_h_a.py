@@ -140,7 +140,7 @@ POSTS = [
 
             ("Fix it yourself or call someone?", f"""<p>Most of this is DIY. An owner can run the site: search, check the builder toggles, look over the Business Profile and open the Manual actions report in one afternoon.</p>
 <p>Pay for help if a migration went badly and you’ve got hundreds of old URLs with no redirect map, or if Search Console shows canonical and duplicate problems across most of the site. Same if you’re indexed and just not competitive. That one is real SEO work, and our {L('/services/web-design-seo-pr/', 'web design and SEO team')} does it for businesses across Montgomery and Harris County.</p>
-<p>Your next step today: run <b>site:yourdomain.com</b>, then inspect your homepage in Search Console. Those two checks tell you which half of this guide you need. And if you’re running Google Ads or Meta ads to cover the gap, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where that budget is leaking, in your inbox within 48 hours.</p>"""),
+<p>Your next step today: run <b>site:yourdomain.com</b>, then inspect your homepage in Search Console. Those two checks tell you which half of this guide you need. And if you’re running Google Ads or Meta ads to cover the gap, <a href="/contact/">get in touch</a> and we can talk about whether that budget is pulling its weight.</p>"""),
         ],
         "faq": [
             ("Why is my website not showing up on Google?", "Usually because Google hasn't indexed it or because it's indexed but doesn't rank for the searches you tried. Run a site:yourdomain.com search on google.com. No results points to an indexing block such as a noindex tag, a password, or a robots.txt rule. Results without rankings for your services is a competition problem. Search Console's URL Inspection tool tells you which one you have."),
@@ -294,7 +294,7 @@ POSTS = [
 
             ("When to do this yourself and when to hand it off", f"""<p>A single contact form with a thank-you page is a one-hour DIY job. Redirect, track the page, mark the key event, test. Call assets in Google Ads are about the same.</p>
 <p>It gets messier fast once you add a second form, an embedded booking tool or another location. Cross-channel call tracking and CRM data flowing back into Google Ads are where most owners (reasonably) tap out. That’s the kind of setup our {L('/services/search-marketing/', 'Google Ads team')} builds and maintains for businesses from Katy to Conroe.</p>
-<p>Your next step: submit your own contact form today and see if GA4 notices. If you’re running ads and aren’t sure the numbers in your account are real, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, tracking included, in your inbox within 48 hours.</p>"""),
+<p>Your next step: submit your own contact form today and see if GA4 notices. If you’re running ads and aren’t sure the numbers in your account are real, <a href="/contact/">get in touch</a> and we’ll help you sort out the tracking.</p>"""),
         ],
         "faq": [
             ("How do I track form submissions in GA4?", "The reliable way is to fire a generate_lead event only when the form succeeds, either by tracking a thank-you page view or by using Google Tag Manager to catch the form's success message or dataLayer event. Then mark generate_lead as a key event under Admin, Data display, Events. Avoid relying on enhanced measurement's form_submit, which can count failed attempts and miss embedded forms."),
