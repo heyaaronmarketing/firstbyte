@@ -67,7 +67,7 @@ POSTS = [
 <p>Two more switches live nearby.</p>
 <p><b>SMS verification.</b> Under Quality filters, some accounts show “Require SMS verification to submit form.” The person gets a one-time code by text and has to enter it, or the submission doesn’t count as a lead. {SRC['loomer_new']} found it in three places (as a quality filter, a separate form type, and an option inside Higher intent) and says they all work the same way. If fake numbers are your main headache, this is the strongest filter Meta offers.</p>
 <p>Some accounts also have an autofill checkbox on the email and phone fields. Turn it off and people have to type their real, current details. Fewer finish. The ones who do actually wanted to.</p>
-<p>Meta rolls these out unevenly, so if one is missing from your account, don’t lose a day hunting for it. Use what you have.</p>
+<p>Meta rolls these out unevenly, so if one is missing, don’t lose a day hunting for it. Use what you have.</p>
 <!--fig:formtype-->
 <p>Expect your cost per lead to climb when you do this, sometimes a lot. We’ve made peace with that. A $28 lead you can reach beats a $9 lead that was never real, and the math usually works out in favor of the filtered form within a few weeks.</p>"""),
 
@@ -142,7 +142,7 @@ POSTS = [
 <tr><td>Best for</td><td>Lower-ticket offers, quick bookings, fast follow-up teams</td><td>Big-ticket jobs, regulated services, slower sales cycles</td></tr>
 </tbody></table></div>
 <p>There’s also a hybrid. {SRC['loomer_new']} describes a “Website and Instant Forms” conversion location where Meta can send each person to whichever one it predicts will work. We’d only try it once both versions work well on their own.</p>
-<p>If you go the landing page route, build a page for this ad. (Sending it to your homepage is how you pay for clicks that read your About page and leave.) One offer, one form, a phone number, real photos of your work in Houston-area homes, and reviews. Our {f'<a href="/blog/landing-pages-101/">landing pages guide</a>'} covers the structure.</p>
+<p>If you go the landing page route, build a page for this ad. (Send it to your homepage and you’re paying for people to read your About page and leave.) One offer, one form, a phone number, real photos of your work in Houston-area homes, and reviews. Our {f'<a href="/blog/landing-pages-101/">landing pages guide</a>'} covers the structure.</p>
 <p>For most home service and medical clients, we start with a filtered Higher intent form because it’s fast to test, then add a landing page version beside it once there’s budget for two ad sets. Compare them on cost per booked appointment. Cost per lead will mislead you here.</p>"""),
 
             ("Audience and placement settings that quietly hurt quality", f"""<p>Some junk is a placement problem.</p>
@@ -285,15 +285,15 @@ POSTS = [
 
             ("LinkedIn profile targeting: the B2B reason to care", f"""<p>This is the feature Google can’t match. Microsoft owns LinkedIn, and Microsoft Ads lets you layer LinkedIn profile data onto your campaigns. Per {SRC['linkedin']}, you can target by:</p>
 <ul>
-<li><b>Company</b>, up to 1,000 companies in a single ad group or campaign</li>
-<li><b>Industry</b>, such as oil and energy, construction, or hospital and health care</li>
-<li><b>Job function</b>, such as purchasing, engineering or operations</li>
+<li>Company (up to 1,000 of them in a single ad group or campaign)</li>
+<li>Industry, such as oil and energy, construction, or hospital and health care</li>
+<li>Job function, such as purchasing, engineering or operations</li>
 </ul>
 <p>It works in Search, Dynamic Search Ads, Shopping, Audience and (for some accounts) Performance Max campaigns.</p>
-<p>One detail people miss: in search campaigns this works as a <b>bid adjustment</b>, not a filter. Targeting a company doesn’t exclude everyone else. It lets you bid more when someone from that company searches your keywords. That’s actually useful. Picture an industrial valve distributor in Conroe. When someone searches “api 6d ball valve supplier houston,” you want the click either way, but you’d pay a lot more for it if the searcher works in purchasing at one of the operators along the Energy Corridor or one of the big petrochemical plants on the Ship Channel.</p>
-<p>For B2B companies, that kind of signal is worth the setup time on its own. Our {f'<a href="/blog/b2b-marketing-houston-energy-industrial/">B2B marketing guide for Houston energy and industrial companies</a>'} covers the rest of that playbook.</p>"""),
+<p>The detail people miss is that in search campaigns this works as a <b>bid adjustment</b>. Targeting a company doesn’t exclude everyone else; it lets you bid more when someone from that company searches your keywords. That turns out to be more useful than a filter. Picture an industrial valve distributor in Conroe. When someone searches “api 6d ball valve supplier houston,” you want the click either way, but you’d pay a lot more for it if the searcher works in purchasing at one of the operators along the Energy Corridor or one of the big petrochemical plants on the Ship Channel.</p>
+<p>If you sell B2B, we think that signal alone justifies the setup time. Our {f'<a href="/blog/b2b-marketing-houston-energy-industrial/">B2B marketing guide for Houston energy and industrial companies</a>'} covers the rest of that playbook.</p>"""),
 
-            ("When Microsoft Ads is worth it, and when we’d skip it", f"""<p>Here’s the decision table we actually use. It’s judgment, not a formula, but it gets most businesses to the right answer.</p>
+            ("When Microsoft Ads is worth it, and when we’d skip it", f"""<p>This is the decision table we actually use. There’s judgment baked into every row, but it gets most businesses to the right answer.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Your situation</th><th>Our call</th><th>Why</th></tr></thead>
 <tbody>
@@ -307,26 +307,26 @@ POSTS = [
 <tr><td>Under about $1,500 a month on Google</td><td>Usually skip</td><td>The Microsoft slice would be too small to learn from</td></tr>
 </tbody></table></div>
 <!--fig:fit-->
-<p>That $1,500 line is our rule of thumb, not a Microsoft minimum. Below it, a 10% to 15% test is $150 to $225 a month, which in a Houston auction might be 30 clicks. You can’t tell anything from 30 clicks.</p>
-<p>A quick word on that “older audience” pitch. Microsoft markets its audience as more affluent and more desktop-based, and desktop share does skew that way. We just haven’t seen independent data we’d stake your budget on, so treat audience claims as a hypothesis to test, not a reason to spend.</p>"""),
+<p>Microsoft has no $1,500 minimum. That line is ours. Below it, a 10% to 15% test is $150 to $225 a month, which in a Houston auction might be 30 clicks, and nobody can read anything into 30 clicks.</p>
+<p>A quick word on that “older audience” pitch. Microsoft markets its audience as more affluent and more desktop-based, and desktop share does skew that way. We just haven’t seen independent data we’d stake your budget on. Treat it as a hypothesis and let your own conversion data settle it.</p>"""),
 
             ("Two Houston examples, worked through", f"""<p>Numbers make this easier. Both of these are hypotheticals with made-up but realistic figures, so swap in your own.</p>
 <h3>An estate planning attorney in The Woodlands</h3>
 <p>Say she spends $4,000 a month on Google search and gets about 20 consultation requests, so roughly $200 per lead. Her clients are mostly 55 and older, and a lot of them research from a desktop at home or at the office near Hughes Landing. That’s close to the profile Microsoft pitches. A $600 monthly Microsoft test (15% of Google) that produces three or four consults at $150 to $200 each is a clear keep. If it produces one consult a month for three months straight, it isn’t, and she’s out $1,800, which is a fair price for a real answer.</p>
 <h3>A two-truck HVAC company in Spring</h3>
 <p>Now say he spends $2,500 a month on Google, and most of his calls come from phones in July and August when an AC quits at 9 p.m. Emergency searches like that happen on mobile, where Bing’s share is small. He might still test Microsoft for “ac replacement cost” and “new hvac system quote” type keywords, which people often research at a desk, but we’d put his next $375 into Google Local Services Ads or more budget on his best Google campaign first.</p>
-<p>Same platform, opposite answers. The difference is who searches, from what device, and what a lead is worth.</p>"""),
+<p>Same platform, and we’d give these two owners opposite advice.</p>"""),
 
             ("How to import Google Ads into Microsoft Ads, step by step", f"""<p>This is the part that makes the test cheap. You don’t rebuild anything. Per {SRC['import']}:</p>
 <ol>
-<li><b>Create the account</b> at ads.microsoft.com with a business email, and set up billing.</li>
+<li>Create the account at ads.microsoft.com with a business email, and set up billing.</li>
 <li><b>Install the UET tag</b> (Microsoft’s version of the Google tag). If you use Google Tag Manager, add it there. Create conversion goals that match your Google ones: calls, form submits, booked appointments.</li>
 <li><b>Go to Import, then Import from Google Ads.</b> Sign in to Google. Choose Customize rather than Quick import so you can pick specific campaigns and associate your UET tag.</li>
-<li><b>Import only your best search campaigns.</b> Not everything. Start with the one or two campaigns that already make money on Google.</li>
+<li>Import only the one or two search campaigns that already make money on Google. Leave the rest behind for now.</li>
 <li><b>Decide on scheduled imports.</b> Automatic schedules re-sync changes from Google, and Microsoft warns they can reactivate paused campaigns and revert budgets. For a test, we turn the schedule off and manage Microsoft on its own.</li>
 <li><b>Check what changed on the way in.</b> Bids and budgets below Microsoft’s minimums get raised by default. Broad match negatives become phrase match negatives, so review your negative list.</li>
-<li><b>Fix location targeting.</b> Microsoft notes targeting settings differ significantly between platforms. Re-check your radius or zip codes and the location intent options before going live.</li>
-<li><b>Set a separate budget</b> and launch.</li>
+<li>Re-check location targeting. Microsoft notes targeting settings differ significantly between platforms, so confirm your radius or zip codes and the location intent options before going live.</li>
+<li>Set a separate budget and launch.</li>
 </ol>
 <!--fig:steps-->
 <p>If you have Google’s two-step verification on and the direct import fails, Microsoft suggests an application-specific password or uploading an import file instead.</p>
@@ -336,13 +336,14 @@ POSTS = [
 <p>What to watch, in this order:</p>
 <ul>
 <li><b>Search terms, weekly.</b> Microsoft’s matching can be looser than you expect. Add negatives early.</li>
-<li><b>Conversions, not clicks.</b> Make sure the UET goals are actually recording before you judge anything. Make a test call yourself.</li>
+<li>Conversions. Make sure the UET goals are actually recording before you judge anything, which means making a test call yourself.</li>
 <li><b>Cost per lead against Google’s.</b> If it’s within about 25% of your Google cost per lead, the channel is earning its keep, because it’s incremental volume.</li>
-<li><b>Lead quality.</b> Ask every caller how they found you, and tag Microsoft leads in your CRM.</li>
-<li><b>Device and hour reports.</b> If almost everything converts on desktop from 8 a.m. to 5 p.m., consider a desktop-focused schedule.</li>
+<li>Lead quality. Ask every caller how they found you and tag the Microsoft leads in your CRM. Cheap leads that never book aren’t cheap.</li>
+<li>Device and hour reports. If almost everything converts on desktop from 8 a.m. to 5 p.m., consider a desktop-focused schedule.</li>
 </ul>
 <!--fig:test-->
-<p>At day 90, you’ll be in one of three places. It’s working, so raise the budget gradually. It’s close, so try LinkedIn bid adjustments or AI Max as your next experiment. Or it’s not working, so turn it off and put the money back into Google. All three are fine outcomes. The only bad outcome is leaving a mediocre campaign running for two years because nobody checked.</p>"""),
+<p>By day 90 you’ll know roughly where you stand. If it’s working, raise the budget gradually. If it’s close, try LinkedIn bid adjustments or AI Max as the next experiment. If it isn’t, turn it off, put the money back into Google, and don’t feel bad about it.</p>
+<p>The expensive mistake is a mediocre campaign left running for two years because nobody looked.</p>"""),
 
             ("Should you hire someone to run it?", f"""<p>Honestly, Microsoft Ads is one of the easier things to do yourself if your Google account is in good shape. The import does most of the work. Budget a couple of hours to set it up and twenty minutes a week to watch it.</p>
 <p>Where it gets harder is when the Google account itself has problems, because the import copies them. If you’re not sure your Google campaigns are healthy, fix that first. Our free {f'<a href="/contact/">Ad Spend Leak Check</a>'} is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours, and it’s a sensible first step before you expand to a second search engine. If you’d rather hand off the whole search program, our {f'<a href="/services/search-marketing/">search marketing team</a>'} runs Google and Microsoft campaigns for businesses across The Woodlands and Houston.</p>"""),
