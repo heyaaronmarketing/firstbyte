@@ -151,7 +151,7 @@ POST1 = {
 <li><b>Price your upsell program</b> and pitch it to existing customers first.</li>
 <li><b>Track it.</b> Ask every new caller how they found you and write it down.</li></ol>
 <p>Once your residential route is full, commercial work is the next step. Our guide on <a href="/blog/{SIB2}/">how to get commercial landscaping contracts</a> covers HOAs, MUDs and public bids. For how we work with home service companies in general, see our <a href="/industries/service/">home services page</a>.</p>
-<p>If you’re paying for Google or Meta ads too, check where the clicks come from. A radius around your shop almost always reaches ZIP codes your crews never drive to. If you’d like help lining your targeting up with the route you actually run, <a href="/contact/">contact us</a>.</p>"""),
+<p>If you’re paying for Google or Meta ads too, check where the clicks come from. A radius around your shop almost always reaches ZIP codes your crews never drive to. If you’d like help lining your targeting up with the route you actually run, <a href="/contact/">get in touch</a>.</p>"""),
     ],
     "faq": [
         ("How do I get more lawn care customers fast?",

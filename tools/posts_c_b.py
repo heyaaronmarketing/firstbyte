@@ -136,7 +136,7 @@ POSTS = [
 <p>Your profile likely brings in more calls than your website, as we argue in <a href="/blog/google-business-profile-number-one-asset/">why your Google Business Profile is your number one asset</a>. For review habits that hold up, see our <a href="/blog/complete-guide-google-reviews/">complete guide to Google reviews</a>.</p>"""),
             ("What legitimate help looks like", f"""<p>Your next step is the health check above. Put it on the calendar for the first Monday of each quarter and have whoever answers your phones read this page once.</p>
 <p>If you run it and something looks wrong, like a manager you don’t recognize or a phone number you never entered, <a href="/contact/">tell us what you found</a> and we’ll say plainly what we’d do. We’re a local agency in The Woodlands, so you can look us up before you reply to anything. Any legitimate agency works the same way: you add them as a manager from your own account, you can remove them any time, and nobody ever needs your verification code or password to help.</p>
-<p>The same goes for us if you also run Google or Meta ads. We only talk about your account if you <a href="/contact/">contact us</a> first, and what you do next is up to you. Ongoing profile upkeep sits with our <a href="/services/web-design-seo-pr/">SEO team</a>.</p>"""),
+<p>The same goes for us if you also run Google or Meta ads. We only talk about your account if you <a href="/contact/">get in touch</a> first, and what you do next is up to you. Ongoing profile upkeep sits with our <a href="/services/web-design-seo-pr/">SEO team</a>.</p>"""),
         ],
         "faq": [
             ("How do I stop Google business listing robocalls?",

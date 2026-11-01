@@ -165,7 +165,7 @@ POSTS = [
             ("When to DIY and when to pay someone", f"""<p>DIY makes sense if you’re early, your budget is tight, you pick Squarespace or Wix, and you’re willing to spend a couple of weekends writing real copy. Use a template close to what you want and change as little of the design as possible. Spend your energy on the words, the photos of your actual team and trucks, and a clear call button.</p>
 <p>Pay someone once the site has to carry real lead flow, you’re running Google Ads to it, you need a dozen service-area pages, or you’re migrating an older site that already ranks. Migrations do the most damage in our experience. URLs change, nobody sets up redirects, and six months of rankings vanish. If you’re seeing those symptoms now, our list of <a href="/blog/signs-your-website-needs-a-redesign/">signs your website needs a redesign</a> will help you decide whether to rebuild or repair.</p>
 <p>If you want help, our <a href="/services/web-design-seo-pr/">web design and SEO team</a> builds on WordPress, Webflow and Shopify, and fixes sites on Wix and Squarespace. We’ll tell you plainly if your current platform is fine and the problem is elsewhere.</p>
-<p>And if the site is fine but the ads sending traffic to it aren’t, <a href="/contact/">contact us</a> and tell us what you’re running.</p>"""),
+<p>And if the site is fine but the ads sending traffic to it aren’t, <a href="/contact/">get in touch</a> and tell us what you’re running.</p>"""),
         ],
         "faq": [
             ("Is Wix or WordPress better for SEO?",

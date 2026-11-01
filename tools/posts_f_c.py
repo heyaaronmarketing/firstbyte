@@ -140,7 +140,7 @@ POSTS = [
 <p>We’d use Meta ads in grooming for exactly one job, which is selling puppy intro grooms to new dog owners within a few miles. A 20-second video of a nervous puppy getting a gentle first bath beats any discount we’ve tried writing. Our <a href="/services/paid-social-advertising/">paid social</a> page covers how we run those.</p>
 <p>One more trust point. Texas doesn’t license dog groomers statewide; as {SRC['tx']} reported, anyone in the state can become a groomer without formal training or licensing (El Paso passed its own ordinance). Owners know this, which is why certifications, insurance and a clear safety policy belong on your site. And if you operate inside Houston city limits, check whether you need the city’s {SRC['houston']}, which covers facilities keeping dogs or cats for a commercial purpose and explicitly includes mobile pet service businesses. Outside the city, ask your own city or county; rules vary, and we’re marketers, not lawyers.</p>
 <p>If you run grooming inside a daycare or boarding facility, the sister guide on <a href="{DAYCARE}">dog daycare and boarding marketing in Houston</a> covers the other half of the building.</p>
-<p>Not sure whether your ad money is going to the right ZIPs, or anywhere useful at all? <a href="/contact/">Contact us</a> and tell us what you’re running on Google or Meta.</p>"""),
+<p>Not sure whether your ad money is going to the right ZIPs, or anywhere useful at all? <a href="/contact/">Get in touch</a> and tell us what you’re running on Google or Meta.</p>"""),
         ],
         "faq": [
             ("How do I get more clients for my dog grooming business?",
