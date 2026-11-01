@@ -155,7 +155,7 @@ POSTS = [
 </ul>
 <p>For the broader picture of building Meta campaigns for local businesses, see our {f'<a href="/blog/facebook-instagram-ads-local-businesses/">Facebook and Instagram ads guide</a>'}.</p>"""),
 
-            ("A lead-quality scorecard you can run on last month’s leads", f"""<p>Pull last month’s leads into a spreadsheet, add an outcome column, and fill it in from your call notes. Then score them against this. The thresholds are our own rules of thumb from local service accounts, not an industry benchmark. Adjust to your business.</p>
+            ("A lead-quality scorecard you can run on last month’s leads", f"""<p>Pull last month’s leads into a spreadsheet, add an outcome column, and fill it in from your call notes. Then score them against this. The thresholds come from our own local service accounts, so treat them as rules of thumb and adjust to your business.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Metric</th><th>How to calculate</th><th>Healthy</th><th>Problem</th><th>Likely fix</th></tr></thead>
 <tbody>
@@ -171,7 +171,7 @@ POSTS = [
 <p>Run the scorecard monthly. When you change something, change one thing at a time and give it two to three weeks, or you’ll never know which change helped.</p>"""),
 
             ("When to fix it yourself and when to get help", f"""<p>Most of this you can do in an afternoon: switch to Higher intent, turn on SMS verification if you have it, add four questions with Close form logic, rewrite the offer, set up an auto-text. Do those first.</p>
-<p>The parts that take more skill are the CRM integration, Conversions API, and building a landing page that converts on a phone. That’s where outside help tends to pay off, especially if your team is already stretched answering the leads you have.</p>
+<p>The CRM integration and Conversions API take more skill, and so does a landing page that actually converts on a phone. Outside help tends to pay off there, especially if your team is already stretched answering the leads you have.</p>
 <p>If you want a second set of eyes before you change anything, our free {f'<a href="/contact/">Ad Spend Leak Check</a>'} is a 10-minute video showing where your Meta budget is leaking, in your inbox within 48 hours. Or see how our {f'<a href="/services/paid-social-advertising/">paid social team</a>'} runs lead campaigns for businesses from Conroe to Sugar Land.</p>"""),
         ],
         "faq": [
@@ -252,26 +252,21 @@ POSTS = [
         "related": ["small-business-guide-google-ads-2026", "google-ads-cost-per-click-houston-benchmarks", "b2b-marketing-houston-energy-industrial"],
         "sections": [
             (None, f"""<p>Your Google Ads clicks keep getting more expensive. Somebody at a chamber lunch in The Woodlands says, “Have you tried Bing? Nobody advertises there, it’s cheap.” You laugh, because who uses Bing. Then you remember the PC on your own office desk opens Edge every morning.</p>
-<p>So, is Bing Ads worth it? For a lot of small businesses, Microsoft Ads is worth a small, controlled test, not a big bet. Bing handled 9.72% of U.S. searches across devices in October 2026 and 18.8% of desktop searches, per {SRC['sc_all']}. That’s a minority, but it’s real money, and you can copy your Google campaigns over in an afternoon. It pays off best for B2B companies, businesses whose customers search from work computers, and industries where Google clicks are painfully expensive. We’d skip it if your Google account isn’t profitable yet.</p>
-<p>Below: the actual numbers, what’s changed with Copilot and AI Max this year, where the “Bing is 33% cheaper” claims come from (spoiler: nowhere solid), a decision table, and the setup steps.</p>"""),
+<p>So, is Bing Ads worth it? For a lot of small businesses, yes, as a small and controlled test. We wouldn’t make it a big bet. Bing handled 9.72% of U.S. searches across devices in October 2026 and 18.8% of desktop searches, per {SRC['sc_all']}. A minority, sure, but real money, and you can copy your Google campaigns over in an afternoon. B2B companies tend to get the most out of it, along with anyone whose customers search from a work computer or whose Google clicks have gotten painfully expensive. If your Google account isn’t profitable yet, skip it for now.</p>
+<p>Below are the actual numbers and what changed this year with Copilot and AI Max. We also chased down where the “Bing is 33% cheaper” line comes from (nowhere solid, it turns out), and there’s a decision table plus the setup steps.</p>"""),
 
             ("How many people actually use Bing in 2026?", f"""<p>More than most owners assume, and fewer than Microsoft’s sales deck implies. It depends a lot on which device you count.</p>
 <p>Across desktop, mobile and tablet, {SRC['sc_all']} put October 2026 U.S. search share at Google 85.5%, Bing 9.72%, Yahoo 2.54% and DuckDuckGo 1.74%. On desktop alone, {SRC['sc_desk']} show a very different split: Google 74.86%, Bing 18.8%, Yahoo 3.98% and DuckDuckGo 1.96%.</p>
 <p>Why the gap? Windows PCs ship with Edge, Edge defaults to Bing, and a lot of office computers never get changed. On phones, Google is the default almost everywhere. So Bing’s audience leans toward people sitting at a desk.</p>
 <!--fig:share-->
-<p>Microsoft’s own numbers are bigger, and it’s worth knowing why. {SRC['msa_search']} claims 109 million unique U.S. PC users, 6.4 billion monthly PC searches and a 38.1% PC market share. Read the footnote: that’s Comscore data from March 2023, desktop traffic only, and it covers Microsoft’s whole search network. Yahoo, AOL and DuckDuckGo results show Microsoft ads too, so they’re counted in. Not wrong, but it’s Microsoft’s pitch, and it’s three years old.</p>
-<p>Our working assumption for a Houston-area business: Microsoft Ads can reach somewhere around a tenth of the search demand Google does, more if your buyers search from work.</p>"""),
+<p>Microsoft’s own numbers are bigger, and it’s worth knowing why. {SRC['msa_search']} claims 109 million unique U.S. PC users, 6.4 billion monthly PC searches and a 38.1% PC market share. Read the footnote: that’s Comscore data from March 2023, desktop traffic only, and it covers Microsoft’s whole search network. Yahoo, AOL and DuckDuckGo results show Microsoft ads too, so they’re counted in. Not wrong, exactly. It’s a sales pitch resting on three-year-old data.</p>
+<p>For a Houston-area business, we assume Microsoft Ads reaches somewhere around a tenth of the search demand Google does. More if your buyers search from work.</p>"""),
 
             ("Where Microsoft ads show up now: Bing, Yahoo, DuckDuckGo and Copilot", f"""<p>A Microsoft Ads search campaign can appear on more than bing.com. Microsoft’s search page lists Bing, AOL, Yahoo, DuckDuckGo and Ecosia among the sites that show its search ads, plus syndicated partners. Its audience ads can run across MSN, Edge and Outlook.com.</p>
 <p>The newer piece is <b>Copilot</b>, Microsoft’s AI assistant that’s built into Edge, Windows and Bing. Ads now appear inside Copilot answers. According to {SRC['jumpfly']}, to be eligible you need to be running certain ad types: responsive search ads, Dynamic Search Ads or Performance Max for search placements, plus product and multimedia ads. Microsoft says Copilot ads are built only from your existing assets rather than newly generated copy. There’s no separate “Copilot campaign” to create; it rides on what you already run.</p>
-<p>Then there’s <b>AI Max</b>. On August 19, 2026, Microsoft started rolling AI Max out to all accounts globally, per {SRC['aimax']}. It’s a toggle at the Search campaign level that bundles three things:</p>
-<ul>
-<li><b>Search term matching</b> that reaches beyond your keyword list, including longer conversational queries in Bing and Copilot.</li>
-<li><b>Text customization</b>, where Microsoft tests messaging variations based on your ads and website.</li>
-<li><b>Final URL expansion</b>, sending people to whichever page on your site Microsoft thinks matches best (you can exclude URLs).</li>
-</ul>
+<p>Then there’s <b>AI Max</b>. On August 19, 2026, Microsoft started rolling AI Max out to all accounts globally, per {SRC['aimax']}. It’s a toggle at the Search campaign level. Flip it and you get search term matching that reaches past your keyword list (including the longer, chattier queries people type into Bing and Copilot), plus text customization, where Microsoft tests messaging variations based on your ads and website. It also turns on final URL expansion, which sends people to whichever page on your site Microsoft thinks fits best. You can exclude URLs, and you probably should.</p>
 <p>Each piece can be switched off. Microsoft’s older Predictive Matching feature is being folded into AI Max’s search term matching, according to {SRC['predictive']}, with no effective date announced.</p>
-<p>Our take for a small test budget: leave AI Max off for the first month. You want to see clean search terms from your own keywords before you let the system wander. Turn it on later as a deliberate experiment, and watch the search terms report weekly when you do.</p>"""),
+<p>On a small test budget, we leave AI Max off for the first month. You want clean search terms from your own keywords before the system starts wandering. Turn it on later as a deliberate experiment, and read the search terms report every week while it runs (bring coffee).</p>"""),
 
             ("Microsoft Ads vs Google Ads: what’s actually different", f"""<p>The interfaces look almost identical, and that’s on purpose. The differences that matter are underneath.</p>
 <div class="bp-tbl"><table>
@@ -286,7 +281,7 @@ POSTS = [
 <tr><td>Competition in most local auctions</td><td>Heavy</td><td>Usually lighter, check your own keywords</td></tr>
 </tbody></table></div>
 <p>Now about cost. You’ll read everywhere that Bing clicks are “33% cheaper” or “up to 70% cheaper.” We went looking for where those numbers come from. Mostly, they trace back to agency blog posts with no named source, or to studies that are years old. We won’t quote them, and you shouldn’t plan a budget around them.</p>
-<p>What we see in practice is that fewer advertisers bid in Microsoft’s auctions for local keywords, so clicks are often cheaper, though not always, and volume is much lower. The only number that counts is yours. Microsoft has its own Keyword Planner; run your top 20 Google keywords through it with Houston-area targeting and compare the suggested bids against your actual Google CPCs. Our {f'<a href="/blog/google-ads-cost-per-click-houston-benchmarks/">Houston Google Ads CPC benchmarks</a>'} give you the Google side.</p>"""),
+<p>In practice, fewer advertisers bid in Microsoft’s auctions for local keywords. Clicks are often cheaper, though not always, and volume is much lower. Your own numbers are the ones to trust. Microsoft has its own Keyword Planner; run your top 20 Google keywords through it with Houston-area targeting and compare the suggested bids against your actual Google CPCs. Our {f'<a href="/blog/google-ads-cost-per-click-houston-benchmarks/">Houston Google Ads CPC benchmarks</a>'} give you the Google side.</p>"""),
 
             ("LinkedIn profile targeting: the B2B reason to care", f"""<p>This is the feature Google can’t match. Microsoft owns LinkedIn, and Microsoft Ads lets you layer LinkedIn profile data onto your campaigns. Per {SRC['linkedin']}, you can target by:</p>
 <ul>
