@@ -566,6 +566,43 @@ def _motif(m):
                 + "".join(f'<path d="M{-110 + 100 * math.sin(a):.0f} {-10 - 100 * math.cos(a):.0f} L{-110 + 112 * math.sin(a):.0f} {-10 - 112 * math.cos(a):.0f}" stroke="{g}" stroke-width="4"/>' for a in [i * math.pi / 6 for i in range(12)])
                 + f'<path d="M-110 -10 V-80 M-110 -10 L-60 20" stroke="{INK}" stroke-width="8" stroke-linecap="round"/><circle cx="-110" cy="-10" r="10" fill="{MAG}"/>'
                 + "".join(f'<rect x="{60 + i * 46}" y="{120 - h}" width="32" height="{h}" rx="6" fill="{c}" fill-opacity="{.25 + i * .18:.2f}"/>' for i, h in enumerate((40, 70, 120, 190))))
+    if m == "receipt":  # pricing: receipt + dollar
+        return (f'<path d="M-170 -160 h200 v320 l-25 -18 -25 18 -25 -18 -25 18 -25 -18 -25 18 -25 -18 -25 18z" fill="{c}" fill-opacity=".08" stroke="{c}" stroke-width="5" stroke-linejoin="round"/>'
+                + "".join(f'<path d="M-140 {-120 + i * 40} h{120 - (i % 3) * 30}" stroke="rgba(255,255,255,{.4 - i * .05:.2f})" stroke-width="8" stroke-linecap="round"/>' for i in range(5))
+                + f'<path d="M-140 110 h140" stroke="{MAG}" stroke-width="10" stroke-linecap="round"/>'
+                f'<circle cx="160" cy="-10" r="90" fill="#ffd23f" fill-opacity=".12" stroke="#ffd23f" stroke-width="6"/>'
+                f'<text x="160" y="22" text-anchor="middle" fill="#ffd23f" font-family="{DISPLAY}" font-size="96" font-weight="700">$</text>')
+    if m == "bolt":  # speed to lead: lightning + stopwatch
+        return (f'<circle cx="-90" cy="10" r="120" fill="{c}" fill-opacity=".06" stroke="{c}" stroke-width="6"/><path d="M-110 -128 h40 M-90 -128 v18" stroke="{c}" stroke-width="8" stroke-linecap="round"/>'
+                f'<path d="M-90 10 L-90 -60" stroke="{INK}" stroke-width="8" stroke-linecap="round"/><path d="M-90 10 L-30 40" stroke="{INK}" stroke-width="8" stroke-linecap="round"/><circle cx="-90" cy="10" r="10" fill="{MAG}"/>'
+                f'<path d="M150 -170 L70 20 h70 l-40 150 120 -200 h-75 l55 -140z" fill="#ffd23f" stroke="#ffd23f" stroke-width="4" stroke-linejoin="round"/>')
+    if m == "filter":  # lead quality: funnel filtering dots
+        return (f'<path d="M-200 -140 H200 L40 30 V140 L-40 110 V30 Z" fill="{c}" fill-opacity=".08" stroke="{c}" stroke-width="6" stroke-linejoin="round"/>'
+                + "".join(f'<circle cx="{-170 + i * 37}" cy="{-180 + (i % 3) * 14}" r="9" fill="{MAG if i % 4 == 1 else "rgba(255,255,255,.45)"}"/>' for i in range(10))
+                + f'<circle cx="0" cy="175" r="12" fill="{MAG}"/><circle cx="0" cy="210" r="9" fill="{MAG}" opacity=".7"/>'
+                f'<path d="M180 40 l40 40 M220 40 l-40 40" stroke="rgba(255,255,255,.4)" stroke-width="6" stroke-linecap="round"/>')
+    if m == "sms":  # text marketing: phone + chat bubbles
+        return (f'<rect x="-200" y="-160" width="170" height="320" rx="26" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<rect x="-180" y="-110" width="110" height="40" rx="16" fill="rgba(255,255,255,.2)"/><rect x="-140" y="-55" width="90" height="40" rx="16" fill="{MAG}" fill-opacity=".8"/><rect x="-180" y="0" width="120" height="40" rx="16" fill="rgba(255,255,255,.2)"/>'
+                f'<path d="M30 -100 h190 a24 24 0 0 1 24 24 v80 a24 24 0 0 1 -24 24 h-120 l-40 34 v-34 h-30 a24 24 0 0 1 -24 -24 v-80 a24 24 0 0 1 24 -24z" fill="{c}" fill-opacity=".12" stroke="{c}" stroke-width="5"/>'
+                + "".join(f'<circle cx="{90 + i * 40}" cy="-36" r="10" fill="{INK}"/>' for i in range(3))
+                + f'<path d="M60 110 l20 20 40 -44" {sw} stroke="#7ee0a1" stroke-width="8"/>')
+    if m == "house":  # home builder: framed house + crane
+        return (f'<path d="M-190 140 V-10 L-50 -130 L90 -10 V140" {sw} stroke="{c}" stroke-width="6"/>'
+                + "".join(f'<path d="M{x} 140 V{-10 if abs(x + 50) > 100 else -10 - (100 - abs(x + 50)) * 1.0:.0f}" stroke="{g}" stroke-width="3"/>' for x in range(-170, 90, 30))
+                + f'<path d="M-190 40 H90" stroke="{g}" stroke-width="3"/><path d="M-250 140 H260" stroke="{g}" stroke-width="4"/>'
+                f'<path d="M180 140 V-160 M120 -160 H260 M180 -130 L240 -160 M200 -160 V-60" {sw} stroke="#ffd23f" stroke-width="6"/><rect x="186" y="-60" width="28" height="22" rx="4" fill="{MAG}"/>')
+    if m == "wrench":  # auto repair: wrench + gear + car outline
+        return (f'<path d="M-240 100 V70 C-240 56 -226 48 -206 46 L-160 40 L-120 0 H10 L50 40 L80 46 C96 50 100 58 100 70 V100Z" {sw} stroke="{g}" stroke-width="5"/>'
+                f'<circle cx="-170" cy="104" r="26" fill="{CARD}" stroke="{g}" stroke-width="5"/><circle cx="40" cy="104" r="26" fill="{CARD}" stroke="{g}" stroke-width="5"/>'
+                f'<path d="M80 -150 a50 50 0 0 0 -60 70 L-120 60" {sw} stroke="{c}" stroke-width="22"/><path d="M80 -150 a50 50 0 0 0 -60 70" {sw} stroke="{BG}" stroke-width="6"/>'
+                + "".join(f'<rect x="{190 + 60 * math.cos(a) - 12:.0f}" y="{-60 + 60 * math.sin(a) - 12:.0f}" width="24" height="24" rx="4" fill="#ffd23f" transform="rotate({a * 57.3:.0f} {190 + 60 * math.cos(a):.0f} {-60 + 60 * math.sin(a):.0f})"/>' for a in [i * math.pi / 4 for i in range(8)])
+                + f'<circle cx="190" cy="-60" r="56" fill="{BG}" stroke="#ffd23f" stroke-width="6"/><circle cx="190" cy="-60" r="18" fill="{MAG}"/>')
+    if m == "layout":  # website builders: stacked layout blocks
+        return (f'<rect x="-230" y="-150" width="300" height="260" rx="16" {sw} stroke="{c}" stroke-width="5"/>'
+                f'<rect x="-210" y="-130" width="260" height="60" rx="8" fill="{c}" fill-opacity=".25"/><rect x="-210" y="-55" width="120" height="145" rx="8" fill="rgba(255,255,255,.14)"/><rect x="-75" y="-55" width="125" height="65" rx="8" fill="{MAG}" fill-opacity=".5"/><rect x="-75" y="25" width="125" height="65" rx="8" fill="rgba(255,255,255,.14)"/>'
+                f'<rect x="110" y="-110" width="120" height="70" rx="10" {sw} stroke="#ffd23f" stroke-width="4" transform="rotate(8 170 -75)"/><rect x="120" y="0" width="120" height="70" rx="10" {sw} stroke="#ffd23f" stroke-width="4" transform="rotate(-6 180 35)"/>'
+                f'<path d="M90 -60 l40 -10" {sw} stroke="#ffd23f" stroke-width="3" stroke-dasharray="6 6"/>')
     return f'<circle r="100" {sw} stroke="{c}" stroke-width="5"/>'
 
 
