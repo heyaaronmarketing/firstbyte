@@ -56,15 +56,14 @@ POSTS = [
         "related": ["how-long-does-seo-take-houston-the-woodlands", "signs-your-website-needs-a-redesign", "local-seo-checklist-the-woodlands"],
         "sections": [
             (None, f"""<p>You’re sitting in the truck outside a job in Spring, you type your company name into Google, and you scroll. Yelp is there. Your Facebook page is there. Some directory you’ve never heard of is there. Your new website, the one you paid for in August, is nowhere.</p>
-<p>If your website isn’t showing up on Google, it’s almost always one of two problems. Either Google hasn’t indexed the site at all (it’s new, or something is telling Google to stay out), or it’s indexed but doesn’t rank for the searches you tried. A third, sneakier case: you’re looking at your Google Business Profile results and judging the website by them. The fix depends entirely on which one you have, so diagnose before you change anything.</p>
-<p>This guide is the order we check things in when a business owner in The Woodlands or anywhere around Houston sends us that exact panicked text. Most of it takes an hour and costs nothing.</p>
+<p>It’s almost always one of two problems. Either Google hasn’t indexed the site at all (it’s new, or something is telling Google to stay out), or it’s indexed but doesn’t rank for the searches you tried. Occasionally there’s a sneakier third case, where you’re looking at the map results, which run on your Google Business Profile, and blaming the website for them. Each has a different fix. Diagnose first, then touch settings.</p>
+<p>What follows is the order we check things in when an owner in The Woodlands or anywhere around Houston sends us that exact panicked text. Most of it takes an hour and costs nothing.</p>
 <!--fig:order-->"""),
 
             ("Is my website indexed? Start with a site: search", f"""<p>Open Google (on google.com itself, not by typing into your browser’s address bar) and search <b>site:yourdomain.com</b> with no space after the colon. Then try a single important page with the full address, like <b>site:yourdomain.com/ac-repair</b>.</p>
 <p>Per the {SRC['starter']}, if results point to your site, you’re in the index. That one search splits the problem in half.</p>
-<ul><li><b>Zero results.</b> Google has nothing. That’s an indexing problem, and it usually has a mechanical cause you can find in the next two sections.</li>
-<li><b>Some pages, but not the ones that matter.</b> Partial indexing. Look at which pages are missing and why (duplicates, thin pages, a broken canonical).</li>
-<li><b>Lots of pages, but you still can’t find yourself for “plumber Conroe.”</b> You’re indexed. This is a ranking problem, which is slower and has nothing to do with a setting.</li></ul>
+<p>Zero results means Google has nothing. That’s an indexing problem, and it usually has a mechanical cause you’ll find in the next two sections. If some pages come up but not the ones that matter, you’re partially indexed, so look at which are missing and why (duplicates, thin pages, a broken canonical).</p>
+<p>And if dozens of pages come up but you still can’t find yourself for “plumber Conroe”? You’re indexed. That’s a ranking problem, it’s slower, and no checkbox will fix it.</p>
 <p>Don’t treat the count as gospel. {SRC['site']} says the list is “not always exhaustive” and that the results beyond the first one are “relatively random.” Use it as a smoke test, then confirm in Search Console.</p>"""),
 
             ("Website not indexed? What Google Search Console will tell you", f"""<p>If you don’t have Search Console set up, do that first. It’s free, and it’s the only place Google tells you directly why a page isn’t in the index. Verify a <b>Domain property</b> through a DNS record at your registrar (GoDaddy, Squarespace Domains, Cloudflare) so it covers every version of your address.</p>
