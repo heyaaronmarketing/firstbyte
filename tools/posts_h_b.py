@@ -145,7 +145,7 @@ POSTS = [
 </tbody></table></div>
 <p>Whatever model you choose, the questions in <a href="/blog/questions-before-hiring-marketing-agency/">our list of questions before hiring a marketing agency</a> still apply. And if you're unsure whether you need an agency at all, <a href="/blog/diy-vs-hiring-an-agency/">DIY vs hiring an agency</a> lays out the trade.</p>
 <p>If you do one thing this week, pull your last three agency invoices and your last three months of spend from Google Ads and Meta. Add them up. Divide by the number of booked jobs in your scheduling software (booked jobs, not leads). Judge every pricing model against that cost per booked job, ours included.</p>
-<p>If you'd like an outside read first, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video of your Google or Meta account showing where budget is leaking, in your inbox within 48 hours, so you can judge what any agency (including us) would actually be fixing. You can also see how we run <a href="/services/search-marketing/">Google Ads management</a>.</p>"""),
+<p>If you have questions about what any agency (including us) would actually be fixing in your account, <a href="/contact/">get in touch</a>. You can also see how we run <a href="/services/search-marketing/">Google Ads management</a>.</p>"""),
         ],
         "faq": [
             ("What percentage of ad spend do marketing agencies charge?",
@@ -287,7 +287,7 @@ POSTS = [
 <!--fig:scorecard-->
 <p>Use the median response time, not the average. One lead that sat over a holiday weekend will wreck an average and hide the fact that the other 49 got called in four minutes.</p>
 <p>Your website plays a part, too. A form that asks for eleven fields slows down the lead before your clock even starts; see <a href="/blog/turn-your-website-into-a-lead-machine/">turn your website into a lead machine</a> for the form and call-button fixes.</p>
-<p>This week, pull up your last 20 web leads and write down when each came in and when someone first spoke to that person. If the median is over an hour, fixing that is worth more than any new campaign. If you'd like us to check the ad side at the same time, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video of your Google or Meta account, in your inbox within 48 hours, and we'll flag missed ad calls if they show up in the data. It's part of how we approach <a href="/industries/service/">marketing for home service companies</a>.</p>"""),
+<p>This week, pull up your last 20 web leads and write down when each came in and when someone first spoke to that person. If the median is over an hour, fixing that is worth more than any new campaign. If you'd like us to check the ad side at the same time, <a href="/contact/">get in touch</a>; missed ad calls are often part of the same problem. It's part of how we approach <a href="/industries/service/">marketing for home service companies</a>.</p>"""),
         ],
         "faq": [
             ("How fast should you respond to a lead?",

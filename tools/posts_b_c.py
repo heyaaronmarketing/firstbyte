@@ -145,7 +145,7 @@ POSTS = [
 <li>Print a "order direct next time" card for every delivery bag.</li>
 <li>Film three short videos with the dish people photograph most.</li>
 </ol>
-<p>We work with restaurants and hospitality brands across the area (see our <a href="/industries/restaurants/">restaurant marketing</a> page and the new-location launches in our <a href="/case-studies/the-toasted-yolk-cafe/">Toasted Yolk Cafe case study</a>). If you're already boosting posts or running Google ads and can't tell whether they moved covers, our free <a href="/contact/">Ad Spend Leak Check</a> is a quick way to find out. We record about 10 minutes of video going through your actual Google or Meta account, pointing at the spend that isn't earning its keep, and it lands in your inbox within 48 hours.</p>"""),
+<p>We work with restaurants and hospitality brands across the area (see our <a href="/industries/restaurants/">restaurant marketing</a> page and the new-location launches in our <a href="/case-studies/the-toasted-yolk-cafe/">Toasted Yolk Cafe case study</a>). If you're already boosting posts or running Google ads and can't tell whether they moved covers, <a href="/contact/">get in touch</a> and tell us what you're running. We reply within 1 hour, Mon–Fri.</p>"""),
         ],
         "faq": [
             ("How do I get more customers to my restaurant?",
@@ -321,7 +321,7 @@ POSTS = [
 </ul>
 <p>Our <a href="/blog/complete-guide-google-reviews/">complete guide to Google reviews</a> has wording you can copy.</p>"""),
             ("Get ready before the ring photos hit Instagram", """<p>Proposal season runs roughly from Thanksgiving to Valentine's Day, so the prep happens now: put starting prices on your website, set up a self-booking tour calendar, write a one-minute auto-reply, and plan your Google Ads budget to peak in January. Then ask every couple on every tour how they found you, and write it down.</p>
-<p>We work with hospitality and event businesses across Montgomery County and Greater Houston, from <a href="/digital-marketing-agency-conroe-tx/">Conroe</a> and <a href="/digital-marketing-agency-magnolia-tx/">Magnolia</a> to <a href="/digital-marketing-agency-montgomery-tx/">Montgomery</a> and <a href="/digital-marketing-agency-tomball-tx/">Tomball</a>. See our <a href="/industries/hospitality/">hospitality marketing</a> page for more. And if you're paying for Google or Meta ads but couldn't say how many tours they produced last year, start with a free <a href="/contact/">Ad Spend Leak Check</a>. We look through the account and send you a 10-minute video of where the money is leaking and what we'd change before January, within 48 hours.</p>"""),
+<p>We work with hospitality and event businesses across Montgomery County and Greater Houston, from <a href="/digital-marketing-agency-conroe-tx/">Conroe</a> and <a href="/digital-marketing-agency-magnolia-tx/">Magnolia</a> to <a href="/digital-marketing-agency-montgomery-tx/">Montgomery</a> and <a href="/digital-marketing-agency-tomball-tx/">Tomball</a>. See our <a href="/industries/hospitality/">hospitality marketing</a> page for more. And if you're paying for Google or Meta ads but couldn't say how many tours they produced last year, <a href="/contact/">get in touch</a> and we can talk about it before January.</p>"""),
         ],
         "faq": [
             ("How do I get more bookings for my wedding venue?",

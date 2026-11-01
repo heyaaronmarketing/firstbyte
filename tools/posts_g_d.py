@@ -154,7 +154,7 @@ POSTS = [
 
             ("Where to start this week, and when to get help", f"""<p>Before your next on-sale, buy a $1 test ticket and confirm Purchase shows up in Meta and Google. Then load your past-buyer list into a custom audience and an email presale. If there’s time left over, move half your remaining budget into the final 14 days.</p>
 <p>Plenty of promoters run all of this themselves, especially with under about $2,000 in ads and one platform to manage. Help starts to pay for itself when you’re running several events a quarter, or spending enough that a 20% swing in cost per order is real money. Same if the tracking is so tangled nobody trusts the numbers. Our {'<a href="/industries/live-entertainment/">live entertainment</a>'} page shows the kind of work we do for venues and promoters.</p>
-<p>If you’re mid-campaign and the numbers feel off, our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {'<a href="/contact/">Request one here</a>'}. It’s far more useful before the final push than after it.</p>"""),
+<p>If you’re mid-campaign and the numbers feel off, <a href="/contact/">contact us</a> now. It’s far easier to fix things before the final push than after it.</p>"""),
         ],
         "faq": [
             ("How far in advance should you start promoting an event?",
@@ -331,7 +331,7 @@ POSTS = [
             ("What to budget for Google Shopping, and when to get help", f"""<p>Budget follows margin and price point. As a rule of thumb (ours, not Google’s), a campaign needs enough daily budget to buy several conversions a week at your target cost, or bidding never has data to learn from. If your average order is $60 and you’re aiming for a 3x ROAS, each order can cost about $20 in ads. Ten orders a week means roughly $200 a week, or about $30 a day, as a realistic floor for one campaign.</p>
 <p>Give a new Standard Shopping setup 30 to 45 days before making big calls. Week one tells you about feed problems. Weeks three through six tell you about products.</p>
 <p>A Shopify owner can absolutely run this alone with a clean feed, verified tracking and an hour a week on search terms. We’d bring in help once spend passes a few thousand a month or the catalog is big enough that feed work becomes a project. Broken tracking, where nobody knows which number to believe, is the other good reason. Our {'<a href="/industries/ecommerce/">ecommerce</a>'} page and {'<a href="/services/search-marketing/">search marketing</a>'} page describe how we handle those accounts.</p>
-<p>Campaigns already running and something feels off? Our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {'<a href="/contact/">Request it here</a>'}. Double-counted conversions are usually the first thing we look for.</p>"""),
+<p>Campaigns already running and something feels off? <a href="/contact/">Contact us</a> and tell us what you’re seeing. Double-counted conversions are usually the first thing we look for.</p>"""),
         ],
         "faq": [
             ("How do I set up Google Shopping ads on Shopify?",

@@ -67,7 +67,7 @@ awards = re.search(r'<div class="awards rv">.*?</ul></div>', tpl, re.S).group(0)
 def form_for(industry, name):
     f = re.sub(r'<div class="full ca-fh">.*?</div>',
                f'<div class="full ca-fh"><b>Want results like {esc(name)}?</b>'
-               '<small>Free Ad Spend Leak Check · We reply within 1 hour, Mon–Fri</small></div>', form_html, flags=re.S)
+               '<small>We reply within 1 hour, Mon–Fri · No pressure</small></div>', form_html, flags=re.S)
     # pre-select this case's industry
     f = re.sub(r'(<select id="[a-z]+-ind" name="industry" required>)(.*?)(</select>)',
                lambda m: m.group(1) + re.sub(r' selected', '', m.group(2))
@@ -80,8 +80,8 @@ def form_for(industry, name):
 def contact_block(industry, name):
     return f'''<section class="sec sv-sec" style="border-top: 1px solid var(--line)" id="get-started">
 <div class="wrap ix-two">
-<div><span class="lbl"><span class="tri"></span>Your turn</span><h2 class="h2" style="font-size: clamp(36px,4.4vw,64px); margin-bottom: 20px">Find out where your budget <span class="cy">is leaking.</span></h2>
-<p class="sub" style="max-width: 520px">Get a free Ad Spend Leak Check: a 10-minute video showing where your Google or Meta budget is leaking. In your inbox within 48 hours.</p>
+<div><span class="lbl"><span class="tri"></span>Your turn</span><h2 class="h2" style="font-size: clamp(36px,4.4vw,64px); margin-bottom: 20px">Let’s talk about <span class="cy">your goals.</span></h2>
+<p class="sub" style="max-width: 520px">Tell us what you’re working on. We reply within 1 hour, Mon–Fri.</p>
 <div style="margin-top: 40px">{awards}</div></div>
 {form_for(industry, name)}
 </div>
@@ -163,7 +163,7 @@ for key, (slug, name, industry, label) in CASES.items():
 <p class="seo-h1" style="margin-bottom: 22px"><span class="tri"></span><a href="/case-studies/" style="color: inherit; text-decoration: none">Case studies</a> · {esc(ind_line)}</p>
 <h1 class="sv-disp" style="font-size: clamp(44px,6vw,92px)">{esc(name)}: <span class="cy">{esc(headline)}</span></h1>
 <p class="sub">{esc(chal)}</p>
-<div class="cta-row"><a class="btn btn-p" href="#contact" data-industry="{industry}">Run a business like {esc(name)}? Get your Leak Check <span class="arr">→</span></a><a class="btn btn-g" href="/case-studies/">All case studies</a></div>
+<div class="cta-row"><a class="btn btn-p" href="#contact" data-industry="{industry}">Run a business like {esc(name)}? Let’s talk <span class="arr">→</span></a><a class="btn btn-g" href="/case-studies/">All case studies</a></div>
 </div>
 </div>
 </section>
@@ -199,7 +199,7 @@ idx_body = f'''{body_open}
 <h1 class="seo-h1"><span class="tri"></span>Case studies · First Byte</h1>
 <p class="sv-disp">Demand we’ve <span class="cy">driven.</span></p>
 <p class="sub">Eight brands, eight very different problems. Here’s what we did and what it produced.</p>
-<div class="cta-row"><a class="btn btn-p" href="#contact">Get my free Ad Spend Leak Check <span class="arr">→</span></a></div>
+<div class="cta-row"><a class="btn btn-p" href="#contact">Contact us <span class="arr">→</span></a></div>
 </div>
 </div>
 </section>

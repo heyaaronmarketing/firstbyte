@@ -171,7 +171,7 @@ POSTS = [
 <tr><td>Spanish radio or CTV test</td><td>Varies by station and flight</td><td>Only after the basics above are live</td></tr>
 </tbody></table></div>
 <p>You may not need to hire anyone. A bilingual person in the office who likes to write can build five Spanish pages, launch one modest search campaign, fix the phones and read the search terms weekly. Bring in help once Spanish spend is real money and you can’t tell if it works, or nobody has time to write.</p>
-<p>This week, count your Spanish calls. Call your own number and press nothing. Then click your Spanish ad, if you have one, and see where it lands. If you’d like a second set of eyes, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, Spanish campaigns included, in your inbox within 48 hours.</p>"""),
+<p>This week, count your Spanish calls. Call your own number and press nothing. Then click your Spanish ad, if you have one, and see where it lands. If you’d like help with your Google or Meta ads, Spanish campaigns included, <a href="/contact/">get in touch</a>.</p>"""),
         ],
         "faq": [
             ("Should I use Google Translate on my website for Spanish customers?",
@@ -338,7 +338,7 @@ POSTS = [
 <tr><td>Trade shows</td><td>Varies widely</td><td>Get the exhibitor prospectus; budget for follow-up too</td></tr>
 </tbody></table></div>
 <p>You can do a lot of this in-house. If you have an engineer who writes clearly and a sales manager who updates the CRM, start with the capability statement, five spec pages and one Google Ads campaign with a strong negative list. Hire help when you’re spending real money on LinkedIn and Google and still can’t say which campaigns created opportunities, or when the technical content never gets written because everyone is billable.</p>
-<p>Something you can do this week: pull your last 20 closed deals and find out where each one first came from. If nobody knows, fix tracking before you spend another dollar. If you want an outside look at where your Google or LinkedIn budget is going, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your spend is leaking, in your inbox within 48 hours. You can also see how we report results on our <a href="/case-studies/">case studies</a> page.</p>"""),
+<p>Something you can do this week: pull your last 20 closed deals and find out where each one first came from. If nobody knows, fix tracking before you spend another dollar. If you want an outside look at where your Google or LinkedIn budget is going, <a href="/contact/">get in touch</a> and we’ll start with a conversation about what you’re running. You can also see how we report results on our <a href="/case-studies/">case studies</a> page.</p>"""),
         ],
         "faq": [
             ("How much do LinkedIn ads cost for B2B companies?",

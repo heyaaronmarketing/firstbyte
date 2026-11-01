@@ -148,7 +148,7 @@ POSTS = [
 <li>Budget $15 to $30 a day for a month, then judge it on booked new clients and return rate, not clicks.</li>
 </ol>
 <p>Our {'<a href="/services/search-marketing/">Google Ads team</a>'} can set this up, but honestly, if your Business Profile and pricing page aren’t done, fix those first. Ads pour more people into whatever leaks you already have. If you also do injectables or more medical services, our {'<a href="/blog/med-spa-marketing-the-woodlands-houston/">med spa marketing guide</a>'} covers the extra ad-policy rules.</p>
-<p>If you want a second set of eyes before you spend more, send us your ad account or your booking source report. Our free {'<a href="/contact/">Ad Spend Leak Check</a>'} is a 10-minute video showing where the budget is leaking, in your inbox within 48 hours. Start by tagging your booking links tonight; it’s ten minutes and you’ll know more by next month.</p>"""),
+<p>If you want a second set of eyes before you spend more, <a href="/contact/">get in touch</a> and tell us how your bookings are coming in. Start by tagging your booking links tonight; it’s ten minutes and you’ll know more by next month.</p>"""),
         ],
         "faq": [
             ("How do lash techs get clients fast?",
@@ -348,7 +348,7 @@ POSTS = [
 <li>New Google reviews.</li>
 </ol>
 <p>If you only track one, make it number three. It’s the one that shows whether the ads, the intro class and the front desk are pulling in the same direction.</p>
-<p>If you’re spending on Google or Meta and can’t answer what an intro pack costs you, start there. Our free {'<a href="/contact/">Ad Spend Leak Check</a>'} is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. Before that, pull last month’s intro buyers and count how many are members today. That one number will tell you where to spend next.</p>"""),
+<p>If you’re spending on Google or Meta and can’t answer what an intro pack costs you, start there. If you’d like help with that, <a href="/contact/">get in touch</a>. Before that, pull last month’s intro buyers and count how many are members today. That one number will tell you where to spend next.</p>"""),
         ],
         "faq": [
             ("How do I get more clients for my Pilates studio?",

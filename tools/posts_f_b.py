@@ -150,7 +150,7 @@ POSTS = [
 <tr><td>5</td><td>Meta gift card ads, Nov-Dec and late April</td><td>$300 to $600 in season</td></tr>
 </tbody></table></div>
 <p>Skip billboards and broad “brand awareness” campaigns until rooms are full on weekday afternoons. (A billboard on I-45 is a fun thing to point at. It won’t fill a Wednesday.) If your site books poorly on a phone, fix that before any ad spend; our <a href="/services/web-design-seo-pr/">web design and SEO team</a> builds these for small studios.</p>
-<p>If you’re already running Google or Meta ads and can’t tell what they’re booking, send us a <a href="/contact/">request for a free Ad Spend Leak Check</a>. You’ll get a 10-minute video showing where the budget is leaking, usually search terms and tracking, in your inbox within 48 hours.</p>"""),
+<p>If you’re already running Google or Meta ads and can’t tell what they’re booking, <a href="/contact/">get in touch</a>. Search terms and tracking are usually the first things worth a look.</p>"""),
         ],
         "faq": [
             ("How do I get more massage clients fast?", "The fastest levers are the ones you already own. Text every client from the last six months who hasn't rebooked, offer an opening this week, and ask happy regulars for a review. Then turn on Google Ads for your specialty terms in a tight radius with a strong negative keyword list. Discount sites bring volume quickly but rarely bring clients who return at full price."),
@@ -300,7 +300,7 @@ POSTS = [
 </ol>
 <p>That’s plenty for one person. TikTok ads, influencer swaps and a newsletter can all wait for month three, if you still want them by then.</p>
 <p>Do the basics until they’re boring.</p>
-<p>If you’re spending on Google or Meta and can’t tell what’s booking, <a href="/contact/">ask us for a free Ad Spend Leak Check</a>. It’s a 10-minute video showing where your budget is leaking, in your inbox within 48 hours, and it’s sized for a one-suite business as well as a spa. Our <a href="/services/creative-branding/">branding team</a> can also help if your suite name and visuals still look like a placeholder.</p>"""),
+<p>If you’re spending on Google or Meta and can’t tell what’s booking, <a href="/contact/">get in touch</a> and tell us what you’re running. A one-suite business is just as welcome as a spa. Our <a href="/services/creative-branding/">branding team</a> can also help if your suite name and visuals still look like a placeholder.</p>"""),
         ],
         "faq": [
             ("How do I get more facial clients as a new esthetician?", "Start with a complete Google Business Profile for your suite, accurate services and prices, and a booking link. Text past clients with an opening offer, post short videos of real facials in your own room, and run a small Google Ads campaign on facial plus your town. Rebook every first-time client before she leaves, since second visits are what fill a solo book."),

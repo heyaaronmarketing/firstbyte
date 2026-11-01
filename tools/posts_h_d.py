@@ -165,7 +165,7 @@ POSTS = [
             ("When to DIY and when to pay someone", f"""<p>DIY makes sense if you’re early, your budget is tight, you pick Squarespace or Wix, and you’re willing to spend a couple of weekends writing real copy. Use a template close to what you want and change as little of the design as possible. Spend your energy on the words, the photos of your actual team and trucks, and a clear call button.</p>
 <p>Pay someone once the site has to carry real lead flow, you’re running Google Ads to it, you need a dozen service-area pages, or you’re migrating an older site that already ranks. Migrations do the most damage in our experience. URLs change, nobody sets up redirects, and six months of rankings vanish. If you’re seeing those symptoms now, our list of <a href="/blog/signs-your-website-needs-a-redesign/">signs your website needs a redesign</a> will help you decide whether to rebuild or repair.</p>
 <p>If you want help, our <a href="/services/web-design-seo-pr/">web design and SEO team</a> builds on WordPress, Webflow and Shopify, and fixes sites on Wix and Squarespace. We’ll tell you plainly if your current platform is fine and the problem is elsewhere.</p>
-<p>And if the site is fine but the ads sending traffic to it aren’t, start with a free <a href="/contact/">Ad Spend Leak Check</a>: a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours.</p>"""),
+<p>And if the site is fine but the ads sending traffic to it aren’t, <a href="/contact/">contact us</a> and tell us what you’re running.</p>"""),
         ],
         "faq": [
             ("Is Wix or WordPress better for SEO?",
@@ -344,7 +344,7 @@ POSTS = [
 <!--fig:presend-->"""),
 
             ("Your next step", f"""<p>Starting from zero? Update your privacy policy to mention texting, pick a platform, register, set up one sign-up point (a keyword at the counter is easiest), and send your first campaign to a few dozen real opt-ins. Already texting? Pull your consent records this week, and pause any numbers you can’t trace to an opt-in.</p>
-<p>If you’re running Google or Meta ads to fill that list and want to know whether the money is pulling its weight, ask for a free <a href="/contact/">Ad Spend Leak Check</a>: a 10-minute video showing where your budget is leaking, in your inbox within 48 hours. If your site needs a rebuild first, start with our comparison of <a href="{WEB}">WordPress, Wix, Squarespace and Webflow</a>.</p>"""),
+<p>If you’re running Google or Meta ads to fill that list and want to know whether the money is pulling its weight, <a href="/contact/">drop us a line</a>. If your site needs a rebuild first, start with our comparison of <a href="{WEB}">WordPress, Wix, Squarespace and Webflow</a>.</p>"""),
         ],
         "faq": [
             ("Is it legal to send marketing text messages in Texas?",

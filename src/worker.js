@@ -157,7 +157,7 @@ async function saveLead(env, request, lead) {
   const first = (lead.name.split(/\s+/)[0] || "Someone").slice(0, 40);
   const rraw = await env.LEADS_KV.get(RECENT_KEY);
   const rlist = rraw ? safeJson(rraw, []) : [];
-  rlist.unshift({ n: first, a: "requested a Leak Check", t: entry.ts });
+  rlist.unshift({ n: first, a: "reached out to our team", t: entry.ts });
   await env.LEADS_KV.put(RECENT_KEY, JSON.stringify(rlist.slice(0, 20)));
 }
 
@@ -172,7 +172,7 @@ async function handleRecentLeads(env) {
 
   const safe = (Array.isArray(items) ? items : []).slice(0, 8).map((x) => ({
     n: String(x.n || "Someone").slice(0, 40),
-    a: String(x.a || "requested a Leak Check").slice(0, 80),
+    a: String(x.a && !/Leak Check/.test(x.a) ? x.a : "reached out to our team").slice(0, 80),
     t: Number(x.t) || Date.now(),
   }));
   return new Response(JSON.stringify(safe), {

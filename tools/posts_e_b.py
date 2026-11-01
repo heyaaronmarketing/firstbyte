@@ -146,7 +146,7 @@ POSTS = [
 <!--fig:towns-->"""),
 
             ("Work backward from the next swarm", f"""<p>Open a calendar to the next swarm window or the next big storm and count back four weeks. That’s your deadline for the termite page, the separate campaign, the evening call coverage and the review texts. Put the next season’s deadline on the same calendar while you’re there.</p>
-<p>Then look at last spring honestly. If your search budget was gone by the third week of May, right when Formosans were swarming, our free <a href="/contact/">Ad Spend Leak Check</a> will show where it went. We record a 10-minute walkthrough of your Google or Meta account and send it within 48 hours. We work with <a href="/industries/service/">home service companies</a> across <a href="/digital-marketing-agency-conroe-tx/">Conroe</a>, <a href="/digital-marketing-agency-spring-tx/">Spring</a> and the rest of the north Houston suburbs.</p>"""),
+<p>Then look at last spring honestly. If your search budget was gone by the third week of May, right when Formosans were swarming, <a href="/contact/">get in touch</a> before this season starts. We work with <a href="/industries/service/">home service companies</a> across <a href="/digital-marketing-agency-conroe-tx/">Conroe</a>, <a href="/digital-marketing-agency-spring-tx/">Spring</a> and the rest of the north Houston suburbs.</p>"""),
         ],
         "faq": [
             ("What are the best pest control marketing ideas for a small company?",
@@ -332,7 +332,7 @@ POSTS = [
             ("Seasonality: shifting bids and budgets by month", f"""<p>Smart Bidding already learns regular seasonal patterns. Google’s own help on {SRC['season']} says they’re built for short events of one to seven days and may not work as well past 14. So don’t set a “termite season” adjustment for three months. Use one for a two or three day burst, like the first big Formosan swarm nights or the week after a flood.</p>
 <p>For the longer seasons, move budget between campaigns instead. Raise the termite budget in March, let mosquito take over in summer, lift rodent in late fall. Expect cost per click to rise when everyone else does the same, and decide your ceiling in advance with a maximum CPC limit.</p>
 <p>If you already have an account running, start with two checks before you build anything new. Under campaign settings, open Locations and confirm the option is “Presence,” not “Presence or interest.” Then pull the last 90 days of search terms, sort by cost and read the top 50 out loud. You’ll know within ten minutes whether DIY searches are eating the budget.</p>
-<p>Prefer someone else do that pass? Our free <a href="/contact/">Ad Spend Leak Check</a> covers the same ground, including your location option, negatives and the minimum call length you count as a conversion, in a 10-minute recorded video sent within 48 hours. Our <a href="/services/search-marketing/">search marketing</a> team manages Google Ads for <a href="/industries/service/">home service companies</a> around Houston if you want help after that.</p>"""),
+<p>Prefer someone else do that pass? <a href="/contact/">Get in touch</a> and we can start with your location option, negatives and the minimum call length you count as a conversion. Our <a href="/services/search-marketing/">search marketing</a> team manages Google Ads for <a href="/industries/service/">home service companies</a> around Houston if you want help after that.</p>"""),
         ],
         "faq": [
             ("How much should a pest control company spend on Google Ads?",

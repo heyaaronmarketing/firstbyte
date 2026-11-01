@@ -1,3 +1,7 @@
+"""RETIRED Nov 2026: the Leak Check offer was replaced by a plain Contact us CTA (see apply_contact_cta.py).
+Do not run; it would reintroduce the old copy."""
+import sys
+sys.exit("apply_leak_check_copy.py is retired; use tools/apply_contact_cta.py")
 """Swap every "free audit" offer on the site for the named Ad Spend Leak Check offer,
 and replace the "one business day" reply promise with "within 1 hour, Mon–Fri".
 

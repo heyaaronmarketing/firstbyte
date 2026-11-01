@@ -127,7 +127,7 @@ POSTS = [
 <p>The mobile detailer’s budget is lopsided toward search on purpose. With one van, paying to be seen by people who might want a coating someday is a luxury.</p>
 <p>Track phone calls and form fills by campaign so you know which jobs came from where (our post on <a href="/blog/call-tracking-which-ads-make-phone-ring/">call tracking</a> walks through it). If you can’t say what last month’s coating jobs cost to acquire, the budget conversation is guesswork.</p>"""),
             ("Where to start this week", f"""<p>Open Google Ads, go to the search terms report, set the date range to the last 90 days and sort by cost. Read the top 50 terms out loud. If you hear “spray,” “kit,” “how to” or “jobs,” you’ve found money to move into your PPF campaign before lovebug season.</p>
-<p>If you’d rather someone else take that first pass, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute recorded video of where your Google or Meta budget is leaking, in your inbox within 48 hours. Our <a href="/services/search-marketing/">search marketing</a> team runs accounts for local businesses in <a href="/digital-marketing-agency-spring-tx/">Spring</a>, <a href="/digital-marketing-agency-conroe-tx/">Conroe</a> and across <a href="/service-areas/">north Houston</a>.</p>"""),
+<p>If you’d rather someone else take that first pass, <a href="/contact/">get in touch</a> and we’ll talk through your Google or Meta account with you. Our <a href="/services/search-marketing/">search marketing</a> team runs accounts for local businesses in <a href="/digital-marketing-agency-spring-tx/">Spring</a>, <a href="/digital-marketing-agency-conroe-tx/">Conroe</a> and across <a href="/service-areas/">north Houston</a>.</p>"""),
         ],
         "faq": [
             ("How do I get more ceramic coating customers?",
@@ -266,7 +266,7 @@ POSTS = [
 </ol>
 <p>Expect the first month of ads to look messy. Recovery is a newer category, and search volume in a single suburb is modest, so a few dozen clicks can swing your numbers wildly. Don’t judge anything on cost per first visit. Judge it on members.</p>"""),
             ("Your next step", f"""<p>Pull up your three most recent Meta ads and your Google Ads search terms from the last 60 days. If you see words like “treats,” “cures,” “burns fat” in the ads, or “cold plunge tub for sale” in the search terms, you know where to start.</p>
-<p>Want a second set of eyes? Our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video walkthrough of your Google or Meta account showing where the budget is leaking, delivered within 48 hours. We work with businesses in <a href="/digital-marketing-agency-houston-tx/">Houston</a>, Spring, Conroe and the rest of <a href="/service-areas/">Montgomery and Harris counties</a>.</p>"""),
+<p>Have questions about your Google or Meta account? <a href="/contact/">Get in touch</a> and tell us what you’re seeing. We work with businesses in <a href="/digital-marketing-agency-houston-tx/">Houston</a>, Spring, Conroe and the rest of <a href="/service-areas/">Montgomery and Harris counties</a>.</p>"""),
         ],
         "faq": [
             ("How do I market a cryotherapy business?",

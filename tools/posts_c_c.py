@@ -122,7 +122,7 @@ POSTS = [
 </ol>
 <p>And never let a rep tie ads to your reviews. If anyone suggests advertising will help your rating, that contradicts Yelp’s own terms.</p>
 <p>Before that callback, do one thing: pull your last 90 days of Yelp page views and Google Business Profile views and put them side by side. That ratio settles most Yelp decisions before the rep finishes the pitch.</p>
-<p>And remember where a Yelp budget usually comes from. It’s money you’d otherwise spend on Google, so the fair comparison is Yelp against a well-run Google account, not a leaky one. If you aren’t sure yours is clean, our free <a href="/contact/">Ad Spend Leak Check</a> will show you. We record a 10-minute walkthrough of your Google or Meta account pointing out the clicks and settings that waste money, so you can judge Yelp against the real cost of a lead.</p>"""),
+<p>And remember where a Yelp budget usually comes from. It’s money you’d otherwise spend on Google, so the fair comparison is Yelp against a well-run Google account, not a leaky one. If you aren’t sure yours is clean, <a href="/contact/">get in touch</a> before you judge Yelp against it, so you’re comparing against the real cost of a lead.</p>"""),
         ],
         "faq": [
             ("What do business owners say about Yelp advertising?",

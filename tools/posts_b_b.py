@@ -142,7 +142,7 @@ POSTS = [
 <li>Write the “swim by Memorial Day” offer with a real sign-by date that accounts for HOA review and permits.</li>
 <li>Set up a six-month nurture sequence for every lead who didn’t sign.</li>
 <li>Shoot one dig-to-splash video on your next job.</li></ol>
-<p>Running ads already and can’t say which ones turned into signed contracts? That’s the question our free <a href="/contact/">Ad Spend Leak Check</a> is built for. We go through your Google or Meta account and record a 10-minute video of where the budget is leaking, whether it’s service clicks eating builder money or forms nobody follows up on, and send it within 48 hours.</p>"""),
+<p>Running ads already and can’t say which ones turned into signed contracts? <a href="/contact/">Contact us</a> and tell us what you’re seeing. Service clicks eating builder money and forms nobody follows up on are common culprits.</p>"""),
         ],
         "faq": [
             ("How do pool builders get more leads?",
@@ -308,7 +308,7 @@ POSTS = [
 <p>These are illustrative ranges for a solo agent or a small team, not benchmarks. For context on paid search, {SRC['wordstream']} put Real Estate at about $3.22 per click and $102.51 per lead on average, which is cheaper per click than most local categories but expensive per lead. That’s another reason content and your own list matter.</p>
 <p>If you’re based in Spring or along the I-45 corridor, our <a href="/digital-marketing-agency-spring-tx/">Spring page</a> has more on that market.</p>"""),
             ("Pick one village and own it", """<p>Choose the one village or neighborhood you know better than any other agent. Write the guide, shoot the drive-through, and get both onto your Business Profile and website before the end of the month. Then send the first monthly email to everyone who already knows you, even if the list is 80 people. Do that for a year and the portal invoice starts to matter a lot less.</p>
-<p>If part of your budget already goes to Meta or Google ads, a free <a href="/contact/">Ad Spend Leak Check</a> will show you whether it’s working. We record a 10-minute video walking through your account, including Housing category setup, and you’ll have it within 48 hours.</p>"""),
+<p>If part of your budget already goes to Meta or Google ads, <a href="/contact/">contact us</a> with any questions about whether it’s working, including your Housing category setup.</p>"""),
         ],
         "faq": [
             ("Are Zillow leads worth it for agents in The Woodlands?",

@@ -119,12 +119,12 @@ TITLES = {
 }
 
 DESCS = {
-    "/": "First Byte is a digital marketing agency in The Woodlands serving Houston: Google Ads, paid social, SEO and web design that drive leads. Free Leak Check.",
-    "/contact/": "Contact First Byte, a digital marketing agency in The Woodlands, TX. Call (713) 578-0634 or get a free Ad Spend Leak Check. We reply within 1 hour.",
+    "/": "First Byte is a digital marketing agency in The Woodlands serving Houston: Google Ads, paid social, SEO and web design that drive leads. Contact us today.",
+    "/contact/": "Contact First Byte, a digital marketing agency in The Woodlands, TX. Call (713) 578-0634 or send us a message. We reply within 1 hour.",
     "/blog/": "Marketing playbooks for Houston and The Woodlands businesses: Google Ads costs, local SEO, Google Business Profile, paid social and AI search.",
     "/case-studies/": "Results First Byte drove for Equinox, Kroger, Celsius, Viceroy and Houston-area brands: the problem, what we did, and the numbers.",
     "/services/": "Google Ads, paid social, SEO, web design, branding and CTV for businesses in The Woodlands and Greater Houston, from one senior team.",
-    "/services/search-marketing/": "Google Ads, Local Services Ads and Shopping managed by a senior team in The Woodlands. More calls and sales across Houston. Free Leak Check.",
+    "/services/search-marketing/": "Google Ads, Local Services Ads and Shopping managed by a senior team in The Woodlands. More calls and sales across Houston. Contact us today.",
     "/services/paid-social-advertising/": "Facebook, Instagram and TikTok ads that sell, from a senior team in The Woodlands serving Houston. Creative, targeting and tracking included.",
     "/services/ctv-ooh-streaming-radio/": "Streaming TV, streaming audio and digital billboard campaigns targeted by ZIP code across Houston and The Woodlands, measured to sales.",
     "/services/creative-branding/": "Brand identity, ad creative and video from a branding agency in The Woodlands. Built to stand out in Houston and convert on every channel.",
@@ -194,7 +194,7 @@ def geo_title_desc(url):
     if m:
         city = city_from_slug(m.group(1))
         d = (f"Digital marketing agency serving {city}, TX: Google Ads, paid social, local SEO and web design "
-             f"from a senior team in The Woodlands. Free Leak Check.")
+             f"from a senior team in The Woodlands. Contact us today.")
         return None, d
     for key, (name, phrase, noun) in GEO_SERVICES.items():
         m = re.match(rf"^/{key}-([a-z-]+)-tx/$", url)
@@ -202,9 +202,9 @@ def geo_title_desc(url):
             city = city_from_slug(m.group(1))
             t = f"{noun} in {city}, TX"
             d = (f"{name} for {city}, TX businesses from First Byte, a senior marketing team based in "
-                 f"The Woodlands. More calls and customers. Free Ad Spend Leak Check.")
+                 f"The Woodlands. More calls and customers. Contact us today.")
             if len(d) > 158:
-                d = f"{name} for {city}, TX businesses from First Byte in The Woodlands. More calls and customers. Free Ad Spend Leak Check."
+                d = f"{name} for {city}, TX businesses from First Byte in The Woodlands. More calls and customers. Contact us today."
             return t, d
     return None, None
 
