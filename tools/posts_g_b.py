@@ -307,7 +307,7 @@ POSTS = [
 <li>Text five recent customers and ask for a review.</li>
 <li>Put a reminder on your calendar for 90 days from now to run the Search Console check above.</li>
 </ol>
-<p>If you’re running Google or Meta ads to cover the gap, make sure they aren’t wasting money while SEO ramps up. If you’d like a hand with that, <a href="/contact/">contact us</a>; we reply within an hour on weekdays. And if you’re weighing who should own all of this long term, our comparison of a <a href="{CMO}">fractional CMO vs an agency vs an in-house hire</a> walks through the costs. When you’re ready for help with the site itself, see our <a href="/services/web-design-seo-pr/">web design and SEO services</a>.</p>"""),
+<p>If you’re running Google or Meta ads to cover the gap, make sure they aren’t wasting money while SEO ramps up. If you’d like a hand with that, <a href="/contact/">get in touch</a>; we reply within an hour on weekdays. And if you’re weighing who should own all of this long term, our comparison of a <a href="{CMO}">fractional CMO vs an agency vs an in-house hire</a> walks through the costs. When you’re ready for help with the site itself, see our <a href="/services/web-design-seo-pr/">web design and SEO services</a>.</p>"""),
         ],
         "faq": [
             ("How long does SEO take to show results?", "Most local businesses see early signs in one to three months, such as more impressions and new queries in Search Console. Calls and form leads from organic search usually build between months four and six, and results keep compounding through the first year. Competitive categories and brand-new domains sit at the slow end of that range."),

@@ -153,7 +153,7 @@ POSTS = [
 <p>Then measure cost per booked new patient by channel, not cost per lead. A $90 Google lead that books and finishes a care plan beats a $20 Meta lead that never answers the phone.</p>"""),
 
             ("One fix for this week", """<p>Don't try to do all of this at once. Pick one item and finish it this week. For most clinics that's cleaning up the Business Profile categories and services, or putting an online booking link on the profile and the site header. Next week, listen to ten recorded calls.</p>
-<p>If you already spend on Google or Meta and suspect some of it is wasted, <a href="/contact/">contact us</a> and tell us what you're seeing. With clinics, call handling and targeting that health-category policies don't allow are common trouble spots. We work with practices across <a href="/digital-marketing-agency-spring-tx/">Spring</a>, <a href="/digital-marketing-agency-conroe-tx/">Conroe</a>, Magnolia and the rest of the <a href="/service-areas/">Houston area</a>.</p>"""),
+<p>If you already spend on Google or Meta and suspect some of it is wasted, <a href="/contact/">get in touch</a> and tell us what you're seeing. With clinics, call handling and targeting that health-category policies don't allow are common trouble spots. We work with practices across <a href="/digital-marketing-agency-spring-tx/">Spring</a>, <a href="/digital-marketing-agency-conroe-tx/">Conroe</a>, Magnolia and the rest of the <a href="/service-areas/">Houston area</a>.</p>"""),
         ],
         "faq": [
             ("How do chiropractors get new patients fast?",
@@ -318,7 +318,7 @@ POSTS = [
 <p>Our {A('/blog/complete-guide-google-reviews/', 'guide to Google reviews')} and the {A('/blog/dental-marketing-the-woodlands-houston/', 'dental marketing post')} have more examples written for healthcare.</p>"""),
 
             ("The first month's to-do list", """<p>Start with tracking. Open your appointment form, booking flow and portal login in a browser with a tag inspector and see which ad pixels fire; if any do, get them removed before anything else. Then claim and clean up every provider profile, and publish an accepted-insurance page with a last-updated date. That work protects the practice and usually lifts calls at the same time.</p>
-<p>If your practice already runs Google or Meta ads and you have questions about them, <a href="/contact/">contact us</a>. Ad tags on pages that look like forms or portals are worth raising with your compliance lead either way. We work with practices in <a href="/digital-marketing-agency-katy-tx/">Katy</a>, <a href="/digital-marketing-agency-sugar-land-tx/">Sugar Land</a>, <a href="/digital-marketing-agency-houston-tx/">Houston</a> and The Woodlands.</p>"""),
+<p>If your practice already runs Google or Meta ads and you have questions about them, <a href="/contact/">get in touch</a>. Ad tags on pages that look like forms or portals are worth raising with your compliance lead either way. We work with practices in <a href="/digital-marketing-agency-katy-tx/">Katy</a>, <a href="/digital-marketing-agency-sugar-land-tx/">Sugar Land</a>, <a href="/digital-marketing-agency-houston-tx/">Houston</a> and The Woodlands.</p>"""),
         ],
         "faq": [
             ("How do I get more patients for my medical practice?",

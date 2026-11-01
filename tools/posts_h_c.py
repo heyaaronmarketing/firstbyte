@@ -172,7 +172,7 @@ POSTS = [
 
             ("When to fix it yourself and when to get help", f"""<p>Most of this you can do in an afternoon: switch to Higher intent, turn on SMS verification if you have it, add four questions with Close form logic, rewrite the offer, set up an auto-text. Do those first.</p>
 <p>The CRM integration and Conversions API take more skill, and so does a landing page that actually converts on a phone. Outside help tends to pay off there, especially if your team is already stretched answering the leads you have.</p>
-<p>If you want a second set of eyes before you change anything, <a href="/contact/">contact us</a> and tell us what your lead forms are bringing in. Or see how our <a href="/services/paid-social-advertising/">paid social team</a> runs lead campaigns for businesses from Conroe to Sugar Land.</p>"""),
+<p>If you want a second set of eyes before you change anything, <a href="/contact/">get in touch</a> and tell us what your lead forms are bringing in. Or see how our <a href="/services/paid-social-advertising/">paid social team</a> runs lead campaigns for businesses from Conroe to Sugar Land.</p>"""),
         ],
         "faq": [
             ("Why are my Facebook leads fake?",
@@ -346,7 +346,7 @@ POSTS = [
 <p>The expensive mistake is a mediocre campaign left running for two years because nobody looked.</p>"""),
 
             ("Should you hire someone to run it?", f"""<p>Honestly, Microsoft Ads is one of the easier things to do yourself if your Google account is in good shape. The import does most of the work. Budget a couple of hours to set it up and twenty minutes a week to watch it.</p>
-<p>Where it gets harder is when the Google account itself has problems, because the import copies them. If you’re not sure your Google campaigns are healthy, fix that first. If you’d like help sorting that out before you expand to a second search engine, <a href="/contact/">contact us</a> and tell us what you’re seeing. If you’d rather hand off the whole search program, our <a href="/services/search-marketing/">search marketing team</a> runs Google and Microsoft campaigns for businesses across The Woodlands and Houston.</p>"""),
+<p>Where it gets harder is when the Google account itself has problems, because the import copies them. If you’re not sure your Google campaigns are healthy, fix that first. If you’d like help sorting that out before you expand to a second search engine, <a href="/contact/">get in touch</a> and tell us what you’re seeing. If you’d rather hand off the whole search program, our <a href="/services/search-marketing/">search marketing team</a> runs Google and Microsoft campaigns for businesses across The Woodlands and Houston.</p>"""),
         ],
         "faq": [
             ("Is Bing Ads cheaper than Google Ads?",

@@ -69,7 +69,7 @@ EXACT = [
     ("Call (713) 578-0634 or get a free Ad Spend Leak Check. We reply within 1 hour.", "Call (713) 578-0634 or send us a message. We reply within 1 hour."),
     ("More calls and customers. Free Ad Spend Leak Check.", "More calls and customers. Contact us today."),
     ("Get a free Ad Spend Leak Check today.", "Contact us today."),
-    ("Free Leak Check · (713) 578-0634", "Contact us · (713) 578-0634"),
+    ("Free Leak Check · (713) 578-0634", "Get in touch · (713) 578-0634"),
     # --- thank-you page
     ('<span class="cy">your Leak Check is on.</span>', '<span class="cy">we got your message.</span>'),
     ("We reply within 1 hour, Mon–Fri. Your Ad Spend Leak Check — a 10-minute video showing where your Google or Meta budget is leaking — lands in your inbox within 48 hours.",
@@ -146,6 +146,28 @@ def upgrade_forms(s):
     return re.sub(r'<form\b[^>]*data-lead[^>]*>.*?</form>', form, s, flags=re.S)
 
 
+# --- Nov 1 2026: owner prefers "Get in touch" over "Contact us" for every call to action.
+GET_IN_TOUCH = [
+    (r"Contact us(\s*<span class=\"arr\">)", r"Get in touch\1"),
+    (r">Contact us →<", ">Get in touch →<"),
+    (r'(class="btn btn-g" href="/contact/">)Contact us(</a>)', r"\1Get in touch\2"),
+    (r"<button>Contact us</button>", "<button>Get in touch</button>"),
+    (r"(💬|✉️) Contact us", r"\1 Get in touch"),
+    (r"Contact us today\.", "Get in touch today."),
+    (r"<li>Contact us · \(713\) 578-0634</li>", "<li>Get in touch · (713) 578-0634</li>"),
+    (r"Contact us or call \(713\) 578-0634", "Get in touch or call (713) 578-0634"),
+    (r"Contact us and we’ll recommend a budget\.", "Get in touch and we’ll recommend a budget."),
+    (r'(<a href="/contact/"[^>]*>)Contact us(</a>|\s*→)', r"\1Get in touch\2"),
+    (r'(<a href="/contact/">)contact us(</a>)', r"\1get in touch\2"),
+]
+
+
+def get_in_touch(s):
+    for a, b in GET_IN_TOUCH:
+        s = re.sub(a, b, s)
+    return s
+
+
 def prose_edits():
     try:
         return json.load(open(PROSE, encoding="utf-8"))
@@ -161,7 +183,7 @@ def rewrite(s, prose):
     for a, b in REGEX:
         s = re.sub(a, b, s)
     s = re.sub(r"/assets/firstbyte/site\.js\?v=\d+", "/assets/firstbyte/site.js?v=3", s)  # bump when site.js changes
-    return upgrade_forms(s)
+    return get_in_touch(upgrade_forms(s))
 
 
 def run(verbose=False):
@@ -181,6 +203,7 @@ def run(verbose=False):
         n = s
         for a, b in WIDGET:
             n = n.replace(a, b)
+        n = get_in_touch(n)
         if n != s:
             open(w, "w", encoding="utf-8").write(n)
             changed += 1
@@ -190,6 +213,7 @@ def run(verbose=False):
         n = s
         for e in prose:
             n = n.replace(e["old"], e["new"])
+        n = get_in_touch(n)
         if n != s:
             open(f, "w", encoding="utf-8").write(n)
     if verbose:

@@ -120,7 +120,7 @@ TITLES = {
 
 DESCS = {
     "/": "First Byte is a digital marketing agency in The Woodlands serving Houston: Google Ads, paid social, SEO and web design that drive leads. Contact us today.",
-    "/contact/": "Contact First Byte, a digital marketing agency in The Woodlands, TX. Call (713) 578-0634 or send us a message. We reply within 1 hour.",
+    "/contact/": "Contact First Byte, a digital marketing agency in The Woodlands, TX. Call (713) 578-0634 or send us a message. We reply 7 days a week, usually within an hour or two.",
     "/blog/": "Marketing playbooks for Houston and The Woodlands businesses: Google Ads costs, local SEO, Google Business Profile, paid social and AI search.",
     "/case-studies/": "Results First Byte drove for Equinox, Kroger, Celsius, Viceroy and Houston-area brands: the problem, what we did, and the numbers.",
     "/services/": "Google Ads, paid social, SEO, web design, branding and CTV for businesses in The Woodlands and Greater Houston, from one senior team.",

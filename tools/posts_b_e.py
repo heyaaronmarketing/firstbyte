@@ -131,7 +131,7 @@ POSTS = [
 <li>Write the follow-up texts for trial members and decide who sends them.</li>
 <li>Build your Meta campaign with a radius around your door and real video, and plan to raise the budget on December 26.</li>
 <li>Plan a member challenge for February, so January joiners have a reason to stay.</li></ol>
-<p>We work with fitness brands of all sizes, from neighborhood studios to <a href="/case-studies/equinox/">Equinox new-club launches</a>, and you can see the full approach on our <a href="/industries/sports-fitness/">sports and fitness page</a>. Before you load up the January budget, it’s worth knowing what last January’s money actually bought. If you’re not sure, <a href="/contact/">contact us</a> and we can go over it with you.</p>"""),
+<p>We work with fitness brands of all sizes, from neighborhood studios to <a href="/case-studies/equinox/">Equinox new-club launches</a>, and you can see the full approach on our <a href="/industries/sports-fitness/">sports and fitness page</a>. Before you load up the January budget, it’s worth knowing what last January’s money actually bought. If you’re not sure, <a href="/contact/">get in touch</a> and we can go over it with you.</p>"""),
         ],
         "faq": [
             ("How do I get more members at my gym?", "Pick one clear intro offer, run Meta ads within a short drive of your location, keep your Google Business Profile complete with photos and a booking link, and follow up with every trial within an hour. Then work on retention, because members who stay bring referrals. Most gyms grow faster by fixing trial follow-up than by spending more on ads."),
@@ -262,7 +262,7 @@ POSTS = [
 <li>Build your 12-month demand calendar and pick three periods for packages.</li>
 <li>Set up brand search ads and conversion tracking on your booking engine.</li>
 <li>Start collecting guest emails at check-in this week.</li></ol>
-<p>Step five is where most properties discover they can’t connect ad spend to room nights. If that’s you, <a href="/contact/">contact us</a> and we’ll talk through how your Google or Meta ads are set up.</p>"""),
+<p>Step five is where most properties discover they can’t connect ad spend to room nights. If that’s you, <a href="/contact/">get in touch</a> and we’ll talk through how your Google or Meta ads are set up.</p>"""),
         ],
         "faq": [
             ("How can a small hotel get more direct bookings?", "Turn on Google free booking links through your booking engine, keep your Google Business Profile complete, bid on your own hotel name in Google Ads, and give guests a reason to book on your website such as free parking, breakfast or a package. Collect email addresses from every guest, including OTA guests, so the second stay can be direct."),

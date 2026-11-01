@@ -414,7 +414,7 @@
   /* ---------------- Individual mechanisms ---------------- */
   function helloBar() {
     if (!FEAT.hello) return;
-    var bar = el('<div class="fblm-hellobar"><span>👋 <b>Questions about your marketing?</b> Talk to a senior strategist in The Woodlands.</span><button>Contact us</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
+    var bar = el('<div class="fblm-hellobar"><span>👋 <b>Questions about your marketing?</b> Talk to a senior strategist in The Woodlands.</span><button>Get in touch</button><button class="fblm-x" aria-label="Dismiss">&times;</button></div>');
     document.body.appendChild(bar);
     bar.querySelector("button").addEventListener("click", function () { openModal("hellobar"); });
     bar.querySelector(".fblm-x").addEventListener("click", function () { bar.classList.remove("fblm-show"); });
@@ -422,13 +422,13 @@
   }
   function fab() {
     if (!FEAT.fab) return;
-    var b = el('<button class="fblm-fab">💬 Contact us</button>');
+    var b = el('<button class="fblm-fab">💬 Get in touch</button>');
     b.addEventListener("click", function () { openModal("fab"); });
     document.body.appendChild(b);
   }
   function mobileBar() {
     if (!FEAT.mobile) return;
-    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">✉️ Contact us</button></div>');
+    var b = el('<div class="fblm-mobilebar"><a class="fblm-call" href="tel:' + PHONE + '">📞 Call now</a><button class="fblm-quote">✉️ Get in touch</button></div>');
     b.querySelector(".fblm-quote").addEventListener("click", function () { openModal("mobilebar"); });
     document.body.appendChild(b);
   }
