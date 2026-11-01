@@ -75,7 +75,7 @@ POSTS = [
 <li>Then the Google-selected canonical. If Google picked a different URL as the main version, this page is being treated as a duplicate.</li></ol>
 <p>If <b>Last crawl</b> is blank, Google simply hasn’t found the page yet. Click <b>Test live URL</b>, then <b>Request indexing</b>. Google says there’s a daily limit on those requests and that a request doesn’t guarantee anything, so spend them on your handful of money pages and let the sitemap handle the rest. (Clicking it again every morning doesn’t speed anything up. People try.)</p>
 <h3>Page indexing report: the whole site</h3>
-<p>Under <b>Indexing → Pages</b>, the {SRC['pir']} lists every reason pages weren’t indexed. The names you’ll see most on small business sites are <b>Excluded by ‘noindex’ tag</b>, <b>Blocked by robots.txt</b>, <b>Crawled - currently not indexed</b>, <b>Discovered - currently not indexed</b>, <b>Duplicate without user-selected canonical</b>, <b>Alternate page with proper canonical tag</b>, <b>Page with redirect</b>, <b>Not found (404)</b> and <b>Soft 404</b>. (Google’s help article words a couple of these slightly differently from the report itself, but you’ll recognize them.)</p>
+<p>Under <b>Indexing → Pages</b>, the {SRC['pir']} lists every reason pages weren’t indexed. The names you’ll see most on small business sites are <b>Excluded by ‘noindex’ tag</b>, <b>Blocked by robots.txt</b>, <b>Crawled - currently not indexed</b>, <b>Discovered - currently not indexed</b>, <b>Duplicate without user-selected canonical</b>, <b>Alternate page with proper canonical tag</b>, <b>Page with redirect</b>, <b>Not found (404)</b> and <b>Soft 404</b>.</p>
 <p>Some of those are fine. “Page with redirect” on your old URLs after a redesign is exactly what should happen. Google’s own line is that you “should not expect all URLs on your site to be indexed.” Save the worrying for pages that are supposed to make the phone ring.</p>"""),
 
             ("Did a redesign or a website builder hide your site from Google?", f"""<p>We find this one more than anything else, and it’s almost always innocent. Designers build new sites on a staging copy and tell Google to stay away while it’s unfinished. Then launch day comes, everybody is busy testing the contact form, and nobody flips the switch back.</p>
@@ -113,7 +113,7 @@ POSTS = [
 <p>The {SRC['manual']} shows whether a human reviewer at Google has penalized the site. The types include “Thin content with little or no added value,” “Unnatural links to your site,” “Hidden text and/or keyword stuffing,” “User-generated spam” and “Site abused with third-party spam.” Google says most actions lower rankings or remove pages, and that it notifies you in the report and in the Search Console message center.</p>
 <p>If you see one, fix every listed problem on every affected page (Google says partial fixes don’t restore anything), then click <b>Request Review</b> with a plain explanation of what you changed. Reviews can take days or weeks.</p>
 <p>Hacked sites are more common than penalties. Old WordPress plugins are the usual way in. Search <b>site:yourdomain.com</b> plus words like “casino” or “pills,” and if spam pages show up, you’ve been hacked.</p>
-<p>A flaky host shows up as <b>Server error (5xx)</b> in the Page indexing report; pages usually come back once the site is stable. And if you bought an expired domain, look it up on the Wayback Machine. A previous owner’s spam can follow it for a long time.</p>"""),
+<p>A flaky host shows up as <b>Server error (5xx)</b> in the Page indexing report; pages usually come back once the site is stable. And if you bought an expired domain, look it up on the Wayback Machine. A previous owner’s spam can follow it.</p>"""),
 
             ("Symptom, cause and fix: the cheat sheet", f"""<p>Find the row that matches what you’re seeing. Start at the top; the cheapest fixes are first.</p>
 <div class="bp-tbl"><table>
@@ -133,15 +133,13 @@ POSTS = [
 <p>After you fix something in the Page indexing report, click <b>Validate Fix</b>. Google says validation “typically takes up to about two weeks,” sometimes longer, so don’t panic if the count doesn’t move on day three.</p>"""),
 
             ("How long should you wait before you worry?", f"""<p>For a brand-new domain, a week or two of nothing is normal. Google’s URL Inspection documentation says indexing “typically takes only a day or so, but can take much longer in some cases,” and elsewhere that it “can take up to a week or two.” The {SRC['starter']} is blunter about results: “Some changes might take effect in a few hours, others could take several months.”</p>
-<p>Our rule of thumb for owners:</p>
-<ul><li><b>Day 1 to 14 on a new site:</b> set up Search Console, submit the sitemap, request indexing on the homepage and top service pages, then leave it alone.</li>
-<li><b>Two to four weeks with zero pages indexed:</b> something is blocking Google. Go back through the redesign section.</li>
-<li><b>Indexed, but no service rankings after three to six months:</b> it’s a content and authority problem, not a technical one.</li></ul>
+<p>For the first 14 days on a new site, set up Search Console, submit the sitemap, request indexing on the homepage and top service pages, and then leave it alone. Really. Stop checking.</p>
+<p>Two to four weeks with zero pages indexed means something is blocking Google, so go back through the redesign section. If you’re indexed but have no service rankings after three to six months, you’re past the technical stuff and into content and authority.</p>
 <!--fig:pipeline-->
 <p>Meanwhile, the phone still needs to ring. If you just launched and the busy season is now (for a lot of Houston trades that means the first 95-degree week in May), a small Google Ads campaign and a well-built Business Profile can cover the months while organic catches up. We’d rather you spend a few hundred dollars a month on tightly targeted ads during that stretch than pay someone to “submit your site to 500 search engines.” Google finds sites through links and sitemaps; nobody needs to submit you anywhere.</p>"""),
 
-            ("Fix it yourself or call someone?", f"""<p>Most of this is DIY. The site: search, the builder toggles, the Business Profile checks and the Manual actions report are all things an owner can do in an afternoon with this page open.</p>
-<p>It’s worth paying for help when the problem is a botched migration with hundreds of old URLs and no redirect map, when Search Console shows canonical or duplicate problems across most of the site, or when you’re indexed and simply not competitive. That last one is real SEO work, and our {L('/services/web-design-seo-pr/', 'web design and SEO team')} does it for businesses across Montgomery and Harris County.</p>
+            ("Fix it yourself or call someone?", f"""<p>Most of this is DIY. An owner can run the site: search, check the builder toggles, look over the Business Profile and open the Manual actions report in one afternoon.</p>
+<p>Pay for help if a migration went badly and you’ve got hundreds of old URLs with no redirect map, or if Search Console shows canonical and duplicate problems across most of the site. Same if you’re indexed and just not competitive. That one is real SEO work, and our {L('/services/web-design-seo-pr/', 'web design and SEO team')} does it for businesses across Montgomery and Harris County.</p>
 <p>Your next step today: run <b>site:yourdomain.com</b>, then inspect your homepage in Search Console. Those two checks tell you which half of this guide you need. And if you’re running Google Ads or Meta ads to cover the gap, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where that budget is leaking, in your inbox within 48 hours.</p>"""),
         ],
         "faq": [
@@ -217,23 +215,20 @@ POSTS = [
         "related": ["call-tracking-which-ads-make-phone-ring", "measure-marketing-success-metrics", "google-ads-not-converting-clicks-no-calls"],
         "sections": [
             (None, f"""<p>GA4 says your site produced two leads last month. Your office manager says the phone rang 70 times and the inbox has 18 form emails. One of those numbers is lying, and it isn’t the office manager.</p>
-<p>To track form submissions and phone calls in GA4 reliably, fire one event, <b>generate_lead</b>, only when a form actually succeeds (on a thank-you page or a confirmed success message), mark it as a key event, and track calls with real call data, not just taps on your phone number. Then send those same actions to Google Ads so it bids on leads instead of clicks.</p>
-<p>That’s the whole idea. The rest of this post is how to do it on a normal small business site, what breaks, and how to test it without guessing. We set this up for service businesses around The Woodlands and Houston every month, and the same five or six problems come up every time.</p>"""),
+<p>To track form submissions and phone calls in GA4 reliably, fire one event, <b>generate_lead</b>, only when a form actually succeeds (on a thank-you page or a confirmed success message), mark it as a key event, and count calls using actual call data, since a tap on your phone number proves very little. Then send those same actions to Google Ads so it bids on leads rather than clicks.</p>
+<p>That’s the whole idea.</p>
+<p>The rest is the plumbing: how to do it on a normal small business site, what breaks, and how to test it without guessing. We set this up for service businesses around The Woodlands and Houston every month, and the same five or six problems show up so reliably we could almost bet on the order.</p>"""),
 
             ("Conversions are now “key events” in GA4. What changed?", f"""<p>In March 2024 Google renamed GA4’s conversions to <b>key events</b>. As Google’s Ads Liaison put it in {SRC['rename']}, “In GA4, legacy conversions will be renamed to key events.” The word “conversion” now belongs to Google Ads: a key event only becomes a conversion when you share it with an Ads account.</p>
-<p>Practically, that changes two things for you:</p>
-<ul><li>In GA4, you mark an event as important under <b>Admin → Data display → Events</b> by clicking the star next to it. {SRC['keyev']} says standard properties can have up to 30 key events, which is far more than a lead-gen site needs. We’d keep it to three or four.</li>
-<li>Old tutorials that say “toggle Mark as conversion” are out of date. Same switch, new name.</li></ul>
-<p>Pick your key events with a hard rule: would you pay for this action? A submitted quote form, yes. A real phone call, yes. Someone scrolling 90% of your About page, no.</p>"""),
+<p>In GA4 you now mark an event as important under <b>Admin → Data display → Events</b> by clicking the star next to it. {SRC['keyev']} says standard properties can have up to 30 key events, which is far more than a lead-gen site needs. We’d keep it to three or four. Old tutorials that tell you to “toggle Mark as conversion” are describing the same switch under its old name, so don’t let them confuse you.</p>
+<p>The test for what earns a star is simple. Would you pay for this action? A submitted quote form, sure. A real phone call, absolutely. Someone scrolling 90% of your About page is just someone reading your About page.</p>"""),
 
             ("Can GA4 track form submissions automatically?", f"""<p>Sort of. GA4’s enhanced measurement has a <b>Form interactions</b> option that sends two events. Per Google’s {SRC['em']}, <b>form_start</b> fires “the first time a user interacts with a form in a session” and <b>form_submit</b> fires “when the user submits a form.” It costs nothing to switch on, and the parameters (form_id, form_name, form_destination, form_submit_text) only show in reports after you register them as custom dimensions.</p>
-<p>We don’t use it as a lead count, and here’s why:</p>
-<ul><li><b>It can count attempts.</b> Depending on how the form is built, form_submit may fire when someone clicks Submit even if the form then fails validation because the phone number was missing a digit.</li>
-<li><b>It misses a lot of real forms.</b> Forms that send without a standard browser submit (common with WordPress plugins and page builders), and embedded forms that live inside an iframe from another service, often don’t register at all.</li>
-<li><b>It counts the wrong forms.</b> Your newsletter box and the search bar in your header are forms too.</li></ul>
-<p>Leave it on if you like seeing form starts versus finishes. Just don’t mark form_submit as a key event and send it to Google Ads, because you’ll be training the bidding on noise.</p>"""),
+<p>We don’t use it as a lead count.</p>
+<p>Depending on how the form is built, form_submit may fire when someone clicks Submit even if the form then fails validation because the phone number was missing a digit. So it can count attempts. It also misses plenty of real forms: ones that send without a standard browser submit (common with WordPress plugins and page builders) and embedded forms living inside an iframe from another service often don’t register at all. And it happily counts the wrong forms, because your newsletter box and the search bar in your header are forms too.</p>
+<p>Leave it on if you like seeing form starts versus finishes. Just don’t mark form_submit as a key event and send it to Google Ads. You’d be training the bidding on noise.</p>"""),
 
-            ("Thank-you page vs event-based form tracking", f"""<p>There are two dependable ways to know a form actually went through, plus the automatic one above. Here’s how they compare.</p>
+            ("Thank-you page vs event-based form tracking", f"""<p>To know a form actually went through, you need a signal that only appears on success. The table puts the dependable options next to the automatic one above.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Method</th><th>How it works</th><th>Reliability</th><th>Best for</th></tr></thead>
 <tbody>
@@ -242,52 +237,51 @@ POSTS = [
 <tr><td>Success event (GTM)</td><td>Tag fires on the plugin’s success signal or confirmation message</td><td>High, once tested</td><td>Forms that show an inline “Thanks!” message</td></tr>
 <tr><td>Developer dataLayer push</td><td>Site code sends generate_lead after the server accepts the form</td><td>Highest</td><td>Custom sites, booking tools, multi-step quotes</td></tr>
 </tbody></table></div>
-<p>Thank-you pages are underrated. They’re easy to test, they give you a place to set expectations (“We’ll call within an hour during business hours”), and they work with almost every builder. Two rules: noindex the page so nobody lands on it from Google, and don’t link to it from your menu, or every curious visitor becomes a “lead.”</p>
+<p>Thank-you pages are underrated. They’re easy to test and they work with almost every builder. They also give you somewhere to set expectations (“We’ll call within an hour during business hours”), which cuts down on the person who submits the form and then calls twice. Noindex the page so nobody lands on it from Google, and keep it out of your menu, or every curious visitor becomes a “lead.”</p>
 <!--fig:methods-->"""),
 
             ("How to track form submissions in GA4 with Google Tag Manager", f"""<p>If your form shows an inline success message instead of redirecting, Google Tag Manager is the usual tool. The flow for a typical WordPress or Webflow lead form:</p>
-<ol><li><b>Find the success signal.</b> Submit a test form and watch what changes. A redirect, a “Thanks, we got it” message appearing, or an event your form plugin pushes to the dataLayer (Gravity Forms, WPForms and Contact Form 7 all have one, with or without a helper plugin).</li>
-<li><b>Build the trigger.</b> For a standard HTML form, the <b>Form Submission</b> trigger works. Tick <b>Check Validation</b> so it only fires when the form is “successfully sent,” in the words of {SRC['gtmform']}, and <b>Wait for Tags</b> so the tag fires before the page moves on. For inline messages, an <b>Element Visibility</b> trigger on the confirmation text is often more dependable.</li>
-<li><b>Create the GA4 event tag.</b> Event name <b>generate_lead</b>. Add a parameter like form_name = “quote_request” so you can tell the quote form from the careers form.</li>
-<li><b>Preview and submit a real test.</b> Fill out the form in Tag Manager’s Preview mode and confirm the tag fires once, after success, and not on a failed submit.</li>
-<li><b>Publish, then mark it as a key event</b> in GA4 once the event has come through.</li></ol>
-<p>Never skip this: submit the form with a mistake on purpose. If your tag fires on the failed attempt, it will count garbage forever.</p>
+<ol><li><b>Find the success signal.</b> Submit a test form and watch what changes. It might be a redirect, a “Thanks, we got it” message appearing, or an event your form plugin pushes to the dataLayer (Gravity Forms, WPForms and Contact Form 7 all have one, sometimes with a helper plugin).</li>
+<li>Build the trigger. For a standard HTML form, the <b>Form Submission</b> trigger works. Tick <b>Check Validation</b> so it only fires when the form is “successfully sent,” in the words of {SRC['gtmform']}, and <b>Wait for Tags</b> so the tag fires before the page moves on. For inline messages, an <b>Element Visibility</b> trigger on the confirmation text is often more dependable.</li>
+<li>Create a GA4 event tag named <b>generate_lead</b>. Add a parameter like form_name = “quote_request” so you can tell the quote form from the careers form. (Yes, people apply for jobs through the quote form. Constantly.)</li>
+<li>Fill out the form in Tag Manager’s Preview mode and confirm the tag fires once, after success. A failed submit should fire nothing.</li>
+<li>Publish, then mark the event as a key event in GA4 once it has come through.</li></ol>
+<p>Whatever else you rush, submit the form with a mistake on purpose. A tag that fires on the failed attempt will count garbage forever.</p>
 <p>For more on what to do with the leads once you count them, our guide to {L('/blog/measure-marketing-success-metrics/', 'measuring marketing success')} covers cost per lead and the numbers worth watching weekly.</p>"""),
 
             ("Tracking phone calls: a tel: click isn’t a phone call", f"""<p>For a lot of Houston service businesses (plumbers, roofers, HVAC, med spas), calls outnumber forms by a wide margin. They’re also the leads most sites track worst.</p>
-<p>The easy version is a Tag Manager <b>Click - Just Links</b> trigger where Click URL starts with <b>tel:</b>, sending a GA4 event like phone_click. That tells you someone tapped the number. It doesn’t tell you they called, stayed on the line, or were a customer rather than your supplier. Desktop visitors who read the number and dial it from a desk phone never show up at all.</p>
+<p>The easy version is a Tag Manager <b>Click - Just Links</b> trigger where Click URL starts with <b>tel:</b>, sending a GA4 event like phone_click. That tells you someone tapped the number. Whether they actually called, stayed on the line, or turned out to be your supplier asking about an invoice, it can’t say. Desktop visitors who read the number and dial it from a desk phone never show up at all.</p>
 <p>Google Ads is upfront about this. Its {SRC['calls']} lists five ways to count calls: calls from ads (call assets and call-only ads), calls to a Google forwarding number shown on your website, clicks on a number on your mobile website, clicks on call ads and assets, and imported call conversions. On the mobile clicks option, Google’s own words are “we can only track these clicks, not the phone calls themselves.”</p>
 <!--fig:calls-->
-<p>What we recommend, in order of effort:</p>
-<ul><li><b>Calls from ads:</b> set up a call conversion for call assets with a minimum call length (we usually start at 60 seconds).</li>
-<li><b>Calls from the website:</b> Google’s website call conversion swaps in a forwarding number for ad visitors. It covers Google Ads traffic only.</li>
-<li><b>Everything else:</b> a call tracking service (CallRail, CallTrackingMetrics and WhatConverts are common) with dynamic number insertion, so organic, Business Profile, Meta and ad callers each get credited. Most can send qualified calls to GA4 and Google Ads.</li></ul>
+<p>Start with the cheap part. For calls straight from your ads, set up a call conversion for call assets with a minimum call length; we usually start at 60 seconds, which filters out most wrong numbers and hang-ups. Google’s website call conversion handles the next layer by swapping in a forwarding number for ad visitors, though it only covers Google Ads traffic.</p>
+<p>For everything else you need a call tracking service. CallRail, CallTrackingMetrics and WhatConverts are the common ones. With dynamic number insertion, organic, Business Profile, Meta and ad callers each get credited to the right source, and most of these tools can send qualified calls to GA4 and Google Ads. It’s a monthly bill, but for a shop where the phone is the business, we think it pays for itself fast.</p>
 <p>Our post on {L('/blog/call-tracking-which-ads-make-phone-ring/', 'call tracking for local businesses')} covers how dynamic numbers work and how to keep them from scrambling your Business Profile’s phone number.</p>"""),
 
             ("Use the generate_lead event (and the lead events after it)", f"""<p>GA4 has a {SRC['rec']} that includes a set built for lead generation. <b>generate_lead</b> is the one you’ll use first; Google describes it as when a user “submits a form online or submits information offline.” The rest of the set covers what happens after:</p>
 <ul><li><b>qualify_lead</b> and <b>disqualify_lead</b>, for when someone on your team decides a lead is real or junk</li>
 <li><b>working_lead</b>, when a rep makes contact</li>
 <li><b>close_convert_lead</b> and <b>close_unconvert_lead</b>, for won and lost</li></ul>
-<p>Why bother with Google’s names instead of making up “quote_form_success_v2”? Recommended events slot into GA4’s reports and future features without extra setup, and anyone who inherits your account knows what they mean.</p>
+<p>Use Google’s names even if “quote_form_success_v2” feels more descriptive. Recommended events slot into GA4’s reports and future features without extra setup, and whoever inherits your account later will know what they mean without calling you.</p>
 <p>The later events matter more than most owners realize. A roofing company in Kingwood might get 40 form fills in a hail month, and half are price shoppers from outside the service area. If your CRM can send qualify_lead or close_convert_lead back (most can, through an integration or a CSV upload), Google Ads can learn which clicks became roofs. That’s also what enhanced conversions for leads is for on the Ads side.</p>
 <p>Add a value to generate_lead if you can, even a rough one. A $90 drain cleaning lead and a $12,000 repipe lead shouldn’t look identical.</p>"""),
 
             ("Import GA4 key events into Google Ads, or use Google Ads conversions?", f"""<p>You can do either, and plenty of accounts do both. {SRC['import']} lists the differences that matter:</p>
-<ul><li><b>Which clicks count.</b> GA4 can credit any channel; Google Ads conversion tracking only measures Google Ads.</li>
-<li><b>Which day counts.</b> Google Ads records the conversion on the click date. GA4 records it on the day it happened.</li>
-<li><b>Speed.</b> Imported conversions can take up to 24 hours to show in Google Ads.</li>
-<li><b>Defaults.</b> Conversions created from GA4 come in as <b>Secondary</b>, so they won’t steer bidding until you change that.</li></ul>
+<ul><li>GA4 can credit any channel. Google Ads conversion tracking only measures Google Ads.</li>
+<li>Google Ads records the conversion on the click date, while GA4 records it on the day it happened. That alone explains a lot of “why don’t these numbers match” emails.</li>
+<li>Imported conversions can take up to 24 hours to show in Google Ads.</li>
+<li>Conversions created from GA4 come in as <b>Secondary</b>, so they won’t steer bidding until you change that.</li></ul>
 <p>Our default for a local lead-gen account: native Google Ads conversion tracking (through the Google tag or Tag Manager) for forms, Google’s call conversions for calls, both set as <b>Primary</b>. GA4 key events stay in GA4 for cross-channel reporting and get imported as Secondary, if at all.</p>
 <!--fig:source-->
-<p>The mistake to avoid is two Primary actions for the same lead, say a Google Ads form tag and an imported GA4 generate_lead. Every quote request counts twice, your cost per lead looks half of what it is, and smart bidding overpays for the next one. If your Google Ads results look too good to be true, check this before celebrating, and see our {L('/blog/google-ads-not-converting-clicks-no-calls/', 'Google Ads not converting audit')} for the other tracking failures.</p>
-<p>Whichever route you choose, auto-tagging must be on and nothing on your site can strip the gclid off the URL. Redirect plugins and some booking tools do exactly that.</p>"""),
+<p>What you don’t want is two Primary actions for the same lead, say a Google Ads form tag and an imported GA4 generate_lead. Every quote request counts twice. Your cost per lead looks like half of what it really is, and smart bidding happily overpays for the next one. If your Google Ads results look too good to be true, check this before you celebrate, and see our {L('/blog/google-ads-not-converting-clicks-no-calls/', 'Google Ads not converting audit')} for the other tracking failures.</p>
+<p>Either way, auto-tagging has to be on, and nothing on your site can strip the gclid off the URL.</p>
+<p>Redirect plugins and some booking tools do exactly that, silently, and you won’t find out until someone asks why Ads shows zero conversions for a month the phones were busy.</p>"""),
 
             ("Consent mode basics for a Texas business", f"""<p>Consent mode lets your Google tags adjust to what a visitor agreed to. The {SRC['consent']} lists four signals: <b>ad_storage</b>, <b>analytics_storage</b>, <b>ad_user_data</b> and <b>ad_personalization</b>.</p>
-<p>There are two flavors. <b>Basic</b> blocks Google tags entirely until someone answers a cookie banner; if they decline, nothing is sent. <b>Advanced</b> loads tags with consent denied by default and sends cookieless pings, which Google uses to model conversions it can’t observe.</p>
+<p>It comes in two flavors. <b>Basic</b> blocks Google tags entirely until someone answers a cookie banner, and if they decline, nothing is sent. <b>Advanced</b> loads tags with consent denied by default and sends cookieless pings, which Google uses to model conversions it can’t observe.</p>
 <p>For most Houston-area businesses selling to Texans, consent mode is a lower priority than getting the events right. Google’s strictest consent requirements are aimed at visitors in Europe. Texas has its own law, the Texas Data Privacy and Security Act, in effect since July 1, 2024, but according to the {SRC['tdpsa']}, small businesses as defined by the SBA are “generally exempt,” apart from a consent rule for selling sensitive data. If you already run a cookie banner (many WordPress themes add one), make sure it’s wired to consent mode rather than silently blocking every tag. We’ve seen banners that zeroed out a client’s conversions for months.</p>
 <p>We’re not lawyers. If you handle health information (a clinic or med spa), talk to one before putting any tracking on booking or intake pages.</p>"""),
 
-            ("Test it with DebugView and Tag Assistant", f"""<p>Never trust a tracking setup you haven’t broken on purpose. Here’s our test routine:</p>
+            ("Test it with DebugView and Tag Assistant", f"""<p>Never trust a tracking setup you haven’t broken on purpose. We run the same routine on every account we touch, and it’s quicker than it looks.</p>
 <ol><li>Open <b>tagassistant.google.com</b>, enter your site, and connect. Per Google’s {SRC['debug']}, Tag Assistant adds a parameter that turns on debug mode for your device only.</li>
 <li>In GA4, go to <b>Admin → Data display → DebugView</b>. Your device appears and events stream in as they happen.</li>
 <li>Submit the form with an error. Nothing should fire.</li>
@@ -296,10 +290,10 @@ POSTS = [
 <li>Back in Google Ads, check <b>Goals → Summary</b> and confirm each Primary action shows as active after a day or so.</li>
 <li>Call your own call asset from a mobile phone and stay on longer than your minimum call length.</li></ol>
 <!--fig:test-->
-<p>Then do the monthly sanity check: compare GA4’s generate_lead count with the form emails in your inbox, and your call conversions with your call log. Within 10 to 15% is healthy. Off by half means something broke, usually after a plugin update or a site edit.</p>"""),
+<p>After that, once a month, compare GA4’s generate_lead count with the form emails in your inbox, and your call conversions with your call log. Within 10 to 15% is healthy. Off by half means something broke, usually after a plugin update or a site edit.</p>"""),
 
-            ("When to do this yourself and when to hand it off", f"""<p>A single contact form with a thank-you page is a one-hour DIY job: redirect, track the page, mark the key event, test. Same with call assets in Google Ads.</p>
-<p>It gets harder with several forms, an embedded booking tool, multiple locations, call tracking across channels, or CRM data you want flowing back into Google Ads. That’s the kind of setup our {L('/services/search-marketing/', 'Google Ads team')} builds and maintains for businesses from Katy to Conroe.</p>
+            ("When to do this yourself and when to hand it off", f"""<p>A single contact form with a thank-you page is a one-hour DIY job. Redirect, track the page, mark the key event, test. Call assets in Google Ads are about the same.</p>
+<p>It gets messier fast once you add a second form, an embedded booking tool or another location. Cross-channel call tracking and CRM data flowing back into Google Ads are where most owners (reasonably) tap out. That’s the kind of setup our {L('/services/search-marketing/', 'Google Ads team')} builds and maintains for businesses from Katy to Conroe.</p>
 <p>Your next step: submit your own contact form today and see if GA4 notices. If you’re running ads and aren’t sure the numbers in your account are real, our free <a href="/contact/">Ad Spend Leak Check</a> is a 10-minute video showing where your Google or Meta budget is leaking, tracking included, in your inbox within 48 hours.</p>"""),
         ],
         "faq": [
