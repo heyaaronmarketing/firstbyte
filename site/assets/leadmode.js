@@ -102,7 +102,7 @@
       '<button class="fblm-close" aria-label="Close">&times;</button>' +
       '<span class="fblm-badge">Free • Video in 48 hours</span>' +
       '<h2>Let’s talk about <span class="a">your marketing</span></h2>' +
-      '<p class="fblm-sub">Tell us what you’re working on and we’ll reply within 1 hour, Mon–Fri. No pressure.</p>' +
+      '<p class="fblm-sub">Tell us what you’re working on and we’ll reply within an hour or two — 7 days a week. No pressure.</p>' +
       '<div class="fblm-bjstage fblm-hidden fblm-bj">' +
         '<button type="button" class="fblm-mute" data-mute aria-label="Toggle sound">🔊</button>' +
         '<div class="fblm-bj-burst fblm-hidden" data-burst></div>' +
@@ -394,7 +394,7 @@
               '<div style="text-align:center;padding:.5rem 0">' +
               '<div style="font-size:3rem">🎉</div>' +
               '<h2>Your credit is reserved!</h2>' +
-              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. We reply within 1 hour, Mon–Fri.</p>' +
+              '<p class="fblm-sub">Your <b style="color:#fff">' + (creditStr || "account") + ' credit</b> is locked in. We reply 7 days a week, usually within an hour or two.</p>' +
               '<a class="fblm-cta" style="display:inline-block;text-decoration:none;max-width:300px" href="tel:' + PHONE + '" data-book>📞 Can\'t wait? Call Sean</a>' +
               '<p class="fblm-fine">' + PHONE_D + ' · Mon–Fri, 8am–6pm CT</p>' +
               '</div>';
