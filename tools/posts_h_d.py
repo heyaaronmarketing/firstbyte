@@ -78,12 +78,12 @@ POSTS = [
             (None, f"""<p>Three tabs open on the laptop. Wix, Squarespace, and a WordPress tutorial that mentioned “child themes” in the second paragraph and lost you there. Your nephew swears by Webflow. Your accountant’s site is on GoDaddy and looks fine.</p>
 <p>So which one? For most small service businesses around Houston, Squarespace or Wix gets you a good-looking site you can edit yourself for roughly $30 to $40 a month. WordPress is the better call when SEO content, integrations and full ownership matter more than convenience, and someone is on the hook for updates. Webflow suits design-led brands with a designer on call. Shopify wins when selling products online is the business.</p>
 <p>There’s no single winner here, and anyone who tells you otherwise probably sells one of them. We build and fix sites on several of these platforms for businesses in The Woodlands, Spring and Conroe, and each one has a spot where it’s the right answer and a spot where it quietly costs you money.</p>
-<p>Below: current prices (several changed in 2026), what each platform does and doesn’t let you do for SEO, who really owns the site, the maintenance nobody budgets for, and a pick-by-business-type table at the end.</p>"""),
+<p>Below: 2026 prices, SEO limits, who really owns the site, upkeep, and a pick-by-business-type table.</p>"""),
 
             ("What each platform actually is, in plain English", f"""<p>The big split is between <b>hosted builders</b> and <b>self-hosted software</b>.</p>
 <p>Wix, Squarespace, Webflow and Shopify are hosted builders. You pay a monthly or yearly fee, and the company handles servers, security patches, backups and the SSL certificate. You rent the house, furnished, and the landlord fixes the plumbing. You also live by the landlord’s rules.</p>
 <p>WordPress comes in two flavors, which confuses everyone. WordPress.org is free, open-source software you install on hosting you pay for separately. That’s what people usually mean by “a WordPress site.” WordPress.com is a hosted service run by Automattic that behaves more like the builders. Per {SRC['wpcom']}, since April 2026 every paid WordPress.com plan, starting with the $4-a-month Personal plan, can install plugins, which narrows the old gap between the two.</p>
-<p>Scale-wise, {SRC['w3']} counted WordPress on 39.5% of all websites as of October 31, 2026, followed by Shopify at 5.3%, Wix at 4.2%, Squarespace at 2.4% and Webflow at 0.8%. Popularity isn’t quality. It does mean more WordPress developers, more plugins, and more people trying to hack WordPress sites (more on that later).</p>
+<p>Scale-wise, {SRC['w3']} counted WordPress on 39.5% of all websites as of October 31, 2026, followed by Shopify at 5.3%, Wix at 4.2%, Squarespace at 2.4% and Webflow at 0.8%. Popularity means more developers and plugins, and more people trying to hack WordPress sites.</p>
 <p>One more option worth naming: if your marketing company built your site on its own proprietary platform, you’re in a fifth category with the most lock-in of all. Ask before you sign.</p>"""),
 
             ("WordPress vs Wix vs Squarespace pricing: what you’ll actually pay", f"""<p>Sticker prices first. These are list prices for US plans billed annually, as published in fall 2026. Squarespace raised most plans in July 2026 (Core went from $23 to $29 a month on annual billing, per {SRC['sqs_up']}), and Webflow replaced its CMS and Business plans with a single Premium plan in May 2026, per {SRC['webflow']}.</p>
@@ -103,12 +103,11 @@ POSTS = [
 <p>The design and build is a separate, one-time cost, and it swamps all of this. Our <a href="/blog/how-much-does-a-website-cost-the-woodlands/">breakdown of what a website costs in The Woodlands</a> covers those ranges.</p>"""),
 
             ("Wix vs WordPress for SEO (and where Squarespace, Webflow and Shopify land)", f"""<p>Here’s an unpopular opinion from people who do SEO for a living: the platform is almost never the reason a local business doesn’t rank. Thin service pages, no reviews, a weak Google Business Profile and zero local links lose far more rankings than any builder does.</p>
-<p>That said, the platforms aren’t identical. These are the differences we actually run into.</p>
 <h3>URL control</h3>
 <p>WordPress and Webflow let you set almost any URL structure you want, including clean service-area pages like /ac-repair-spring-tx/. Wix used to force prefixes like /post/ on blog articles; it now lets you change those prefixes in {SRC['wixurl']}, though the structure must keep at least one variable. Squarespace gives you control of page slugs, with collection items (blog posts, products) living under their collection’s URL.</p>
 <p>Shopify is the strict one. Pages live under /pages/, products under /products/, collections under /collections/, and {SRC['shopurl']} have confirmed for years that those segments can’t be removed. For a store, that’s fine. For a plumber who wants a clean page per suburb, it’s an irritation.</p>
 <h3>Redirects</h3>
-<p>All five can do 301 redirects, which you need the moment you rename a page or move platforms. WordPress needs a plugin (or server rules). Wix has a URL Redirect Manager. Squarespace uses a URL Mappings panel where you type rules by hand. Webflow and Shopify have redirect screens in settings. Wix and Squarespace handle bulk redirects less gracefully than WordPress, which matters most during a migration.</p>
+<p>All five can do 301 redirects, which you need the moment you rename a page or move platforms. WordPress needs a plugin (or server rules). Wix has a URL Redirect Manager. Squarespace uses a URL Mappings panel where you type rules by hand. Webflow and Shopify have redirect screens in settings.</p>
 <h3>Schema and technical extras</h3>
 <p>WordPress with an SEO plugin like Yoast or Rank Math gives you the most control over structured data (LocalBusiness, FAQ, Service). Webflow lets you add custom code per page and wire CMS fields into JSON-LD, which is powerful but needs someone who knows what they’re doing. Wix adds some markup automatically and lets you paste custom structured data per page. Squarespace generates basic markup and accepts code injection on higher plans, but it’s the least flexible of the group.</p>
 <p>Our honest ranking for local SEO flexibility: WordPress, then Webflow, then Wix, then Squarespace, with Shopify strong for products and awkward for service pages. The gap between first and fourth is smaller than forums make it sound. A well-written Squarespace site beats a neglected WordPress site every time.</p>"""),
@@ -116,7 +115,7 @@ POSTS = [
             ("Which website builder is fastest?", f"""<p>Speed is one place where the hosted builders have a real edge, and the reason surprises people.</p>
 <!--fig:cwv-->
 <p>Those numbers come from HTTP Archive’s Core Web Vitals technology report, via {SRC['cwv']}, using July 2025 data. Read them carefully. WordPress isn’t slow software. WordPress sites are slow because so many sit on bargain shared hosting with a heavy page builder, eight sliders and 40 plugins. A well-built WordPress site on decent hosting passes Core Web Vitals without drama. The builders simply stop you from making the worst choices.</p>
-<p>Shopify and Webflow weren’t in that particular breakdown. In our experience both are quick out of the box, with Shopify speed depending heavily on how many apps inject scripts into the theme.</p>
+<p>Shopify and Webflow weren’t in that breakdown; in our experience both are quick out of the box until apps and scripts pile up.</p>
 <p>What to do with this: if you go WordPress, budget for real hosting and a lean theme. If you go Wix or Squarespace, stop fighting the platform with giant uncompressed hero videos. Either way, check your own site on PageSpeed Insights. Our guide on <a href="/blog/how-fast-should-your-website-load/">how fast your website should load</a> explains which numbers to watch.</p>"""),
 
             ("Who owns your website if you leave?", f"""<p>This is the question most owners never ask until they’re angry at a vendor.</p>
@@ -132,7 +131,7 @@ POSTS = [
 <p>Squarespace is the easiest for that person. The layouts are tidy and it’s hard to break. Wix is more flexible, which cuts both ways: you can drag anything anywhere, and staff sometimes do, which is how mobile layouts end up with overlapping text. Webflow’s visual designer is built for designers; its content editing mode is simple for staff updating text and blog posts, but layout changes belong to whoever built it. WordPress depends entirely on how it was built. A clean block-editor site is pleasant. A site built in a page builder by someone who left in 2021 can be a minefield.</p>
 <p>Security is where the trade-off gets real. On the hosted builders, patching is the company’s problem. On WordPress, it’s yours. {SRC['patch']} counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, 91% of them in plugins and only 6 in WordPress core. Worse, 46% didn’t have a fix from the developer by the time they were made public.</p>
 <p>That’s not a reason to avoid WordPress. Millions of sites run it safely. It’s a reason to keep plugins few and reputable, run updates at least weekly, keep off-site backups, and use a host that offers a firewall. If nobody is doing those things today, you have a risk, and you won’t find out about it until the site starts redirecting visitors to a pharmacy in another country.</p>
-<p>(We’ve cleaned up that exact mess for local businesses. It’s never cheaper than the care plan would have been.)</p>"""),
+<p>(We’ve cleaned up that exact mess. It’s never cheaper than the care plan.)</p>"""),
 
             ("Booking, forms, CRM and the tools you already use", f"""<p>For a lot of Houston-area businesses, the website is really a front door to some other system: ServiceTitan or Housecall Pro for home services, Toast or ChowNow for restaurant ordering, Mindbody or Vagaro for studios and salons, an EHR intake form for a medical practice.</p>
 <p>Most of those tools give you an embed code or a booking link, and every platform here can take an embed. The differences show up at the edges:</p>
@@ -147,7 +146,7 @@ POSTS = [
             ("Webflow vs WordPress: when the designer’s favorite makes sense", f"""<p>Webflow comes up a lot because designers love it, and for good reason. It produces clean code, includes fast hosting, has no plugins to update, and gives a skilled designer pixel-level control without a developer. For a brand-conscious business with a designer on retainer (a boutique hotel, a med spa, a real estate team selling the Hughes Landing lifestyle), it can be the best of both worlds.</p>
 <p>The catches are practical. Pricing now includes a site plan plus, for whoever builds and maintains the site, a Workspace plan; per {SRC['wfws']}, Workspace Core is $19 a month on yearly billing and is also where code export lives. The Premium site plan includes 50GB of bandwidth, with add-ons after that. The integration library is smaller than WordPress’s. And if your designer moves on, the pool of local Webflow pros is smaller than the pool of WordPress people.</p>
 <p>WordPress wins when you need lots of pages and integrations, a big local content plan (service pages for Spring, Tomball, Magnolia, Cypress and Katy, for example), and the freedom to hire anyone. Webflow wins when design quality and low maintenance matter more than plugin variety.</p>
-<p>We’d steer a DIY owner away from building in Webflow alone. The learning curve is closer to design software than to Squarespace.</p>"""),
+<p>We’d steer a DIY owner away from building in Webflow alone.</p>"""),
 
             ("Best website builder for small business: pick by business type", f"""<p>Here’s the decision tool. Find the row closest to you, then sanity-check it with the steps below.</p>
 <div class="bp-tbl"><table>
@@ -162,7 +161,7 @@ POSTS = [
 <tr><td>Starting out, under $1,000 total budget</td><td>Wix or Squarespace</td><td>Template plus a weekend; upgrade later</td><td>WordPress.com</td></tr>
 </tbody></table></div>
 <!--fig:pick-->
-<p>Notice nobody gets “Wix for everything” or “always WordPress.” The right answer depends on who will maintain it and how many pages your marketing needs, far more than on features.</p>"""),
+<p>The right answer depends on who will maintain it and how many pages your marketing needs, far more than on features.</p>"""),
 
             ("When to DIY and when to pay someone", f"""<p>DIY makes sense if you’re early, your budget is tight, you pick Squarespace or Wix, and you’re willing to spend a couple of weekends writing real copy. Use a template close to what you want and change as little of the design as possible. Spend your energy on the words, the photos of your actual team and trucks, and a clear call button.</p>
 <p>Paying someone makes sense when the site has to carry real lead flow, when you’re running Google Ads to it, when you need a dozen service-area pages, or when you’re migrating an older site that already ranks. Migrations are where we see the most damage: URLs change, nobody sets up redirects, and six months of rankings disappear. If you’re seeing those symptoms now, our list of <a href="/blog/signs-your-website-needs-a-redesign/">signs your website needs a redesign</a> will help you decide whether to rebuild or repair.</p>
@@ -252,9 +251,8 @@ POSTS = [
 <li>Salons, lash studios and med spas filling same-day cancellations.</li>
 <li>Venues and promoters with presales and “two days left” pushes (our <a href="/blog/how-to-sell-more-event-tickets-houston/">event ticket playbook</a> covers the timing).</li>
 <li>Home services sending maintenance reminders before the July heat or after a hail storm.</li>
-<li>Retail with drops, restocks and holiday hours.</li>
 </ul>
-<p>It’s a weaker fit for long, considered purchases (a $60,000 pool, a commercial contract), where email and a sales call do the heavy lifting. And it should sit beside email, never replace it. If your email program is thin, start with our <a href="/blog/email-marketing-basics/">email marketing basics</a>; the lists often grow from the same sign-up points.</p>"""),
+<p>It’s a weaker fit for long, considered purchases like a $60,000 pool. And it should sit beside email, never replace it; if your email program is thin, start with our <a href="/blog/email-marketing-basics/">email marketing basics</a>.</p>"""),
 
             ("Text message marketing rules: the federal layer", f"""<p>The federal law is the Telephone Consumer Protection Act (TCPA), enforced by the FCC and, more painfully, by private lawsuits. Statutory damages run $500 per violating message, up to $1,500 if willful. A 2,000-person blast without consent is a math problem nobody wants.</p>
 <!--fig:law-->
@@ -275,12 +273,12 @@ POSTS = [
 <p>Then came the relief. In <i>Ecommerce Marketers Alliance v. State of Texas</i>, the parties agreed to dismiss the case, and the court’s November 17, 2025 order recited that consent-based text marketing isn’t subject to Chapter 302’s registration and disclosure requirements. The Secretary of State’s FAQ now says a business texting with prior consent “is not required to complete the Telephone Solicitation Registration Statement.”</p>
 <p>Two cautions from the lawyers who track this. {SRC['klg']} notes the order isn’t binding precedent and no contested court decision has yet ruled on consent-based texts under the amended law. And {SRC['nlr']} points out what’s still on the hook: cold texting, purchased or third-party lists, and anything sent without prior consent. That article also flags a separate exemption (Section 302.058) for sellers that solicit only current or former customers and have operated under the same name for at least two years, and reminds businesses that the Texas No-Call list and the state’s Deceptive Trade Practices Act remedies still apply.</p>
 <p>On hours, Texas Chapter 301 limits telephone solicitation calls to 9 a.m. to 9 p.m. Monday through Saturday and noon to 9 p.m. on Sunday. The National Law Review piece describes those hours as a call rule but recommends applying them to texts as a conservative step. We agree, and we go further: we schedule marketing texts between 10 a.m. and 8 p.m., and not before noon on Sunday.</p>
-<p>The practical reading for a Woodlands or Houston small business: if every number on your list opted in to your marketing texts, you’re very likely outside the registration requirement. Document that consent like you’ll need to prove it, because someday you might.</p>"""),
+<p>The practical reading for a Woodlands or Houston small business: if every number on your list opted in to your marketing texts, you’re very likely outside the registration requirement. Document that consent like you’ll need to prove it.</p>"""),
 
             ("A2P 10DLC registration, toll-free verification and short codes", f"""<p>Separate from the law, the carriers run their own gatekeeping. Business texting from a regular 10-digit number is called A2P 10DLC (application-to-person, 10-digit long code), and carriers have blocked unregistered 10DLC traffic {SRC['block']}. If your texts “send” but nobody receives them, registration is the first thing to check.</p>
 <p>Registration has two parts. The <b>brand</b> is your business: legal name, EIN, address, website. The <b>campaign</b> is what you’ll send and how people opt in, with sample messages. Your texting platform files both with The Campaign Registry on your behalf. Per {SRC['tw10']}, Twilio charges $46 one time for a standard brand (including secondary vetting) or $4.50 for a low-volume standard brand, a $15 campaign vetting fee, and monthly campaign fees such as $10 for standard campaigns, $1.50 for low-volume mixed and $2 for sole proprietors. Other platforms bundle or mark up these fees, so ask.</p>
 <!--fig:register-->
-<p>The most common rejection reasons we see: a website with no privacy policy or one that doesn’t mention texting, opt-in descriptions that don’t match the sign-up form, sample messages missing the business name or STOP language, and a mismatch between the EIN and the legal name on file. Fix your website first, then submit.</p>
+<p>Common rejection reasons: a privacy policy that doesn’t mention texting, an opt-in description that doesn’t match the real form, sample messages missing the business name or STOP language, and an EIN that doesn’t match the legal name. Fix the website first, then submit.</p>
 <p><b>Toll-free numbers</b> (888, 877 and so on) skip 10DLC but need toll-free verification instead. {SRC['twtf']} says unverified toll-free numbers have been blocked from texting US and Canadian phones since January 31, 2024, and verification takes about 3 to 5 business days. Toll-free is a good option if you don’t want a local-looking number or you’re texting mostly transactional updates.</p>
 <p><b>Short codes</b> (five- or six-digit numbers) are for high-volume senders. They cost far more and take longer to approve. Most small businesses don’t need one.</p>"""),
 
@@ -306,7 +304,7 @@ POSTS = [
 <li><b>Automatic handling</b> of STOP, QUIT, END, REVOKE, OPT OUT, CANCEL and UNSUBSCRIBE, plus a human check of replies like “please stop texting me,” which also count as reasonable revocation.</li>
 <li><b>A single opt-out confirmation</b>, then silence.</li>
 </ul>
-<p>Example confirmation: “Lakeside Grill: You’re in! Expect up to 4 texts a month with specials and events. Msg &amp; data rates may apply. Reply HELP for help, STOP to cancel.”</p>
+<p>Example confirmation: “[Restaurant]: You’re in! Expect up to 4 texts a month with specials and events. Msg &amp; data rates may apply. Reply HELP for help, STOP to cancel.”</p>
 <p>Keep messages to one segment when you can. A standard SMS segment holds 160 plain characters; one emoji or curly quote can switch the message to a format that holds only 70 per segment, and you pay per segment. Some platforms bill MMS at several times the SMS rate, so save images for messages where they earn it.</p>"""),
 
             ("SMS marketing platforms for small businesses: honest fit notes", f"""<p>Pick by what the rest of your business runs on, not by the slickest demo. Prices below were current as of the sources cited; confirm before you sign.</p>
@@ -321,7 +319,7 @@ POSTS = [
 <tr><td>Your existing CRM or field-service software</td><td>Shops already on HubSpot, ServiceTitan, Jobber, Housecall Pro and similar</td><td>Varies</td><td>Check first. You may already pay for texting, and the data stays in one place. Registration still applies.</td></tr>
 </tbody></table></div>
 <p>Sources: {SRC['klaviyo']}, {SRC['postscript']}, {SRC['simple']} (a competitor’s summary, so double-check), and {SRC['podium']} for Podium’s quote-based plan.</p>
-<p>One thing we’d avoid: texting customers from a personal cell phone or a regular business line through a phone app that isn’t registered for marketing. It feels personal and cheap. It’s also how messages vanish into carrier filters and how consent records go missing.</p>"""),
+<p>One thing we’d avoid: marketing texts from a personal cell or an unregistered business-line app. It feels personal and cheap, and it’s how messages vanish into carrier filters and consent records go missing.</p>"""),
 
             ("What to send (and how often) by type of business", f"""<p>Most small programs should send 2 to 4 marketing texts a month and say so at sign-up. Transactional texts (confirmations, reminders, “your tech is 20 minutes away”) are a different category and don’t count against that number, but keep them free of promotions or they start looking like marketing.</p>
 <p>Some patterns that fit the Houston calendar:</p>
@@ -329,10 +327,9 @@ POSTS = [
 <li><b>Restaurants:</b> one weekly special, one event (watch parties, crawfish season, a patio night when the humidity breaks in October). Send around 2 to 3 p.m. for same-day dinner.</li>
 <li><b>Salons, lash and med spas:</b> same-day openings to a small “last-minute” list, plus a monthly offer. Never text treatment details or anything health-related that someone else reading the lock screen shouldn’t see.</li>
 <li><b>HVAC and home services:</b> maintenance reminders in March and September, a pre-summer tune-up push before the July heat, and storm messaging after hail. Our <a href="/industries/service/">home services marketing</a> page has more on the seasonal rhythm.</li>
-<li><b>Gyms and studios:</b> class openings, challenges in January, schedule changes during school breaks.</li>
 <li><b>Hurricane season (June 1 to November 30):</b> closures and reopenings are welcome texts. Pure promos during an active storm aren’t, and people remember.</li>
 </ul>
-<p>Write like a person. “Lakeside Grill: 4 patio tables left for tonight’s live music, 7 p.m. Reply YES and we’ll hold one. STOP to opt out” beats “🔥🔥 HUGE DEALS INSIDE 🔥🔥” every time, and the reply turns a broadcast into a conversation. Track redemptions with a code or a unique link so you know which texts paid for themselves.</p>
+<p>Write like a person. “[Restaurant]: 4 patio tables left for tonight’s live music, 7 p.m. Reply YES and we’ll hold one. STOP to opt out” beats “🔥🔥 HUGE DEALS INSIDE 🔥🔥” every time, and the reply turns a broadcast into a conversation. Track redemptions with a code or a unique link so you know which texts paid for themselves.</p>
 <p>Ask for reviews by text only after a good experience, and send it to everyone, not just the happy ones you picked. Our <a href="/blog/complete-guide-google-reviews/">guide to Google reviews</a> explains why selective asking gets businesses in trouble.</p>"""),
 
             ("SMS compliance checklist for Texas businesses", f"""<p>Print this, or paste it into whatever you use to run the business. Then have your attorney mark it up.</p>

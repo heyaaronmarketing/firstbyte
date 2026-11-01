@@ -112,7 +112,7 @@ POSTS = [
             ("Manual actions, hacked sites and the rarer causes", f"""<p>Rare for a local business, but check, because it takes thirty seconds. In Search Console, open <b>Security &amp; Manual Actions</b>.</p>
 <p>The {SRC['manual']} shows whether a human reviewer at Google has penalized the site. The types include “Thin content with little or no added value,” “Unnatural links to your site,” “Hidden text and/or keyword stuffing,” “User-generated spam” and “Site abused with third-party spam.” Google says most actions lower rankings or remove pages, and that it notifies you in the report and in the Search Console message center.</p>
 <p>If you see one, fix every listed problem on every affected page (Google says partial fixes don’t restore anything), then click <b>Request Review</b> with a plain explanation of what you changed. Reviews can take days or weeks.</p>
-<p>Hacked sites are more common than penalties. Old WordPress plugins are the usual way in. Search <b>site:yourdomain.com</b> plus words like “casino” or “pills,” and if spam pages show up, you’ve been hacked.</p>
+<p>On the small business sites we audit, we see hacks far more often than penalties. Old WordPress plugins are the usual way in. Search <b>site:yourdomain.com</b> plus words like “casino” or “pills,” and if spam pages show up, you’ve been hacked.</p>
 <p>A flaky host shows up as <b>Server error (5xx)</b> in the Page indexing report; pages usually come back once the site is stable. And if you bought an expired domain, look it up on the Wayback Machine. A previous owner’s spam can follow it.</p>"""),
 
             ("Symptom, cause and fix: the cheat sheet", f"""<p>Find the row that matches what you’re seeing. Start at the top; the cheapest fixes are first.</p>
