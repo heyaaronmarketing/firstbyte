@@ -218,13 +218,14 @@ POSTS = [
         "sections": [
             (None, f"""<p>Tuesday, 10:40 a.m. Four bays, two of them empty. The phone rings and it’s the third person today asking “how much for brakes?” Your service writer says “depends on the car, bring it in,” and the caller says thanks and hangs up.</p>
 <p>That call is most of auto repair shop marketing in one moment.</p>
-<p>To get more customers for an auto repair shop in Houston, you need to win the Google Maps results for the services you’re best at, collect a steady stream of honest reviews, run search ads only on high-intent repair keywords (with hard negatives for DIY, parts and job seekers), answer the price question better than the shop down the street, and keep the customers you already have coming back. Independent shops, tire shops, transmission specialists and collision centers all run on the same engine. The weights change.</p>
+<p>To get more customers for an auto repair shop in Houston, win the Google Maps results for the services you’re best at and keep a steady stream of honest reviews coming in. Run search ads only on high-intent repair keywords, with hard negatives for DIY, parts and job seekers. Answer the price question better than the shop down the street does.</p>
+<p>Then keep the customers you already have coming back, which is cheaper than everything above. Independent shops, tire shops, transmission specialists and collision centers all run on the same engine. The weights change.</p>
 <p>Below is how we’d set it up for a shop in Spring, The Woodlands, Cypress or anywhere inside the Beltway, with the actual settings.</p>"""),
 
             ("Where Houston drivers actually find a mechanic", f"""<p>Nobody browses for a mechanic. Something breaks, a light comes on, or the car makes a new noise on I-45, and the driver searches. “Auto repair near me.” “Brake repair Spring TX.” “Transmission shop Conroe.” The top of that results page is ads, then the map pack, then the websites.</p>
 <p>The cars are getting older, which is good for independents. {SRC['spg']} put the average age of U.S. light vehicles at 12.8 years in 2025, with passenger cars at 14.5, across 289 million vehicles on the road, and noted the repair opportunity as vehicles roll off warranty. A 12-year-old Silverado isn’t going back to the dealer for brakes. It’s going to whoever shows up first in Google Maps with good reviews and an open bay.</p>
-<p>Location matters more than shops like to admit. Houston drivers drop cars near home or near work, then Uber or get a ride. A shop on FM 1960 or near the SH-249 and Grand Parkway interchange can pull from commuters, not just neighbors, and your marketing should say so: “Drop off on your way to the Energy Corridor, we’ll text you photos by lunch.”</p>
-<p>That’s why the map pack is the first battle. Our {L('/blog/rank-in-google-map-pack-houston/', 'guide to ranking in the Houston map pack')} covers the full playbook, and the next two sections are the shop-specific parts.</p>"""),
+<p>Location matters more than shops like to admit. Houston drivers drop cars near home or near work, then Uber or get a ride. A shop on FM 1960 or near the SH-249 and Grand Parkway interchange can pull commuters as well as neighbors, and your marketing should say so. “Drop off on your way to the Energy Corridor, we’ll text you photos by lunch.”</p>
+<p>So the map pack is the first fight. Our {L('/blog/rank-in-google-map-pack-houston/', 'guide to ranking in the Houston map pack')} covers the full playbook, and the next two sections are the shop-specific parts.</p>"""),
 
             ("Google Business Profile categories and services for repair shops", f"""<p>Your primary category is the single strongest setting you control. Pick the one that matches the work you most want.</p>
 <ul>
@@ -247,9 +248,9 @@ POSTS = [
 <p>Our {L('/blog/complete-guide-google-reviews/', 'complete guide to Google reviews')} has templates you can copy.</p>"""),
 
             ("Local Services Ads for auto repair: what changed in 2026", f"""<p>Local Services Ads are the pay-per-lead boxes at the very top of some searches. For years they were mainly a home services product. Auto is very much in now.</p>
-<p>{SRC['lsa']} includes Auto Repair Shop, Auto Body Shop, Auto Glass Repair Service, Brake Shop, Car Battery Store, Car Inspection Service, Oil Change Service, Tire Shop, Transmission Shop, Towing and several more. In August 2026, {SRC['ser']} reported Google split the old generic auto categories into those specific services and introduced “pre-badge” ads that can start serving after preliminary checks while onboarding finishes. One more wrinkle: Google’s page says the Google Verified badge isn’t available for auto verticals, so auto LSAs run without it.</p>
-<p>You pay per lead (a call or message), not per click, and you can dispute leads that weren’t real customers. Availability still varies by service and area, so the only way to know for your shop is to start the sign-up and enter your address.</p>
-<p>Our take: if your Google reviews are strong, LSA is worth testing alongside regular search ads, starting with your most profitable service category. If you have 14 reviews and a 3.9 rating, fix that first, because LSA ranking leans hard on reviews and responsiveness. We compare the two ad types in detail in {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads')}; the logic carries over to auto.</p>"""),
+<p>{SRC['lsa']} includes Auto Repair Shop, Auto Body Shop, Auto Glass Repair Service, Brake Shop, Car Battery Store, Car Inspection Service, Oil Change Service, Tire Shop, Transmission Shop, Towing and several more. In August 2026, {SRC['ser']} reported Google split the old generic auto categories into those specific services and introduced “pre-badge” ads that can start serving after preliminary checks while onboarding finishes. Google’s own page notes that the Google Verified badge isn’t available for auto verticals, so auto LSAs run without it.</p>
+<p>You pay per lead (a call or message) rather than per click, and you can dispute leads that weren’t real customers. Availability still varies by service and area, so the only way to know for your shop is to start the sign-up and enter your address.</p>
+<p>With strong Google reviews, we’d test LSA alongside regular search ads, starting with your most profitable service category. If you have 14 reviews and a 3.9 rating, fix that first. LSA ranking leans hard on reviews and responsiveness. We compare the two ad types in detail in {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads')}; the logic carries over to auto.</p>"""),
 
             ("Auto repair Google Ads: keywords by service, and the negatives that save you", f"""<p>Generic “auto repair” keywords are expensive and mixed-intent. Service keywords are where the money is, because the searcher has already told you what’s wrong.</p>
 <div class="bp-tbl"><table>
@@ -282,14 +283,14 @@ POSTS = [
             ("Texas inspection changes, Houston heat and the seasons that drive repair demand", f"""<p>For decades, the annual safety inspection sent a stream of cars into shops, and a good writer could turn a sticker visit into a brake job. That changed. Under House Bill 3297, Texas ended the safety inspection program for non-commercial vehicles on January 1, 2025, per {SRC['txdmv']}. Drivers now pay a $7.50 Inspection Program Replacement Fee at registration instead ($16.75 for a new vehicle, covering two years).</p>
 <!--fig:texas-->
 <p>Emissions testing didn’t go away. It’s still required before registration in 17 counties, including Harris, Montgomery, Fort Bend, Brazoria and Galveston. So if you’re a certified emissions station in the Houston area, those visits continue; the bundled safety check doesn’t. And the repeal covered non-commercial vehicles only, so check with DPS on what still applies to commercial vehicles you service.</p>
-<p>The marketing response is to replace the lost touchpoint on purpose. Offer a free courtesy inspection with any oil change, promote a pre-road-trip check before Thanksgiving and spring break, and make the emissions visit a real service moment with a digital inspection report.</p>
-<p>Then plan around Houston’s seasons. The July and August heat is hard on batteries and AC systems; one Houston shop owner {SRC['abc13']} in 2023 that local heat can cut a battery’s expected life by about a third. Push AC and battery campaigns in late spring, before the first heat wave, not after everyone is already stranded. Hurricane season runs June 1 to November 30, so if you do flood or storm damage work, have that page and ad group ready to switch on in hours, not days.</p>"""),
+<p>So replace the lost touchpoint on purpose. A free courtesy inspection with any oil change does most of the work. A pre-road-trip check promoted before Thanksgiving and spring break helps too, and the emissions visit deserves a digital inspection report like any other service.</p>
+<p>Then plan around Houston’s seasons. The July and August heat is hard on batteries and AC systems; one Houston shop owner {SRC['abc13']} in 2023 that local heat can cut a battery’s expected life by about a third. Push AC and battery campaigns in late spring, before the first heat wave. Wait until everyone’s stranded and you’re bidding against every shop in town. Hurricane season runs June 1 to November 30, so if you do flood or storm damage work, have that page and ad group ready to switch on the same afternoon.</p>"""),
 
             ("Fleet and commercial accounts: steady work between walk-ins", f"""<p>A walk-in customer might visit twice a year. A plumbing company with 12 vans might bring you a vehicle every week. North Houston is full of service fleets (HVAC, plumbing, pest control, landscaping, electrical), plus oilfield service trucks, delivery vans and church and school buses.</p>
-<p>Fleet marketing is mostly outreach and terms, not ads:</p>
+<p>Fleet work comes from outreach and decent terms. Ads barely figure in.</p>
 <ol>
 <li>Build a fleet page: services, turnaround promise, pickup and delivery, monthly invoicing, and who to call.</li>
-<li>Make a list of 40 local fleets within five miles. Drive the lot after hours if you have to, then call the operations manager, not the owner.</li>
+<li>Make a list of 40 local fleets within five miles. Drive the lot after hours if you have to, then ask for the operations manager rather than the owner.</li>
 <li>Offer a first-vehicle inspection at no charge and a written priority-bay policy.</li>
 <li>Report by vehicle each month (mileage, work done, what’s coming due). Fleet managers stay where the paperwork is easy.</li>
 </ol>
@@ -297,14 +298,14 @@ POSTS = [
 
             ("Retention: service reminders, texts and consent", f"""<p>The cheapest car to fill a bay is one that’s already been in your bay. Retention is where shops make their margin, and it’s mostly automation your shop management software already supports.</p>
 <ul>
-<li><b>Service reminders</b> by mileage or date for oil changes, tire rotations and the “soon” items from the last inspection.</li>
-<li><b>Declined-work follow-up</b> at 30 and 90 days, with the inspection photo attached.</li>
-<li><b>A once-a-month email</b> with something useful (an AC check before summer, a hurricane-season prep list), not a coupon blast.</li>
+<li>Service reminders by mileage or date for oil changes, tire rotations and the “soon” items from the last inspection.</li>
+<li><b>Declined-work follow-up</b> at 30 and 90 days, with the inspection photo attached. This one pays for the software by itself in most shops we’ve seen.</li>
+<li>A once-a-month email with something useful, like an AC check before summer or a hurricane-season prep list. Nobody misses another coupon blast.</li>
 </ul>
 <p>Texting needs care. Service updates about a car the customer just dropped off are different from marketing texts. Get clear opt-in for marketing messages, separate from the service-update consent, and keep the record. Texas also brought marketing texts under its telephone solicitation law through SB 140, effective September 1, 2025, with a registration requirement and a private right of action for violations, though there are exemptions (including some tied to current or former customers and businesses that mostly sell from a physical location), per {SRC['sb140']}. Ask your attorney which applies to your shop before you start a promo text program.</p>
 <p>Our {L('/blog/email-marketing-basics/', 'email marketing basics')} post covers list building if you’re starting from zero.</p>"""),
 
-            ("What a Houston repair shop should spend on marketing", f"""<p>There’s no honest single number, but here’s an illustrative starting point for a single-location independent shop with four to eight bays. These are example ranges, not quotes or benchmarks.</p>
+            ("What a Houston repair shop should spend on marketing", f"""<p>There’s no honest single number. For a single-location independent shop with four to eight bays, this is an illustrative starting point. Treat the ranges as examples; they aren’t quotes or benchmarks.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Line item</th><th>Illustrative monthly range</th><th>What it buys</th></tr></thead>
 <tbody>

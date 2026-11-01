@@ -49,53 +49,51 @@ POSTS = [
         "related": ["facebook-instagram-ads-local-businesses", "understanding-cost-per-lead", "landing-pages-101"],
         "sections": [
             (None, f"""<p>It’s Monday morning. The weekend brought in 31 Facebook leads, and you feel good about that for about forty minutes. Then you start calling. Three numbers are disconnected. One is 713-555-1234. A woman in Cypress tells you she never filled anything out. Eleven go to voicemail, and the voicemail box is full on two of them.</p>
-<p>If your Facebook lead ads are bringing bad leads, the cause is almost always the setup, not the platform. Meta optimizes for whatever you count as a lead. If any tap on “Submit” counts, it goes and finds the people most likely to tap Submit, and those are rarely the people most likely to buy. The fix is to make the form slightly harder, ask questions that filter, change the offer, get leads called within minutes, and feed Meta your CRM results so it learns what a good lead looks like.</p>
-<p>Below is the order we work through it for local businesses around The Woodlands and Houston, with the actual settings. Your cost per lead will go up. Your cost per <i>customer</i> should go down, and that’s the only number worth caring about.</p>"""),
+<p>If your Facebook lead ads are bringing bad leads, look hard at the setup before you blame the platform. Meta optimizes for whatever you count as a lead. Count every tap on “Submit” and it will go find the people most likely to tap Submit, who are rarely the people most likely to buy. Fixing it means a slightly harder form and questions that actually filter. Usually a different offer, too. Then somebody has to call within minutes, and once you have the volume, Meta needs your CRM results so it can learn what a good lead looks like.</p>
+<p>What follows is the order we work through it for local businesses around The Woodlands and Houston, actual settings included. Fair warning, your cost per lead will go up. Your cost per <i>customer</i> should come down, and that’s the number that pays the bills.</p>"""),
 
             ("Why are my Facebook leads so bad?", f"""<p>Start with how an instant form works. Someone scrolling Instagram in a car line at a Spring ISD school taps your ad. A form opens inside the app, already filled in with the name, email and phone number from their profile. Two taps later, you have a “lead.” They never left the app, never saw your website, and may have been thinking about something else the whole time.</p>
-<p>That convenience is the product. It’s why instant forms produce cheap leads, and it’s why so many of those leads are junk. The common patterns:</p>
+<p>That convenience is what Meta is selling, and it cuts both ways. Cheap leads, lots of junk. What the junk looks like once you start dialing:</p>
 <ul>
 <li><b>“I don’t remember filling that out.”</b> Autofill did the work and the whole thing took eight seconds.</li>
-<li><b>Fake or dead numbers.</b> People who want the freebie but not the phone call type a fake number. Others have an old number on their profile.</li>
-<li><b>No answer.</b> Some of this is Houston reality (plenty of people don’t pick up unknown numbers), and some is you calling two days later.</li>
-<li><b>Wrong area.</b> A lead from Beaumont for a pool builder in Magnolia.</li>
+<li>Fake or dead numbers. Some people want the freebie but not the phone call, so they make one up. Others never updated the number on their profile.</li>
+<li>No answer at all. Part of that is Houston reality (plenty of people here won’t pick up an unknown number). Part of it is you calling two days later.</li>
+<li>A lead from Beaumont, for a pool builder in Magnolia.</li>
 </ul>
-<p>Then the algorithm makes it worse. If your campaign’s goal is “maximize leads,” Meta’s delivery system learns who submits forms cheaply and shows your ad to more people like them. Junk leads train it to find more junk. That loop is the real problem, and every fix below either breaks it or slows it down.</p>"""),
+<p>The algorithm then makes it worse. With the campaign goal set to “maximize leads,” Meta’s delivery system learns who submits forms cheaply and goes looking for more people like them. Junk trains it to find more junk, and it’s very good at its job.</p>"""),
 
             ("More volume vs Higher intent: change the form type first", f"""<p>When you build an instant form, Meta asks you to pick a form type. The default is <b>More volume</b>, which is built to be quick to fill out and submit. The alternative is <b>Higher intent</b>, which adds a review screen where the person has to look at their information and confirm it before the form goes through, per {SRC['loomer_forms']}.</p>
-<p>That one extra screen does more than you’d think. It catches the accidental submits and it puts the phone number in front of their eyes, so the people with an old number on their profile tend to fix it. {SRC['sme']} recommends Higher intent for this reason unless you have another efficient way to qualify.</p>
-<p>Two more switches sit near it, and both are worth looking for:</p>
-<ul>
-<li><b>SMS verification.</b> Under Quality filters, some accounts show “Require SMS verification to submit form.” The person gets a one-time code by text and has to enter it, or the submission doesn’t count as a lead. {SRC['loomer_new']} found it in three places (as a quality filter, a separate form type, and an option inside Higher intent) and says they all work the same way. For anyone fighting fake numbers, this is the strongest filter Meta offers.</li>
-<li><b>Autofill.</b> In some accounts there’s an autofill checkbox on the email and phone fields. Turning it off makes people type their real, current details. Fewer people finish. The ones who do mean it more.</li>
-</ul>
-<p>These options roll out unevenly, so don’t panic if one is missing from your account. Use what you have.</p>
+<p>One extra screen sounds trivial. It catches accidental submits, though, and because the phone number is sitting right there in front of them, people with an old number on their profile tend to fix it. {SRC['sme']} recommends Higher intent for exactly this reason, unless you have another efficient way to qualify.</p>
+<p>Two more switches live nearby.</p>
+<p><b>SMS verification.</b> Under Quality filters, some accounts show “Require SMS verification to submit form.” The person gets a one-time code by text and has to enter it, or the submission doesn’t count as a lead. {SRC['loomer_new']} found it in three places (as a quality filter, a separate form type, and an option inside Higher intent) and says they all work the same way. If fake numbers are your main headache, this is the strongest filter Meta offers.</p>
+<p>Some accounts also have an autofill checkbox on the email and phone fields. Turn it off and people have to type their real, current details. Fewer finish. The ones who do actually wanted to.</p>
+<p>Meta rolls these out unevenly, so if one is missing from your account, don’t lose a day hunting for it. Use what you have.</p>
 <!--fig:formtype-->
 <p>Expect your cost per lead to climb when you do this, sometimes a lot. We’ve made peace with that. A $28 lead you can reach beats a $9 lead that was never real, and the math usually works out in favor of the filtered form within a few weeks.</p>"""),
 
             ("How to improve Facebook lead quality with qualifying questions", f"""<p>Contact fields alone tell you nothing about whether someone is a buyer. Custom questions do. Meta’s instant forms support several question types: multiple choice, short answer, conditional questions (built from a CSV so later answers depend on earlier ones), appointment requests and sliders.</p>
-<p>The useful trick is <b>conditional logic</b>. Turn it on and each question gets a Logic column with three routes, as {SRC['loomer_forms']} lays out: <i>Go to a question</i>, <i>Submit form</i>, or <i>Close form</i>. Close form sends a non-fit person to a separate ending page without submitting their contact info. So the renter, the person outside your service area and the one who wants a $200 fence can be politely turned away without ever becoming a lead you pay for or call.</p>
+<p>The part most people skip is <b>conditional logic</b>. Turn it on and each question gets a Logic column with three routes, as {SRC['loomer_forms']} lays out: <i>Go to a question</i>, <i>Submit form</i>, or <i>Close form</i>. Close form sends a non-fit person to a separate ending page without submitting their contact info. The renter in Atascocita, or the guy who wants a $200 fence, gets turned away politely and never becomes a lead you pay for or call.</p>
 <p>Say you run a remodeling company in The Woodlands. A form that filters might look like this:</p>
 <ol>
-<li><b>“Which area is the home in?”</b> Multiple choice: The Woodlands, Spring, Conroe, Magnolia, Tomball, Other. “Other” routes to Close form.</li>
-<li><b>“Do you own the home?”</b> Yes or No. No routes to Close form.</li>
-<li><b>“What’s the project?”</b> Kitchen, bathroom, whole home, other.</li>
-<li><b>“When do you want to start?”</b> In the next 3 months, 3 to 6 months, just researching.</li>
-<li><b>“What budget range are you planning around?”</b> Give real ranges that start where your jobs start.</li>
-<li><b>One short-answer question</b>, like “Anything we should know about the project?” Typing a sentence filters out a surprising number of people.</li>
+<li>“Which area is the home in?” Multiple choice: The Woodlands, Spring, Conroe, Magnolia, Tomball, Other. “Other” routes to Close form.</li>
+<li>“Do you own the home?” Yes or No. No routes to Close form.</li>
+<li>“What’s the project?” Kitchen, bathroom, whole home, other.</li>
+<li>“When do you want to start?” In the next 3 months, 3 to 6 months, just researching.</li>
+<li>“What budget range are you planning around?” Give real ranges that start where your jobs start.</li>
+<li>One short-answer question, like “Anything we should know about the project?” Having to type a sentence filters out a surprising number of people.</li>
 </ol>
 <p>Keep it to four to six questions. Past that, even good prospects bail on a phone screen. And don’t make every answer a trap; “just researching” people can go into a nurture list instead of your call queue.</p>
 <!--fig:build-->
-<p>{SRC['sme']} notes Meta itself says conditional logic may raise cost per lead. It will. That’s the point.</p>"""),
+<p>{SRC['sme']} notes Meta itself says conditional logic may raise cost per lead. It will. Let it.</p>"""),
 
-            ("Offer framing that attracts freebie hunters (and what to say instead)", f"""<p>The ad does a lot of filtering before the form ever opens. A lot of lead problems are really offer problems.</p>
+            ("Offer framing that attracts freebie hunters (and what to say instead)", f"""<p>Plenty of lead problems are really offer problems. The ad does a lot of the filtering before anyone sees a form.</p>
 <p>“Enter to win a free roof.” “FREE estimate, no obligation, claim yours today!” “Get a $500 gift card when you book.” Every one of these is a magnet for people who like free things. Some are buyers. Most are not, and Meta will happily find you thousands of them in Harris County alone.</p>
 <p>What tends to work better for local service businesses:</p>
 <ul>
 <li><b>Show a price signal.</b> “Kitchen remodels in The Woodlands typically start around $45,000” scares off the people who were never going to hire you.</li>
-<li><b>Say what happens next.</b> “A project manager will call you within an hour to schedule a walkthrough.” People who don’t want a call self-select out. People who do now expect it and pick up.</li>
-<li><b>Ask for a commitment that matches the job.</b> For a $15,000 pool remodel, “Book a design consult” brings fewer, better leads than “Get a free quote.”</li>
-<li><b>Drop the giveaways</b> unless your goal is an email list, and then treat those leads as email subscribers, not sales leads.</li>
+<li>Tell them what happens next. “A project manager will call you within an hour to schedule a walkthrough.” Anyone who doesn’t want a call drops out on their own, and the rest are expecting you when the phone rings.</li>
+<li>Match the ask to the size of the job. For a $15,000 pool remodel, “Book a design consult” brings fewer, better leads than “Get a free quote.”</li>
+<li>Drop the giveaways unless you’re building an email list. If you are, those people are subscribers. Keep them away from your sales team.</li>
 </ul>
 <p>Put the same language on the form’s intro screen. The intro is where you can be blunt: “This form is for homeowners in Montgomery County planning a project in the next six months.”</p>
 """),
@@ -103,12 +101,12 @@ POSTS = [
             ("Facebook leads not answering? Fix the first five minutes", f"""<p>A lot of “bad leads” are good leads called too late. A Facebook lead has a short memory. They submitted while scrolling, then went back to scrolling, and by Wednesday your call is just another unknown Houston number.</p>
 <p>Speed starts with plumbing. If leads sit inside Meta until someone remembers to download a CSV, you lose. Options, from simplest:</p>
 <ul>
-<li><b>Email delivery.</b> {SRC['loomer_new']} describes a newer lead delivery option right in the form setup that emails new leads to whoever you choose. Better than nothing.</li>
-<li><b>A direct CRM integration.</b> Meta offers direct integrations with many CRMs, and tools like HubSpot or Zapier can push each lead into your CRM and fire a text alert to whoever is on call.</li>
+<li>Email. {SRC['loomer_new']} describes a newer lead delivery option right in the form setup that emails new leads to whoever you choose. Better than nothing, barely.</li>
+<li>A direct CRM integration. Meta offers direct integrations with many CRMs, and tools like HubSpot or Zapier can push each lead into your CRM and fire a text alert to whoever is on call.</li>
 <li><b>An automatic text.</b> The moment the lead lands: “Hi Maria, this is Dave with Lakeside Pools. Got your request. I’ll call you from this number in the next few minutes.” Now your number isn’t a stranger.</li>
-<li><b>Messenger follow-up.</b> There’s a “Connect with leads on Messenger” option on the form’s ending screen that opens a chat after they submit.</li>
+<li>Messenger. The form’s ending screen has a “Connect with leads on Messenger” option that opens a chat after they submit.</li>
 </ul>
-<p>Then the call pattern. Here’s what we set up for most clients:</p>
+<p>Then the calls. Most of our clients run some version of this:</p>
 <ol>
 <li>Call within five minutes during business hours (the auto-text buys you some goodwill if it’s ten).</li>
 <li>No answer: leave a short voicemail and send a text.</li>
@@ -122,7 +120,7 @@ POSTS = [
 
             ("Tell Meta which leads were good: Conversions API for CRM", f"""<p>Everything so far filters on the way in. This step changes what Meta optimizes for.</p>
 <p>With the Conversions API for CRM, you send your lead stages back to Meta: this lead was qualified, this one booked, this one bought. Meta can then use the “maximize number of conversion leads” goal, which {SRC['sme']} describes as built to find people more likely to convert after you follow up, even if total lead count drops.</p>
-<p>The requirements matter, and they rule out a lot of small businesses. Per {SRC['capi']}, you need to:</p>
+<p>The requirements rule out a lot of small businesses. Per {SRC['capi']}, you need to:</p>
 <ul>
 <li>Generate at least 200 leads a month.</li>
 <li>Upload data at least once a day.</li>

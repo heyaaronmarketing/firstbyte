@@ -77,7 +77,7 @@ POSTS = [
         "sections": [
             (None, f"""<p>Three tabs open on the laptop. Wix, Squarespace, and a WordPress tutorial that mentioned “child themes” in the second paragraph and lost you there. Your nephew swears by Webflow. Your accountant’s site is on GoDaddy and looks fine.</p>
 <p>So which one? For most small service businesses around Houston, Squarespace or Wix gets you a good-looking site you can edit yourself for roughly $30 to $40 a month. WordPress is the better call when SEO content, integrations and full ownership matter more than convenience, and someone is on the hook for updates. Webflow suits design-led brands with a designer on call. Shopify wins when selling products online is the business.</p>
-<p>There’s no single winner here, and anyone who tells you otherwise probably sells one of them. We build and fix sites on several of these platforms for businesses in The Woodlands, Spring and Conroe, and each one has a spot where it’s the right answer and a spot where it quietly costs you money.</p>
+<p>There’s no single winner, and anyone who says otherwise probably sells one. We build and fix sites on several of these for businesses in The Woodlands, Spring and Conroe, and each has a spot where it’s right and a spot where it quietly costs you money.</p>
 <p>Below: 2026 prices, SEO limits, who really owns the site, upkeep, and a pick-by-business-type table.</p>"""),
 
             ("What each platform actually is, in plain English", f"""<p>The big split is between <b>hosted builders</b> and <b>self-hosted software</b>.</p>
@@ -127,7 +127,7 @@ POSTS = [
 <!--fig:own-->
 <p>Whatever you choose, the domain matters more than the platform. If your web person registered the domain in their own account, you don’t fully own your web presence on any platform. Our post on <a href="/blog/who-owns-google-ads-account-switch-agencies/">who owns your marketing accounts when you switch agencies</a> walks through getting the domain, analytics and ad accounts into your name.</p>"""),
 
-            ("Editing, security and the maintenance nobody budgets for", f"""<p>Think about who will touch the site after launch. Usually it’s the owner on a Sunday night, or an office manager who has 11 other jobs.</p>
+            ("Editing, security and the maintenance nobody budgets for", f"""<p>Think about who edits the site after launch. Usually the owner on a Sunday night, or an office manager with 11 other jobs.</p>
 <p>Squarespace is the easiest for that person. The layouts are tidy and it’s hard to break. Wix is more flexible, which cuts both ways: you can drag anything anywhere, and staff sometimes do, which is how mobile layouts end up with overlapping text. Webflow’s visual designer is built for designers; its content editing mode is simple for staff updating text and blog posts, but layout changes belong to whoever built it. WordPress depends entirely on how it was built. A clean block-editor site is pleasant. A site built in a page builder by someone who left in 2021 can be a minefield.</p>
 <p>Security is where the trade-off gets real. On the hosted builders, patching is the company’s problem. On WordPress, it’s yours. {SRC['patch']} counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, 91% of them in plugins and only 6 in WordPress core. Worse, 46% didn’t have a fix from the developer by the time they were made public.</p>
 <p>That’s not a reason to avoid WordPress. Millions of sites run it safely. It’s a reason to keep plugins few and reputable, run updates at least weekly, keep off-site backups, and use a host that offers a firewall. If nobody is doing those things today, you have a risk, and you won’t find out about it until the site starts redirecting visitors to a pharmacy in another country.</p>
@@ -244,7 +244,7 @@ POSTS = [
 <blockquote><b>Not legal advice.</b> We’re marketers who set up and run text programs, not lawyers. The rules below changed several times in 2025 and 2026 and are still being litigated. Use this to get organized, then have a Texas attorney who handles TCPA work review your opt-in language and program before you launch.</blockquote>"""),
 
             ("Is SMS marketing worth it for a small business?", f"""<p>Often, yes. Texts get seen quickly, they work on every phone, and a short list of people who asked to hear from you can outsell a much bigger email list.</p>
-<p>You’ll see “98% open rate” quoted everywhere. We’ve never found a current, primary source for it, so we don’t use it. What we can say from running programs: texts get read, which is exactly why a bad text annoys people more than a bad email, and why the opt-out rate tells you fast when you’re sending too much.</p>
+<p>You’ll see “98% open rate” quoted everywhere. We’ve never found a current primary source for it, so we don’t use it. Texts do get read, which is exactly why a bad one annoys people more than a bad email.</p>
 <p>SMS earns its keep for businesses with a reason to reach people <i>this week</i>:</p>
 <ul>
 <li>Restaurants filling a slow Tuesday or announcing a crawfish weekend.</li>
@@ -258,7 +258,7 @@ POSTS = [
 <!--fig:law-->
 <h3>Consent for marketing texts</h3>
 <p>FCC rules require “prior express written consent” for telemarketing calls and texts sent with autodialers. Under {SRC['cfr']}, that means a written agreement with the person’s signature (an electronic signature counts) that clearly authorizes you to send marketing messages, and that tells them they don’t have to agree as a condition of buying anything.</p>
-<p>There’s a Texas-specific wrinkle. In <i>Bradford v. Sovereign Pest Control of TX</i>, decided February 25, 2026, the Fifth Circuit (which covers Texas) held that the TCPA itself doesn’t require <i>written</i> consent for telemarketing calls; clear oral consent can count, per {SRC['bradford']}. Don’t build your text program on that. The case was about calls, other circuits still follow the written-consent framework, your customers travel and move out of state, and the carriers require documented opt-in for registered texting no matter what any court says. Get it in writing. It costs you nothing.</p>
+<p>There’s a Texas-specific wrinkle. In <i>Bradford v. Sovereign Pest Control of TX</i>, decided February 25, 2026, the Fifth Circuit (which covers Texas) held that the TCPA itself doesn’t require <i>written</i> consent for telemarketing calls; clear oral consent can count, per {SRC['bradford']}. Don’t build your text program on that. The case was about calls, other circuits still follow the written-consent framework, and carriers require documented opt-in regardless. Get it in writing.</p>
 <h3>Rules that changed (or didn’t) in 2025 and 2026</h3>
 <ul>
 <li><b>One-to-one consent: gone.</b> The FCC’s rule requiring consent to name a single seller was vacated by the Eleventh Circuit in <i>Insurance Marketing Coalition v. FCC</i> in January 2025, and the FCC formally dropped its attempt to amend the definition in a July 2025 order, per {SRC['imc']}.</li>
@@ -271,7 +271,7 @@ POSTS = [
             ("Texas SMS marketing law: what SB 140 changed", f"""<p>Texas Senate Bill 140 took effect September 1, 2025. It amended the state’s telephone solicitation law (Business and Commerce Code Chapter 302) so that text and image messages count as telephone solicitations, not just voice calls. On its own, that pulled thousands of small businesses into a registration scheme built for call centers.</p>
 <p>Registration, if you need it, is not trivial. The {SRC['sos']} lists a $200 filing fee and a $10,000 security deposit, with registration good for one year and renewable.</p>
 <p>Then came the relief. In <i>Ecommerce Marketers Alliance v. State of Texas</i>, the parties agreed to dismiss the case, and the court’s November 17, 2025 order recited that consent-based text marketing isn’t subject to Chapter 302’s registration and disclosure requirements. The Secretary of State’s FAQ now says a business texting with prior consent “is not required to complete the Telephone Solicitation Registration Statement.”</p>
-<p>Two cautions from the lawyers who track this. {SRC['klg']} notes the order isn’t binding precedent and no contested court decision has yet ruled on consent-based texts under the amended law. And {SRC['nlr']} points out what’s still on the hook: cold texting, purchased or third-party lists, and anything sent without prior consent. That article also flags a separate exemption (Section 302.058) for sellers that solicit only current or former customers and have operated under the same name for at least two years, and reminds businesses that the Texas No-Call list and the state’s Deceptive Trade Practices Act remedies still apply.</p>
+<p>Two cautions. {SRC['klg']} notes the order isn’t binding precedent and no contested decision has ruled on consent-based texts under the amended law. And {SRC['nlr']} lists what’s still on the hook: cold texting, purchased lists and anything sent without prior consent. It also flags a separate exemption (Section 302.058) for sellers texting only current or former customers under the same name for at least two years, and notes the Texas No-Call list and Deceptive Trade Practices Act remedies still apply.</p>
 <p>On hours, Texas Chapter 301 limits telephone solicitation calls to 9 a.m. to 9 p.m. Monday through Saturday and noon to 9 p.m. on Sunday. The National Law Review piece describes those hours as a call rule but recommends applying them to texts as a conservative step. We agree, and we go further: we schedule marketing texts between 10 a.m. and 8 p.m., and not before noon on Sunday.</p>
 <p>The practical reading for a Woodlands or Houston small business: if every number on your list opted in to your marketing texts, you’re very likely outside the registration requirement. Document that consent like you’ll need to prove it.</p>"""),
 
@@ -280,7 +280,7 @@ POSTS = [
 <!--fig:register-->
 <p>Common rejection reasons: a privacy policy that doesn’t mention texting, an opt-in description that doesn’t match the real form, sample messages missing the business name or STOP language, and an EIN that doesn’t match the legal name. Fix the website first, then submit.</p>
 <p><b>Toll-free numbers</b> (888, 877 and so on) skip 10DLC but need toll-free verification instead. {SRC['twtf']} says unverified toll-free numbers have been blocked from texting US and Canadian phones since January 31, 2024, and verification takes about 3 to 5 business days. Toll-free is a good option if you don’t want a local-looking number or you’re texting mostly transactional updates.</p>
-<p><b>Short codes</b> (five- or six-digit numbers) are for high-volume senders. They cost far more and take longer to approve. Most small businesses don’t need one.</p>"""),
+<p><b>Short codes</b> (five- or six-digit numbers) cost far more and suit high-volume senders. Most small businesses don’t need one.</p>"""),
 
             ("How to build an opt-in list the right way", f"""<p>The list is the whole program. Here’s where we see small businesses go wrong, and what to do instead.</p>
 <!--fig:optin-->
@@ -293,8 +293,8 @@ POSTS = [
 </ul>
 <p>Sample disclosure to put next to a form checkbox (have your attorney adapt it):</p>
 <blockquote>By checking this box, I agree to receive recurring automated marketing text messages from [Business Name] at the number provided. Consent is not a condition of purchase. Up to 4 msgs/month. Msg &amp; data rates may apply. Reply HELP for help, STOP to cancel. See our Terms and Privacy Policy.</blockquote>
-<p><b>Double opt-in</b> (sending “Reply Y to confirm” before the first marketing message) isn’t legally required in most setups. We recommend it anyway for web forms. It filters out typos and pranks, gives you a clean timestamped record, and carriers like seeing it in your campaign description. You’ll lose a slice of sign-ups who never reply. That’s fine; they weren’t going to buy.</p>
-<p>And the old POS list from the opening scene? Don’t text it. Email those customers (if you have a lawful basis) with a reason to join the text list. Or put the keyword on receipts and let them opt in.</p>"""),
+<p><b>Double opt-in</b> (“Reply Y to confirm” before the first marketing message) isn’t legally required in most setups. We recommend it for web forms anyway: it filters typos and pranks, leaves a clean timestamped record, and carriers like it. You’ll lose a few sign-ups who never reply. They weren’t going to buy.</p>
+<p>And the POS list from the opening scene? Don’t text it. Invite those customers to join by email or a keyword on receipts.</p>"""),
 
             ("Opt-out language: STOP, HELP and what each message must include", f"""<p>Carrier guidelines and the FCC rules land on the same practical standard. Every marketing program needs:</p>
 <ul>
@@ -307,7 +307,7 @@ POSTS = [
 <p>Example confirmation: “[Restaurant]: You’re in! Expect up to 4 texts a month with specials and events. Msg &amp; data rates may apply. Reply HELP for help, STOP to cancel.”</p>
 <p>Keep messages to one segment when you can. A standard SMS segment holds 160 plain characters; one emoji or curly quote can switch the message to a format that holds only 70 per segment, and you pay per segment. Some platforms bill MMS at several times the SMS rate, so save images for messages where they earn it.</p>"""),
 
-            ("SMS marketing platforms for small businesses: honest fit notes", f"""<p>Pick by what the rest of your business runs on, not by the slickest demo. Prices below were current as of the sources cited; confirm before you sign.</p>
+            ("SMS marketing platforms for small businesses: honest fit notes", f"""<p>Pick by what the rest of your business runs on, not the slickest demo. Confirm prices before you sign.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Platform</th><th>Best fit</th><th>Pricing model</th><th>Our take</th></tr></thead>
 <tbody>
@@ -329,8 +329,8 @@ POSTS = [
 <li><b>HVAC and home services:</b> maintenance reminders in March and September, a pre-summer tune-up push before the July heat, and storm messaging after hail. Our <a href="/industries/service/">home services marketing</a> page has more on the seasonal rhythm.</li>
 <li><b>Hurricane season (June 1 to November 30):</b> closures and reopenings are welcome texts. Pure promos during an active storm aren’t, and people remember.</li>
 </ul>
-<p>Write like a person. “[Restaurant]: 4 patio tables left for tonight’s live music, 7 p.m. Reply YES and we’ll hold one. STOP to opt out” beats “🔥🔥 HUGE DEALS INSIDE 🔥🔥” every time, and the reply turns a broadcast into a conversation. Track redemptions with a code or a unique link so you know which texts paid for themselves.</p>
-<p>Ask for reviews by text only after a good experience, and send it to everyone, not just the happy ones you picked. Our <a href="/blog/complete-guide-google-reviews/">guide to Google reviews</a> explains why selective asking gets businesses in trouble.</p>"""),
+<p>Write like a person. “[Restaurant]: 4 patio tables left for tonight’s live music, 7 p.m. Reply YES and we’ll hold one. STOP to opt out” beats “HUGE DEALS INSIDE” every time. Track redemptions with a code or unique link.</p>
+<p>Review requests by text work well; send them to every customer, not a hand-picked few (our <a href="/blog/complete-guide-google-reviews/">Google reviews guide</a> explains why).</p>"""),
 
             ("SMS compliance checklist for Texas businesses", f"""<p>Print this, or paste it into whatever you use to run the business. Then have your attorney mark it up.</p>
 <div class="bp-tbl"><table>
@@ -347,8 +347,7 @@ POSTS = [
 </tbody></table></div>
 <!--fig:presend-->"""),
 
-            ("Your next step", f"""<p>If you’re starting from zero, do it in this order: fix your website’s privacy policy and terms to mention texting, pick a platform, register, set up one sign-up point (a keyword at the counter is the easiest), write your confirmation message, and send your first campaign to a list of a few dozen real opt-ins. Small and clean beats big and risky.</p>
-<p>If you already text customers, pull your consent records this week. If you can’t show where and how each number opted in, stop marketing to those numbers until you can.</p>
+            ("Your next step", f"""<p>Starting from zero? Update your privacy policy to mention texting, pick a platform, register, set up one sign-up point (a keyword at the counter is easiest), and send your first campaign to a few dozen real opt-ins. Already texting? Pull your consent records this week, and pause any numbers you can’t trace to an opt-in.</p>
 <p>Texting works best when ads and your website are filling the list in the first place. If you’re running Google or Meta ads and want to know whether that money is pulling its weight, ask for a free <a href="/contact/">Ad Spend Leak Check</a>: a 10-minute video showing where your budget is leaking, in your inbox within 48 hours. And if your site needs a rebuild before you add a texting sign-up, our comparison of <a href="{WEB}">WordPress, Wix, Squarespace and Webflow</a> is a good place to start.</p>"""),
         ],
         "faq": [
