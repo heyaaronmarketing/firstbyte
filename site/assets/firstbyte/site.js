@@ -250,7 +250,7 @@
             if (typeof win.fbq === 'function') win.fbq('track', 'Lead');
           } catch (_e) { /* storage or pixel blocked: carry on */ }
           /* the redirect waits for GA to confirm the hit (max ~0.9 s) */
-          track('generate_lead', { offer: data.offer || '', industry: data.industry || '', ad_spend: data.ad_spend || '', form_location: loc, value: 1, currency: 'USD' },
+          track('generate_lead', { offer: data.offer || '', industry: data.industry || '', service: data.service || '', form_location: loc, value: 1, currency: 'USD' },
                 { callback: function () { location.href = '/thank-you/'; } });
         }
       };

@@ -51,7 +51,7 @@ export default {
 //        hidden "company" field is the spam trap.
 
 const SKIP_KEYS = new Set(["_v", "_honey", "_subject", "_next", "_template", "_captcha", "name", "email", "phone", "message"]);
-const LABELS = { offer: "Offer", website: "Website", industry: "Industry", ad_spend: "Monthly ad spend", company: "Company & website", budget: "Monthly budget", services: "Services", page: "Page", list: "List" };
+const LABELS = { offer: "Offer", website: "Website", industry: "Industry", ad_spend: "Monthly ad spend", service: "Service interested in", company: "Company & website", budget: "Monthly budget", services: "Services", page: "Page", list: "List" };
 
 async function handleContact(request, env) {
   try {

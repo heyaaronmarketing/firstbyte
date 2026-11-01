@@ -3,7 +3,7 @@
    Every event also goes to window.dataLayer, so a GTM container added later sees the same events.
 
    Events (all carry page_type):
-     generate_lead      lead form sent (site.js)                 offer, industry, ad_spend, form_location
+     generate_lead      lead form sent (site.js)                 offer, industry, service, form_location
      lead_form_start    first interaction with a lead form        form_location
      form_error         a lead form failed to send (site.js)      form_location, error
      sign_up            #SundayByte newsletter signup (site.js)   method

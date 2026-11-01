@@ -115,6 +115,37 @@ WIDGET = [
 ]
 
 
+# --- lead forms: "Monthly ad spend" -> "Service you're interested in", plus an optional message box (Nov 2026)
+SERVICES = ["Paid social (Meta, Instagram, TikTok)", "Google Ads &amp; search marketing", "Website design", "SEO &amp; local SEO",
+            "Branding &amp; creative", "Streaming TV, radio &amp; billboards", "Not sure yet"]
+SPEND_RE = re.compile(r'<div class="fld"><label for="([a-z]+)-spend">Monthly ad spend</label><select id="\1-spend" name="ad_spend" required>.*?</select></div>', re.S)
+
+
+def service_field(p):
+    opts = '<option value="" disabled selected>Choose one</option>' + "".join(f"<option>{o}</option>" for o in SERVICES)
+    return (f'<div class="fld"><label for="{p}-svc">Service you’re interested in</label>'
+            f'<select id="{p}-svc" name="service" required>{opts}</select></div>')
+
+
+def message_field(p):
+    return (f'<div class="fld full"><label for="{p}-msg">Message <span style="text-transform:none;letter-spacing:0;opacity:.7">(optional)</span></label>'
+            f'<textarea id="{p}-msg" name="message" rows="4" placeholder="Tell us a little about your business and what you need help with."></textarea></div>')
+
+
+def upgrade_forms(s):
+    def form(m):
+        f = m.group(0)
+        sp = SPEND_RE.search(f)
+        if not sp:
+            return f
+        p = sp.group(1)
+        f = SPEND_RE.sub(service_field(p), f)
+        if 'name="message"' not in f:
+            f = f.replace('<div class="full"><button', message_field(p) + '\n<div class="full"><button', 1)
+        return f
+    return re.sub(r'<form\b[^>]*data-lead[^>]*>.*?</form>', form, s, flags=re.S)
+
+
 def prose_edits():
     try:
         return json.load(open(PROSE, encoding="utf-8"))
@@ -129,7 +160,8 @@ def rewrite(s, prose):
         s = s.replace(a, b)
     for a, b in REGEX:
         s = re.sub(a, b, s)
-    return s
+    s = re.sub(r"/assets/firstbyte/site\.js\?v=\d+", "/assets/firstbyte/site.js?v=3", s)  # bump when site.js changes
+    return upgrade_forms(s)
 
 
 def run(verbose=False):
