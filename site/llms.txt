@@ -137,7 +137,7 @@ Launch plan at https://firstbyte.agency/contact/.
 - [Case studies](https://firstbyte.agency/case-studies/): Results for Equinox, Kroger, Celsius, Vital Proteins, Viceroy Los Cabos and more.
 - [Service areas](https://firstbyte.agency/service-areas/): The 20 Greater Houston cities we serve.
 - [About](https://firstbyte.agency/about/): Founder Sean Melton's story and how First Byte works.
-- [Blog](https://firstbyte.agency/blog/): 122 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
+- [Blog](https://firstbyte.agency/blog/): 132 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
 - [Contact](https://firstbyte.agency/contact/): (713) 578-0634, contact@firstbyte.agency.
 ## About
 First Byte is an independent agency in The Woodlands, TX, founded by
@@ -159,7 +159,9 @@ the new generation of AI search engines.
 
 ## Guides
 - [YouTube Ads Cost for Local Businesses in Houston: Formats That Work](https://firstbyte.agency/blog/youtube-ads-cost-local-business-houston/)
+- [WordPress vs Wix vs Squarespace vs Webflow: Which Fits a Small Business?](https://firstbyte.agency/blog/wordpress-vs-wix-vs-squarespace-vs-webflow-small-business/)
 - [Why Local Businesses Sometimes Outrank National Brands](https://firstbyte.agency/blog/why-local-businesses-outrank-national-brands/)
+- [Why Isn’t My Website Showing Up on Google? A Troubleshooting Guide](https://firstbyte.agency/blog/why-isnt-my-website-showing-up-on-google/)
 - [Why Are My Google Reviews Disappearing? A Calm Diagnostic Guide](https://firstbyte.agency/blog/why-are-my-google-reviews-disappearing/)
 - [Who Owns Your Google Ads Account, Website and Domain When You Hire an Agency?](https://firstbyte.agency/blog/who-owns-google-ads-account-switch-agencies/)
 - [What Makes a Homepage Actually Convert? A First Byte Breakdown](https://firstbyte.agency/blog/what-makes-a-homepage-convert/)
@@ -171,11 +173,14 @@ the new generation of AI search engines.
 - [Understanding Your Cost Per Lead (and How to Lower It)](https://firstbyte.agency/blog/understanding-cost-per-lead/)
 - [UGC vs. Influencers: Which Creator Content Actually Sells?](https://firstbyte.agency/blog/ugc-vs-influencers-creator-content/)
 - [How to Turn Your Website Into a Lead Machine](https://firstbyte.agency/blog/turn-your-website-into-a-lead-machine/)
+- [How to Track Form Submissions and Phone Calls in GA4 and Google Ads](https://firstbyte.agency/blog/track-form-submissions-phone-calls-ga4-google-ads/)
 - [How The Woodlands Businesses Can Win Local Search](https://firstbyte.agency/blog/the-woodlands-businesses-win-local-search/)
 - [Is Streaming TV Advertising Worth It for a Local Business?](https://firstbyte.agency/blog/streaming-tv-ads-worth-it-small-business/)
 - [Standing Out in Houston's Competitive Market](https://firstbyte.agency/blog/standing-out-houston-competitive-market/)
 - [Spring Cleaning Your Digital Marketing](https://firstbyte.agency/blog/spring-cleaning-your-digital-marketing/)
+- [Speed to Lead: How Fast to Respond, and the Follow-Up System That Works](https://firstbyte.agency/blog/speed-to-lead-response-time-follow-up-crm/)
 - [Social Proof: Using Reviews & Testimonials on Your Site](https://firstbyte.agency/blog/social-proof-reviews-testimonials/)
+- [SMS Marketing for Small Businesses in Texas: Rules, Setup and What to Send](https://firstbyte.agency/blog/sms-marketing-small-business-texas-rules/)
 - [25 Small Business Marketing Ideas for The Woodlands & North Houston (2026)](https://firstbyte.agency/blog/small-business-marketing-ideas-the-woodlands/)
 - [The Small Business Guide to Google Ads in 2026](https://firstbyte.agency/blog/small-business-guide-google-ads-2026/)
 - [7 Signs Your Small Business Website Needs a Redesign](https://firstbyte.agency/blog/signs-your-website-needs-a-redesign/)
@@ -208,6 +213,7 @@ the new generation of AI search engines.
 - [How to Measure Marketing Success: Metrics That Matter](https://firstbyte.agency/blog/measure-marketing-success-metrics/)
 - [Marketing Your Business in Spring, TX: A Local Playbook](https://firstbyte.agency/blog/marketing-your-business-spring-tx/)
 - [The First Byte Approach: Marketing That Pays for Itself](https://firstbyte.agency/blog/marketing-that-pays-for-itself/)
+- [Marketing Agency Pricing Models: Retainer vs % of Ad Spend vs Pay-Per-Lead](https://firstbyte.agency/blog/marketing-agency-pricing-models-retainer-vs-percentage/)
 - [Local Services Ads vs. Google Ads: What’s Best for Home Service Businesses?](https://firstbyte.agency/blog/local-services-ads-vs-google-ads-home-services/)
 - [Local SEO for Contractors in Houston: HVAC, Plumbing, Roofing & Electrical](https://firstbyte.agency/blog/local-seo-contractors-houston/)
 - [The Local SEO Checklist Every The Woodlands Business Needs](https://firstbyte.agency/blog/local-seo-checklist-the-woodlands/)
@@ -234,6 +240,7 @@ the new generation of AI search engines.
 - [How Do Home Care Agencies Get Clients? A Houston Referral Playbook](https://firstbyte.agency/blog/how-do-home-care-agencies-get-clients/)
 - [Hotel Marketing in Houston: How to Get More Direct Bookings](https://firstbyte.agency/blog/hotel-marketing-houston-direct-bookings/)
 - [Home Care SEO: Rank for “Home Care Near Me” in The Woodlands](https://firstbyte.agency/blog/home-care-seo-the-woodlands-houston/)
+- [Home Builder Marketing in Houston and Montgomery County: A Working Playbook](https://firstbyte.agency/blog/home-builder-marketing-houston-montgomery-county/)
 - [The Holiday Marketing Checklist for Local Businesses](https://firstbyte.agency/blog/holiday-marketing-checklist/)
 - [Hispanic Marketing in Houston: Spanish Google Ads, Meta, SEO and GBP](https://firstbyte.agency/blog/hispanic-marketing-houston-spanish-ads-seo/)
 - [Gym Marketing Ideas for The Woodlands & Houston Fitness Studios](https://firstbyte.agency/blog/gym-fitness-studio-marketing-the-woodlands-houston/)
@@ -254,6 +261,7 @@ the new generation of AI search engines.
 - [How to Find the Right Influencers for Your Business](https://firstbyte.agency/blog/find-the-right-influencers/)
 - [The FTC’s Fake Review Rule: What Local Businesses Need to Know](https://firstbyte.agency/blog/fake-reviews-rule-local-businesses/)
 - [Facebook vs. Instagram vs. TikTok: Which Is Best for a Local Business?](https://firstbyte.agency/blog/facebook-vs-instagram-vs-tiktok-local-business/)
+- [Facebook Lead Ads Bringing Bad Leads? How to Fix Lead Quality](https://firstbyte.agency/blog/facebook-lead-ads-bad-leads-fix-quality/)
 - [Do Facebook & Instagram Ads Still Work for Local Businesses?](https://firstbyte.agency/blog/facebook-instagram-ads-local-businesses/)
 - [Esthetician Marketing Ideas for Houston and The Woodlands Skin Studios](https://firstbyte.agency/blog/esthetician-marketing-ideas-houston-the-woodlands/)
 - [Email Marketing Basics for Small Businesses](https://firstbyte.agency/blog/email-marketing-basics/)
@@ -274,7 +282,9 @@ the new generation of AI search engines.
 - [How Much Is a Billboard in Houston? Real 2026 Prices by Type](https://firstbyte.agency/blog/billboard-advertising-cost-houston/)
 - [Back-to-School Marketing for The Woodlands Businesses](https://firstbyte.agency/blog/back-to-school-marketing-woodlands/)
 - [B2B Marketing in Houston for Energy, Industrial and Oilfield Services](https://firstbyte.agency/blog/b2b-marketing-houston-energy-industrial/)
+- [Auto Repair Shop Marketing in Houston: How to Fill More Bays](https://firstbyte.agency/blog/auto-repair-shop-marketing-houston/)
 - [Auto Detailing Marketing in The Woodlands & Houston: Book More Coatings](https://firstbyte.agency/blog/auto-detailing-marketing-the-woodlands-houston/)
+- [Are Microsoft Ads (Bing) Worth It for a Small Business in 2026?](https://firstbyte.agency/blog/are-microsoft-ads-worth-it-small-business/)
 - [Is Angi Leads Worth It for Contractors? Angi vs Thumbtack vs LSA](https://firstbyte.agency/blog/angi-vs-thumbtack-leads-worth-it-contractors/)
 - [Google AI Overviews and Local Search: What Changes for Houston Businesses](https://firstbyte.agency/blog/ai-overviews-local-search-houston/)
 - [AI and Your Business: What Small Businesses Should Know in 2026](https://firstbyte.agency/blog/ai-and-your-business-2026/)
