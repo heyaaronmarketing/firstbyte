@@ -408,6 +408,18 @@ def service_providers(s):
     return re.sub(r'<script type="application/ld\+json">(.*?)</script>', fix, s, flags=re.S)
 
 
+
+def home_hero(s):
+    """Homepage: drop the eyebrow pill (Nov 2026, owner wants the hero to sit higher) and make the big
+    headline the page's H1, keeping the location keyword in visually-hidden text."""
+    s = s.replace('<h1 class="seo-h1"><span class="tri"></span>Digital Marketing Agency · The Woodlands, TX</h1>\n', "")
+    s = s.replace('<h1 class="seo-h1"><span class="tri"></span>Digital Marketing Agency · The Woodlands, TX</h1>', "")
+    s = re.sub(r'<p class="h1" aria-label="We drive demand\.">(.*?)</p>',
+               lambda m: '<h1 class="h1">' + m.group(1) + '<span class="vh"> Digital marketing agency in The Woodlands, TX</span></h1>',
+               s, count=1, flags=re.S)
+    return s
+
+
 # ------------------------------------------------------------------ main
 def main():
     pages = {}
@@ -492,8 +504,10 @@ def main():
         # feed + manifest links
         if 'type="application/rss+xml"' not in s:
             s = s.replace("</head>", '<link rel="alternate" type="application/rss+xml" title="First Byte blog" href="https://firstbyte.agency/blog/feed.xml">\n</head>', 1)
-        s = re.sub(r'lead\.css\?v=\d+', 'lead.css?v=9', s)  # bump when lead.css changes
+        s = re.sub(r'lead\.css\?v=\d+', 'lead.css?v=10', s)  # bump when lead.css changes
         s = add_img_dims(s)
+        if u == "/":
+            s = home_hero(s)
         s = service_providers(s)
         if u == "/case-studies/":  # card logos are height:auto with a max-height, so attrs size them correctly
             s = re.sub(r'<div class="csl-grid">.*?</section>', lambda m: add_img_dims(m.group(0), skip=set()), s, count=1, flags=re.S)
@@ -589,7 +603,7 @@ def main():
     if exc not in read(css_p):
         write(css_p, read(css_p) + "\n/* service-page example cards link to their case studies */\n" + exc + "\n")
     css = read(css_p)
-    legible = "@media (max-width:560px){.bp-body th{font-size:11.5px;letter-spacing:.08em}.st-tag{font-size:11px}}.pbadge small{font-size:11px}.csl-card .cs-logo{height:48px!important;max-height:48px;max-width:170px;width:auto;object-fit:contain;object-position:left center}"
+    legible = ".vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}@media (max-width:560px){.bp-body th{font-size:11.5px;letter-spacing:.08em}.st-tag{font-size:11px}}.pbadge small{font-size:11px}.csl-card .cs-logo{height:48px!important;max-height:48px;max-width:170px;width:auto;object-fit:contain;object-position:left center}"
     if legible not in css:
         write(css_p, css + "\n/* phone legibility: nothing real under 11px (Oct 15 audit) */\n" + legible + "\n")
     css = read(css_p)
