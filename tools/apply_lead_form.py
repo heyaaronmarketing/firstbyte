@@ -1,6 +1,7 @@
 """Rebuild every lead form on the site into ONE standard form.
 
 Fields: Name, Email (any email), Phone, Website, Industry, Monthly ad spend.
+Nov 2026: apply_contact_cta.py swaps ad spend for a Service dropdown and adds an optional Message box.
 Keeps each form's own wrapper (classes, id, header line, hours note) so it still fits
 its page's layout; replaces only the fields and the submit button.
 
