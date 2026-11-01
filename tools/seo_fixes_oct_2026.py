@@ -634,7 +634,7 @@ def main():
         return f"## {title}\n" + "\n".join(lines) + "\n"
     key = section("Key pages", [
         f"- [Home]({BASE}/): Overview of First Byte's digital marketing services.",
-        f"- [Free Ad Spend Leak Check]({BASE}/contact/): A free 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours.",
+        f"- [Contact]({BASE}/contact/): Reach the team by form or phone, (713) 578-0634. Replies within 1 hour, Mon–Fri.",
         f"- [Google Ads / search marketing]({BASE}/services/search-marketing/)",
         f"- [Paid social advertising]({BASE}/services/paid-social-advertising/)",
         f"- [Web design, SEO & PR]({BASE}/services/web-design-seo-pr/)",
@@ -693,3 +693,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Nov 2026: the Leak Check offer is retired; make sure nothing above reintroduced it.
+    import apply_contact_cta  # noqa: E402
+    apply_contact_cta.run()

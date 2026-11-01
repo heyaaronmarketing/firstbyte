@@ -9,7 +9,7 @@
      sign_up            #SundayByte newsletter signup (site.js)   method
      click_to_call      tel: link                                 link_location
      email_click        mailto: link                              link_location
-     cta_click          primary button (Leak Check, etc.)         cta_text, cta_location, cta_destination
+     cta_click          primary button (Contact us, etc.)         cta_text, cta_location, cta_destination
      case_study_cta     "Run a business like X?" button or a service-page example card   case_study, industry
      case_study_tab     a homepage case study tab opened          case_study
      scroll_depth       25/50/75/100% on blog posts + case studies  percent

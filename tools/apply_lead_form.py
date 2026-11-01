@@ -49,7 +49,7 @@ INDUSTRY_PAGES = {
 }
 
 BUTTON = ('<div class="full"><button class="btn btn-p" type="submit" style="border: 0; cursor: pointer; font: inherit; '
-          'font-weight: 600; font-size: 17px; width: 100%; min-height: 60px">Get my free Ad Spend Leak Check '
+          'font-weight: 600; font-size: 17px; width: 100%; min-height: 60px">Send my message '
           '<span class="arr">→</span></button></div>')
 
 
@@ -63,7 +63,7 @@ def fields(prefix, industry=None):
         f'<option>{s}</option>' for s in AD_SPEND]
     p = prefix
     return "\n".join([
-        '<input type="hidden" name="offer" value="Ad Spend Leak Check">',
+        '<input type="hidden" name="offer" value="Contact request">',
         f'<div class="fld"><label for="{p}-name">Name</label><input id="{p}-name" name="name" required type="text" placeholder="Jane Smith" autocomplete="name"></div>',
         f'<div class="fld"><label for="{p}-email">Email</label><input id="{p}-email" name="email" required type="email" placeholder="you@business.com" autocomplete="email"></div>',
         f'<div class="fld"><label for="{p}-phone">Phone</label><input id="{p}-phone" name="phone" type="tel" placeholder="(713) 555-0123" autocomplete="tel"></div>',
