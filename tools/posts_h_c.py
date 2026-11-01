@@ -128,9 +128,9 @@ POSTS = [
 <li>Have that stage convert at between 1% and 40% of leads.</li>
 </ul>
 <p>A one-location HVAC company spending $2,000 a month probably isn’t at 200 leads, and that’s fine. Set up the CRM stages anyway, because clean stage data is what makes the scorecard below work, and you’ll be ready if volume grows. Many CRMs (HubSpot included) have a native Meta connection for this, so it may not need a developer.</p>
-<p>Under that volume, the practical move is a landing page with your pixel and server-side events, where you count only the actions you actually want (a booked appointment, a completed quote request) as the conversion. That gets Meta optimizing toward something closer to a sale.</p>"""),
+<p>Below that volume, we’d send the traffic to a landing page with your pixel and server-side events, and count only the actions you actually want (a booked appointment, a completed quote request) as the conversion. Meta then optimizes toward something closer to a sale.</p>"""),
 
-            ("Facebook lead form vs landing page: which brings better leads?", f"""<p>Short version: instant forms win on cost per lead, landing pages usually win on lead quality, and the right choice depends on how fast you follow up and how much the job is worth.</p>
+            ("Facebook lead form vs landing page: which brings better leads?", f"""<p>Instant forms win on cost per lead. Landing pages usually win on quality. Which one you want depends mostly on how fast your team follows up and what a job is worth to you.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th></th><th>Instant form</th><th>Landing page</th></tr></thead>
 <tbody>
@@ -142,16 +142,16 @@ POSTS = [
 <tr><td>Best for</td><td>Lower-ticket offers, quick bookings, fast follow-up teams</td><td>Big-ticket jobs, regulated services, slower sales cycles</td></tr>
 </tbody></table></div>
 <p>There’s also a hybrid. {SRC['loomer_new']} describes a “Website and Instant Forms” conversion location where Meta can send each person to whichever one it predicts will work. We’d only try it once both versions work well on their own.</p>
-<p>If you go the landing page route, build a page for this ad, not your homepage. One offer, one form, a phone number, real photos of your work in Houston-area homes, and reviews. Our {f'<a href="/blog/landing-pages-101/">landing pages guide</a>'} covers the structure.</p>
-<p>Our default for most home service and medical clients: start with a filtered Higher intent form because it’s fast to test, and run a landing page version beside it once there’s budget for two ad sets. Judge them on cost per booked appointment, not cost per lead.</p>"""),
+<p>If you go the landing page route, build a page for this ad. (Sending it to your homepage is how you pay for clicks that read your About page and leave.) One offer, one form, a phone number, real photos of your work in Houston-area homes, and reviews. Our {f'<a href="/blog/landing-pages-101/">landing pages guide</a>'} covers the structure.</p>
+<p>For most home service and medical clients, we start with a filtered Higher intent form because it’s fast to test, then add a landing page version beside it once there’s budget for two ad sets. Compare them on cost per booked appointment. Cost per lead will mislead you here.</p>"""),
 
-            ("Audience and placement settings that quietly hurt quality", f"""<p>Some junk comes from where the ad runs, not what it says.</p>
+            ("Audience and placement settings that quietly hurt quality", f"""<p>Some junk is a placement problem.</p>
 <p><b>Audience Network</b> places your ad inside other apps and sites, and it has a long reputation for accidental taps. {SRC['sme']} suggests excluding it if it produces low-quality leads. How you do that changed in 2026. Per {SRC['placements']}, Meta is rolling out a change where Leads campaigns (along with Sales, Engagement and App promotion) no longer let you pick placements manually at the ad set level. Exclusions for Audience Network, Facebook Marketplace and the right column now live in account-level controls, and those can be set per objective. If your Ads Manager still shows the old placement picker, the rollout hasn’t reached you yet.</p>
 <p>A few other settings worth a look:</p>
 <ul>
 <li><b>Location.</b> A 25-mile radius around The Woodlands reaches well into north Houston. If you don’t want work in Aldine or Humble, don’t pay for it. List the zip codes or cities you actually serve.</li>
-<li><b>Breakdowns.</b> In Ads Manager, break results down by placement and by age. If one placement or one age band produces most of your no-answers, that’s your signal.</li>
-<li><b>Special Ad Categories.</b> Housing, employment, credit and financial services ads run with limited targeting by design. Mortgage and real estate advertisers should lean even harder on form questions, because the audience settings can’t do the filtering.</li>
+<li>In Ads Manager, break results down by placement and by age. When one placement or one age band produces most of your no-answers, you’ve found a leak.</li>
+<li>Special Ad Categories. Housing, employment, credit and financial services ads run with limited targeting by design. Mortgage and real estate advertisers should lean even harder on form questions, because the audience settings can’t do the filtering.</li>
 </ul>
 <p>For the broader picture of building Meta campaigns for local businesses, see our {f'<a href="/blog/facebook-instagram-ads-local-businesses/">Facebook and Instagram ads guide</a>'}.</p>"""),
 
