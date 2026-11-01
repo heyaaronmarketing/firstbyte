@@ -55,11 +55,10 @@ POSTS = [
             ("Why are my Facebook leads so bad?", f"""<p>Start with how an instant form works. Someone scrolling Instagram in a car line at a Spring ISD school taps your ad. A form opens inside the app, already filled in with the name, email and phone number from their profile. Two taps later, you have a “lead.” They never left the app, never saw your website, and may have been thinking about something else the whole time.</p>
 <p>That convenience is the product. It’s why instant forms produce cheap leads, and it’s why so many of those leads are junk. The common patterns:</p>
 <ul>
-<li><b>“I don’t remember filling that out.”</b> Usually true in spirit. Autofill did the work and the whole thing took eight seconds.</li>
+<li><b>“I don’t remember filling that out.”</b> Autofill did the work and the whole thing took eight seconds.</li>
 <li><b>Fake or dead numbers.</b> People who want the freebie but not the phone call type a fake number. Others have an old number on their profile.</li>
 <li><b>No answer.</b> Some of this is Houston reality (plenty of people don’t pick up unknown numbers), and some is you calling two days later.</li>
 <li><b>Wrong area.</b> A lead from Beaumont for a pool builder in Magnolia.</li>
-<li><b>Wrong person.</b> Renters for a roof replacement, or someone looking for a job instead of a quote.</li>
 </ul>
 <p>Then the algorithm makes it worse. If your campaign’s goal is “maximize leads,” Meta’s delivery system learns who submits forms cheaply and shows your ad to more people like them. Junk leads train it to find more junk. That loop is the real problem, and every fix below either breaks it or slows it down.</p>"""),
 
@@ -87,27 +86,27 @@ POSTS = [
 </ol>
 <p>Keep it to four to six questions. Past that, even good prospects bail on a phone screen. And don’t make every answer a trap; “just researching” people can go into a nurture list instead of your call queue.</p>
 <!--fig:build-->
-<p>One honest caveat: {SRC['sme']} notes that Meta itself says conditional logic may increase cost per lead. It will. That’s the point.</p>"""),
+<p>{SRC['sme']} notes Meta itself says conditional logic may raise cost per lead. It will. That’s the point.</p>"""),
 
             ("Offer framing that attracts freebie hunters (and what to say instead)", f"""<p>The ad does a lot of filtering before the form ever opens. A lot of lead problems are really offer problems.</p>
 <p>“Enter to win a free roof.” “FREE estimate, no obligation, claim yours today!” “Get a $500 gift card when you book.” Every one of these is a magnet for people who like free things. Some are buyers. Most are not, and Meta will happily find you thousands of them in Harris County alone.</p>
 <p>What tends to work better for local service businesses:</p>
 <ul>
-<li><b>Show a price signal.</b> “Kitchen remodels in The Woodlands typically start around $45,000” scares off the people who were never going to hire you. (Use your real numbers, not ours.)</li>
+<li><b>Show a price signal.</b> “Kitchen remodels in The Woodlands typically start around $45,000” scares off the people who were never going to hire you.</li>
 <li><b>Say what happens next.</b> “A project manager will call you within an hour to schedule a walkthrough.” People who don’t want a call self-select out. People who do now expect it and pick up.</li>
 <li><b>Ask for a commitment that matches the job.</b> For a $15,000 pool remodel, “Book a design consult” brings fewer, better leads than “Get a free quote.”</li>
 <li><b>Drop the giveaways</b> unless your goal is an email list, and then treat those leads as email subscribers, not sales leads.</li>
 </ul>
 <p>Put the same language on the form’s intro screen. The intro is where you can be blunt: “This form is for homeowners in Montgomery County planning a project in the next six months.”</p>
-<p>We’d rather run a slightly boring ad that tells the truth than a clever one that fills your phone with people who were bored on their lunch break.</p>"""),
+"""),
 
             ("Facebook leads not answering? Fix the first five minutes", f"""<p>A lot of “bad leads” are good leads called too late. A Facebook lead has a short memory. They submitted while scrolling, then went back to scrolling, and by Wednesday your call is just another unknown Houston number.</p>
 <p>Speed starts with plumbing. If leads sit inside Meta until someone remembers to download a CSV, you lose. Options, from simplest:</p>
 <ul>
 <li><b>Email delivery.</b> {SRC['loomer_new']} describes a newer lead delivery option right in the form setup that emails new leads to whoever you choose. Better than nothing.</li>
-<li><b>A direct CRM integration.</b> Meta’s Leads Center connects to many CRMs, and tools like HubSpot or Zapier can push each lead into your CRM and fire a text alert to whoever is on call.</li>
+<li><b>A direct CRM integration.</b> Meta offers direct integrations with many CRMs, and tools like HubSpot or Zapier can push each lead into your CRM and fire a text alert to whoever is on call.</li>
 <li><b>An automatic text.</b> The moment the lead lands: “Hi Maria, this is Dave with Lakeside Pools. Got your request. I’ll call you from this number in the next few minutes.” Now your number isn’t a stranger.</li>
-<li><b>Messenger follow-up.</b> There’s a “Connect with leads on Messenger” option on the form’s ending screen that opens a chat after they submit. Handy for younger audiences who won’t answer a call.</li>
+<li><b>Messenger follow-up.</b> There’s a “Connect with leads on Messenger” option on the form’s ending screen that opens a chat after they submit.</li>
 </ul>
 <p>Then the call pattern. Here’s what we set up for most clients:</p>
 <ol>
@@ -155,7 +154,6 @@ POSTS = [
 <li><b>Location.</b> A 25-mile radius around The Woodlands reaches well into north Houston. If you don’t want work in Aldine or Humble, don’t pay for it. List the zip codes or cities you actually serve.</li>
 <li><b>Breakdowns.</b> In Ads Manager, break results down by placement and by age. If one placement or one age band produces most of your no-answers, that’s your signal.</li>
 <li><b>Special Ad Categories.</b> Housing, employment, credit and financial services ads run with limited targeting by design. Mortgage and real estate advertisers should lean even harder on form questions, because the audience settings can’t do the filtering.</li>
-<li><b>Creative.</b> An ad that looks like a meme gets meme-level attention. Real photos of real jobs in recognizable places (a pool in a Creekside Park backyard, a kitchen in Kingwood) attract people who are thinking about that project.</li>
 </ul>
 <p>For the broader picture of building Meta campaigns for local businesses, see our {f'<a href="/blog/facebook-instagram-ads-local-businesses/">Facebook and Instagram ads guide</a>'}.</p>"""),
 
@@ -174,7 +172,7 @@ POSTS = [
 <!--fig:check-->
 <p>Run the scorecard monthly. When you change something, change one thing at a time and give it two to three weeks, or you’ll never know which change helped.</p>"""),
 
-            ("When to fix it yourself and when to get help", f"""<p>Most of this you can do in an afternoon: switch to Higher intent, turn on SMS verification if you have it, add four questions with Close form logic, rewrite the offer, set up an auto-text. Do those first. Plenty of owners stop there and are happy.</p>
+            ("When to fix it yourself and when to get help", f"""<p>Most of this you can do in an afternoon: switch to Higher intent, turn on SMS verification if you have it, add four questions with Close form logic, rewrite the offer, set up an auto-text. Do those first.</p>
 <p>The parts that take more skill are the CRM integration, Conversions API, and building a landing page that converts on a phone. That’s where outside help tends to pay off, especially if your team is already stretched answering the leads you have.</p>
 <p>If you want a second set of eyes before you change anything, our free {f'<a href="/contact/">Ad Spend Leak Check</a>'} is a 10-minute video showing where your Meta budget is leaking, in your inbox within 48 hours. Or see how our {f'<a href="/services/paid-social-advertising/">paid social team</a>'} runs lead campaigns for businesses from Conroe to Sugar Land.</p>"""),
         ],
@@ -319,6 +317,13 @@ POSTS = [
 <p>That $1,500 line is our rule of thumb, not a Microsoft minimum. Below it, a 10% to 15% test is $150 to $225 a month, which in a Houston auction might be 30 clicks. You can’t tell anything from 30 clicks.</p>
 <p>A quick word on that “older audience” pitch. Microsoft markets its audience as more affluent and more desktop-based, and desktop share does skew that way. We just haven’t seen independent data we’d stake your budget on, so treat audience claims as a hypothesis to test, not a reason to spend.</p>"""),
 
+            ("Two Houston examples, worked through", f"""<p>Numbers make this easier. Both of these are hypotheticals with made-up but realistic figures, so swap in your own.</p>
+<h3>An estate planning attorney in The Woodlands</h3>
+<p>Say she spends $4,000 a month on Google search and gets about 20 consultation requests, so roughly $200 per lead. Her clients are mostly 55 and older, and a lot of them research from a desktop at home or at the office near Hughes Landing. That’s close to the profile Microsoft pitches. A $600 monthly Microsoft test (15% of Google) that produces three or four consults at $150 to $200 each is a clear keep. If it produces one consult a month for three months straight, it isn’t, and she’s out $1,800, which is a fair price for a real answer.</p>
+<h3>A two-truck HVAC company in Spring</h3>
+<p>Now say he spends $2,500 a month on Google, and most of his calls come from phones in July and August when an AC quits at 9 p.m. Emergency searches like that happen on mobile, where Bing’s share is small. He might still test Microsoft for “ac replacement cost” and “new hvac system quote” type keywords, which people often research at a desk, but we’d put his next $375 into Google Local Services Ads or more budget on his best Google campaign first.</p>
+<p>Same platform, opposite answers. The difference is who searches, from what device, and what a lead is worth.</p>"""),
+
             ("How to import Google Ads into Microsoft Ads, step by step", f"""<p>This is the part that makes the test cheap. You don’t rebuild anything. Per {SRC['import']}:</p>
 <ol>
 <li><b>Create the account</b> at ads.microsoft.com with a business email, and set up billing.</li>
@@ -405,7 +410,7 @@ POSTS = [
             "test": {
                 "type": "stats",
                 "title": "A fair Microsoft Ads test",
-                "stats": [["10-20%", "of your Google search budget"], ["60-90", "days before judging it"], ["±25%", "of Google’s cost per lead = keep it"]],
+                "stats": [["15%", "of Google search budget (10-20% range)"], ["60-90", "days before judging it"], ["±25%", "of Google’s cost per lead = keep it"]],
                 "note": "Illustrative ranges",
                 "alt": "Guidelines for a fair Microsoft Ads test budget and timeline for a small business in The Woodlands or Houston",
                 "caption": "Our starting rules for a test, adjusted to each account.",
