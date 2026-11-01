@@ -58,16 +58,16 @@ POSTS = [
         "hero_alt": "Illustration of a new house for home builder marketing in Houston, The Woodlands and Montgomery County",
         "related": ["real-estate-agent-marketing-the-woodlands-houston", "pool-builder-marketing-houston-the-woodlands", "how-to-get-more-remodeling-leads-houston"],
         "sections": [
-            (None, f"""<p>Saturday at the model home off FM 1488. Eleven groups walked through. Your sales counselor thinks three of them mentioned seeing “an ad,” one came with an agent from Katy, and the rest “just drove by.” Monday morning, your marketing person shows you a Meta report with 214 leads for the month.</p>
+            (None, f"""<p>Saturday at the model home off FM 1488. Eleven groups walked through. Your sales counselor thinks three of them mentioned seeing “an ad,” one came with an agent from Katy, and the rest “just drove by.” Monday, your marketing person shows you a Meta report with 214 leads for the month.</p>
 <p>Nobody in the building can connect those two numbers. That’s the real problem in most home builder marketing.</p>
 <p>Home builder marketing that works in Houston and Montgomery County does three jobs at once: it puts your communities and quick move-in homes in front of buyers already searching a specific area, it keeps those buyers warm for the six to twelve months they take to decide, and it tracks who actually walked the model and signed. Small builders win on the first two by being sharper than the big guys, not louder. The third is where almost everyone leaks money.</p>
 <p>This playbook is for custom, semi-custom and small production builders with one to maybe eight active communities.</p>"""),
 
             ("Why marketing a home builder is different from marketing a contractor", f"""<p>A roofer’s customer decides in a week. Your buyer might take a year, and most of that year they’re not ready to talk to you.</p>
-<p>Look at what has to line up before a family signs a contract on a new build. They need the area (often a school district first, then a community). They need a lot or a plan they like, and for a custom build that may mean land they already own in Magnolia or Montgomery or out past Lake Conroe. They need financing, which for a lot of move-up buyers means selling the current house first. And they need to trust you with the biggest purchase they’ll ever make, which they do by touring, reading reviews, driving past your homes under construction and asking their agent what they’ve heard.</p>
+<p>Before a family signs on a new build, a lot has to line up: the area (often a school district first), a lot or plan they like (for custom work, maybe land they already own near Lake Conroe), financing that often depends on selling their current house, and enough trust in you to hand over the biggest check of their lives.</p>
 <p>So a lead from a Facebook form in March is rarely a sale in April. That’s fine, as long as everyone in the company stops judging campaigns by 30-day results.</p>
 <!--fig:journey-->
-<p>Two practical consequences. First, every campaign needs a “not yet” path: an email or text sequence, a retargeting audience, a reason to come back (a new plan release, a phase opening, an incentive deadline). Second, the metric that matters to the business is appointments and model visits, not raw leads. A builder doing 40 closings a year with 214 leads a month and no appointment tracking is flying blind, and frankly so is their agency.</p>
+<p>So every campaign needs a “not yet” path: an email sequence, a retargeting audience, a reason to come back (a plan release, a phase opening, an incentive deadline). And the metric that matters is appointments and model visits, not raw leads.</p>
 """),
 
             ("The Houston new-home market you’re selling into right now", f"""<p>At a Greater Houston Builders Association luncheon in June 2025, Zonda’s chief economist said quick move-in homes were averaging 3 to 3.2 per community in Houston against a national average of 2.3, days on market had risen to 44, and new-home prices were about 5% below their peak while still roughly 40% above 2019. Rate buydowns and closing-cost help were everywhere. That’s per {SRC['ci_zonda']}. More finished inventory sitting longer means your quick move-in homes are competing with a lot of other finished homes, which makes the inventory page on your website and your ad budget behind it matter more than it did in 2021.</p>
@@ -77,8 +77,7 @@ POSTS = [
 <p>For custom builders there’s better news. NAHB counted 186,000 custom home starts nationally in 2025, up 3% while total single-family starts fell more than 6%, and custom work was almost 20% of single-family starts, per {SRC['nahb']}. Buyers with land and equity kept building.</p>
 <p>What this means for marketing: you can’t outspend a 3,000-acre MPC’s lifestyle campaign, and you shouldn’t try. You can be the builder who answers the phone on Saturday, shows real prices and lot premiums online, and has a quick move-in page that’s accurate today.</p>"""),
 
-            ("Community pages, plan pages and quick move-in pages: the builder website that sells", f"""<p>Most builder websites we look at are gorgeous and nearly useless for search. A hero video, a “Find Your Home” button, and a community page with three paragraphs of lifestyle copy and no price.</p>
-<p>Buyers search by place and by readiness. Your site should be built the same way.</p>
+            ("Community pages, plan pages and quick move-in pages: the builder website that sells", f"""<p>Most builder websites we look at are gorgeous and nearly useless for search: a hero video and community pages with lifestyle copy and no price.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Page type</th><th>What the buyer is asking</th><th>What the page must show</th></tr></thead>
 <tbody>
@@ -121,7 +120,7 @@ POSTS = [
 <p>In builder marketing, the traps are usually small and accidental:</p>
 <!--fig:wording-->
 <p>Describe the home and the location, not the buyer you imagine. “Walk to the elementary school” describes a fact. “Perfect for young families” describes people, and familial status is protected. If you photograph people for your marketing, use a range of real-looking buyers across all your materials, not one type of family in every shot. Put the Equal Housing Opportunity logo or statement on your site, brochures and print ads. And if you sell an active-adult or 55+ section, have your attorney confirm it qualifies for the housing-for-older-persons exemption before your ads say “adult community.”</p>
-<p>We’re marketers, not lawyers. If you’re unsure about a phrase, the answer is to cut it.</p>"""),
+<p>We’re marketers, not lawyers. If you’re unsure about a phrase, cut it.</p>"""),
 
             ("Realtor co-op and broker outreach still matter", f"""<p>A big share of new-home buyers in Houston show up with an agent. Ignoring agents doesn’t save you the commission. It just sends their clients to the builder down the road who treats agents well.</p>
 <p>Since the NAR settlement practice changes took effect in August 2024, offers of compensation no longer go on the MLS, and buyers sign written agreements with their agents before touring. Builders still decide their own co-op policy, and agents now ask about it up front. Put yours where agents can find it: a broker page on your website with the co-op terms, the registration rule (most builders require the agent to register the client on the first visit), and a downloadable inventory sheet.</p>
@@ -154,7 +153,7 @@ POSTS = [
 </tbody></table></div>
 <p>Once the table is real for three months, budget decisions get easy. If Meta produces lots of leads and no visits, change the creative or the form questions before you kill it.</p>
 <p>A rough guide on spend: plenty of small builders put somewhere around 1% to 2% of revenue into marketing, with more during a community launch. Treat that as a starting range, not a rule. The better number is marketing cost per closing, which you can only see once the funnel above is wired up.</p>
-<p>If you want a second set of eyes before you spend more, our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {L('/contact/', 'Request one here')}, and send us your quick move-in page while you’re at it. For a different kind of build, our {L('/blog/pool-builder-marketing-houston-the-woodlands/', 'pool builder playbook')} uses a lot of the same tracking ideas.</p>"""),
+<p>If you want a second set of eyes before you spend more, our free Ad Spend Leak Check is a 10-minute video showing where your Google or Meta budget is leaking, in your inbox within 48 hours. {L('/contact/', 'Request one here')}, and send us your quick move-in page while you’re at it.</p>"""),
         ],
         "faq": [
             ("How do home builders get leads?",
