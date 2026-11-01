@@ -112,3 +112,6 @@ a.excard{display:flex;flex-direction:column;color:inherit;text-decoration:none}a
 
 /* nov-2026: hide pill-style SEO H1 visually; keep it for screen readers + search */
 .seo-h1{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important;animation:none!important}
+
+/* nov-2026: form consent line */
+.form-consent{margin:12px 0 0;font-size:13px;line-height:1.45;color:rgba(255,255,255,.62);text-align:center}.form-consent a{color:inherit;text-decoration:underline;text-underline-offset:2px}.form-consent a:hover{color:#fff}.form-consent-l{text-align:left}
