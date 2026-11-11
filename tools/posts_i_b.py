@@ -265,7 +265,7 @@ POSTS = [
         "desc": "How Houston house cleaning and maid services get more recurring clients: Google Business Profile, Nextdoor, instant quotes, reviews, move-outs, retention.",
         "category": "Local marketing",
         "icons": ["Google Business Profile", "Nextdoor", "Facebook"],
-        "art": "b4",
+        "art": "b5",
         "hero": "house",
         "hero_alt": "Illustration of a clean home for house cleaning business marketing in Houston, The Woodlands and Katy",
         "related": ["is-nextdoor-advertising-worth-it", "complete-guide-google-reviews", "hispanic-marketing-houston-spanish-ads-seo"],
