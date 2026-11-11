@@ -85,8 +85,8 @@ POSTS = [
         "desc": "Senior living and assisted living marketing for Houston and The Woodlands: adult-child buyers, tours, referral agency fees, Meta housing rules, move-in math.",
         "category": "Strategy",
         "icons": ["Google Ads", "Meta", "Google Business Profile"],
-        "art": "b2",
-        "hero": "care",
+        "art": "b5",
+        "hero": "house",
         "hero_alt": "Illustration of caregiving for senior living and assisted living marketing in Houston and The Woodlands",
         "related": ["how-do-home-care-agencies-get-clients", "home-care-seo-the-woodlands-houston", "speed-to-lead-response-time-follow-up-crm"],
         "sections": [
@@ -257,7 +257,7 @@ POSTS = [
         "category": "Strategy",
         "icons": ["Instagram", "Google Ads", "Google Analytics"],
         "art": "b4",
-        "hero": "beauty",
+        "hero": "medical",
         "hero_alt": "Illustration of aesthetics for plastic surgeon and cosmetic surgery marketing in Houston and The Woodlands",
         "related": ["med-spa-marketing-the-woodlands-houston", "medical-practice-marketing-houston", "complete-guide-google-reviews"],
         "sections": [
@@ -409,7 +409,7 @@ POSTS = [
         "desc": "Urgent care marketing for Houston clinics: Google Business Profile hours, online check-in, near-me Google Ads, freestanding ER confusion, HIPAA and pixels.",
         "category": "Local marketing",
         "icons": ["Google Business Profile", "Google Ads", "Google"],
-        "art": "b6",
+        "art": "b3",
         "hero": "clock",
         "hero_alt": "Illustration of a clock for urgent care clinic marketing and wait times in Houston and The Woodlands",
         "related": ["medical-practice-marketing-houston", "multi-location-local-seo-houston-franchises", "rank-in-google-map-pack-houston"],

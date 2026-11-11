@@ -257,8 +257,8 @@ POSTS = [
         "desc": "Junk removal marketing for Houston independents: Google Ads keywords, service-area Business Profile, LSA, realtor and property manager partners, pricing.",
         "category": "Local marketing",
         "icons": ["Google Ads", "Google Business Profile", "Facebook"],
-        "art": "b4",
-        "hero": "tools",
+        "art": "b1",
+        "hero": "cart",
         "hero_alt": "Illustration of tools for junk removal business marketing in Houston, Katy, Spring and Cypress",
         "related": ["moving-company-marketing-houston", "property-management-company-marketing-houston", "house-cleaning-business-marketing-houston"],
         "sections": [
