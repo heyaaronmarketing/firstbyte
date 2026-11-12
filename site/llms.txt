@@ -128,7 +128,7 @@ Launch plan at https://firstbyte.agency/contact/.
 
 ## Key pages
 - [Home](https://firstbyte.agency/): Overview of First Byte's digital marketing services.
-- [Contact](https://firstbyte.agency/contact/): Reach the team by form or phone, (713) 578-0634. Replies within 1 hour, Mon–Fri.
+- [Contact](https://firstbyte.agency/contact/): Reach the team by form or phone, (713) 578-0634. Replies 7 days a week, usually within an hour or two.
 - [Google Ads / search marketing](https://firstbyte.agency/services/search-marketing/)
 - [Paid social advertising](https://firstbyte.agency/services/paid-social-advertising/)
 - [Web design, SEO & PR](https://firstbyte.agency/services/web-design-seo-pr/)
@@ -137,7 +137,7 @@ Launch plan at https://firstbyte.agency/contact/.
 - [Case studies](https://firstbyte.agency/case-studies/): Results for Equinox, Kroger, Celsius, Vital Proteins, Viceroy Los Cabos and more.
 - [Service areas](https://firstbyte.agency/service-areas/): The 20 Greater Houston cities we serve.
 - [About](https://firstbyte.agency/about/): Founder Sean Melton's story and how First Byte works.
-- [Blog](https://firstbyte.agency/blog/): 157 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
+- [Blog](https://firstbyte.agency/blog/): 162 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
 - [Contact](https://firstbyte.agency/contact/): (713) 578-0634, contact@firstbyte.agency.
 ## About
 First Byte is an independent agency in The Woodlands, TX, founded by
@@ -170,6 +170,7 @@ the new generation of AI search engines.
 - [Wedding Venue Marketing in Houston & Montgomery County: Book More Tours](https://firstbyte.agency/blog/wedding-venue-marketing-houston-montgomery-county/)
 - [How to Write Website Copy That Actually Sells](https://firstbyte.agency/blog/website-copy-that-sells/)
 - [Website Accessibility: Why It Matters (and Helps SEO)](https://firstbyte.agency/blog/website-accessibility-matters/)
+- [Water Damage Restoration Marketing in Houston: SEO & LSAs](https://firstbyte.agency/blog/water-damage-restoration-marketing-houston/)
 - [Veterinary Clinic Marketing in The Woodlands & Houston](https://firstbyte.agency/blog/veterinary-clinic-marketing-the-woodlands-houston/)
 - [Urgent Care Clinic Marketing in Houston: More Visits Per Location](https://firstbyte.agency/blog/urgent-care-clinic-marketing-houston/)
 - [Understanding Your Cost Per Lead (and How to Lower It)](https://firstbyte.agency/blog/understanding-cost-per-lead/)
@@ -178,6 +179,7 @@ the new generation of AI search engines.
 - [How to Turn Your Website Into a Lead Machine](https://firstbyte.agency/blog/turn-your-website-into-a-lead-machine/)
 - [Tree Service Marketing in Houston and The Woodlands: Storm Calls, Trimming Work and Trust](https://firstbyte.agency/blog/tree-service-marketing-houston-the-woodlands/)
 - [How to Track Form Submissions and Phone Calls in GA4 and Google Ads](https://firstbyte.agency/blog/track-form-submissions-phone-calls-ga4-google-ads/)
+- [Therapist Marketing in Houston: SEO, Ads & Directories](https://firstbyte.agency/blog/therapist-counseling-practice-marketing-houston/)
 - [How The Woodlands Businesses Can Win Local Search](https://firstbyte.agency/blog/the-woodlands-businesses-win-local-search/)
 - [Is Streaming TV Advertising Worth It for a Local Business?](https://firstbyte.agency/blog/streaming-tv-ads-worth-it-small-business/)
 - [Standing Out in Houston's Competitive Market](https://firstbyte.agency/blog/standing-out-houston-competitive-market/)
@@ -215,6 +217,7 @@ the new generation of AI search engines.
 - [Performance Max vs. Search Campaigns: Which Should a Local Business Run?](https://firstbyte.agency/blog/performance-max-vs-search-campaigns-local/)
 - [Painting Contractor Marketing in Houston: Book More Jobs](https://firstbyte.agency/blog/painting-contractor-marketing-houston/)
 - [Orthodontist Marketing in The Woodlands & Houston](https://firstbyte.agency/blog/orthodontist-marketing-the-woodlands-houston/)
+- [Optometrist Marketing in Houston: SEO, Google Ads & Online Booking for Eye Care Practices](https://firstbyte.agency/blog/optometrist-marketing-houston/)
 - [Multi-Location Local SEO for Houston Franchises and Chains](https://firstbyte.agency/blog/multi-location-local-seo-houston-franchises/)
 - [Moving Company Marketing in Houston: How to Book More Moves Without Buying Junk Leads](https://firstbyte.agency/blog/moving-company-marketing-houston/)
 - [Mortgage Loan Officer Marketing in Houston: Referrals, Compliance and Leads That Close](https://firstbyte.agency/blog/mortgage-loan-officer-marketing-houston/)
@@ -280,6 +283,7 @@ the new generation of AI search engines.
 - [Fractional CMO vs Agency vs In-House Hire: A Houston Owner’s Guide](https://firstbyte.agency/blog/fractional-cmo-vs-agency-vs-in-house-houston/)
 - [Foundation Repair Marketing in Houston: How to Get More Foundation Leads](https://firstbyte.agency/blog/foundation-repair-marketing-houston/)
 - [How to Find the Right Influencers for Your Business](https://firstbyte.agency/blog/find-the-right-influencers/)
+- [Financial Advisor Marketing in Houston: SEO, Ads & Reviews](https://firstbyte.agency/blog/financial-advisor-marketing-houston/)
 - [Fence Company Marketing in Houston: More Installs, Fewer Dead Estimates](https://firstbyte.agency/blog/fence-company-marketing-houston/)
 - [The FTC’s Fake Review Rule: What Local Businesses Need to Know](https://firstbyte.agency/blog/fake-reviews-rule-local-businesses/)
 - [Facebook vs. Instagram vs. TikTok: Which Is Best for a Local Business?](https://firstbyte.agency/blog/facebook-vs-instagram-vs-tiktok-local-business/)
@@ -297,6 +301,7 @@ the new generation of AI search engines.
 - [CPA and Accounting Firm Marketing in Houston: Better Clients, Fewer 1040s](https://firstbyte.agency/blog/cpa-accounting-firm-marketing-houston/)
 - [Content Marketing for Service Businesses: Where to Start](https://firstbyte.agency/blog/content-marketing-service-businesses/)
 - [The Complete Guide to Google Reviews for Local Businesses](https://firstbyte.agency/blog/complete-guide-google-reviews/)
+- [Commercial Cleaning Marketing Houston: SEO, Ads & LinkedIn](https://firstbyte.agency/blog/commercial-cleaning-janitorial-marketing-houston/)
 - [From Clicks to Customers: Optimizing Your Conversion Funnel](https://firstbyte.agency/blog/clicks-to-customers-conversion-funnel/)
 - [Chiropractic Marketing in The Woodlands & Houston: Get More New Patients](https://firstbyte.agency/blog/chiropractor-marketing-the-woodlands-houston/)
 - [Google Business Profile Suspended After Changing Address? How to Avoid It](https://firstbyte.agency/blog/change-business-address-google-without-suspension/)
