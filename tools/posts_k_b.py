@@ -206,7 +206,7 @@ POSTS = [
             ("How fast can I increase my Meta ads budget?",
              "Meta doesn’t publish a threshold. Its examples say a $100 to $101 change is unlikely to restart learning while $100 to $1,000 may. In accounts we run, we raise budgets 15% to 20% at a time, no more than every two to three days, while CPA and MER hold. If MER drops about 10% and stays there for a week, we step back."),
             ("What is MER and why does it matter more than ROAS?",
-             "MER, or marketing efficiency ratio, is total store revenue divided by total marketing spend. It’s sometimes called blended ROAS. Platform ROAS only counts sales Meta attributes to itself, which can rise even while the business stays flat. MER shows whether total revenue is growing with spend. Pair it with new-customer CPA so you know you’re buying new buyers and not just repeat orders."),
+             "MER, or marketing efficiency ratio, is total store revenue divided by total marketing spend. It’s sometimes called blended ROAS. Platform ROAS only counts sales Meta attributes to itself, which can rise even while the business stays flat. MER shows whether total revenue is growing with spend. Pair it with new-customer CPA so you know the spend is buying new customers rather than repeat orders."),
         ],
         "figures": {
             "mix": {
