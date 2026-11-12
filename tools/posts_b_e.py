@@ -6,7 +6,7 @@ normals, The Woodlands Township parks, Community Impact (IRONMAN Texas dates), E
 ClassPass partner payouts page, Gymdesk's ClassPass breakdown, Google Business Profile bookings help,
 Google's free booking links announcement (Mar 2021), Google Ads hotel bidding and PMax for travel goals help,
 SiteMinder via PhocusWire, Cloudbeds via Hotel Business, Airbnb host fee help, Booking.com commission help,
-Visit Houston (GRB), Ticketmaster (Pavilion capacity), SJRA (Lake Conroe), TMC facts, RodeoHouston 2027 dates.
+Visit Houston (GRB), SJRA (Lake Conroe), TMC facts, RodeoHouston 2027 dates.
 """
 
 
@@ -36,7 +36,6 @@ SRC = {
     "bidding": L("https://support.google.com/google-ads/answer/9244120", "Google’s hotel ads bidding overview"),
     "pmax": L("https://support.google.com/google-ads/answer/13189989", "Performance Max for travel goals"),
     "grb": L("https://www.visithoustontexas.com/meetings/facilities/", "Visit Houston"),
-    "pavilion": L("https://origin-blog.ticketmaster.com/venue-faq-cynthia-woods-mitchell-pavilion-woodlands-tx", "16,500 people"),
     "sjra": L("https://www.sjra.net/?p=9367", "the San Jacinto River Authority"),
     "tmc": L("https://www.tmc.edu/about-tmc/facts-and-figures/", "10 million patient encounters a year"),
     "rodeo": L("https://www.rodeohouston.com/?p=349732", "March 2 through March 21, 2027"),
@@ -223,14 +222,14 @@ POSTS = [
 <li><b>Amenities and attributes:</b> pool, free parking, pet-friendly, EV charging, breakfast. Travelers filter on these.</li>
 <li><b>Photos that sell the stay:</b> the room at golden hour, the lake view, the walk to the Waterway, the bathroom. Update them at least each season.</li>
 <li><b>Accurate check-in and check-out times,</b> phone and website link that points to your booking page, not a generic homepage.</li>
-<li><b>Questions answered:</b> distance to the Pavilion, to the nearest hospital, to the marina. Put those answers on your site, too.</li></ul>
+<li><b>Questions answered:</b> distance to Market Street, to the nearest hospital, to the marina. Put those answers on your site, too.</li></ul>
 <p>Reviews matter here more than almost anywhere. Answer Google and TripAdvisor reviews, the good and the bad, with something specific from the stay, so it reads like a person at the front desk wrote it. Ask happy guests in the checkout email, with a direct link. Our <a href="/blog/complete-guide-google-reviews/">complete guide to Google reviews</a> walks through the process.</p>"""),
             ("The demand calendar for Houston, The Woodlands and Lake Conroe", f"""<p>Generic hotel marketing advice ignores the thing that matters most: why people come here. Houston-area demand is a stack of very different trips, and each one needs different messaging and timing.</p>
 <ul><li><b>Conventions downtown.</b> The George R. Brown Convention Center has 1.2 million usable square feet and ranks among the ten largest in the country, according to {SRC['grb']}. When a big show fills downtown, rates spike across the city, and travelers look further out.</li>
 <li><b>Energy industry events.</b> The Offshore Technology Conference fills NRG Park every May, and business travel to the Energy Corridor runs year-round. Weekday corporate demand is steady for properties along I-10 West.</li>
 <li><b>RodeoHouston.</b> The 2027 rodeo runs {SRC['rodeo']}, three weeks of concerts and visitors from across Texas.</li>
 <li><b>Medical travel.</b> The Texas Medical Center reports {SRC['tmc']}. Patients and families often need longer stays, weekly rates and quiet rooms close to a shuttle.</li>
-<li><b>Concerts in The Woodlands.</b> The Cynthia Woods Mitchell Pavilion holds {SRC['pavilion']}, and fans who don’t want to drive home on I-45 after a show need a room within walking or rideshare distance.</li>
+<li><b>Concerts in The Woodlands.</b> Big summer shows draw crowds in the thousands, and fans who don’t want to drive home on I-45 after a show need a room within walking or rideshare distance.</li>
 <li><b>Lake Conroe leisure.</b> {SRC['sjra']} manages the lake, a reservoir of roughly 21,000 acres. Spring and summer weekends, holiday weekends and fishing tournaments drive leisure demand from Houston and beyond.</li>
 <li><b>Weddings.</b> Spring and fall are prime wedding seasons, and venues in The Woodlands, Montgomery and Magnolia need room blocks nearby.</li></ul>
 <!--fig:calendar-->
@@ -245,7 +244,7 @@ POSTS = [
             ("Wedding blocks and group business", """<p>Groups are where independent hotels beat the OTAs outright, because group business is booked with people, not algorithms.</p>
 <ol><li>Build a landing page for weddings and groups with room counts, a block request form and photos of your common spaces.</li>
 <li>Introduce yourself to wedding venues and planners within 20 minutes of your property. Offer a simple block contract with a clear release date.</li>
-<li>Do the same with corporate travel managers in the Energy Corridor and The Woodlands, and with event organizers who book the Pavilion or conference space.</li>
+<li>Do the same with corporate travel managers in the Energy Corridor and The Woodlands, and with event organizers who book venues or conference space.</li>
 <li>Give every block a unique booking link so you can track it, and send the couple or organizer a pickup report weekly.</li></ol>
 <p>A full wedding block on a fall weekend can be worth more than a month of OTA tuning.</p>"""),
             ("Paid social and streaming for leisure demand", f"""<p>Lake Conroe and The Woodlands sell to Houston residents looking for a weekend away. That’s a paid social job: Meta and Instagram ads with short video of the view, the pool and the room, targeted to Houston-area zip codes with a direct-booking offer. Time them for the weeks before spring break, Memorial Day, July 4th and Labor Day.</p>
@@ -269,7 +268,7 @@ POSTS = [
             ("How much commission do OTAs charge hotels?", "Rates vary by platform, country and program. Industry sources commonly put typical OTA commissions at 15 to 25 percent of the room rate, and visibility programs on Booking.com can push the rate above your contract. Airbnb says most hosts on its host-only fee structure pay 15.5 percent. Check your contracts and monthly statements for your real rate."),
             ("Are Google free booking links really free?", "Yes. Google made it free in March 2021 for hotels and travel companies to appear in hotel booking links. You need your rates and availability connected to Google Hotel Center, usually through your booking engine or channel manager. Some providers charge for that connection, so ask what yours includes before you sign or renew."),
             ("Is Google Hotel Ads worth it for an independent hotel?", "Often, if you start small. Brand search ads protect your own hotel name from OTAs bidding on it, and hotel campaigns with a target return on ad spend can bring in direct bookings at a lower cost than OTA commissions. Track booking engine revenue so you judge results by room nights, not clicks."),
-            ("When is hotel demand highest in Houston and The Woodlands?", "It depends on the trip. Downtown conventions, RodeoHouston in March and the Offshore Technology Conference in May drive city demand. The Woodlands sees spikes around Pavilion concerts and IRONMAN Texas in April, Lake Conroe peaks on spring and summer weekends, and medical and business travel runs year-round."),
+            ("When is hotel demand highest in Houston and The Woodlands?", "It depends on the trip. Downtown conventions, RodeoHouston in March and the Offshore Technology Conference in May drive city demand. The Woodlands sees spikes around big concert weekends and IRONMAN Texas in April, Lake Conroe peaks on spring and summer weekends, and medical and business travel runs year-round."),
         ],
         "figures": {
             "value": {
