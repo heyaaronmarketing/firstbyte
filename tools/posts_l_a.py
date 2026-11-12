@@ -55,35 +55,35 @@ POSTS = [
         "related": ["local-services-ads-vs-google-ads-home-services", "roofing-marketing-houston-storm-season", "how-to-get-more-plumbing-service-calls-houston"],
         "sections": [
             (None, f"""<p>It’s 2:10 a.m. on the second night of a hard freeze. A homeowner in Kingwood is standing in an inch of water in the hallway because a pipe in the attic split when it thawed. She types “water damage restoration near me” with one hand and calls the first company that looks real. If that phone goes to voicemail, she calls the second one. You never find out she existed.</p>
-<p>Restoration is an emergency business with home-improvement click prices. The closest category in the {SRC['ws']}, Home &amp; Home Improvement, has a median cost per click of <b>$8.33</b> and a median cost per lead of <b>$90.92</b>, and emergency water terms usually sit above that median. Houston makes it harder, because demand arrives in spikes. During the February 2021 freeze, one Houston-area plumbing company {SRC['abc13']} it took about 20,000 service calls in a single day against a normal 500 to 700. When Hurricane Beryl came ashore in July 2024, more than 2.26 million CenterPoint customers lost power, per {SRC['beryl']}, and the roof leaks and soaked drywall followed.</p>
-<p>The companies that win those weeks set things up months earlier. Here’s the setup we’d build for a restoration company covering Houston, The Woodlands, Spring, Katy, Cypress, Sugar Land, Pearland and Conroe.</p>
+<p>Restoration is an emergency business with home-improvement click prices. The closest category in the {SRC['ws']}, Home &amp; Home Improvement, has a median cost per click of <b>$8.33</b> and a median cost per lead of <b>$90.92</b>. We’d treat those as a floor for emergency terms and check Keyword Planner’s bid ranges for your own ZIP codes. Houston adds spikes. During the February 2021 freeze, one Houston-area plumbing company {SRC['abc13']} it took about 20,000 service calls in a single day against a normal 500 to 700. When Hurricane Beryl came ashore in July 2024, more than 2.26 million CenterPoint customers lost power, per {SRC['beryl']}.</p>
+<p>The companies that win those weeks set up months earlier. Here’s what we’d build for a company covering The Woodlands, Spring, Katy, Cypress, Sugar Land, Pearland and Conroe.</p>
 <!--fig:houston-->"""),
 
-            ("Rank for water damage searches", f"""<p>To rank for water damage searches in Houston, you need a Google Business Profile with the right category and a real local address, plus one page per emergency type and one page per area you actually serve.</p>
+            ("Rank for water damage searches", f"""<p>To rank for water damage searches in Houston, you need a Google Business Profile with the right category and a real local address, plus one page per emergency and per area you serve.</p>
 <ul>
-<li><b>Primary category:</b> set it to “Water damage restoration service.” Add secondary categories only for work you do in-house, such as fire damage or mold remediation if you hold the TDLR license (more on that below).</li>
-<li><b>One page per emergency:</b> burst pipe cleanup, ceiling leak, flooded carpet, water heater leak, sewage backup cleanup, storm and roof leak water damage, commercial water damage. A homeowner with sewage in the tub isn’t searching the same words as one with a dripping light fixture.</li>
+<li><b>Primary category:</b> set it to “Water damage restoration service.” Add secondary categories only for work you do in-house, like mold remediation if you hold the TDLR license.</li>
+<li><b>One page per emergency:</b> burst pipe, ceiling leak, flooded carpet, water heater leak, sewage backup, storm damage, commercial.</li>
 <li><b>Area pages with proof:</b> a Katy page needs Katy job photos and Katy reviews. One that swaps “Katy” for “Pearland” and changes nothing else ranks in neither. See our {L('/blog/power-of-local-landing-pages/', 'guide to local landing pages')}.</li>
 <li><b>Answer the 2 a.m. questions:</b> will insurance cover this, how long does drying take, is the drywall ruined. Short, honest answers are what Google’s AI Overviews and ChatGPT pull from.</li>
 <li><b>Hours:</b> only mark the profile open 24 hours if a person answers 24 hours.</li>
 </ul>
-<p>The map pack does most of the work in this category. Our {L('/blog/rank-in-google-map-pack-houston/', 'Houston map pack guide')} covers the ranking side in full.</p>"""),
+<p>Our {L('/blog/rank-in-google-map-pack-houston/', 'Houston map pack guide')} covers the ranking side in full.</p>"""),
 
             ("Use Local Services Ads for water damage", f"""<p>Yes, Google offers Local Services Ads for this work: “Water damage services” is on {SRC['lsa']}, and it’s usually the first paid channel we’d test for a restoration company with good reviews.</p>
 <ul>
-<li><b>You pay per lead, not per click.</b> A lead is a call or message from the ad. Leads that weren’t real customers (wrong service, spam, out of area) can be disputed for credit.</li>
-<li><b>Only one category.</b> The list has no separate restoration, flood or mold category, so mold-only and fire-only work won’t get its own LSA. Build those pages for organic search and regular Google Ads instead.</li>
+<li><b>You pay per lead, not per click.</b> Leads that weren’t real customers (spam, wrong service, out of area) can be disputed.</li>
+<li><b>Only one category.</b> The list has no separate restoration, flood or mold category, so mold and fire work belong in organic search and regular Google Ads.</li>
 <li><b>Screening takes time.</b> Expect license, insurance and background checks before ads run, so start well before storm season. Our post on {L('/blog/google-guaranteed-vs-google-verified/', 'Google Guaranteed vs. Google Verified')} explains the badge change.</li>
 <li><b>Responsiveness affects ranking.</b> Missed LSA calls cost you twice: the lost job, and fewer impressions afterward.</li>
 </ul>
-<p>We compare the two ad types in detail in {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads')}. For restoration, the short answer is to run both and compare cost per booked job.</p>"""),
+<p>We compare the two ad types in detail in {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads')}. For restoration, run both and compare cost per booked job.</p>"""),
 
             ("Run Google Ads with tight controls", f"""<p>Emergency water damage ads work when they’re built around phone calls, limited to the hours someone answers, and filtered hard with negative keywords.</p>
 <ul>
 <li><b>Keywords by emergency:</b> “water damage restoration Spring TX,” “burst pipe water cleanup,” “emergency water extraction,” “sewage backup cleanup Houston.” Group them so each ad matches its landing page.</li>
 <li><b>Location settings:</b> in Campaign settings, under Locations, choose “Presence: People in or regularly in your included locations.” The default also reaches people merely interested in Houston.</li>
 <li><b>Call assets and ad schedule:</b> add a call asset with call reporting on, and run ads only in hours a person answers. Nights that go to voicemail get paused.</li>
-<li><b>Count calls over 60 seconds as conversions,</b> then import booked jobs from your CRM so bidding learns which calls turned into work. Our {L('/blog/call-tracking-which-ads-make-phone-ring/', 'call tracking guide')} covers the setup.</li>
+<li><b>Count calls over 60 seconds as conversions,</b> then import booked jobs from your CRM. Our {L('/blog/call-tracking-which-ads-make-phone-ring/', 'call tracking guide')} covers the setup.</li>
 <li><b>A surge plan:</b> keep burst-pipe and storm ad groups written, approved and paused, and raise budgets the day the weather turns.</li>
 </ul>
 <p>Sample ad copy we’d start from (edit to what’s true for you):</p>
@@ -97,54 +97,54 @@ POSTS = [
 <!--fig:negatives-->
 <p>Our {L('/services/search-marketing/', 'search marketing team')} builds and runs these accounts, and our {L('/blog/google-ads-cost-per-click-houston-benchmarks/', 'Houston CPC benchmarks')} will help you set an opening budget.</p>"""),
 
-            ("Work the insurance claim, inside Texas rules", f"""<p>Most of your customers are paying through homeowners insurance, so your marketing should explain the claim process without crossing the lines Texas draws for contractors.</p>
-<p>Start with what’s covered. Per {SRC['tdicov']}, most homeowner and renter policies cover sudden and accidental water damage, usually not gradual leaks, and home policies don’t cover floods, which take a separate policy. TDI also tells homeowners that mold can start growing within a day after a leak. That one line is the most honest urgency message you have, and it belongs on your burst-pipe page.</p>
+            ("Work the insurance claim, inside Texas rules", f"""<p>Most customers pay through homeowners insurance, so explain the claim process without crossing the lines Texas draws for contractors.</p>
+<p>Per {SRC['tdicov']}, most homeowner policies cover sudden and accidental water damage, usually not gradual leaks, and don’t cover floods. TDI also says mold can start growing within a day after a leak. That’s the most honest urgency line you have; put it on your burst-pipe page.</p>
 <p>A burst pipe in Sugar Land is usually a claim. Street flooding in Meyerland usually isn’t, unless the owner has flood coverage, so ask early whether the water came from inside or outside.</p>
 <ul>
-<li><b>Document like the adjuster is watching.</b> {SRC['tdifaq']} tells homeowners it’s generally OK to make temporary repairs, to take pictures before any work, and not to make permanent repairs until they’ve talked to their insurer. Your photo logs and moisture readings fit that advice exactly.</li>
+<li><b>Document like the adjuster is watching.</b> {SRC['tdifaq']} says temporary repairs are generally OK, photos come first, and permanent repairs wait for the insurer. Your photo logs fit that exactly.</li>
 <li><b>Don’t offer to handle the claim.</b> Per {SRC['tdilaw']}, Texas doesn’t allow a contractor to act as a public adjuster on claims for work they’re doing, or to advertise that they would.</li>
-<li><b>Don’t waive the deductible.</b> The same page says it’s illegal for a contractor to offer to waive, rebate or absorb a policyholder’s deductible, and contracts of $1,000 or more involving an insurance settlement need a notice that the policyholder must pay it. “We’ll cover your deductible” in an ad is a liability.</li>
+<li><b>Don’t waive the deductible.</b> The same page says it’s illegal for a contractor to offer to waive, rebate or absorb a policyholder’s deductible. Contracts of $1,000 or more involving an insurance settlement need a notice that the policyholder must pay it.</li>
 </ul>
-<p>This isn’t legal advice. Have your attorney read your claim-related ad copy and contract language before you launch.</p>"""),
+<p>This isn’t legal advice. Have your attorney review claim-related ads and contracts.</p>"""),
 
-            ("Follow TDLR mold licensing rules", f"""<p>Mold assessment and mold remediation in Texas are licensed by the Texas Department of Licensing and Regulation (TDLR), and a water restoration company that advertises mold work needs the right license behind the ad.</p>
+            ("Follow TDLR mold licensing rules", f"""<p>Mold assessment and remediation in Texas are licensed by the Texas Department of Licensing and Regulation (TDLR), so any mold ad needs the right license behind it.</p>
 <ul>
-<li><b>Separate licenses.</b> TDLR issues mold assessment technician, consultant and company licenses, and mold remediation contractor and company licenses, plus worker registrations, per {SRC['tdlr']}. The program had 5,646 licensees in fiscal 2025.</li>
-<li><b>Thresholds and notice.</b> Projects under 25 contiguous square feet don’t require notice to TDLR. Above that, the license holder must notify TDLR at least five days before work begins, and a certificate of mold remediation is due within 10 days after completion.</li>
-<li><b>No assessing and remediating the same job.</b> {SRC['tdlrfaq']} says a company may hold both licenses but can’t conduct both assessment and remediation on the same project. So “free mold testing and removal” from one company is a red flag, both to TDLR and to the customer who knows the rule.</li>
-<li><b>Recent change.</b> SB 1255 took effect September 1, 2025 and repealed the provision that let license holders’ employees do mold work under supervision without their own credential, per {SRC['sb1255']}. Check with TDLR how that affects your crew.</li>
+<li><b>Separate licenses.</b> TDLR issues mold assessment technician, consultant and company licenses, and mold remediation contractor and company licenses, plus worker registrations, per {SRC['tdlr']}.</li>
+<li><b>Thresholds and notice.</b> Projects under 25 contiguous square feet don’t require notice. Larger ones need notice to TDLR at least five days before work begins, and a remediation certificate within 10 days after completion.</li>
+<li><b>No assessing and remediating the same job.</b> {SRC['tdlrfaq']} says a company may hold both licenses but can’t conduct both assessment and remediation on the same project. So don’t advertise testing and removal as one package.</li>
+<li><b>Recent change.</b> SB 1255 took effect September 1, 2025 and repealed the provision that let license holders’ employees do mold work under supervision without their own credential, per {SRC['sb1255']}.</li>
 </ul>
 <p>In practice, show your TDLR license numbers on mold pages and keep mold ad groups separate from water ones.</p>"""),
 
-            ("Show IICRC certification where it matters", f"""<p>IICRC certification is the trust signal adjusters, property managers and informed homeowners look for, so it should appear in your ads, on your trucks and next to the call button.</p>
+            ("Show IICRC certification where it matters", f"""<p>IICRC certification is the trust signal adjusters and property managers look for, so put it in your ads and next to the call button.</p>
 <p>The Water Damage Restoration Technician (WRT) course covers drying structures, water losses, sewer backflows and contamination such as mold, per {SRC['wrt']}, and the industry’s working standard for the job is {SRC['s500']} (fifth edition, 2021). A Certified Firm has to carry liability insurance and agree to the IICRC Code of Ethics, and in return can use the IICRC logo on websites, cards and vehicles and gets a listing in the IICRC locator, per {SRC['cfirm']}.</p>
 <p>Make it specific. “Every lead tech holds WRT, and we dry to the S500 standard” beats a logo in the footer.</p>"""),
 
-            ("Build referral partners: plumbers, agents and adjusters", f"""<p>Ads catch the homeowner who searches. Partners catch the one who calls someone else first, which in a burst-pipe emergency is usually a plumber.</p>
+            ("Build referral partners: plumbers, agents and adjusters", f"""<p>Partners catch the homeowner who calls someone else first, usually a plumber.</p>
 <ul>
-<li><b>Plumbers.</b> The plumber stops the leak and then walks into a wet room. Give nearby plumbing companies a direct dispatch line and send plumbing problems you find their way. Our post on {L('/blog/how-to-get-more-plumbing-service-calls-houston/', 'plumbing service calls')} shows what plumbers are chasing.</li>
+<li><b>Plumbers.</b> The plumber stops the leak and then walks into a wet room. Give nearby plumbers a direct dispatch line and send work back. Our post on {L('/blog/how-to-get-more-plumbing-service-calls-houston/', 'plumbing service calls')} shows what plumbers are chasing.</li>
 <li><b>Insurance agents.</b> Independent agents in The Woodlands, Cypress and Sugar Land get the panicked first call. Leave them a “first hour” card.</li>
 <li><b>Adjusters.</b> They care about documentation and dry times. Send clean photo reports and moisture logs on every job.</li>
 <li><b>Property managers.</b> A priority-response agreement turns one apartment manager into dozens of jobs a year.</li>
 </ul>
-<p>Keep any referral arrangement in writing, and ask your attorney before paying anyone for leads tied to insurance claims.</p>"""),
+<p>Put referral arrangements in writing, and ask your attorney before paying for claim-related leads.</p>"""),
 
             ("Build reviews the right way", f"""<p>Reviews decide which restoration company a stressed homeowner calls, and they need to be recent. Per {SRC['bl']}, 68% of consumers will only use a business rated four stars or higher, 31% want 4.5 or higher, and 74% only care about reviews from the last three months.</p>
 <ul>
-<li><b>Ask when the drying equipment leaves.</b> That’s when relief peaks. The rebuild can take weeks, so don’t wait for it.</li>
+<li><b>Ask when the drying equipment leaves.</b> Don’t wait weeks for the rebuild.</li>
 <li><b>Same link, every customer.</b> {SRC['gpol']} bans incentives for reviews and bans selectively asking only happy customers.</li>
 </ul>
-<p>A simple text that works: “Hi [name], this is [tech] from [company]. Your home is dry and the equipment is out. If we did right by you, would you leave a short review? [link]. Thanks for trusting us with your house.” More templates are in our {L('/blog/complete-guide-google-reviews/', 'complete guide to Google reviews')}.</p>"""),
+<p>A simple text that works: “Hi [name], this is [tech] from [company]. Your home is dry and the equipment is out. If we did right by you, would you leave a short review? [link].” More templates are in our {L('/blog/complete-guide-google-reviews/', 'complete guide to Google reviews')}.</p>"""),
 
             ("Answer every call, 24 hours a day", f"""<p>In restoration, the company that answers first and gives an arrival time usually gets the job, so 24/7 live answering matters more than any ad setting.</p>
 <ul>
 <li><b>Live answering overnight,</b> by your own on-call rotation or a service trained to book jobs.</li>
-<li><b>A two-minute intake script:</b> where the water came from, how long it’s been, how many rooms, whether power is on, whether they’ve called insurance, and the address. Then give a window.</li>
-<li><b>Forms and LSA messages answered in five minutes.</b> Our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} covers the follow-up system.</li>
+<li><b>A two-minute intake script:</b> water source, how long, how many rooms, insurance called or not, address. Then give a window.</li>
+<li><b>Forms and LSA messages answered in five minutes.</b> See our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')}.</li>
 </ul>
 <p>Listen to ten recorded calls a week. You’ll find more lost revenue there than in the ad account.</p>"""),
 
-            ("What a Houston restoration company should spend", f"""<p>There’s no honest single number. For a one-location residential restoration company, this is an illustrative starting point. Treat the ranges as examples; they aren’t quotes or benchmarks.</p>
+            ("What a Houston restoration company should spend", f"""<p>For a one-location residential company, here’s an illustrative starting point. The ranges are examples, not quotes or benchmarks.</p>
 <div class="tbl"><table>
 <thead><tr><th>Line item</th><th>Illustrative monthly range</th><th>Notes</th></tr></thead>
 <tbody>
@@ -161,20 +161,19 @@ POSTS = [
 <!--fig:plan-->"""),
 
             ("Mistakes we see", f"""<ul>
-<li><b>Buying shared leads during a storm</b> and racing four other companies to the same homeowner. Own your demand where you can.</li>
+<li><b>Buying shared storm leads</b> and racing four companies to one homeowner.</li>
 <li><b>One “services” page</b> for water, fire, mold and rebuild. It ranks for none of them.</li>
-<li><b>Running ads overnight to voicemail.</b> You pay for the click and the competitor gets the job.</li>
 <li><b>Mold claims you can’t back up,</b> or an ad that offers testing and removal from the same company.</li>
 <li><b>Insurance promises.</b> “We work with all insurance” is fine. “We’ll handle your claim” or “no deductible” isn’t.</li>
 <li><b>Judging campaigns by calls.</b> Plenty of calls are shoppers or jobs too small for a truck. Track booked jobs.</li>
 </ul>"""),
 
-            ("Measure what matters", f"""<p>Track a short list every month: answered call rate (overnight separately), cost per booked job by channel, average job value for mitigation and rebuild, review count and rating over the last 90 days, and share of revenue from referral partners. Our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 and Google Ads tracking guide')} walks through the setup, and our {L('/services/web-design-seo-pr/', 'web design and SEO team')} builds the emergency pages.</p>
+            ("Measure what matters", f"""<p>Track a short list every month: answered call rate (overnight separately), cost per booked job by channel, average job value, 90-day review count and rating, and referral revenue share. Our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 and Google Ads tracking guide')} walks through the setup, and our {L('/services/web-design-seo-pr/', 'web design and SEO team')} builds the emergency pages.</p>
 <p>If you want a plan built around your service area, crews and the storms you can’t predict, <a href="/contact/">get in touch</a> and a senior strategist will put one together.</p>"""),
         ],
         "faq": [
             ("How much should a water damage restoration company spend on Google Ads in Houston?",
-             "Plan on at least $3,000 a month in search spend to get useful data, with room to double it during freezes and hurricanes. The closest benchmark category, Home and Home Improvement, has a median cost per lead around $91, and emergency water terms often run higher. Judge spend by cost per booked job, not cost per call."),
+             "Plan on at least $3,000 a month in search spend to get useful data, with room to double it during freezes and hurricanes. The closest benchmark category, Home and Home Improvement, has a median cost per lead around $91, and emergency terms can cost more in your area. Judge spend by cost per booked job, not cost per call."),
             ("Are Local Services Ads worth it for water damage restoration?",
              "Usually, yes. Google lists Water damage services as a Local Services Ads category, you pay per lead instead of per click, and you can dispute invalid leads. They work best for companies with strong recent reviews and live 24/7 answering, because missed calls hurt how often the ads show. There’s no separate category for mold or fire work."),
             ("Do I need a license to do mold remediation in Texas?",
