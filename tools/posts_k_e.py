@@ -257,7 +257,7 @@ POSTS = [
         "desc": "Hotel and resort group sales marketing in Houston and The Woodlands: Cvent, planner search habits, LinkedIn and Google Ads, venue pages and response time.",
         "category": "Strategy",
         "icons": ["LinkedIn", "Google Ads", "Google Analytics"],
-        "art": "b4",
+        "art": "b5",
         "hero": "key",
         "hero_alt": "Illustration of a hotel key for group sales marketing to weddings and meetings in Houston and The Woodlands",
         "related": ["hotel-marketing-houston-direct-bookings", "wedding-venue-marketing-houston-montgomery-county", "speed-to-lead-response-time-follow-up-crm"],

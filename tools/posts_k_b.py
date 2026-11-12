@@ -81,7 +81,7 @@ POSTS = [
         "desc": "A Meta ads creative testing system for eCommerce and Shopify brands: Advantage+ sales setup, test budgets, hook and hold rates, MER and scaling rules.",
         "category": "Paid social",
         "icons": ["Meta", "Instagram", "Facebook"],
-        "art": "b2",
+        "art": "b3",
         "hero": "play",
         "hero_alt": "Illustration of a play button for Meta ads creative testing for eCommerce brands, from First Byte in The Woodlands, Houston",
         "related": ["ugc-vs-influencers-creator-content", "retargeting-explained", "google-shopping-ads-shopify-setup-guide"],
