@@ -292,6 +292,7 @@ IMG_DIM_SKIP = {  # srcs whose CSS sets only one dimension, so width/height attr
     "/assets/firstbyte/Anytime-Fitness-Logo.png",
     "/assets/firstbyte/YakAttack_USA-white.png",
     "/assets/firstbyte/budweiser.png",
+    "/assets/firstbyte/celsius.png",
     "/assets/firstbyte/cel_can.webp",
     "/assets/firstbyte/cel_hero.webp",
     "/assets/firstbyte/delfriscos.png",
@@ -319,8 +320,6 @@ IMG_DIM_SKIP = {  # srcs whose CSS sets only one dimension, so width/height attr
     "/assets/firstbyte/ionstream.png",
     "/assets/firstbyte/jq2.png",
     "/assets/firstbyte/kroger.png",
-    "/assets/firstbyte/land-shark-logo.png",
-    "/assets/firstbyte/margaritaville.png",
     "/assets/firstbyte/nascar.png",
     "/assets/firstbyte/omega.png",
     "/assets/firstbyte/patterson.png",
@@ -710,3 +709,5 @@ if __name__ == "__main__":
     # Nov 2026: the Leak Check offer is retired; make sure nothing above reintroduced it.
     import apply_contact_cta  # noqa: E402
     apply_contact_cta.run()
+    import remove_brands_nov_2026  # noqa: E402
+    remove_brands_nov_2026.run()
