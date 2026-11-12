@@ -50,7 +50,7 @@ POSTS = [
         "desc": "How Houston janitorial companies win contracts: building-type SEO, Google Ads costs, LinkedIn, RFPs, bonding and insurance proof, and booked walkthroughs.",
         "category": "Search marketing",
         "icons": ["Google Ads", "LinkedIn", "Google Business Profile"],
-        "art": "b4",
+        "art": "b6",
         "hero": "industry",
         "hero_alt": "Illustration of commercial buildings for commercial cleaning and janitorial company marketing in Houston and The Woodlands",
         "related": ["b2b-marketing-houston-energy-industrial", "property-management-company-marketing-houston", "local-services-ads-vs-google-ads-home-services"],

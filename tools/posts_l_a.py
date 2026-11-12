@@ -49,7 +49,7 @@ POSTS = [
         "desc": "How Houston water damage restoration companies get more jobs: Local Services Ads, emergency Google Ads, insurance claims, TDLR mold rules and 24/7 calls.",
         "category": "Search marketing",
         "icons": ["Google Ads", "Google Business Profile", "Google"],
-        "art": "b4",
+        "art": "b1",
         "hero": "plumbing",
         "hero_alt": "Illustration of a burst pipe for water damage restoration marketing in Houston, The Woodlands and Katy",
         "related": ["local-services-ads-vs-google-ads-home-services", "roofing-marketing-houston-storm-season", "how-to-get-more-plumbing-service-calls-houston"],

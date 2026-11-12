@@ -59,7 +59,7 @@ POSTS = [
         "desc": "How Houston therapists and counseling practices get more clients: specialty SEO, Google Ads rules, Psychology Today, HIPAA-safe tracking and Texas BHEC rules.",
         "category": "Search marketing",
         "icons": ["Google Ads", "Google Business Profile", "Search Console"],
-        "art": "b4",
+        "art": "b5",
         "hero": "speech",
         "hero_alt": "Illustration of a conversation bubble for therapist and counseling practice marketing in Houston and The Woodlands",
         "related": ["medical-practice-marketing-houston", "physical-therapy-clinic-marketing-houston", "complete-guide-google-reviews"],

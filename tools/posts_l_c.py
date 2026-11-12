@@ -55,7 +55,7 @@ POSTS = [
         "desc": "How Houston optometrists book more eye exams: local SEO, vision plan pages, Google Ads costs, LSAs, Texas Optometry Board ad rules, HIPAA-safe tracking.",
         "category": "Local marketing",
         "icons": ["Google Business Profile", "Google Ads", "Search Console"],
-        "art": "b4",
+        "art": "b3",
         "hero": "medical",
         "hero_alt": "Illustration of an eye care practice for optometrist marketing in Houston and The Woodlands",
         "related": ["medical-practice-marketing-houston", "dental-marketing-the-woodlands-houston", "rank-in-google-map-pack-houston"],
