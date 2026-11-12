@@ -291,6 +291,7 @@ _DIMS = {}
 IMG_DIM_SKIP = {  # srcs whose CSS sets only one dimension, so width/height attrs would distort them (Oct 15 box audit)
     "/assets/firstbyte/Anytime-Fitness-Logo.png",
     "/assets/firstbyte/YakAttack_USA-white.png",
+    "/assets/firstbyte/brickfest.png",
     "/assets/firstbyte/budweiser.png",
     "/assets/firstbyte/celsius.png",
     "/assets/firstbyte/cel_can.webp",
@@ -321,6 +322,7 @@ IMG_DIM_SKIP = {  # srcs whose CSS sets only one dimension, so width/height attr
     "/assets/firstbyte/jq2.png",
     "/assets/firstbyte/kroger.png",
     "/assets/firstbyte/nascar.png",
+    "/assets/firstbyte/newfold.png",
     "/assets/firstbyte/omega.png",
     "/assets/firstbyte/patterson.png",
     "/assets/firstbyte/skinlab.png",
