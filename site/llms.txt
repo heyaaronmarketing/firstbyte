@@ -137,7 +137,7 @@ Launch plan at https://firstbyte.agency/contact/.
 - [Case studies](https://firstbyte.agency/case-studies/): Results for Equinox, Kroger, Celsius, Vital Proteins, Viceroy Los Cabos and more.
 - [Service areas](https://firstbyte.agency/service-areas/): The 20 Greater Houston cities we serve.
 - [About](https://firstbyte.agency/about/): Founder Sean Melton's story and how First Byte works.
-- [Blog](https://firstbyte.agency/blog/): 172 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
+- [Blog](https://firstbyte.agency/blog/): 171 guides on local SEO, Google Ads, social ads and industry marketing. RSS: https://firstbyte.agency/blog/feed.xml
 - [Contact](https://firstbyte.agency/contact/): (713) 578-0634, contact@firstbyte.agency.
 ## About
 First Byte is an independent agency in The Woodlands, TX, founded by
@@ -180,7 +180,6 @@ the new generation of AI search engines.
 - [Tree Service Marketing in Houston and The Woodlands: Storm Calls, Trimming Work and Trust](https://firstbyte.agency/blog/tree-service-marketing-houston-the-woodlands/)
 - [Track Ticket Sales From Meta & Google Ads, by Platform](https://firstbyte.agency/blog/track-ticket-sales-meta-google-ads-ticketing-platforms/)
 - [How to Track Form Submissions and Phone Calls in GA4 and Google Ads](https://firstbyte.agency/blog/track-form-submissions-phone-calls-ga4-google-ads/)
-- [Touring Event Marketing: How to Sell Out Every City on the Route](https://firstbyte.agency/blog/touring-event-marketing-sell-out-every-city/)
 - [Therapist Marketing in Houston: SEO, Ads & Directories](https://firstbyte.agency/blog/therapist-counseling-practice-marketing-houston/)
 - [How The Woodlands Businesses Can Win Local Search](https://firstbyte.agency/blog/the-woodlands-businesses-win-local-search/)
 - [Is Streaming TV Advertising Worth It for a Local Business?](https://firstbyte.agency/blog/streaming-tv-ads-worth-it-small-business/)
