@@ -40,7 +40,7 @@ for p in list(SITE.rglob('*.html')) + list(SITE.rglob('*.js')) + list(SITE.rglob
     for a, b in PAIRS:
         s = s.replace(a, b)
     if p.suffix == '.html':
-        s = s.replace('lead.css?v=10', 'lead.css?v=11')
+        s = re.sub(r'lead\.css\?v=1[01]\b', 'lead.css?v=12', s)  # bump when lead.css changes
     if s != o:
         p.write_text(s, encoding='utf-8'); changed[str(p.relative_to(ROOT))] = 1
 

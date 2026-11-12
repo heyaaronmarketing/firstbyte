@@ -586,10 +586,12 @@ def main():
         if s != pages[p]:
             write(p, s)
             pages[p] = s
-    more_css = ".bp-more{margin-top:44px}.bp-more h3{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#8f8a93);font-weight:600;margin:0 0 14px}.bp-more ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px}.bp-more a{color:var(--soft,#cfcad2);text-decoration:none;font-size:16px;line-height:1.4;display:block;padding:8px 0;border-bottom:1px solid var(--line,rgba(255,255,255,.09))}.bp-more a:hover{color:var(--cyan,#01f6f2)}@media (max-width:700px){.bp-more ul{grid-template-columns:1fr}}"
+    OLD_MORE_CSS = '.bp-more{margin-top:44px}.bp-more h3{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#8f8a93);font-weight:600;margin:0 0 14px}.bp-more ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px}.bp-more a{color:var(--soft,#cfcad2);text-decoration:none;font-size:16px;line-height:1.4;display:block;padding:8px 0;border-bottom:1px solid var(--line,rgba(255,255,255,.09))}.bp-more a:hover{color:var(--cyan,#01f6f2)}@media (max-width:700px){.bp-more ul{grid-template-columns:1fr}}'
+    more_css = ".bp-more{margin-top:72px}.bp-more h3{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#8f8a93);font-weight:600;margin:0 0 8px;padding-top:28px;border-top:1px solid var(--line,rgba(255,255,255,.09))}.bp-more ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px}.bp-more li{margin:0}.bp-more a{color:var(--soft,#cfcad2);text-decoration:none;font-size:16px;line-height:1.45;display:block;padding:14px 0;border-bottom:1px solid var(--line,rgba(255,255,255,.09))}.bp-more a:hover{color:var(--cyan,#01f6f2)}.bp-more a:focus-visible{outline:2px solid var(--cyan,#01f6f2);outline-offset:3px;border-radius:4px}section.sec.sv-sec:has(.bp-more){padding-bottom:64px!important}@media (max-width:700px){.bp-more{margin-top:48px}.bp-more h3{padding-top:22px}.bp-more ul{grid-template-columns:1fr}.bp-more a{padding:12px 0}section.sec.sv-sec:has(.bp-more){padding-bottom:44px!important}}"
     lp = f"{SITE}/assets/firstbyte/lead.css"
     if more_css not in read(lp):
-        write(lp, read(lp) + "\n/* blog posts: More guides list */\n" + more_css + "\n")
+        cur = read(lp).replace(OLD_MORE_CSS, more_css)
+        write(lp, cur if more_css in cur else cur + "\n/* blog posts: More guides list */\n" + more_css + "\n")
 
     # ---- case-study heading style
     css_p = f"{SITE}/assets/firstbyte/lead.css"
