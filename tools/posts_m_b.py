@@ -276,7 +276,7 @@ POSTS = [
         "desc": "How to get your website and domain back from a web designer: check who the registrant is, transfer the domain under ICANN rules, and recover your accounts.",
         "category": "Websites",
         "icons": ["Google Business Profile", "Search Console", "Google Analytics"],
-        "art": "b4",
+        "art": "b1",
         "hero": "key",
         "hero_alt": "Illustration of a key for getting a website and domain back from a web designer in Houston and The Woodlands",
         "related": ["who-owns-google-ads-account-switch-agencies", "questions-before-hiring-marketing-agency", "how-much-does-a-website-cost-the-woodlands"],

@@ -74,7 +74,7 @@ POSTS = [
         "desc": "A 2027 marketing plan for Houston small businesses: budget split, a 12-month calendar with rodeo, spring break and hurricane dates, KPIs and a one-page plan.",
         "category": "Strategy",
         "icons": ["Google Ads", "Google Business Profile", "Meta"],
-        "art": "b2",
+        "art": "b5",
         "hero": "growth",
         "hero_alt": "Illustration of a growth chart for a 2027 marketing plan for small businesses in Houston and The Woodlands",
         "related": ["2026-local-marketing-game-plan-woodlands", "set-a-marketing-budget-small-business", "seasonal-marketing-greater-houston"],
@@ -278,7 +278,7 @@ POSTS = [
         "category": "Paid ads",
         "icons": ["Google Ads", "Google", "Google Business Profile"],
         "art": "b4",
-        "hero": "receipt",
+        "hero": "tools",
         "hero_alt": "Illustration of a receipt for Local Services Ads lead disputes and credits for Houston and The Woodlands businesses",
         "related": ["local-services-ads-vs-google-ads-home-services", "google-guaranteed-vs-google-verified", "speed-to-lead-response-time-follow-up-crm"],
         "sections": [
