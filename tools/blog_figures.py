@@ -272,6 +272,14 @@ def map_(s):
     return frame(h + 10 + 16 * (len(ml) - 1) + (18 if s.get("note") else 0), s["title"], s.get("sub"), "".join(parts), s.get("note"), s.get("alt"))[0]
 
 
+def _num_w(text, size):
+    """Rough rendered width of a big stat value in the display font."""
+    w = 0.0
+    for ch in str(text):
+        w += size * (0.28 if ch in ",.:;' " else 0.66 if ch in "%$+#" else 0.6 if ch.isdigit() else 0.62)
+    return w
+
+
 def stats(s):
     st = s["stats"]
     _, sy = frame(100, s["title"], s.get("sub"), "")
@@ -280,6 +288,18 @@ def stats(s):
     gap = 16
     narrow = W < 600
     out = []
+    if narrow and max(_num_w(b, 36) for b, _ in st) > 118:
+        # Values too wide to sit beside the label on a phone: stack number over label.
+        y = top
+        for big, lab in st:
+            lines = wrap(lab, int((W - 72 - 40) / 7.8))
+            hh = 72 + 19 * len(lines)
+            out.append(f'<rect x="36" y="{y}" width="{W - 72}" height="{hh}" rx="16" fill="rgba(255,255,255,.03)" stroke="{LINE}"/>')
+            out.append(f'<text x="56" y="{y + 46}" fill="{CYAN}" font-family="{DISPLAY}" font-size="36" font-weight="600" letter-spacing="-1">{e(big)}</text>')
+            out.append(tspans(lines, 56, y + 72, 19, fill=SOFT, font_family=FONT, font_size=14))
+            y += hh + 12
+        h = y + 38
+        return frame(h, s["title"], s.get("sub"), "".join(out), s.get("note"), s.get("alt"))[0]
     if narrow:
         y = top
         for big, lab in st:
