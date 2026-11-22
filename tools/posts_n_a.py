@@ -120,7 +120,7 @@ POSTS = [
 <li><b>Location:</b> under Campaign settings, then Locations, then Location options, choose “Presence: people in or regularly in your included locations.” The default also shows ads to people merely interested in your area.</li>
 <li><b>Radius:</b> draw it around where you actually want to drive a trailer. From The Woodlands, maybe Spring, Conroe and Tomball but not Pearland.</li>
 <li><b>Call assets</b> scheduled for the hours someone answers, and calls counted as conversions. Our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'tracking guide')} shows how.</li>
-<li><b>Ad copy</b> that answers the obvious objections: “Soft wash for roofs and siding. Plants pre-wet and rinsed. Insured. Starting at $X for most driveways.”</li>
+<li><b>Ad copy</b> that answers the obvious objections: “Soft wash for roofs and siding. Plants pre-wet and rinsed. Insured. Starting at [your price] for most driveways.”</li>
 </ul>
 <p>Click costs vary a lot by town and season. Our {L('/blog/google-ads-cost-per-click-houston-benchmarks/', 'Houston CPC benchmarks')} give a feel for home service ranges. For a solo operator, we’d start between $800 and $1,500 a month on search alone (illustrative, not a quote) and judge it on booked jobs after six weeks, not on clicks.</p>"""),
 
@@ -161,10 +161,10 @@ POSTS = [
 <div class="bp-tbl"><table>
 <thead><tr><th>What to publish</th><th>How to word it</th><th>Why it helps</th></tr></thead>
 <tbody>
-<tr><td>A starting price per service</td><td>“Most two-car driveways start at $X”</td><td>Answers the question in the ad and on the page</td></tr>
-<tr><td>A per-square-foot range for flatwork</td><td>“Flatwork from $X to $Y per sq ft depending on stains and access”</td><td>Lets commercial buyers budget before they call</td></tr>
-<tr><td>House washing by size</td><td>“One-story homes under 2,500 sq ft from $X”</td><td>Homeowners know their square footage from HCAD or MCAD</td></tr>
-<tr><td>A minimum job charge</td><td>“$X minimum per visit”</td><td>Kills the “just my front steps” calls</td></tr>
+<tr><td>A starting price per service</td><td>“Most two-car driveways start at [your price]”</td><td>Answers the question in the ad and on the page</td></tr>
+<tr><td>A per-square-foot range for flatwork</td><td>“Flatwork from [low] to [high] per sq ft depending on stains and access”</td><td>Lets commercial buyers budget before they call</td></tr>
+<tr><td>House washing by size</td><td>“One-story homes under 2,500 sq ft from [your price]”</td><td>Homeowners know their square footage from HCAD or MCAD</td></tr>
+<tr><td>A minimum job charge</td><td>“[your price] minimum per visit”</td><td>Kills the “just my front steps” calls</td></tr>
 <tr><td>Add-ons</td><td>Rust removal, oil stains, gutter brightening, sealing</td><td>Raises the average ticket without a hard sell</td></tr>
 </tbody></table></div>
 <p>The square footage line is a nice local trick. Harris County and Montgomery County appraisal district records list a home’s living area, so a homeowner can look it up in a minute. An instant-quote form that asks for the address and square footage lets you price most houses without a visit, then confirm on arrival.</p>
