@@ -266,13 +266,13 @@ POSTS = [
         "desc": "Used car dealer marketing in Houston: Google vehicle ads, Meta inventory ads, TxDMV advertising rules, financing ad limits, BHPH, Spanish and cost per sale.",
         "category": "Strategy",
         "icons": ["Google Ads", "Meta", "Google Business Profile"],
-        "art": "b4",
+        "art": "b1",
         "hero": "car",
         "hero_alt": "Illustration of a car for used car dealer marketing in Houston, Spring and The Woodlands",
         "related": ["auto-repair-shop-marketing-houston", "hispanic-marketing-houston-spanish-ads-seo", "facebook-lead-ads-bad-leads-fix-quality"],
         "sections": [
             (None, f"""<p>Saturday, 11 a.m., a lot on the North Freeway feeder. Sixty-two cars, two salespeople, and a phone buzzing with Messenger notifications. Forty-one people have asked “is this still available?” about the same 2016 F-150 since Thursday. Three of them will actually show up. One has a $1,500 down payment.</p>
-<p>That’s the independent dealer’s marketing problem in a single morning: plenty of attention, very little of it ready to buy.</p>
+<p>That’s the independent dealer’s marketing problem in a single morning, whether the lot is off the North Freeway, out on FM 1960 or up I-45 toward Conroe and The Woodlands: plenty of attention, very little of it ready to buy.</p>
 <p>Used car dealer marketing in Houston works when your inventory shows up where buyers search (Google vehicle ads, listing sites, Meta inventory ads), every ad follows the Texas Department of Motor Vehicles advertising rules, financing messages stay inside federal and Meta limits, and someone follows up with every lead in minutes, in English or Spanish. Then you judge it all by cost per car sold. Cost per lead doesn’t pay the floor plan.</p>
 <p>This guide is for independent and buy-here-pay-here dealers from Pasadena to Conroe. Franchise stores have co-op rules and OEM programs that are a different post.</p>"""),
 

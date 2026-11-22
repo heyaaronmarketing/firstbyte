@@ -75,7 +75,7 @@ POSTS = [
         "desc": "How to choose a digital marketing agency in The Woodlands or Houston: local vs. national, real pricing, proposals, proof you can verify and a scoring matrix.",
         "category": "Strategy",
         "icons": ["Google Ads", "Meta", "Google Analytics"],
-        "art": "b2",
+        "art": "b5",
         "hero": "scale",
         "hero_alt": "Illustration of a balance scale for choosing a digital marketing agency in The Woodlands and Houston",
         "related": ["questions-before-hiring-marketing-agency", "marketing-agency-contract-red-flags", "fractional-cmo-vs-agency-vs-in-house-houston"],
@@ -273,7 +273,7 @@ POSTS = [
         "sections": [
             (None, f"""<p>Saturday, 7:52 a.m. Someone in a Bridgeland neighborhood Facebook group posts: “Our AC died overnight. Who do you all use? Need someone today.” By 8:30 there are 41 comments. Two companies get named over and over. One of them answers the post itself, with a first name and a phone number. That one gets the job.</p>
 <p>Marketing a business in Katy and Cypress works a lot like that thread. The area is huge and still growing, but people buy inside small circles: their master-planned community, their school zone, their side of the Grand Parkway, the groups and events they already belong to.</p>
-<p>This playbook covers what’s specific to Katy and Cypress, west and northwest of Houston: the growth numbers, the communities, the commutes, the school calendars, local SEO across multiple service areas, community groups, language, events and chambers. If you also serve the north side, we’ve written separate notes on {L('/blog/marketing-your-business-spring-tx/', 'marketing in Spring')} and {L('/blog/reaching-customers-conroe-montgomery/', 'reaching customers in Conroe and Montgomery County')}, so we won’t repeat them here.</p>"""),
+<p>We work out of The Woodlands, on the other side of the Grand Parkway, and the pattern is the same up here, but the details aren’t. This playbook covers what’s specific to Katy and Cypress, west and northwest of Houston: the growth numbers, the communities, the commutes, the school calendars, local SEO across multiple service areas, community groups, language, events and chambers. If you also serve the north side, we’ve written separate notes on {L('/blog/marketing-your-business-spring-tx/', 'marketing in Spring')} and {L('/blog/reaching-customers-conroe-montgomery/', 'reaching customers in Conroe and Montgomery County')}, so we won’t repeat them here.</p>"""),
 
             ("How fast Katy and Cypress are growing", f"""<p>Katy sits across three counties: Harris, Fort Bend and Waller. Cypress and the wider Cy-Fair area are unincorporated Harris County. All three counties are growing quickly.</p>
 <!--fig:growth-->

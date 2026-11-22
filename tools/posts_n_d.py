@@ -66,7 +66,7 @@ POSTS = [
         "desc": "Party and event rental marketing for Houston and The Woodlands: bounce house and tent bookings, TDI rules, online availability, Google Ads, Maps and seasons.",
         "category": "Local marketing",
         "icons": ["Google Ads", "Google Business Profile", "Facebook"],
-        "art": "b2",
+        "art": "b4",
         "hero": "ticket",
         "hero_alt": "Illustration for party and event rental marketing in Houston and The Woodlands, covering bounce houses, tents and tables",
         "related": ["wedding-venue-marketing-houston-montgomery-county", "rank-in-google-map-pack-houston", "seasonal-marketing-greater-houston"],
@@ -278,7 +278,7 @@ POSTS = [
         "desc": "Boutique marketing in The Woodlands and Houston: Instagram and TikTok, Google local inventory, Shopify POS, trunk shows, creators, SMS rules and holidays.",
         "category": "Strategy",
         "icons": ["Instagram", "TikTok", "Google Business Profile"],
-        "art": "b4",
+        "art": "b3",
         "hero": "cart",
         "hero_alt": "Illustration of a shopping cart for boutique retail store marketing in The Woodlands and Houston",
         "related": ["holiday-marketing-checklist", "ftc-rules-influencer-partnerships", "sms-marketing-small-business-texas-rules"],
@@ -288,7 +288,7 @@ POSTS = [
 <p>That moment has most of boutique marketing in it. Your content worked. It got a stranger to drive to your store. What broke was everything around it: no way to see stock, no way to reserve, no way to follow up with her later when the medium came back in.</p>
 <p>To market a boutique retail store in The Woodlands, make your inventory visible where people search (Instagram, TikTok and Google), connect your register and website so stock is accurate in both, and give people reasons to come in that a website can’t match: fit help, events, gift wrap, a person who remembers them. Then build an email and text list you own, legally, and measure what your ads do to foot traffic with methods a single store can actually use. Below is how we’d set that up.</p>"""),
 
-            ("Foot traffic vs. online: what a Woodlands boutique is really selling", f"""<p>The Woodlands is a hard place to be a small shop and a good one. Market Street keeps adding national brands; {SRC['ci_dj']} reported Draper James opening there in late 2025, with Varley announced for early 2026. The Woodlands Mall, Hughes Landing and Waterway Square pull from the same shoppers. Local boutiques move around inside that mix too; Bowtique {SRC['ci_bow']} in 2023.</p>
+            ("Foot traffic vs. online: what a Woodlands boutique is really selling", f"""<p>The Woodlands is a hard place to be a small shop and a good one, and plenty of your customers drive up from north Houston, Spring and Conroe to shop it. Market Street keeps adding national brands; {SRC['ci_dj']} reported Draper James opening there in late 2025, with Varley announced for early 2026. The Woodlands Mall, Hughes Landing and Waterway Square pull from the same shoppers. Local boutiques move around inside that mix too; Bowtique {SRC['ci_bow']} in 2023.</p>
 <p>You won’t beat those chains on selection or ad budget. You don’t need to. A boutique wins on things a national store can’t do well:</p>
 <!--fig:vs-->
 <p>Your online presence mostly exists to start in-store visits and to keep you in front of people between visits. Some boutiques do real online volume, and if you’re one of them, great. For most, the website and Instagram are the shop window, and the sale happens at the counter. That changes how you judge everything. A Reel with 900 views that sends six people in the door beat a Reel with 40,000 views from a different state.</p>"""),
