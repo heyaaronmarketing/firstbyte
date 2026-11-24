@@ -61,7 +61,7 @@ POSTS = [
     # ------------------------------------------------------------------ post 1: interior designers
     {
         "slug": "interior-designer-marketing-the-woodlands-houston",
-        "title": "Interior Designer Marketing in The Woodlands and Houston: Getting Better Projects, Not More Inquiries",
+        "title": "Interior Designer Marketing in The Woodlands and Houston: Fewer Inquiries, Better Projects",
         "seo_title": "Interior Designer Marketing in The Woodlands & Houston",
         "desc": "Interior designer marketing for The Woodlands and Houston: Texas title rules, portfolio photos, Houzz, Pinterest, Instagram, builder partners, consult fees.",
         "category": "Local marketing",
@@ -74,10 +74,10 @@ POSTS = [
             (None, f"""<p>Thursday afternoon, between a tile pickup in Spring and a walkthrough in Creekside Park. Three new inquiries came in today. One is a DM that says “love your work, how much for a living room?” One is a form fill from a couple who closed on a new build in The Woodlands Hills last month and want “help with everything.” The third wants you to pick paint colors for free and asked if you could stop by Saturday.</p>
 <p>Only one of those is a project. You won’t know which for two weeks, and you’ll spend six hours finding out.</p>
 <p>Interior designer marketing in The Woodlands and Houston has a quality problem more than a volume problem. A good portfolio on Instagram will get you messages. Getting the right ones means saying more, earlier: what you do, where you work, what a project typically costs and what the first step costs. Then you need a nurture path for the clients who take eight months to say yes.</p>
-<p>This guide is for independent designers and small studios, from a one-person e-design business in Magnolia to a five-person firm near Hughes Landing. It starts with the legal part, because it affects what you can print on your own website.</p>"""),
+<p>This guide is for independent designers and small studios, from a one-person e-design business in Magnolia to a five-person firm near Hughes Landing. The legal part comes first, since it decides what you can print on your own website.</p>"""),
 
             ("“Registered interior designer” vs. “interior designer” in Texas: what you can say in your marketing", f"""<p>Texas has a title law for interior designers, and it’s narrower than a lot of people think. Under {SRC['oc1053']} (section 1053.151), a person who isn’t registered with the Texas Board of Architectural Examiners may not represent themselves as a “registered interior designer,” by using that title or words that imply it. A knowing violation is a Class C misdemeanor.</p>
-<p>It used to be broader. Before 2009, only architects and registered designers could call themselves “interior designers” at all. HB 1484 changed that. Per {SRC['hb1484']}, the bill restricted only the “licensed interior designer” and “registered interior designer” titles, removed the language covering the term “interior design,” and exempted anyone who doesn’t use those titles. The committee’s reasoning was that people practicing interior design without registering were getting caught by the old rule.</p>
+<p>It used to be broader. Before 2009, only architects and registered designers could call themselves “interior designers” at all. HB 1484 changed that. Per {SRC['hb1484']}, the bill restricted only the “licensed interior designer” and “registered interior designer” titles, removed the language covering the term “interior design,” and exempted anyone who doesn’t use those titles.</p>
 <p>So, in plain marketing terms:</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Phrase in your ad, bio or website</th><th>Not registered with TBAE</th><th>Registered (RID)</th></tr></thead>
@@ -90,8 +90,7 @@ POSTS = [
 <tr><td>“Certified” anything</td><td>Only if you hold that specific certification, named</td><td>Same</td></tr>
 </tbody></table></div>
 <p>Registration has teeth beyond the title. {SRC['tbae']} says applicants need to qualify for and hold a CIDQ certificate (the NCIDQ exam route) before they apply. And the statute is clear that registration doesn’t authorize anyone to design architectural interior construction or practice architecture or engineering. That matters for how you describe space-planning and remodel work on your service pages.</p>
-<!--fig:titles-->
-<p>If you are registered, that’s a real differentiator for commercial clients, medical offices and the builder design centers that care about credentials. Put “Registered Interior Designer” in your title tag and Google Business Profile description, list your registration number on the About page, and link to TBAE’s public lookup so a skeptical client can check it in ten seconds. If you aren’t registered, don’t apologize for it. Most residential clients in Sugar Land or Kingwood have never heard of TBAE. They hire on portfolio, process and price. We’re marketers, not lawyers, so if your situation is unusual (say, you’re licensed in another state and taking Texas projects), call TBAE before you print the brochure.</p>"""),
+<p>If you are registered, that’s a real differentiator for commercial clients, medical offices and the builder design centers that care about credentials. Put “Registered Interior Designer” in your title tag and Google Business Profile description, list your registration number on the About page, and link to TBAE’s public lookup so a skeptical client can check it in ten seconds. If you aren’t registered, don’t apologize for it. Most residential clients in Sugar Land or Kingwood hire on portfolio, process and price. We’re marketers, not lawyers, so if your situation is unusual (say, you’re licensed in another state and taking Texas projects), call TBAE before you print the brochure.</p>"""),
 
             ("Who’s hiring a designer in The Woodlands and Houston right now", f"""<p>The 2026 Houzz & Home study, covering 2025 projects, found 54% of homeowners renovated, with a median spend of $20,000 and the top 10% of projects at $150,000 or more. Ninety-one percent of renovating homeowners hired professionals. That’s from more than 20,000 U.S. respondents, per {SRC['houzz_study']}. Your clients mostly live in that top slice, and they’re reachable.</p>
 <!--fig:market-->
@@ -102,7 +101,7 @@ POSTS = [
 <li><b>Remodel clients.</b> A 2006 kitchen in Sterling Ridge or a dated primary bath in Cinco Ranch. Long timelines, contractor coordination, selections. Our {L('/blog/kitchen-bath-remodeling-marketing-the-woodlands/', 'kitchen and bath remodeling marketing post')} covers the contractor side of this buyer.</li>
 <li><b>Second homes and lake houses.</b> Lake Conroe and Montgomery County weekend places, often furnished from scratch, often for owners who live inside the Loop.</li>
 </ul>
-<p>Pick one or two to build your marketing around. A designer who says “we furnish new builds in The Woodlands, Spring and Conroe in eight to twelve weeks” is easier to hire than one who does “residential and commercial design of all kinds.”</p>"""),
+<p>Pick one or two to build around. “We furnish new builds in The Woodlands, Spring and Conroe in eight to twelve weeks” is easier to hire than “residential and commercial design of all kinds.”</p>"""),
 
             ("Portfolio and photography: the asset everything else runs on", f"""<p>Every channel in this post (Instagram, Houzz, Pinterest, your website, a pitch to a builder) runs on the same thing, which is professional photos of finished rooms. Phone photos at install are useful for Stories. They don’t sell a $90,000 project.</p>
 <p>Hire an architectural or interiors photographer for your best two or three projects a year, and budget it like a marketing expense rather than a project cost. Houzz even runs a separate Best of Houzz award for photography, for architecture and interior photographers whose images are most popular on the platform, per {SRC['boh']}. Look at who wins locally and you’ll find your shortlist. Our {L(PHOTO, 'photographer marketing post')} explains how those photographers think about bookings and licensing, which helps when you negotiate.</p>
@@ -110,12 +109,11 @@ POSTS = [
 <ul>
 <li>Wide, medium and detail shots of every room, plus a few vertical frames for Pinterest and Reels covers.</li>
 <li>Before photos you took yourself, from the same angles. Before-and-after pairs outperform finished-only images almost everywhere we’ve tested them.</li>
-<li>A license that covers your website, social, award entries and print. Ask in writing whether the builder or a vendor can use the images too, and on what terms.</li>
+<li>A license that covers your website, social, award entries and print. Ask in writing whether builders or vendors can use them too.</li>
 </ul>
-<p>Then organize the portfolio the way clients think. By project type (new-build furnishing, kitchen remodel, whole-home), by area (The Woodlands, Memorial, Lake Conroe) and with a budget band on each project page if the client agrees. “Whole-home furnishing, 3,800 sq ft, Woodforest, eleven weeks” tells a prospect more than any adjective.</p>"""),
+<p>Then organize the portfolio by project type and area, with a budget band if the client agrees. “Whole-home furnishing, 3,800 sq ft, Woodforest, eleven weeks” tells a prospect more than any adjective.</p>"""),
 
-            ("Your website and Google Business Profile in the Houston market", f"""<p>Search is where the high-intent inquiries come from. Somebody typing “interior designer The Woodlands” or “interior designer near me” on a Tuesday night has already decided to hire someone.</p>
-<p>The pages a design studio needs:</p>
+            ("Your website and Google Business Profile in the Houston market", f"""<p>Somebody typing “interior designer The Woodlands” on a Tuesday night has already decided to hire someone. The pages a studio needs:</p>
 <ul>
 <li>One page per service: full-service design, new-build furnishing, remodel selections, e-design, styling or refresh. Each with process, timeline, a starting investment and three project examples.</li>
 <li>Area pages for where you actually work (The Woodlands, Spring, Tomball, Montgomery, Memorial, River Oaks, Katy), each showing projects in that area. Our {L('/blog/power-of-local-landing-pages/', 'local landing pages guide')} covers how to make these useful instead of copy-pasted.</li>
@@ -124,22 +122,20 @@ POSTS = [
 <p>On Google Business Profile, choose “Interior designer” as the primary category. Most independent designers work from a home office or meet clients at the job site, so per {SRC['sab']}, if you don’t serve customers at your address, you should remove it and set a service area instead. You can list up to 20 areas, and the whole thing shouldn’t extend much beyond about two hours’ drive from your base. A studio with a sign on the door and posted hours can keep its address. Upload project photos to the profile every month; it’s one of the few free places a homeowner sees your work next to your reviews.</p>
 <p>One Houston-specific note. Google’s Local Services Ads do include an interior designer category, but {SRC['lsa']} shows it as available in California and Florida only. Texas designers can’t buy it yet, so regular search ads and the map pack are the game. Our {L('/blog/rank-in-google-map-pack-houston/', 'map pack guide')} goes deeper.</p>"""),
 
-            ("Google Ads for interior designers: keywords, negatives and a realistic budget", f"""<p>Design keywords attract a lot of people who want ideas, not a designer. The account has to filter them out from day one.</p>
+            ("Google Ads for interior designers: keywords, negatives and a realistic budget", f"""<p>Design keywords attract people who want ideas, not a designer. Filter them out from day one.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Ad group</th><th>Example keywords</th><th>Land on</th></tr></thead>
 <tbody>
 <tr><td>Core local</td><td>interior designer the woodlands, interior design firm houston, interior designer spring tx</td><td>Homepage or area page</td></tr>
 <tr><td>New build</td><td>new home interior designer, furnish new home houston, interior designer for new construction</td><td>New-build furnishing page</td></tr>
 <tr><td>Remodel</td><td>kitchen remodel designer the woodlands, bathroom design houston</td><td>Remodel selections page</td></tr>
-<tr><td>Commercial (if you do it)</td><td>office interior design houston, medical office interior designer</td><td>Commercial page</td></tr>
 <tr><td>Brand</td><td>your studio name, your name plus “design”</td><td>Homepage</td></tr>
 </tbody></table></div>
 <p>Negatives to load before launch: jobs, hiring, salary, internship, school, degree, course, certification, “how to become,” ideas, inspiration, software, app, free, cheap, DIY, Pinterest, “interior design styles,” and furniture store names you don’t sell. Set location targeting to “Presence: people in or regularly in your included locations,” and draw it around the ZIP codes where your projects actually are. A designer in The Woodlands rarely wants clicks from Baytown.</p>
-<p>Budget honestly. In accounts we’ve run for high-ticket local services, $1,500 to $3,000 a month is where search starts to produce a steady trickle of qualified consults in one metro area. Below that you get a handful of clicks a day and not enough data to learn from. Check our {L('/blog/google-ads-cost-per-click-houston-benchmarks/', 'Houston cost-per-click benchmarks')} before you set a number, and track form fills and calls as conversions with the setup in our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 and Google Ads tracking guide')}. Judge the campaign on paid consultations booked, not clicks.</p>
+<p>Budget honestly. In accounts we’ve run for high-ticket local services, $1,500 to $3,000 a month is where search starts to produce a steady trickle of qualified consults in one metro area. Check our {L('/blog/google-ads-cost-per-click-houston-benchmarks/', 'Houston cost-per-click benchmarks')} before you set a number, and track form fills and calls as conversions with the setup in our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 and Google Ads tracking guide')}. Judge the campaign on paid consultations booked, not clicks.</p>
 <!--fig:budget-->"""),
 
-            ("Houzz, Pinterest and Instagram: three visual channels doing three different jobs", f"""<p>Designers tend to treat these as the same thing with different logos. They aren’t.</p>
-<p><b>Houzz</b> is where homeowners in the middle of a project go to find and vet pros. Best of Houzz 2026 recognized about 2% of the platform’s more than 3 million home building, remodeling and design professionals, across Design, Customer Service, Innovator and Photography categories, per {SRC['boh']}. Customer Service winners are chosen on overall rating and client reviews, so a Houzz profile with twelve reviews earns more than one with a beautiful cover photo and none. A free profile with complete projects and reviews is worth maintaining. A paid Houzz Pro plan is an ad buy, and we’d judge it by consults booked over a full quarter.</p>
+            ("Houzz, Pinterest and Instagram: three visual channels doing three different jobs", f"""<p><b>Houzz</b> is where homeowners in the middle of a project go to find and vet pros. Best of Houzz 2026 recognized about 2% of the platform’s more than 3 million home building, remodeling and design professionals, across Design, Customer Service, Innovator and Photography categories, per {SRC['boh']}. Customer Service winners are chosen on overall rating and client reviews, so a Houzz profile with twelve reviews earns more than one with a beautiful cover photo and none. A free profile with complete projects and reviews is worth maintaining. A paid Houzz Pro plan is an ad buy, and we’d judge it by consults booked over a full quarter.</p>
 <p><b>Pinterest</b> is a search engine people use months before they hire. Pinterest reported 661 million monthly active users globally and 107 million in the U.S. and Canada for the third quarter of 2026, per {SRC['pins']}. A pin from a 2024 project can still send traffic in 2027, which is something an Instagram post can’t do.</p>
 <!--fig:pins-->
 <p><b>Instagram</b> is where people decide whether they like you. Process Reels, sourcing trips to the trade showrooms, a sixty-second reveal, the ugly “before” on install day. It now does a bit of search work too: since July 10, 2025, public photos and videos from professional accounts of users over 18 can appear in Google results, per {SRC['ig_index']}. The setting is under Settings, Privacy, “Allow public photos and videos to appear in search engine results,” and it starts on. So write captions like a person searching would read them: “Whole-home refresh in Creekside Park, The Woodlands: new lighting, built-ins, white oak floors.”</p>
@@ -152,12 +148,11 @@ POSTS = [
 <ul>
 <li><b>Builders.</b> Most production builders run their own design center for selections, so don’t pitch selections. Pitch what happens after closing: furnishing packages, window treatments, lighting upgrades the design center didn’t offer. Custom and semi-custom builders around Montgomery and Magnolia are different. Many will refer a designer who keeps their schedule on track and makes their homes photograph well.</li>
 <li><b>Realtors.</b> Agents selling relocation buyers in The Woodlands, Kingwood and Katy are asked “do you know a designer?” every month. Give them a one-page PDF with your new-build package, a starting price and a phone number. Offer vacant-home staging advice before listing photos. Ask their broker before offering anything of value for referrals; agents have their own rules on that.</li>
-<li><b>Model homes.</b> Merchandised models are designed by firms the builder hires. If you want that work, it’s a business-to-business pitch with a portfolio of model and spec homes, not a consumer ad.</li>
 </ul>
-<p>Keep a simple partner sheet: who referred, when, what project, what it closed for. After a year you’ll know which three relationships matter. Take them to lunch at Hughes Landing and stop chasing the rest.</p>"""),
+<p>Keep a partner sheet: who referred, what project, what it closed for. After a year you’ll know which three relationships matter.</p>"""),
 
             ("Design consultation fees and project minimums: say them out loud", f"""<p>Back to the person who wanted free paint colors on Saturday. The fastest way to stop spending your weekends on unpaid consults is to publish what the first meeting costs and what projects usually start at.</p>
-<p>Designers worry that a number on the website will scare people off. It will scare some people off. Those are mostly the people who would have taken two hours of your time and then bought the sofa at a big-box store. The ones left are closer to buying.</p>
+<p>A number on the website will scare some people off. Mostly the ones who would have taken two hours of your time and then bought the sofa at a big-box store.</p>
 <!--fig:consult-->
 <p>What we’d put on the site:</p>
 <ul>
@@ -166,7 +161,7 @@ POSTS = [
 <li>How you bill (flat fee, hourly, or a fee plus product markup) in one honest sentence. Clients are less bothered by markup than by finding out about it late.</li>
 <li>What the consult includes: walkthrough, a short written summary, a rough budget range. Something they keep.</li>
 </ul>
-<p>Minimums do the same filtering. If you don’t take single-room projects under [your price], say so on the inquiry page. Then point smaller clients to an e-design or refresh package so they aren’t turned away empty-handed. Some of them call back two years later for the whole house.</p>"""),
+<p>Minimums do the same filtering. If you don’t take single-room projects under [your price], say so on the inquiry page. Point smaller clients to an e-design package instead; some call back later for the whole house.</p>"""),
 
             ("High-ticket nurture: the inquiry form and the eight-month client", f"""<p>A $60,000 furnishing project rarely closes in a week. Lots of clients are waiting on a closing date, a bonus, a remodel bid or a spouse. Your marketing has to stay useful the whole time.</p>
 <p>Start with the inquiry form. Ask for project type, address or neighborhood, timeline, approximate budget range (as ranges, never a blank box), whether the home is new construction and the closing date if so, and how they found you. Five or six questions is plenty. More than that and good clients bail.</p>
@@ -178,9 +173,9 @@ POSTS = [
 <li>Then move them to a monthly email with one finished project and one useful note, like ordering lead times for custom upholstery before the holidays.</li>
 <li>Tag the closing date for new-build clients and reach out three weeks before it. Timing beats persistence.</li>
 </ol>
-<p>Track the stages in a spreadsheet or a CRM. Inquiries, consults booked, proposals sent, projects signed. When you know your consult-to-signed rate, you know what a lead is worth and what you can afford to pay for one.</p>"""),
+<p>Track inquiries, consults, proposals and signed projects in a spreadsheet or CRM. Your consult-to-signed rate tells you what a lead is worth.</p>"""),
 
-            ("Reviews that sell the next project", f"""<p>Designers get fewer reviews than a restaurant, so each one carries more weight. And clients are often thrilled at the reveal and then never think about you again.</p>
+            ("Reviews that sell the next project", f"""<p>Designers get fewer reviews than a restaurant, so each one carries more weight.</p>
 <p>Google’s rules are simple: merchants may not offer incentives such as discounts or free services for reviews, may not discourage negative reviews and may not “selectively solicit positive reviews,” per {SRC['gpol']}. Ask every client, the same way.</p>
 <p>Timing that works for designers: mention it at the reveal while they’re walking through, then send the link about two weeks later once they’ve lived with the rooms and had people over. A script you can copy:</p>
 <p><i>“It was a joy working on your house. If you have two minutes, a Google review helps other families in The Woodlands find us. Here’s the link: [link]. Mentioning the kind of project helps people most.”</i></p>
@@ -192,7 +187,7 @@ POSTS = [
 <li><b>Month two.</b> Book a professional shoot of your best recent project. Pin every image to keyword-named Pinterest boards. Write one partner one-pager and hand it to five agents and two custom builders. Start the review ask with every finished client.</li>
 <li><b>Month three.</b> Launch a small Google Ads search campaign on your core local and new-build keywords, plus Instagram retargeting. Start the monthly email. Review the inquiry-to-signed numbers and cut whatever produced no consults.</li>
 </ul>
-<p>None of this is glamorous, and it compounds. Nine months from now you want inquiries that already know your price, already like your work and live in the zip codes you want to drive to. If you want a senior strategist to build that plan around your studio, <a href="/contact/">get in touch</a>. Our {L('/services/web-design-seo-pr/', 'web design and SEO team')} and {L('/services/search-marketing/', 'search marketing team')} handle the build and the ads.</p>"""),
+<p>None of this is glamorous, and it compounds. If you want a senior strategist to build that plan around your studio, <a href="/contact/">get in touch</a>. Our {L('/services/web-design-seo-pr/', 'web design and SEO team')} and {L('/services/search-marketing/', 'search marketing team')} handle the build and the ads.</p>"""),
         ],
         "faq": [
             ("Can I call myself an interior designer in Texas without being registered?",
@@ -207,14 +202,6 @@ POSTS = [
              "A free, complete Houzz profile with project photos and reviews is worth keeping, because homeowners use it to vet pros and Best of Houzz service awards lean on reviews. A paid Houzz Pro plan is an advertising decision. Run it for a full quarter and judge it by paid consultations and signed projects, not by profile views or message counts, before you renew."),
         ],
         "figures": {
-            "titles": {
-                "type": "compare",
-                "title": "Texas designer titles: what to print",
-                "left": {"title": "Needs TBAE registration", "items": ["Registered Interior Designer", "RID after your name", "Licensed interior designer", "“State-licensed designer”", "Words implying registration"]},
-                "right": {"title": "Fine without registration", "items": ["Interior designer", "Interior decorator", "Interior design services", "E-design, styling, staging", "Named certifications you hold"]},
-                "alt": "Comparison of Texas interior designer titles that require TBAE registration and titles anyone can use in The Woodlands and Houston",
-                "caption": f"Based on {SRC['oc1053']} and HB 1484. Ask TBAE if your situation is unusual.",
-            },
             "market": {
                 "type": "stats",
                 "title": "Who’s renovating, and how much",
@@ -273,7 +260,7 @@ POSTS = [
         "slug": "photographer-marketing-houston-the-woodlands",
         "title": "Photographer Marketing in Houston and The Woodlands: Bookings Beyond Bluebonnet Season",
         "seo_title": "Photographer Marketing in Houston & The Woodlands",
-        "desc": "Photographer marketing for Houston and The Woodlands: Google Business Profile, Instagram and Pinterest SEO, mini sessions, park permits, pricing pages, reviews.",
+        "desc": "Photographer marketing for Houston and The Woodlands: Google Business Profile, Instagram and Pinterest SEO, mini sessions, park permits, pricing, reviews.",
         "category": "Local marketing",
         "icons": ["Instagram", "Google Business Profile", "Meta"],
         "art": "b4",
@@ -283,7 +270,7 @@ POSTS = [
         "sections": [
             (None, f"""<p>Second Saturday of October, 7:05 a.m., a park bench in The Woodlands. You have six fall mini sessions back to back, twenty minutes each, and the light is good until about 9:15. By the third family your phone has four DMs asking if you have “anything left in November,” and a realtor in Spring has texted about a listing shoot for Tuesday.</p>
 <p>Then January arrives, and the calendar looks like a parking lot at 2 a.m.</p>
-<p>That swing is the core problem in photographer marketing in Houston. Demand piles into a few weeks (bluebonnets, fall, holidays, wedding season) and leaves long, quiet stretches between. The photographers who do well here don’t just market harder in October. They build steady lines of work that don’t care about the season, like headshots, real estate and newborns. And they make it easy to book and pay without three days of back-and-forth messages.</p>
+<p>That swing is the core problem in photographer marketing in Houston. Demand piles into a few weeks (bluebonnets, fall, holidays, wedding season) and leaves long, quiet stretches between. The photographers who do well here spend less energy on October, which sells itself, and more on steady lines of work that don’t care about the season, like headshots, real estate and newborns. And they make it easy to book and pay without three days of back-and-forth messages.</p>
 <p>This guide covers wedding, family and portrait, newborn, headshot and real estate photographers working around Houston, The Woodlands, Spring, Cypress, Katy and Conroe.</p>"""),
 
             ("Five businesses under one camera", f"""<p>Most photographers market as “a photographer.” Clients don’t search that way. A bride, a new mom and a listing agent want different things, on different timelines, and type different words into Google.</p>
@@ -329,7 +316,7 @@ POSTS = [
 <p>Our {L('/services/web-design-seo-pr/', 'web design team')} builds these pages so they load fast on a phone, which matters when most of your traffic comes from Instagram’s in-app browser.</p>"""),
 
             ("Instagram and Pinterest SEO for Houston photographers", f"""<p>Instagram is your portfolio, but it’s also become searchable outside the app. Since July 10, 2025, public photos, videos, carousels and Reels from professional accounts of users over 18 can show up in Google search, per {SRC['ig_index']}. Check Settings, Privacy and make sure “Allow public photos and videos to appear in search engine results” is on.</p>
-<p>That changes how you caption. “Golden hour with the Garcias 🧡” tells nobody anything. “Fall family session at a Woodlands park, sunrise, matching neutrals for a family of five” matches what parents search. Put your niche and city in your profile name field (“Ana | Houston Newborn Photographer”), add alt text to posts under advanced settings, and tag the location.</p>
+<p>That changes how you caption. “Golden hour with the Garcias!” tells a search engine nothing. “Fall family session at a Woodlands park, sunrise, matching neutrals for a family of five” matches what parents search. Put your niche and city in your profile name field (“Ana | Houston Newborn Photographer”), add alt text to posts under advanced settings, and tag the location.</p>
 <p>Pinterest is slower and lasts longer. It reported 661 million monthly active users globally and 107 million in the U.S. and Canada in the third quarter of 2026, per {SRC['pins']}. Brides plan on it. So do moms picking outfits for fall photos. Make boards that match searches (“Houston engagement photo ideas,” “What to wear for family photos in Texas,” “Bluebonnet photo ideas”), pin every gallery’s best vertical frames, and link each pin to the matching page on your site. A pin from April can still be sending traffic the next March, right before bluebonnet season.</p>
 <!--fig:reach-->"""),
 
