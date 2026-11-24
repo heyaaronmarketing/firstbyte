@@ -77,7 +77,7 @@ POSTS = [
         "slug": "home-inspector-marketing-houston-the-woodlands",
         "title": "Home Inspector Marketing in Houston and The Woodlands: More Inspections Without Breaking TREC Rules",
         "seo_title": "Home Inspector Marketing in Houston & The Woodlands",
-        "desc": "Home inspector marketing for Houston and The Woodlands: TREC ad and referral rules, buyer-direct Google search, sample reports, add-ons, reviews, slow markets.",
+        "desc": "Home inspector marketing for Houston and The Woodlands: TREC ad and referral rules, buyer-direct search, sample reports, add-ons, reviews, slow markets.",
         "category": "Local marketing",
         "icons": ["Google Business Profile", "Google Ads", "Google"],
         "art": "b2",
@@ -91,13 +91,13 @@ POSTS = [
 <p>This is written for one- to five-inspector companies working Harris and Montgomery counties. We haven’t run marketing for a home inspection company, so where we share numbers from other home service accounts, we say so.</p>"""),
 
             ("Where Houston home inspection jobs actually come from", f"""<p>Ask most inspectors where their work comes from and you’ll hear “agents” before the question is finished. That’s true, and it’s also a risk. An inspection business that lives on eight agents is one brokerage change away from a bad quarter.</p>
-<p>The buyer-direct share is growing for a simple reason. Buyers research everything now. A first-time buyer in Tomball reads three reviews of the dishwasher before buying it, so of course they’ll Google “home inspector near me” once the option period starts ticking. Many agents still hand over a list of three names, and the buyer then checks all three on Google. Your profile and website decide which name gets the call even when the referral was real.</p>
+<p>Buyers research everything now. A first-time buyer in Tomball reads three reviews of the dishwasher, so of course they’ll Google “home inspector near me” once the option period starts. Many agents hand over three names, and the buyer checks all three on Google. Your profile and website decide which name gets the call even when the referral was real.</p>
 <p>So think of it as two funnels that share a front door:</p>
 <ul>
 <li><b>Agent-influenced.</b> The agent mentions you, the buyer looks you up, then books. Your reviews and website still close it.</li>
 <li><b>Buyer-direct.</b> No agent recommendation, or the buyer ignores it. They search “home inspection The Woodlands” or “home inspector Katy TX,” compare prices and availability, and book whoever makes it easy.</li>
 </ul>
-<p>A third, smaller stream is worth chasing on purpose: sellers ordering pre-listing inspections, builders’ buyers ordering phase and 11-month warranty inspections, and investors who buy several houses a year. We’ll come back to all three in the slow-market section.</p>
+<p>A third, smaller stream (pre-listing, new construction and investors) gets its own section below.</p>
 <!--fig:sources-->"""),
 
             ("The TREC rules that shape every inspector’s marketing", f"""<p>Texas inspectors work under rules that most marketing agencies have never read. Read them before you approve a single ad.</p>
@@ -117,7 +117,7 @@ POSTS = [
 <li>Scheduling that doesn’t require four texts. An online booking link the agent can forward wins over “call me.”</li>
 </ul>
 <p>Notice what’s missing from that list. Softening findings to save deals is off the table under 535.220, and agents who want that aren’t referral partners you should keep. Your report is written for your client, who is the buyer.</p>
-<p>Ordinary relationship marketing is still fine. A monthly email to agents about something useful (what a Houston sewer scope finds, how to read a foundation elevation survey) keeps your name in front of them. Showing up at brokerage sales meetings to answer questions works too. Just keep the coffee and lunches modest and never tie them to referrals, since “valuable consideration” is the phrase in the rule. When unsure, ask your attorney or TREC. It costs less than a complaint.</p>
+<p>Ordinary relationship marketing is still fine. A monthly agent email about something useful (what a Houston sewer scope finds, how to read an elevation survey) keeps your name in front of them. Keep coffee and lunches modest and never tie them to referrals, since “valuable consideration” is the phrase in the rule. When unsure, ask your attorney or TREC.</p>
 <p>For the agent’s view of all this, our {L('/blog/real-estate-agent-marketing-the-woodlands-houston/', 'post on how local agents market themselves')} shows what their week looks like.</p>"""),
 
             ("Buyer-direct: winning the Google search in Houston and The Woodlands", f"""<p>The buyer who searches has a deadline. The option period on a TREC contract is often a week to ten days, so they need someone this week, and they decide in minutes.</p>
@@ -135,36 +135,36 @@ POSTS = [
 <p>Negatives from day one: jobs, career, school, course, license, “how to become,” salary, apprentice, code inspector, city inspection, permit, car inspection, vehicle, state inspection, and “free.” The training-related terms matter more than you’d think. Houston has a steady crop of people researching how to become inspectors, and they click ads.</p>
 <p>Set location targeting to people in or regularly in your area, and schedule ads for when someone can answer or the booking page works on its own. Our {L('/services/search-marketing/', 'search team')} runs this kind of tight local account. And if you’re choosing between Google’s two ad types, see below.</p>"""),
 
-            ("The website that books inspections: prices, sample report, online scheduling", f"""<p>Most inspector websites we look at have a stock photo of a magnifying glass and a contact form. Buyers want three things, and they want them on the first screen.</p>
+            ("The website that books inspections: prices, sample report, online scheduling", f"""<p>Most inspector websites we see have a stock magnifying glass and a contact form. Buyers want three things on the first screen.</p>
 <p><b>A price.</b> Even a calculator by square footage and age, or a simple table that starts at [your price] for up to 2,000 square feet. Buyers comparing three inspectors will call the one who shows a number first. Hiding it to “discuss value” mostly loses you the comparison.</p>
 <p><b>A sample report.</b> A real, anonymized report from a typical Houston house, with photos and the summary page. The full TREC REI 7-6 format is long and technical, and buyers love seeing how you explain it. This is also your best agent marketing, because agents judge you by how your reports read to nervous buyers.</p>
 <p><b>Online scheduling with the add-ons attached.</b> The buyer picks a date and adds the sewer scope, WDI and pool inspection as checkboxes with prices. The booking tool should collect the agent’s name, send the agreement for signature and take a deposit if that’s your policy. Most inspection software does all of this. Turning it on is the marketing.</p>
 <!--fig:site-->
-<p>Then the trust stuff: your TREC license number on the About page (which also satisfies 535.221(d)), each inspector’s photo and license, a short “what we inspect and what we don’t” page, and a page per service area. Our {L('/blog/power-of-local-landing-pages/', 'local landing pages guide')} shows how to write area pages that aren’t copy-and-paste, and our {L('/services/web-design-seo-pr/', 'web design team')} builds them.</p>
-<p>Speed matters even with booking online. A buyer who calls and gets voicemail at 6 p.m. usually tries the next name. See our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} for the follow-up side.</p>"""),
+<p>Then the trust stuff: your TREC license number on the About page (which also satisfies 535.221(d)), each inspector’s photo and license, and a page per service area. Our {L('/blog/power-of-local-landing-pages/', 'local landing pages guide')} shows how to write area pages that aren’t copy-and-paste, and our {L('/services/web-design-seo-pr/', 'web design team')} builds them.</p>
+<p>A buyer who gets voicemail at 6 p.m. usually tries the next name. See our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} for the follow-up side.</p>"""),
 
             ("Add-on services: sewer scope, termite, pool and foundation elevation", f"""<p>Add-ons are how a $400 job becomes a $700 job, and in Houston several of them are close to essential. Each one also gives you a keyword to rank for and a reason for a buyer to pick you over a cheaper inspector who can’t do it.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Add-on</th><th>License or rule to check</th><th>Houston marketing angle</th></tr></thead>
 <tbody>
-<tr><td>WDI / termite inspection</td><td>Official WDI inspection by a certified applicator or technician in TDA’s Termite and WDI category (4 TAC 7.175)</td><td>Subterranean termites are common across the area; many lenders and buyers ask for it</td></tr>
+<tr><td>WDI / termite inspection</td><td>Official WDI inspection by a certified applicator or technician in TDA’s Termite and WDI category (4 TAC 7.175)</td><td>Buyers often want it with the main inspection; say clearly who performs it</td></tr>
 <tr><td>Sewer scope</td><td>Covered by your inspection agreement; describe limits clearly</td><td>Older homes in Spring Branch, Meyerland and the Heights; tree roots from big oaks</td></tr>
 <tr><td>Pool and spa</td><td>Optional system under TREC Rule 535.233, inspected only if you agree to</td><td>Common in The Woodlands, Cypress and Katy backyards</td></tr>
 <tr><td>Foundation elevation survey</td><td>Report observations; leave engineering conclusions to engineers</td><td>Clay soil, slab foundations and buyers who’ve heard repair horror stories</td></tr>
 <tr><td>Sprinklers, wells, septic, outbuildings</td><td>Also optional systems under 535.233</td><td>Acreage in Magnolia, Montgomery and north of Conroe</td></tr>
 </tbody></table></div>
 <p>The WDI one has a trap. A TREC license doesn’t cover it. Per {SRC['tda']}, the official WDI inspection has to be done by a TDA Structural Pest Control Service licensee in the right category, and the Texas WDI report is a separate form from REI 7-6, as {SRC['spec']} explains. {SRC['twdi']} even addresses the inspector who advertises WDI inspections when nobody on staff is licensed, and says that can be misleading advertising under both agencies’ rules. If you subcontract to a licensed pest company, say so on the page.</p>
-<p>The pool and acreage items come from the optional systems list in {SRC['sop']}, which also means you set the price separately and spell out what’s included. Put each add-on on its own page with its own price. “Sewer scope Houston” is a real search, and a single page that says “we offer many services” won’t rank for any of them.</p>"""),
+<p>Pools and acreage systems are optional under {SRC['sop']}, so price them separately. Put each add-on on its own page with its own price. “Sewer scope Houston” is a real search, and a single page that says “we offer many services” won’t rank for any of them.</p>"""),
 
             ("Houston clay soil and flood history: content buyers actually read", f"""<p>Most inspector blogs are generic (“10 things we check”). In Houston, you have better material than that, and buyers are already scared of it.</p>
-<p><b>Clay soil and foundations.</b> {SRC['clay']} that Houston’s heavy clay swells when wet and shrinks and cracks when dry, and that repeated cycle contributes to foundation movement. A local foundation contractor in the same story put repair costs anywhere from about $3,000 to $20,000 and up, with severe cases at $40,000 to $50,000. That one sentence explains why a buyer will pay extra for elevation readings. Useful posts: what a slab with 1.5 inches of deflection does and doesn’t mean, which cracks you note and which you don’t, and why you write “recommend evaluation by a structural engineer” instead of a diagnosis.</p>
+<p><b>Clay soil and foundations.</b> {SRC['clay']} that Houston’s heavy clay swells when wet and shrinks and cracks when dry, and that repeated cycle contributes to foundation movement. A local foundation contractor in the same story put repair costs anywhere from about $3,000 to $20,000 and up, with severe cases at $40,000 to $50,000. That one sentence explains why a buyer will pay extra for elevation readings. Useful posts: which slab cracks you note and why you write “recommend evaluation by a structural engineer” instead of a diagnosis.</p>
 <p><b>Flood history.</b> Since September 1, 2019, SB 339 has required Texas sellers to disclose more about flood risk, including the 500-year floodplain, reservoir proximity and whether the home has flooded before, per {SRC['sb339']}. The same story noted that, based on city of Houston data, most structures affected by Harvey were outside the 100- and 500-year floodplains. So buyers in Kingwood, Katy and Meyerland have good reason to ask what flood clues an inspector looks for. A post on “signs a house may have flooded” (patched drywall at the same height in every room, new baseboards in an older house, rust lines on the water heater) is exactly the kind of practical content buyers share with their spouse.</p>
-<p>Keep it inside your lane. You can point out evidence and recommend further evaluation; you’re not the floodplain manager or the engineer. That restraint reads as credibility.</p>
+<p>Stay in your lane: point out evidence and recommend further evaluation. You’re not the floodplain manager or the engineer.</p>
 <p>A few other Houston-specific topics that earn links and searches: what the February 2021 freeze did to attic plumbing, radiant barrier and attic heat, polybutylene and galvanized supply lines in 1970s and 1980s homes, and what to check on a new build in a master-planned community before the builder’s walkthrough.</p>"""),
 
             ("Local Services Ads for home inspectors", f"""<p>{SRC['lsa']} includes <b>Home inspector</b>, so you can run pay-per-lead ads with the Google Verified badge at the very top of the results. Availability still varies by area, and the only way to know for your ZIP code is to start the sign-up and see what Google offers.</p>
-<p>Why we’d test it: inspection searches are short and urgent, and the LSA box is the first thing a buyer sees. You pay for calls and messages, not clicks, and you can dispute leads that aren’t real customers. Ranking leans heavily on reviews, responsiveness and proximity, so a new inspector with 9 reviews will struggle against a company with 400.</p>
-<p>What to watch: wrong-service leads (people wanting a city code inspection or a car inspection) and price shoppers. Answer fast, mark leads as booked or not in the LSA dashboard, and dispute the junk. Our {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads comparison')} covers how to run both without them cannibalizing each other.</p>"""),
+<p>Inspection searches are short and urgent, and the LSA box is the first thing a buyer sees. You pay per lead, not per click. Ranking leans on reviews, responsiveness and proximity, so 9 reviews won’t beat a company with 400.</p>
+<p>Watch for wrong-service leads (city code or car inspections), answer fast, and dispute the junk. Our {L('/blog/local-services-ads-vs-google-ads-home-services/', 'Local Services Ads vs. Google Ads comparison')} covers how to run both without them cannibalizing each other.</p>"""),
 
             ("Reviews: the inspector’s best ad", f"""<p>Reviews do double duty for inspectors. Buyers read them, and agents check them before they put your name on a list.</p>
 <p>The timing is tricky. Right after the inspection, the buyer is anxious about your findings. The best moment is usually a day or two after the report, once they’ve read it and maybe used it to negotiate repairs. A text that works:</p>
@@ -173,14 +173,14 @@ POSTS = [
 
             ("When the market slows: HAR’s numbers and what to do with them", f"""<p>Inspection volume follows contracts, and contracts are down. {SRC['har']} showed 7,030 single-family sales in September 2026, down 5.7% from a year earlier, with active listings up 6.3% to 40,192, a 5.5-month supply and 58 average days on market. October was weaker: {SRC['haroct']} put single-family sales at 6,348, down 14.9%, with a $320,000 median price and an average mortgage rate of 7.33%.</p>
 <!--fig:market-->
-<p>Fewer contracts means fewer inspections, and agents will spread what’s left among more inspectors. What we’d do:</p>
+<p>Fewer contracts means fewer inspections. What we’d do:</p>
 <ul>
 <li><b>Sell pre-listing inspections.</b> With more than five months of supply, sellers need an edge. A pre-listing inspection lets them fix things before a buyer’s inspector finds them. Pitch it to listing agents, not just buyer’s agents.</li>
 <li><b>Go after new construction.</b> Builders have inventory to move and buyers in Conroe and Montgomery are buying new. Phase inspections (foundation pre-pour, pre-drywall, final) and 11-month warranty inspections are steady work that doesn’t care about resale volume.</li>
 <li><b>Market to investors and property managers.</b> They buy in all markets and order repeat inspections.</li>
-<li><b>Keep the buyer-direct funnel running.</b> When agent referrals thin out, your Google presence is what keeps the calendar full. Don’t cut search ads the month you need them most; cut wasted keywords instead.</li>
+<li><b>Keep the buyer-direct funnel running.</b> Don’t cut search ads the month you need them most; cut wasted keywords instead.</li>
 </ul>
-<p>And stay visible to agents. The ones still closing deals in a slow market are the ones you most want sending clients your way when it picks up.</p>"""),
+"""),
 
             ("A first 90 days and a realistic budget", f"""<p>Here’s how we’d sequence it for a two-inspector company in The Woodlands that mostly lives on agent referrals today.</p>
 <!--fig:plan-->
@@ -261,7 +261,7 @@ POSTS = [
         "slug": "locksmith-marketing-houston",
         "title": "Locksmith Marketing in Houston: Getting Found When Google Is Full of Fakes",
         "seo_title": "Locksmith Marketing in Houston: Ads, Maps and Trust",
-        "desc": "Locksmith marketing for Houston: Google Advanced Verification, fake listings, Texas DPS license rules for ads, LSA, Google Ads costs, pricing and after-hours calls.",
+        "desc": "Locksmith marketing in Houston: Google Advanced Verification, fake listings, Texas DPS license rules for ads, LSA, Google Ads costs and after-hours calls.",
         "category": "Local marketing",
         "icons": ["Google Ads", "Google Business Profile", "Google"],
         "art": "b4",
@@ -277,7 +277,7 @@ POSTS = [
             ("The fake-listing problem is your marketing problem", f"""<p>Locksmiths have been the poster child for fake Google listings for over a decade. In {SRC['gsec']} with university researchers, the company said fewer than 0.5% of local searches led to fake listings, and that locksmiths, plumbers, electricians and other contractors made up roughly 2 of every 5 fake listings. It also said abusive listings had fallen 70% from their June 2015 peak. Small share of searches, big share of locksmith searches.</p>
 <p>The pattern hasn’t changed much. {SRC['sel']} summarized the New York Times reporting: listings with fake local addresses route calls to a remote call center, which quotes $35 to $90 by phone and dispatches a subcontractor who often demands three or four times that on site. Houston has its own versions. {SRC['kprc']} who found a “$19 locksmith” through Google and paid about $185.</p>
 <p>Two things follow for a real shop.</p>
-<p>First, Google is suspicious of you by default. Locksmith profiles get extra verification, edits get flagged, and suspensions happen to legitimate businesses. Keep your profile boringly accurate. Our {L('/blog/google-business-profile-video-verification/', 'guide to Google Business Profile video verification')} walks through what Google wants to see.</p>
+<p>First, Google is suspicious of you by default. In our experience with restricted home service categories, profiles get extra verification, edits get flagged, and suspensions hit legitimate businesses too. Keep your profile boringly accurate. Our {L('/blog/google-business-profile-video-verification/', 'guide to Google Business Profile video verification')} walks through what Google wants to see.</p>
 <p>Second, trust is the product. Every piece of your marketing should answer the question the customer is silently asking: is this a real local company, and will the price on the phone be the price at the door?</p>
 <!--fig:fakes-->"""),
 
@@ -286,7 +286,7 @@ POSTS = [
 <ul>
 <li><b>Company license.</b> Per {SRC['dps']}, locksmith work falls under the Class B Security Contractor company license, which can cover locksmith, electronic access, alarm and other services. If you’re selling access control, confirm your license covers electronic access too.</li>
 <li><b>Individual licenses.</b> {SRC['dpsind']} lists Locksmith as an individual license, and individuals have to be affiliated with a licensed company. Each tech you send out should be licensed.</li>
-<li><b>Using the word “locksmith” makes you a locksmith company.</b> Under {SRC['occ']}, advertising services with the term “locksmith,” or having it in the company name, counts as acting as a locksmith company. {SRC['tow']} that unlicensed vehicle unlocking can’t be advertised with the word, which is one more reason to keep your license number visible.</li>
+<li><b>Using the word “locksmith” makes you a locksmith company.</b> Under {SRC['occ']}, advertising services with the term “locksmith,” or having it in the company name, counts as acting as a locksmith company. {SRC['tow']} that an unlicensed outfit opening cars for owners can’t advertise that work with the word, which is one more reason to keep your license number visible.</li>
 <li><b>License number in every ad.</b> {SRC['ad']} requires licensee advertisements, including business cards, to show the company name and address as in DPS records (residential addresses excepted) and the company license number.</li>
 <li><b>Consumer notice and trucks.</b> {SRC['notice']} requires you to give clients your license number and DPS contact information for complaints, and any vehicle that shows the company name must show the license number in letters at least one inch high on each side.</li>
 </ul>
@@ -405,9 +405,9 @@ POSTS = [
                 "type": "checklist",
                 "title": "Negative keywords for locksmith ads",
                 "sub": "Add before launch, then check search terms weekly",
-                "items": ["DIY: how to, pick a lock, bump key, youtube", "Training: locksmith school, course, license, apprentice", "Jobs: hiring, jobs, salary, near me jobs", "Products only: lock picks, buy, amazon, home depot", "Key copies if you don’t want them: key copy, duplicate", "Services you don’t offer: safe, automotive, motorcycle", "Unlicensed tow: tow truck, roadside assistance", "Wrong intent: lock screen, phone unlock, locked account"],
+                "items": ["DIY: how to, pick a lock, bump key, youtube", "Training: locksmith school, course, license, apprentice", "Jobs: hiring, jobs, salary, near me jobs", "Products only: lock picks, buy, amazon, home depot", "Key copies if you don’t want them: key copy, duplicate", "Services you don’t offer: safe, automotive, motorcycle", "Unlicensed tow: tow truck, roadside assistance", "Wrong intent: phone passcode, locked account, lock screen"],
                 "alt": "Checklist of negative keywords for locksmith Google Ads campaigns in Houston",
-                "caption": "“Phone unlock” and “locked out of account” searches eat budget faster than any other category.",
+                "caption": "Phone passcode and “locked out of account” searches eat budget faster than any other category.",
             },
             "split": {
                 "type": "compare",

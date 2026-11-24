@@ -106,32 +106,30 @@ POSTS = [
             ("Hail, flood and the Houston storm calendar", f"""<p>Body shop demand in Houston isn’t smooth. It comes in waves, and the waves are mostly weather.</p>
 <!--fig:numbers-->
 <p>Texas is the country’s hail state. {SRC['sf_hail']} said it paid more than $5.6 billion in hail-related claims nationally in 2025, and Texas topped its list at $1.4 billion (that figure covers all lines, homes included, not only cars). Spring storms that roll through Cypress, Tomball and The Woodlands can fill every paintless dent repair schedule in the county for weeks.</p>
-<p>Floods are the other kind of wave, and they’re worse for most shops than they look. After Harvey, Cox Automotive estimated up to 500,000 cars and trucks were damaged or destroyed, and the Insurance Council of Texas counted 160,000 auto claims, per {SRC['harvey']}. A lot of flooded cars are totaled, which means they go to salvage auctions instead of your bays. What you get is the long tail: rental-car crunches, frame and electrical work on cars that were close calls, and a flood of “is my car worth fixing?” calls.</p>
+<p>Floods are the other kind of wave, and they’re worse for most shops than they look. After Harvey, Cox Automotive estimated up to 500,000 cars and trucks were damaged or destroyed, and the Insurance Council of Texas counted 160,000 auto claims, per {SRC['harvey']}. Many flooded cars are totaled and go to auction instead of your bays. What you get is the long tail: electrical work on close calls and a lot of “is my car worth fixing?” calls.</p>
 <p>What to do with that, practically:</p>
 <ul>
 <li><b>Build a hail page before you need it.</b> PDR vs. conventional repair, how hail claims and deductibles work, how long the wait is, and a photo estimate form. Publish it in January, not the Tuesday after a storm, so Google has had time to find it.</li>
 <li><b>Pre-write storm ads.</b> Keep a paused campaign with “hail damage repair [town]” and “paintless dent repair near me” keywords, ad copy and a budget. When a storm cell crosses Spring and Klein, turn it on that night and set a geographic target around the path.</li>
-<li><b>Expect out-of-town competition.</b> Traveling PDR crews show up after big Texas storms with tents in parking lots. Your angle is permanence: a physical shop, a warranty you’ll be around to honor, and reviews from neighbors.</li>
+<li><b>Expect out-of-town competition.</b> Traveling PDR crews follow big Texas storms. Your angle is permanence: a real shop, a warranty you’ll be around to honor, and reviews from neighbors.</li>
 <li><b>After hurricanes and tropical storms</b>, lead with honest triage. A page titled “Was my car in floodwater? What to check before you file” earns trust and links. Most of those owners will need a decision more than a repair.</li>
-</ul>
-<p>And keep your capacity honest in ads. Promising a two-week turnaround in April when you’re booked six weeks out burns money and reviews.</p>"""),
+</ul>"""),
 
             ("OEM certifications and I-CAR as trust signals", f"""<p>Drivers of newer cars, especially anything with lane-keep cameras, radar behind the bumper or aluminum panels, increasingly search with the brand in the query. “Tesla body shop Houston.” “Ford certified collision repair The Woodlands.” “Honda certified body shop Katy.” If you hold an automaker certification, that search is worth more than almost any generic keyword, and most shops bury the certificate in a footer badge.</p>
-<p>Industry training credentials matter too, mostly as proof for the customer who’s never heard of them. {SRC['icar']} require four role-relevant technicians (estimator, refinish, structural and non-structural) trained to ProLevel 2, ongoing training credits every year, welding training for structural techs, and, for 2026 renewals, an ADAS technician on the roster if the shop does calibrations in-house. Customers don’t know any of that. Translate it.</p>
+<p>Industry training credentials matter too, mostly as proof for the customer who’s never heard of them. {SRC['icar']} require four role-relevant technicians (estimator, refinish, structural and non-structural) trained to ProLevel 2, ongoing training credits every year, welding training for structural techs, and, for 2026 renewals, an ADAS technician on the roster if the shop does calibrations in-house. Customers don’t know any of that, so translate it.</p>
 <!--fig:trust-->
 <p>How we’d use certifications in marketing:</p>
 <ul>
 <li>A page per OEM certification you hold, titled with the brand and city, that explains what the program requires in plain language and shows photos of the actual equipment (frame bench, aluminum clean room, calibration targets).</li>
 <li>A short paragraph on ADAS calibration on every estimate page. “After a bumper or windshield repair, cameras and sensors may need recalibration. We do it in-house and give you a printout.” That one sentence answers a fear many drivers now have.</li>
 <li>Google Business Profile photos of certificates, technicians at work and the calibration bay. Real photos, refreshed monthly.</li>
-<li>Only claim what’s current. Certifications lapse. If your plaque is from 2022, check before you advertise it.</li>
 </ul>"""),
 
             ("Photo estimates online: the two-minute form that beats “come in sometime”", f"""<p>Nobody wants to take a morning off to get an estimate. A shop that accepts photos from a phone, replies with a rough range, and books the in-person teardown gets the job far more often than one that says “stop by between 8 and 5.”</p>
 <!--fig:photo-->
 <p>Form design matters more than most shops think. Ask for the minimum: name, mobile number, year/make/model, a short damage description, whether a claim is filed, and four photos (the damage up close, the damage from six feet, the whole side of the car, and the VIN plate or the odometer). Make photo upload work on an iPhone without a separate app. Add an optional Spanish version of the form, more on that below.</p>
 <p>Then answer fast. The difference between replying in 15 minutes and replying tomorrow is usually the difference between winning and losing the estimate, because the customer sent the same photos to two other shops. Our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} has the follow-up cadence we use, and it carries over to body work almost unchanged.</p>
-<p>Be careful with the wording of your reply. A photo estimate is a range, and hidden damage behind the bumper cover is normal. Say so. “Based on your photos this looks like roughly [your price range]. Once we remove the bumper we’ll send your adjuster and you an exact estimate.” Underpromise in writing, and you’ll get fewer angry supplement calls.</p>"""),
+<p>Be careful with the wording of your reply. A photo estimate is a range, and hidden damage behind the bumper cover is normal. Say so. “Based on your photos this looks like roughly [your price range]. Once we remove the bumper we’ll send your adjuster and you an exact estimate.”</p>"""),
 
             ("Tow companies, dealerships and the other people who touch a wreck first", f"""<p>A car that’s been towed from a wreck on I-45 or the Grand Parkway goes somewhere, and that first stop often becomes the repair shop by default. So referral partners are worth real effort.</p>
 <p>A few ground rules in Houston. The city’s {SRC['hou_tow']} for police-ordered tows tells drivers they can be towed to a location of their choice and that tow operators may not solicit business at the scene. Texas regulates towing through TDLR, and {SRC['tdlr_tow']} includes violations for giving something of value to parking facility owners in connection with tows. We’re marketers, not lawyers, so before you set up any per-tow payment to a tow company, run it past someone who practices in this area. Build the relationship on service instead, which is what lasts anyway.</p>
@@ -139,10 +137,8 @@ POSTS = [
 <li><b>Tow operators.</b> Make your shop the easy drop: after-hours key drop, a secured lot, a direct cell number for drivers, fast release of the tow bill so they get paid, and no arguments about storage. Drivers remember which shops make their night shorter.</li>
 <li><b>Dealerships without body shops.</b> Many service departments in Spring, Conroe and along the I-45 corridor send collision work out. Dealers want OEM procedures, clean paperwork and a car that comes back without a new problem. Give them a named contact and a status report they can forward to their customer.</li>
 <li><b>Insurance agents.</b> Independent agents get the “where should I take my car?” call before the adjuster does. A short visit with a one-page rights sheet and your photo-estimate link goes a long way. Our {L('/blog/insurance-agency-marketing-houston/', 'insurance agency marketing post')} shows what their week looks like from the other side.</li>
-<li><b>Fleets and mechanical shops.</b> General repair shops that don’t do paint, and local service fleets with dented vans, are steady referral sources. Offer a fleet rate sheet and pickup.</li>
-<li><b>Glass and ADAS specialists.</b> If you don’t calibrate in-house, partner with someone who does and say so publicly.</li>
 </ul>
-<p>Track every partner as a lead source in your management system. Most shops have a gut feeling about which tow company sends them work. Six months of real numbers usually change that feeling.</p>"""),
+<p>Track every partner as a lead source in your management system. Six months of real numbers usually beat the gut feeling about which tow company sends the most work.</p>"""),
 
             ("Google Ads and Local Services Ads for body shops in Houston", f"""<p>Search ads work for collision because the intent is so clear. Someone searching “auto body shop near me” at 9 p.m. has a dented car and a decision to make this week.</p>
 <p>Local Services Ads are available for this vertical. {SRC['lsa']} includes Auto Body Shop and Towing among its auto categories, and notes that the Google Verified badge isn’t currently offered for auto categories. In August 2026 Google started moving LSA campaigns into Google Ads as Performance Max campaigns with pay-per-lead goals; per {SRC['pmax']}, the first phase covered home services like plumbing and HVAC, with other categories in later phases. If you run LSA as a body shop, expect an email about your migration and download your LSA reports before it happens, since historical performance reports don’t carry over.</p>
@@ -155,16 +151,16 @@ POSTS = [
 <tr><td>OEM / brand</td><td>Tesla certified body shop Houston, Ford collision repair Conroe</td><td>Matching certification page</td></tr>
 <tr><td>Bumper and paint</td><td>bumper repair near me, car scratch repair Katy</td><td>Bumper and paint page with “starting at” ranges</td></tr>
 </tbody></table></div>
-<p>Negatives we’d add on day one: <i>jobs, hiring, technician, salary, school, class, course, DIY, how to, kit, touch up paint, Bondo, parts, junkyard, salvage, used, for sale, auction, Craigslist</i>. Also “estimator jobs” and “body shop for sale,” both of which get real volume in Houston. Then read the search terms report weekly for the first month.</p>
+<p>Negatives we’d add on day one: <i>jobs, hiring, technician, salary, school, class, course, DIY, how to, kit, touch up paint, Bondo, parts, junkyard, salvage, used, for sale, auction, Craigslist</i>. Then read the search terms report weekly for the first month.</p>
 <p>Settings matter. Use location targeting for “people in or regularly in” your area, keep the radius to where people will actually bring a car (a shop in Tomball isn’t winning a fender bender in Pearland), and track calls and estimate form submissions as separate conversions. Our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'tracking guide')} covers the setup, and {L('/blog/google-ads-cost-per-click-houston-benchmarks/', 'Houston cost-per-click benchmarks')} will help you sanity-check what you’re paying. If you’d rather hand the account to someone, that’s what our {L('/services/search-marketing/', 'search marketing team')} does.</p>"""),
 
-            ("Reviews that sell the repair, not just the shop", f"""<p>Collision customers read reviews looking for one thing: proof that you dealt with the insurance company so they didn’t have to. “Great shop!” helps your rating. “They handled everything with my State Farm adjuster and the paint match is perfect” sells the next job.</p>
+            ("Reviews that sell the insurance experience", f"""<p>Collision customers read reviews looking for one thing: proof that you dealt with the insurance company so they didn’t have to. “Great shop!” helps your rating. “They handled everything with my State Farm adjuster and the paint match is perfect” sells the next job.</p>
 <p>You can ask for specifics without scripting the customer. Send the review link by text the afternoon of pickup, with a prompt like this:</p>
 <p><i>“Hi Maria, thanks for trusting us with your Camry. If you have a minute, a Google review helps other drivers in Spring find us. It’s especially useful if you mention how the insurance part went. [link]”</i></p>
 <p>Stay inside {SRC['gpol']}: no discounts or detailing for reviews, no sending the link only to happy customers, no pressure on staff to hit review quotas. Federal rules on fake and incentivized reviews also apply, which we cover in our {L('/blog/fake-reviews-rule-local-businesses/', 'fake reviews rule post')}. Reply to every review, and for the bad ones about cycle time, explain what happened with parts and offer a direct number. The {L('/blog/complete-guide-google-reviews/', 'complete guide to Google reviews')} has reply templates.</p>"""),
 
-            ("Spanish-language customers in Houston", f"""<p>After English, Spanish is by far the most common language spoken at home in the Houston metro: 30.2% of residents, according to {SRC['ghp']} using 2024 Census estimates. In some trade areas (much of north Houston, Aldine, Humble, Pasadena, parts of Conroe) the share is much higher.</p>
-<p>A wreck is stressful in any language. Explaining deductibles, supplements and the right to choose a shop is hard enough in your first one. Shops that serve Spanish-speaking customers well tend to do a few things:</p>
+            ("Spanish-language customers in Houston", f"""<p>After English, Spanish is by far the most common language spoken at home in the Houston metro: 30.2% of residents, according to {SRC['ghp']} using 2024 Census estimates. In parts of the metro it’s higher still, so check the numbers for your own ZIP codes.</p>
+<p>Shops that serve Spanish-speaking customers well tend to do a few things:</p>
 <ul>
 <li>Have at least one bilingual estimator or writer, and say so on the Google profile and in ads (“Hablamos español”).</li>
 <li>Build real Spanish pages for the right-to-choose explanation and the photo estimate form. Translated by a person, reviewed by someone on your staff. Machine-translated insurance language reads badly and can mislead.</li>
@@ -174,17 +170,15 @@ POSTS = [
 <p>We go much deeper in our {L('/blog/hispanic-marketing-houston-spanish-ads-seo/', 'Hispanic marketing in Houston guide')}.</p>"""),
 
             ("Rental car coordination: the message that settles the decision", f"""<p>The second question every collision customer asks, after “will my insurance pay,” is “what am I supposed to drive?” In a city where almost nobody can get to work without a car, a shop that sets up the rental gets chosen over one that doesn’t, often without a price comparison.</p>
-<p>Some background worth knowing. Rental reimbursement on the customer’s own policy is optional coverage with daily and total limits. On a third-party claim, Texas law lets a claimant recover loss-of-use damages, and in {SRC['jd']} in 2016 the Texas Supreme Court held those damages are available even when the vehicle is a total loss. Don’t give legal advice about any of that. Do make it clear that you’ll coordinate with the adjuster and the rental counter.</p>
+<p>Rental reimbursement on the customer’s own policy is optional coverage with daily and total limits. On a third-party claim, Texas law lets a claimant recover loss-of-use damages, and in {SRC['jd']} in 2016 the Texas Supreme Court held those damages are available even when the vehicle is a total loss. Don’t give legal advice about any of that. Do make it clear that you’ll coordinate with the adjuster and the rental counter.</p>
 <p>Copy that works on the site and in ads: <i>“We set up your rental with your insurance and the rental company, often before you drop off. We text you repair updates so you know when to return it.”</i></p>
 <p>Then do it. Partner with a nearby rental branch, learn which carriers use which rental programs, and send cycle-time updates by text. Rental days are one of the main things adjusters watch, and a customer whose rental coverage runs out mid-repair writes your worst reviews. Keep those texts transactional; marketing texts need separate consent under Texas rules, covered in our {L('/blog/sms-marketing-small-business-texas-rules/', 'SMS rules post')}.</p>"""),
 
-            ("What to track, what to spend and the first 90 days", f"""<p>Most body shops we talk to know their car count and their average repair order. Very few know which marketing produced either. Fix that first.</p>
+            ("What to track, what to spend and the first 90 days", f"""<p>Most shops know their car count. Few know which marketing produced it.</p>
 <!--fig:funnel-->
 <p>Tag every estimate request with its source: Google Ads, LSA, Google Maps, organic site, tow partner, dealer, insurance agent, DRP assignment, repeat customer. Then follow it to a repair order. It takes about three months to have numbers you can make decisions with.</p>
 <p>On budgets, there’s no honest single number. For a single-location shop with steady DRP volume, an illustrative starting point might be $1,500 to $4,000 a month in search ads, a few hundred more in a storm season, plus review software and website work. Treat those as examples. Your capacity (how many repair orders you can actually take next month) should set the ceiling, because advertising into a six-week backlog makes your reviews worse.</p>
 <!--fig:plan-->
-<p>Our recommendation for order of work: profile and reviews, then the right-to-choose page and the photo estimate form, then paid search, then partners. The ads work far better once the pages they land on answer the customer’s two questions about insurance and rental cars.</p>
-<!--fig:area-->
 <p>If you run a body shop anywhere from Conroe to Katy and want a plan built around your capacity, certifications and claim mix, <a href="/contact/">get in touch</a> and tell us where your work comes from today.</p>"""),
         ],
         "faq": [
@@ -246,15 +240,6 @@ POSTS = [
                 "steps": [["Days 1-30", "Fix the Google profile, start review texts, build the right-to-choose page."], ["Days 31-60", "Launch the photo estimate form and core collision search ads."], ["Days 61-90", "Add hail and OEM ad groups, a Spanish page, partner visits."], ["Ongoing", "Source every repair order, review weekly, adjust to capacity."]],
                 "alt": "Ninety-day collision repair marketing plan for a body shop in Houston and The Woodlands",
                 "caption": "Pages before ads. Ads land better once the questions are answered.",
-            },
-            "area": {
-                "type": "map",
-                "title": "Draw your trade area where cars actually come from",
-                "sub": "Example: a shop near The Woodlands serving the I-45 and 249 corridors",
-                "highlight": ["The Woodlands", "Spring", "Conroe", "Shenandoah", "Tomball", "Magnolia"],
-                "note": "Illustrative example",
-                "alt": "Map of an example collision repair trade area around The Woodlands, Spring and Conroe in Greater Houston",
-                "caption": "Most body work comes from within a short drive of the shop or the customer’s workplace.",
             },
         },
     },
@@ -334,7 +319,7 @@ POSTS = [
 <p>Don’t try to solve voluntary churn by making cancellation hard. Customers who feel trapped leave anyway, then post about it on Nextdoor and Google. And as the next section explains, federal law already requires a simple way to stop recurring charges for online sign-ups.</p>
 <p>Track churn by tier, by site and by sign-up month. Members who joined during a $1 first-month promotion often churn very differently from members who paid full price on day one. You need to know that before you run the next promotion.</p>"""),
 
-            ("Click to cancel, ROSCA and Texas: where the rules stand", f"""<p>A lot of car wash operators heard in 2024 that the FTC’s “click to cancel” rule was coming. Here’s the current status, as of our last check in November 2026. This is a marketer’s summary; talk to your attorney about your specific sign-up flow.</p>
+            ("Click to cancel, ROSCA and Texas: where the rules stand", f"""<p>A lot of car wash operators heard in 2024 that the FTC’s “click to cancel” rule was coming. The status below is as of our last check in November 2026. This is a marketer’s summary; talk to your attorney about your specific sign-up flow.</p>
 <ul>
 <li><b>The 2024 rule is not in effect.</b> The Eighth Circuit Court of Appeals {SRC['ftc_vac']}, days before it was scheduled to take effect, because the FTC skipped a required preliminary regulatory analysis.</li>
 <li><b>The FTC has restarted.</b> On March 11, 2026, the FTC announced an {SRC['fr']} on its Negative Option Rule, with comments due April 13, 2026, per {SRC['ftc_anprm']}. In May 2026, {SRC['jones']} described a new federal rule as likely on the horizon. We haven’t seen a final rule.</li>
@@ -363,7 +348,7 @@ POSTS = [
 <li><b>Photos:</b> The entrance from the road, the member lane, the vacuums, the menu board. People want to know how to get in.</li>
 <li><b>Posts:</b> Weekly in pollen and lovebug season, with the membership offer.</li>
 </ul>
-<p>Search ads are worth a test too. Keywords like “car wash membership near me,” “unlimited car wash The Woodlands” and “express car wash Spring TX” are high intent, and Google lists Car Wash as a {SRC['lsa']} category as well. Negatives: <i>jobs, hiring, for sale, equipment, franchise, DIY, self service</i> (unless you have bays), <i>mobile</i> (unless you offer it), and competitor brand names if you don’t want to pay for them.</p>
+<p>Search ads are worth a test too. Keywords like “car wash membership near me,” “unlimited car wash The Woodlands” and “express car wash Spring TX” are high intent, and Car Wash also appears on {SRC['lsa']}. Negatives: <i>jobs, hiring, for sale, equipment, franchise, DIY, self service</i> (unless you have bays), <i>mobile</i> (unless you offer it), and competitor brand names if you don’t want to pay for them.</p>
 <p>Reviews follow the same rules as everywhere: no free wash for a review, and no sending the link only to happy customers, per {SRC['gpol']}. Ask by text after a member’s third visit, when they’ve formed an opinion. Our {L('/blog/rank-in-google-map-pack-houston/', 'map pack ranking guide')} covers the rest of local search for Houston.</p>
 <!--fig:area-->"""),
 
