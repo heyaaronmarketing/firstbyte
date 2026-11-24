@@ -252,7 +252,7 @@ POSTS = [
         "desc": "Car wash membership marketing for Houston and The Woodlands: pollen and lovebug seasons, grand openings, member lanes, churn, cancellation rules, Meta ads.",
         "category": "Local marketing",
         "icons": ["Meta", "Google Business Profile", "Google Ads"],
-        "art": "b4",
+        "art": "b1",
         "hero": "car",
         "hero_alt": "Illustration of a car for car wash membership marketing in Houston and The Woodlands",
         "related": ["auto-detailing-marketing-the-woodlands-houston", "gym-presale-new-location-membership-launch", "geo-fencing-ads-target-customers-nearby"],

@@ -63,7 +63,7 @@ POSTS = [
         "desc": "Marketing for Houston and The Woodlands patio cover, pergola and outdoor kitchen companies: RDRC approvals, renderings, Google Ads, Houzz, financing rules.",
         "category": "Local marketing",
         "icons": ["Google Ads", "Instagram", "Google Business Profile"],
-        "art": "b2",
+        "art": "b5",
         "hero": "house",
         "hero_alt": "Illustration of a home with a covered patio for outdoor living and patio cover marketing in Houston and The Woodlands",
         "related": ["pool-builder-marketing-houston-the-woodlands", "how-to-get-more-remodeling-leads-houston", "kitchen-bath-remodeling-marketing-the-woodlands"],
