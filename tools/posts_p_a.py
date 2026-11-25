@@ -105,13 +105,13 @@ POSTS = [
 <p>Paperwork gets the same treatment. {SRC['tac71']} requires bids, proposals, estimates and invoices for installing or repairing a system to show the irrigator’s name, license number, business address and phone, along with the TCEQ notice that begins “Irrigation in Texas is regulated by the Texas Commission on Environmental Quality.” Installation contracts must be written, signed, carry the irrigator’s seal and state the warranty dates.</p>
 <!--fig:license-->
 <p>{SRC['tceqli']} explains who can do what. A Landscape Irrigator (LI) can sell, design, install, maintain, repair and service systems. An Irrigation Technician (IT) can connect systems to the water supply and do repairs, but works under an LI’s supervision. An Irrigation Inspector (II) checks systems for compliance and can’t work for an irrigation company at the same time. Licenses cost $111, run three years, and anyone can look one up on TCEQ’s license search.</p>
-<p>We treat this as a marketing asset. Hardly anyone checks a plumber’s license before calling. Irrigation is different, because HOAs, builders and property managers do check, and a homeowner who just got burned by a mow-and-blow crew “fixing” their system often looks too. So we put the LI number in the Google Business Profile description, the website footer, every landing page, the truck wrap and the Meta ad image. Search ads have tight character limits, but a callout like “TCEQ Licensed LI 0000000” fits, and the landing page carries the rest.</p>
-<p>Ask your attorney or TCEQ if anything in your setup is unusual, such as a sales company that subs out the irrigator.</p>"""),
+<p>We treat this as a marketing asset. Hardly anyone checks a plumber’s license before calling. Irrigation is different, because HOAs, builders and property managers do check, and a homeowner who just got burned by a mow-and-blow crew “fixing” their system often looks too. So we put the LI number in the Google Business Profile description, the website footer, every landing page, the truck wrap and the Meta ad image. Search ads have tight character limits, but a callout like “TCEQ Licensed Irrigator LI [your number]” fits, and the landing page carries the rest.</p>
+"""),
 
             ("Backflow testing in Houston: the reminder that sells itself", f"""<p>Backflow testing is the most underrated revenue line in the business, because the customer doesn’t have to be persuaded. The utility persuades them.</p>
 <p>In the City of Houston, testable backflow assemblies have to be tested at least once a year and again whenever they’re installed, repaired or relocated, according to {SRC['hpwbf']}. Testers must hold a current TCEQ backflow prevention assembly tester license and be approved on the city’s testing company list, and results get uploaded through SwiftComply. Properties that fall out of compliance can face citations of up to $2,000 per day and possible suspension of water service. Many MUDs and suburban utilities in Cypress, Katy, Pearland and Montgomery County run their own programs with their own deadlines, so check each one you serve.</p>
 <!--fig:backflow-->
-<p>The marketing is mostly a calendar. Every test you run creates a due date 12 months out. Put it in your field software, send a reminder text 45 days ahead, then 21, then 7. Offer a combined “backflow test plus system check” visit, which is how a $[your price] compliance call turns into the summer repair work you’d otherwise have chased with ads.</p>
+<p>The marketing is mostly a calendar. Every test you run creates a due date 12 months out. Put it in your field software, send a reminder text 45 days ahead, then 21, then 7. Offer a combined “backflow test plus system check” visit, which is how a [your price] compliance call turns into the summer repair work you’d otherwise have chased with ads.</p>
 <p>Landing pages help here too. Build one page per utility area you test in (“Backflow testing in the City of Houston,” “Backflow testing in The Woodlands”), each explaining that area’s process in plain English and linking to the official source. Those pages rank for low-competition searches all year, and property managers bookmark them.</p>"""),
 
             ("Watering schedules by city and MUD are free content", f"""<p>Watering rules around Houston change by city, by MUD and by summer. That’s a headache for homeowners and an opening for you.</p>
@@ -127,7 +127,7 @@ POSTS = [
 <ul>
 <li><b>February and March.</b> Spring startup and system checks. Push maintenance plan sign-ups to past customers, and quote installs for homeowners who want them in before summer.</li>
 <li><b>April through June.</b> Repair search volume climbs with the heat. Raise search budgets, and keep the controller and smart upgrade offers running.</li>
-<li><b>July through September.</b> Peak repair season. Your problem becomes capacity, not demand. Tighten your service radius in Google Ads so techs aren’t driving from Montgomery to Pearland for a $95 head replacement.</li>
+<li><b>July through September.</b> Peak repair season. Your problem becomes capacity, not demand. Tighten your service radius in Google Ads so techs aren’t driving from Montgomery to Pearland for a single head replacement.</li>
 <li><b>October and November.</b> Fall audits, drainage work and commercial contract renewals.</li>
 <li><b>December and January.</b> Freeze prep and backflow insulation. Hard freezes in Houston are rare enough that people forget, and frequent enough that every few years they crack assemblies across the region. Have a freeze-repair page ready to switch on.</li>
 </ul>
@@ -169,7 +169,7 @@ POSTS = [
 </ol>
 <p>On reviews, follow Google’s rules: ask every customer the same way, never offer discounts for reviews, and never filter out unhappy customers before sending the link. Our {L('/blog/complete-guide-google-reviews/', 'Google reviews guide')} has templates, and {L('/blog/sms-marketing-small-business-texas-rules/', 'our post on Texas texting rules')} covers what consent you need before you send marketing texts.</p>"""),
 
-            ("What to track and a first 90 days", f"""<p>Track calls by job type, not just total calls. A month with 120 calls that were mostly head replacements 40 minutes away is worse than 70 calls that turned into nine maintenance plans and two installs.</p>
+            ("What to track and a first 90 days", f"""<p>Track calls by job type. Total calls hide too much. A month with 120 calls that were mostly head replacements 40 minutes away is worse than 70 calls that turned into nine maintenance plans and two installs.</p>
 <p>The short list: booked jobs by source, revenue by job type, maintenance plan sign-ups and renewals, backflow tests due versus completed, and builder or landscaper referrals by partner. Recorded calls and form tracking make this possible; our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 and Google Ads tracking guide')} walks through the setup.</p>
 <p>A first 90 days we’d run for a sprinkler company in The Woodlands, Spring or north Houston:</p>
 <ul>
@@ -231,7 +231,7 @@ POSTS = [
             "rebate": {
                 "type": "stats",
                 "title": "Smart controller incentives in 2026",
-                "stats": [["$30", "off an 8-zone Rachio for Houston water customers"], ["$50", "off during 2026 promo weeks"], ["May 23", "start of the 3-day Texas tax holiday"], ["$0", "state tax on WaterSense irrigation controls that weekend"]],
+                "stats": [["$30", "off an 8-zone Rachio for Houston water customers"], ["$50", "off during 2026 promo weeks"], ["May 23", "start of the 3-day Texas tax holiday"], ["$0", "sales tax on WaterSense irrigation controls that weekend"]],
                 "note": "Source: Houston Public Works, Texas Comptroller",
                 "alt": "Stats on smart irrigation controller discounts and the Texas tax holiday for sprinkler companies in Houston",
                 "caption": f"From {SRC['hpwsmart']} and the {SRC['taxhol']}. Confirm each program is current before advertising it.",
@@ -263,7 +263,7 @@ POSTS = [
             (None, f"""<p>Thursday, late May, 2:15 p.m. Your tech is at stop 11 of 16. The next pool is 38 minutes away in Magnolia because a customer signed up from a Facebook ad last month, and the one after that is back in Spring. Meanwhile the office has three voicemails from new homeowners in Cypress with green pools, and a weekly customer in Sterling Ridge just canceled because they’re moving.</p>
 <p>That afternoon is the whole business. Pool service runs on routes, and the marketing that matters most decides where your next customer lives.</p>
 <p>Pool cleaning and service marketing in Houston and The Woodlands works when it fills the streets your trucks already drive, uses one-time jobs like green-pool cleanups to start weekly accounts, and keeps those accounts long enough to pay back what you spent to get them. Equipment repair is where the margin lives. Reviews and neighbors do more selling than ads.</p>
-<p>Here’s how we’d set that up for a service company working anywhere from Kingwood to Katy.</p>"""),
+<p>Below is how we’d set that up for a service company working anywhere from Kingwood to Katy.</p>"""),
 
             ("Route density is the marketing strategy", f"""<p>Every pool service owner knows drive time eats profit. Fewer of them run their marketing like they know it.</p>
 <p>{SRC['skroutes']} puts density near the top of what makes a route valuable: pools close together with close service days cut travel time between stops. A customer three streets from your Tuesday cluster is worth more than the same customer 20 minutes off-route, even at the same monthly price. So stop targeting “Houston” in your ads.</p>
@@ -307,7 +307,7 @@ POSTS = [
 
             ("Houston’s pool calendar: freeze nights, hurricane season and cleanups", f"""<p>Houston pools don’t close for winter the way northern pools do, so “opening season” is softer here. What we get instead are weather spikes.</p>
 <p>Freeze nights come first. When forecasters call for a hard freeze, customers want to know whether to run the pump, cover the equipment or call you. A short freeze guide on your site, emailed and posted to your Business Profile the day a freeze watch is issued, earns trust and fills the week after with repair calls for cracked equipment. Anyone who lived through February 2021 reads that email.</p>
-<p>Hurricane season runs June 1 to November 30. When Beryl came ashore on July 8, 2024, CenterPoint was working on 2.26 million power outages, according to {SRC['beryl']}. Pumps sat off for days in July heat, pools filled with leaves and limbs, and plenty of them turned green before the power came back. Storm cleanups are a real business line for a few weeks, and they’re a recruiting event for weekly accounts if you handle them well.</p>
+<p>Hurricane season runs June 1 to November 30. When Beryl came ashore on July 8, 2024, CenterPoint was working on 2.26 million power outages, according to {SRC['beryl']}. Pumps sit off when the power is out, storms fill pools with leaves and limbs, and a Houston pool in July doesn’t stay clear for long without circulation. Storm cleanups are a real business line for a few weeks, and they’re a recruiting event for weekly accounts if you handle them well.</p>
 <!--fig:storm-->
 <p>Weekly customers come first after a storm, and saying so in advance is good marketing. A line on your service page like “weekly customers get priority after storms” sells the plan to people who remember Beryl.</p>"""),
 
@@ -341,7 +341,7 @@ POSTS = [
 <p>When you compare buying with building, use the lifetime value table above. If building a weekly account through ads and cleanups costs you $400 and buying one costs more than that once you account for the customers who leave after the sale, build. If the route fills a hole in your existing clusters, the math often flips.</p>"""),
 
             ("Pool builders, realtors and the referral network", f"""<p>New pools need someone to take over after startup, and many builders don’t want the service calls. A relationship with two or three pool builders in your area can be worth a steady stream of new weekly accounts each spring. Our {L('/blog/pool-builder-marketing-houston-the-woodlands/', 'pool builder marketing post')} covers how builders market themselves; from your side, the pitch is a clean handoff, a startup visit and no stealing their remodel work.</p>
-<p>Realtors are the other referral source. A one-page “pool inspection before listing” offer for agents in The Woodlands, Spring and Cypress turns into service accounts with the buyers. Home inspectors often recommend a pool specialist too, so it’s worth introducing yourself to the ones who work your area.</p>"""),
+<p>Realtors are the other referral source. A one-page “pool inspection before listing” offer for agents in The Woodlands, Spring and Cypress turns into service accounts with the buyers. Home inspectors often recommend a pool specialist too, so introduce yourself to the ones who work your area.</p>"""),
 
             ("What to track, and a first 90 days", f"""<p>Track three numbers above everything else: new weekly accounts by source, cancellations by reason, and average drive minutes between stops. If marketing adds accounts and drive time goes up, you’re growing the wrong way.</p>
 <ul>
@@ -472,7 +472,7 @@ POSTS = [
 <p>Train whoever answers the phone to give the fee, the soonest real slot and a plain expectation on parts. Then book the visit before hanging up. Our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} explains why the first company to answer usually gets the job.</p>"""),
 
             ("Google Local Services Ads for appliance repair", f"""<p>{SRC['lsa']} includes “Appliance repair services,” so Houston shops can run Local Services Ads in their own category. LSAs sit above regular search ads on many queries, you pay per lead (a call or message) instead of per click, and you can dispute leads that weren’t real customers.</p>
-<p>The screening that comes with LSA is the point. Background checks, license and insurance checks, and a verified business all work against the fake-listing problem, and customers see the result in the ad. Ranking leans heavily on reviews and how fast you answer, so a shop with 200 reviews that picks up in three rings beats a bigger competitor with 40.</p>
+<p>The screening that comes with LSA is the point. Background checks plus license and insurance checks (which vary by category and state) all work against the fake-listing problem, and customers see the result in the ad. Ranking leans heavily on reviews and how fast you answer, so a shop with 200 reviews that picks up in three rings beats a bigger competitor with 40.</p>
 <p>Set your LSA service area tighter than you think. A lead in Katy is no good to a shop in Humble on a Saturday. Choose the appliance job types you actually want (refrigerators and washers, maybe not built-in wine coolers), and set hours to match when someone answers. Our {L('/blog/local-services-ads-vs-google-ads-home-services/', 'comparison of LSA and Google Ads')} and {L('/blog/google-guaranteed-vs-google-verified/', 'Google Guaranteed vs. Google Verified explainer')} go deeper.</p>"""),
 
             ("Google Ads: brand plus problem keywords, and the trademark rules", f"""<p>Appliance searches are unusually specific. People type the brand, the appliance and the symptom, sometimes the error code off the display. That’s a gift: every one of those searches tells you what the job is.</p>
@@ -494,7 +494,7 @@ POSTS = [
             ("Houston heat turns a dead fridge into an emergency", f"""<p>Appliance repair has a weather pattern here like everything else. Summer 2023 was the warmest summer on record for Houston, with the city hitting 109°F twice in August and triple digits on all but three days that month, per {SRC['heat23']}. Refrigerators and freezers in hot garages work hardest in exactly those weeks, and a failed compressor costs a family a week of groceries.</p>
 <p>Power events add to it. After Beryl in July 2024, CenterPoint was working through 2.26 million outages, according to {SRC['beryl']}. In our experience across home services, the days after power returns bring a wave of calls about fridges, ice makers and electronics that don’t come back right.</p>
 <!--fig:season-->
-<p>So shift budget with the season. Raise refrigerator and ice maker bids from May through September and after any big outage. Push oven and range ads in the two weeks before Thanksgiving (yes, this week) and before Christmas. Run dryer and washer campaigns steadily, since those don’t care about weather. And keep a short “after the power comes back” page ready for hurricane season.</p>"""),
+<p>So shift budget with the season. Raise refrigerator and ice maker bids from May through September and after any big outage. Push oven and range ads in the two weeks before Thanksgiving and before Christmas. Run dryer and washer campaigns steadily, since those don’t care about weather. And keep a short “after the power comes back” page ready for hurricane season.</p>"""),
 
             ("Certifications and licenses: say what you hold", f"""<p>Two credentials come up most in appliance marketing.</p>
 <p>For sealed-system refrigerator and freezer work, the EPA requires technicians who could release refrigerant to be certified, and Type I certification covers servicing small appliances, per {SRC['epa608']}. “EPA 608 certified technicians” is a credibility line worth adding to refrigerator pages, as long as it’s true for the techs doing that work.</p>
