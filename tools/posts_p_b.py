@@ -271,7 +271,7 @@ POSTS = [
         "desc": "Countertop fabricator marketing in Houston: trade accounts, homeowner Google Ads, Instagram install videos, slab yard visits, silica safety and reviews.",
         "category": "Local marketing",
         "icons": ["Instagram", "Google Ads", "Google Business Profile"],
-        "art": "b4",
+        "art": "b1",
         "hero": "tools",
         "hero_alt": "Illustration of fabrication tools for countertop fabricator marketing in Houston and The Woodlands",
         "related": ["kitchen-bath-remodeling-marketing-the-woodlands", "interior-designer-marketing-the-woodlands-houston", "home-builder-marketing-houston-montgomery-county"],
