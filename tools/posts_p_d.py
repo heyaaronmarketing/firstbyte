@@ -104,7 +104,7 @@ POSTS = [
 <tr><td>Privates and corporate classes</td><td>Nervous beginners, athletes, office teams</td><td>Higher revenue per teacher hour</td></tr>
 <tr><td>Retail</td><td>Members already in the lobby</td><td>Not worth ad money; sell it at the desk</td></tr>
 </tbody></table></div>
-<p>Build the marketing calendar around the first three rows. Teacher training and workshops get their own launches with their own pages, because they’re bought on a completely different timeline.</p>"""),
+<p>Build the marketing calendar around the first three rows. Training and workshops get their own launches, because they’re bought on a different timeline.</p>"""),
 
             ("Intro offers that turn into memberships", f"""<p>Most yoga studios sell either an intro month (unlimited for 30 days at a discount) or a short pack, like three classes in two weeks. The month fits heated studios selling a daily habit. The pack works better when you want every new person in a specific beginner class.</p>
 <p>Whichever you pick, the drop that hurts is between class one and class two. Here’s an illustrative funnel for 100 intro buyers.</p>
@@ -169,13 +169,13 @@ POSTS = [
 <li>Real members, with permission, of varied ages and bodies. If every photo is a 25-year-old in matching sets, the 50-year-old from Sterling Ridge assumes it isn’t for her.</li>
 </ul>
 <p>For ads, keep it simple. One Meta campaign selling the intro offer, aimed at a radius around the studio (we’d start at 5 to 8 miles in The Woodlands and tighter inside the Loop, where traffic decides everything), optimized for a purchase on your booking checkout rather than leads or clicks. Creative: a teacher talking, the room, the price. Our {L('/blog/facebook-instagram-ads-local-businesses/', 'Facebook and Instagram ads guide')} walks through setup, and {L('/services/paid-social-advertising/', 'our paid social team')} runs campaigns like this.</p>
-<p>Lunch is an opening. Per {SRC['cprel']}, bookings between 11 a.m. and 1 p.m. rose 38% globally in 2025. The offices around Research Forest, Hughes Landing and Waterway in The Woodlands, or the Energy Corridor and Greenway Plaza in Houston, are full of people who could take a 45-minute noon class if one existed and someone told them. Run a small ad set for that class only, with “back at your desk by 1” in the copy.</p>"""),
+<p>Lunch is an opening. Per {SRC['cprel']}, bookings between 11 a.m. and 1 p.m. rose 38% globally in 2025. The offices around Research Forest and Hughes Landing, or the Energy Corridor in Houston, are full of people who’d take a 45-minute noon class. Run a small ad set for that class alone, with “back at your desk by 1” in the copy.</p>"""),
 
             ("Google Ads for yoga searches", f"""<p>Search ads catch people who already decided they want yoga this week. Keep the account small and tidy.</p>
 <ul>
 <li><b>Classes campaign.</b> Keywords like yoga studio near me, yoga classes The Woodlands, hot yoga Spring TX, beginner yoga Houston, yin yoga The Woodlands, and prenatal yoga only if you teach it. Send it to the intro offer page.</li>
 <li><b>Teacher training campaign</b> with its own budget and page, switched on for the 12 weeks before each cohort.</li>
-<li><b>Brand campaign</b> on your studio name, because it’s cheap and keeps aggregators and competitors off the top of your own search.</li>
+<li><b>Brand campaign</b> on your studio name. It’s cheap and keeps competitors off the top of your own search.</li>
 </ul>
 <p>Before launch, change the location setting to people in or regularly in your targeted locations, described in {SRC['loc']}. The default also counts people who merely show interest in your area, which is how a studio in Spring ends up paying for clicks from Dallas.</p>
 <!--fig:negatives-->
@@ -187,7 +187,7 @@ POSTS = [
 <li><b>Run club stretch sessions.</b> Twenty minutes after a Saturday group run in The Woodlands, with a QR code for your intro.</li>
 <li><b>Workshops for lapsed members.</b> A fundamentals series or an arm balance workshop, emailed to everyone who cancelled in the last year.</li>
 </ul>
-<p>Make every free event require a registration through your booking software, even at $0, so you get names and emails. Then count how many attendees bought an intro within 30 days. If the answer is zero after three events, it was a nice morning and nothing more.</p>"""),
+<p>Make every free event require a $0 registration in your booking software so you get names and emails, then count how many attendees bought an intro within 30 days. Zero after three events means it was a nice morning and nothing more.</p>"""),
 
             ("Churn decides whether you need more marketing", f"""<p>This is the part most yoga marketing advice skips, and it decides whether you need much marketing at all.</p>
 <p>Say you have 180 members. At 6% monthly churn you lose about 11 a month, so you need 11 new members just to stay where you are. At 3%, you need about 5. Same studio, same ad budget, half the pressure.</p>
@@ -308,7 +308,7 @@ POSTS = [
 <tr><td>February to March</td><td>Conroe spring break Mar 15-19</td><td>Summer plans</td><td>Spring break camp, summer camp registration open</td></tr>
 <tr><td>May</td><td>Katy’s last day May 20, Conroe’s May 27</td><td>Fall commitments</td><td>Recital, fall re-registration with deposit</td></tr>
 </tbody></table></div>
-<p>Dates come from {SRC['cisd']}, {SRC['katy']} and {SRC['katyfall']}. Cy-Fair, Tomball, Magnolia, Humble and Klein all publish their own calendars and don’t line up perfectly, so pull the districts your families actually attend each spring and adjust. If you’re drawing from Conroe ISD, recital and the last week of school are close together; plan the re-registration push so it isn’t buried under graduation and end-of-year events.</p>
+<p>Dates come from {SRC['cisd']}, {SRC['katy']} and {SRC['katyfall']}. Cy-Fair, Tomball, Magnolia, Humble and Klein all publish their own calendars and don’t line up perfectly, so pull the districts your families actually attend each spring and adjust. If your recital lands in late May, it sits right on top of the last week of school, so start the re-registration push early enough that it isn’t buried under graduations and end-of-year events.</p>
 <p>The bigger point: registration should open in July, not the week school starts. A parent who books a spot on July 20 doesn’t take the 9:40 p.m. call from the studio down the road on August 12. Our {L('/blog/back-to-school-marketing-woodlands/', 'back-to-school marketing post')} covers the broader season.</p>"""),
 
             ("Parents are the buyer", f"""<p>The dancer might be four. The buyer is a parent juggling a sibling’s soccer practice, a drive on FM 2978 or the Grand Parkway, and a budget. Before they call, they want answers to a short list, and your website should give them without a phone call:</p>
@@ -323,7 +323,7 @@ POSTS = [
 <p>Write class descriptions for parents. “Ballet and Tap Combo, ages 3 to 5, 45 minutes. Kids learn to follow directions, take turns and stand in a line, and they think they’re just dancing.” That last line sells more spots than “introduction to ballet technique.”</p>"""),
 
             ("Recital economics and why costume fees belong on your website", f"""<p>The recital is the finale of your product, your biggest marketing event of the year and, for many studios, a real chunk of revenue. It’s also where parents feel nickel-and-dimed if nobody told them the numbers in August.</p>
-<p>Fee structures vary a lot. In {SRC['dt_fee']}, the owners of one studio described three models they’ve used: a $120 flat recital fee covering two tickets, a performance DVD, a T-shirt, flowers and a program; a $129 fee including a costume, tights and accessories, with extra costumes at $85; and a $12 monthly fee across a nine-month season that folded in registration, a costume, a T-shirt and a DVD. Costume prices covered in {SRC['dt_cost']} ranged from $70 per costume for elementary students at a Minnesota studio (families kept them) to a $350 nonrefundable costume rental fee at a Connecticut ballet school. The owners’ shared advice was to disclose costume costs at registration with an amount and a due date, and to say whether the family keeps the costume.</p>
+<p>Fee structures vary a lot. In {SRC['dt_fee']}, the owners of one studio described three models they’ve used: a $120 flat recital fee covering two tickets, a performance DVD, a T-shirt, flowers and a program; a $129 fee including a costume, tights and accessories, with extra costumes at $85; and a $12 monthly fee across a nine-month season that folded in registration, a costume, a T-shirt and a DVD. Costume prices covered in {SRC['dt_cost']} ranged from $70 per costume for elementary students at a Minnesota studio (families kept them) to a $350 nonrefundable costume rental fee at a Connecticut ballet school. The advice from those owners: disclose costume costs at registration, give an amount and a due date, and say whether the family keeps the costume.</p>
 <!--fig:fees-->
 <p>We’d go a step further and publish a “what a dance year costs” page. It doesn’t lose you enrollments. It loses you the families who would have left angry in March and told every parent at pickup. A simple version:</p>
 <div class="bp-tbl"><table>
@@ -352,7 +352,7 @@ POSTS = [
 
             ("Meta ads, minors and the rules you work within", f"""<p>Facebook and Instagram are where parents of young dancers spend their scrolling time, so they’re the main paid channel for most studios. A few rules shape how you can use them.</p>
 <p>Targeting teens is restricted. Since February 2023, advertisers can only use age and location to reach teens on Facebook and Instagram, and gender is no longer an option, per {SRC['metateen']}. Interest-based teen targeting was already gone. So for a 15-year-old’s contemporary class, you advertise to the parent.</p>
-<p>Targeting adults is looser than it used to be, too. Meta removed detailed targeting exclusions from Ads Manager in 2025 and has been consolidating interest options, per {SRC['linear']}. In practice we target adults in a radius around the studio and let the creative do the filtering. An ad that says “Ballet and tap for ages 3 to 5, Tuesdays at 4:30, five minutes from Kuykendahl and Research Forest” finds the right parents because everyone else scrolls past.</p>
+<p>Targeting adults is less precise than it used to be, too. Meta removed detailed targeting exclusions from Ads Manager in 2025 and has been consolidating interest options, per {SRC['linear']}. In practice we target adults in a radius around the studio and let the creative do the filtering. An ad that says “Ballet and tap for ages 3 to 5, Tuesdays at 4:30, five minutes from Kuykendahl and Research Forest” finds the right parents because everyone else scrolls past.</p>
 <p>Then there’s the content itself. Your best creative is kids dancing. That’s fine with consent and some care.</p>
 <!--fig:minors-->
 <p>Meta has also added protections around accounts that mostly feature children. In July 2025 it said adult-managed accounts that primarily feature children would be placed in its strictest message settings, get Hidden Words turned on to filter offensive comments, be harder to find in search, and not be recommended to potentially suspicious adults, per {SRC['metakids']}. The announcement talks about parents and talent managers, and we don’t know exactly how Meta treats a studio business account. The direction is clear anyway. Keep the public feed a mix of teachers, the studio, older students and group shots, and save the close-ups for your private parent app or group.</p>
