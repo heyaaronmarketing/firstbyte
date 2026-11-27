@@ -304,7 +304,7 @@ POSTS = [
         "desc": "Published dues for The Woodlands, Conroe, Tomball, Houston Northwest, Asian and Greater Houston chambers, plus BNI, trade groups and how to judge ROI.",
         "category": "Local marketing",
         "icons": ["LinkedIn", "Google Business Profile", "HubSpot"],
-        "art": "b4",
+        "art": "b1",
         "hero": "pins",
         "hero_alt": "Illustration of map pins for chambers of commerce and networking groups in The Woodlands and Houston",
         "related": ["small-business-marketing-ideas-the-woodlands", "b2b-marketing-houston-energy-industrial", "measure-marketing-success-metrics"],

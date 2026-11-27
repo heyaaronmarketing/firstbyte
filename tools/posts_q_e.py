@@ -51,6 +51,8 @@ SRC = {
     "voa": A("https://abc13.com/post/publisher-of-texas-largest-asian-american-newspaper-turns-86/5671454/", "Voice of Asia"),
     "sng": A("https://www.voanews.com/a/chinese-publisher-profits-from-growth-houston-asian-population/2437843.html", "Southern News Group"),
     "scd": A("https://scdaily.com/post/95430", "Southern Chinese Daily News"),
+    "pewmetro": A("https://www.pewresearch.org/chart/top-10-u-s-metropolitan-areas-by-vietnamese-population-2019/", "Pew’s analysis"),
+    "ian": A("https://indoamerican-news.com/category/community", "Indo-American News"),
     "pewviet": A("https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-vietnamese-in-the-u-s/", "Pew Research Center"),
     "pewasian": A("https://www.pewresearch.org/short-reads/2025/05/01/key-facts-about-asians-in-the-us/", "Pew’s key facts about Asian Americans"),
     "sinch": A("https://sinch.com/blog/most-popular-messaging-apps-by-country/", "Sinch’s country-by-country rundown"),
@@ -95,25 +97,25 @@ POSTS = [
         "desc": "Marketing to Houston’s Asian American communities: Census data, Bellaire Blvd to Katy Asian Town, in-language media, WeChat and Zalo, and 2027 holiday dates.",
         "category": "Strategy",
         "icons": ["Facebook", "YouTube", "Google"],
-        "art": "b2",
+        "art": "b5",
         "hero": "pins",
         "hero_alt": "Illustration of map pins for marketing to Asian American communities in Houston, Sugar Land, Katy and The Woodlands",
         "related": ["hispanic-marketing-houston-spanish-ads-seo", "marketing-your-business-katy-cypress-tx", "standing-out-houston-competitive-market"],
         "sections": [
             (None, f"""<p>713,430. That’s how many Asian residents the {SRC['chamber']} counts in the Houston area for 2023, about 9.5% of everyone here. Rice University’s {SRC['rice']} put the share at 1.8% back in 1980.</p>
 <p>Most Houston and The Woodlands businesses still market to that group as one audience called “Asian,” usually with a red-and-gold graphic in late January. That single audience doesn’t exist.</p>
-<p>A Vietnamese grandmother in Alief who reads Radio Saigon Houston’s Facebook posts, a Telugu-speaking software engineer in Katy and a Filipino nurse in Pearland don’t share a language or a holiday calendar. They don’t use the same apps or the same grocery store either. What they share is a census checkbox.</p>
+<p>A Vietnamese grandmother in Alief who listens to Radio Saigon Houston, a Telugu-speaking software engineer in Katy and a Filipino nurse in Pearland don’t share a language or a holiday calendar. They don’t use the same apps or the same grocery store either. What they share is a census checkbox.</p>
 <p>This guide is built from the numbers first: who lives where, which languages are actually spoken at home, and where each community gets its information. Then it covers the practical part: platforms, translation, the 2027 holiday calendar and the mistakes we’d steer any client away from. It’s a companion to our {L('/blog/hispanic-marketing-houston-spanish-ads-seo/', 'guide to Hispanic marketing in Houston')}, and a lot of the mechanics (separate language pages, phones answered in-language) carry over.</p>"""),
 
-            ("How many Asian Americans live in Houston, and from where?", f"""<p>Start with the size. Rice’s Kinder Institute released the first findings from its Asian American Community Study in January 2026, covering Harris, Fort Bend, Montgomery and Brazoria counties. It counted more than 655,000 Asian residents in the region, with Asian Indians the largest group at over 150,000. Fort Bend’s Asian population grew 117% from 2010 to 2023. Montgomery County’s grew 180%, which surprises people in The Woodlands until they look around Creekside Park or the Grand Parkway corridor.</p>
+            ("How many Asian Americans live in Houston, and from where?", f"""<p>Start with the size. Rice’s Kinder Institute released the first findings from its Asian American Community Study in January 2026, covering Harris, Fort Bend, Montgomery and Brazoria counties. It counted more than 655,000 Asian residents in the region, with Asian Indians the largest group at over 150,000. Fort Bend’s Asian population grew 117% from 2010 to 2023. Montgomery County’s grew 180%, which surprises fewer people in The Woodlands every year.</p>
 <!--fig:size-->
-<p>The groups are close in size, which is what makes Houston unusual. The Asian Chamber’s 2023 figures, drawn from Census data, put Asian Indian residents at 167,084 and Vietnamese at 158,957, with Chinese residents at 122,546. Filipino (78,540) and Pakistani (50,887) residents come next, then Korean (28,045). Pew’s analysis of 2017-2019 Census data put Houston’s Vietnamese population second among U.S. metros, tied with San Jose and behind only Los Angeles.</p>
+<p>The groups are close in size, which is what makes Houston unusual. The Asian Chamber’s 2023 figures, drawn from Census data, put Asian Indian residents at 167,084 and Vietnamese at 158,957, with Chinese residents at 122,546. Filipino (78,540) and Pakistani (50,887) residents come next, then Korean (28,045). {SRC['pewmetro']} of 2017-2019 Census data put Houston’s Vietnamese population second among U.S. metros, tied with San Jose and behind only Los Angeles.</p>
 <!--fig:groups-->
 <p>Income and education vary a lot inside the total. In the Kinder survey of 2,100 residents, 46% of Asian households earned over $100,000 a year and 25% earned under $50,000. Among Vietnamese households, 30% earned over $100,000 and 19% earned under $25,000. Party identification split almost evenly in thirds, per {SRC['abc13rice']}, and most respondents described themselves as moderate. Any campaign built on a single “affluent Asian professional” persona misses a big share of the market.</p>"""),
 
             ("Which languages Houston’s Asian American residents speak at home", f"""<p>Population tells you who. Language tells you what to write. Inside Houston city limits, the {SRC['langs']} (2021 American Community Survey) shows Vietnamese as the third most spoken language at home, after English and Spanish, with 29,060 speakers. Chinese, which the Census groups together (Mandarin and Cantonese), is fourth at 27,838.</p>
 <!--fig:langs-->
-<p>Below those two, South Asian languages spread out: Hindi, Urdu, Telugu, Gujarati and Tamil all show up in the city’s top 20. That fragmentation is the point. An Indian American audience in Sugar Land or Katy doesn’t have one home language, and most of them read English comfortably, so English-language marketing with the right cultural cues usually beats a Hindi translation. The same is true for many Filipino families, where Tagalog is spoken at home but English is the default for business.</p>
+<p>Below those two, South Asian languages spread out: Hindi, Urdu, Telugu, Gujarati and Tamil all show up in the city’s top 20. That fragmentation is the point. An Indian American audience in Sugar Land or Katy doesn’t have one home language, and in our experience most read English comfortably, so English-language marketing with the right cultural cues usually beats a Hindi translation. The same is true for many Filipino families, where Tagalog is spoken at home but English is the default for business.</p>
 <p>Vietnamese is different. {SRC['pewviet']} found 56% of Vietnamese Americans age 5 and older are proficient in English, and only 36% of Vietnamese immigrants are, against 74% of Asian Americans overall per {SRC['pewasian']}. If your customers include older Vietnamese homeowners in Alief, Mission Bend or southwest Houston, Vietnamese-language ads, pages and phone answering will reach people that English never will.</p>
 <p>Two details catch first-timers. Chinese comes in two scripts: Simplified for most mainland Chinese immigrants, Traditional for many Taiwanese, Hong Kong and older Cantonese-speaking families. And Vietnamese depends on its diacritics. “Ma,” “má,” “mà” and “mã” are different words, so a font or a CMS that strips accent marks turns your copy into nonsense.</p>"""),
 
@@ -122,12 +124,12 @@ POSTS = [
 <div class="bp-tbl"><table>
 <thead><tr><th>Hub</th><th>Where</th><th>Who you’ll reach</th><th>Notes for marketers</th></tr></thead>
 <tbody>
-<tr><td>Chinatown / Asiatown</td><td>Bellaire Blvd, roughly Gessner to Beltway 8 and beyond</td><td>Chinese, Taiwanese and Vietnamese shoppers, plus Korean, Thai and other businesses</td><td>The {SRC['gandhi']} defines Chinatown as about 2.37 square miles. Plaza bulletin boards and Chinese yellow pages still matter here.</td></tr>
+<tr><td>Chinatown / Asiatown</td><td>Bellaire Blvd, roughly Gessner to Beltway 8 and beyond</td><td>Chinese, Taiwanese and Vietnamese shoppers, plus Korean, Thai and other businesses</td><td>Plaza bulletin boards and Chinese-language yellow pages still matter here, along with Chinese and Vietnamese radio.</td></tr>
 <tr><td>Little Saigon / Alief</td><td>Bellaire Blvd west toward Alief, next to Chinatown</td><td>Vietnamese families, many of them multigenerational</td><td>{SRC['landing']} notes businesses here fly the South Vietnamese flag; see the mistakes section.</td></tr>
-<tr><td>Mahatma Gandhi District</td><td>Hillcroft Ave and Harwin Dr, near the Southwest Freeway</td><td>Indian, Pakistani and broader South Asian shoppers</td><td>Named in a January 16, 2010 ceremony. Sari shops, jewelers, grocers and sweets shops; busiest before Diwali and Eid.</td></tr>
+<tr><td>Mahatma Gandhi District</td><td>Hillcroft Ave and Harwin Dr, near the Southwest Freeway</td><td>Indian, Pakistani and broader South Asian shoppers</td><td>Named in a January 16, 2010 ceremony, per the {SRC['gandhi']}. Sari shops, jewelers, grocers and sweets shops; in our experience busiest around Diwali and Eid.</td></tr>
 <tr><td>Sugar Land and Missouri City</td><td>Fort Bend County, US-59 / I-69 southwest</td><td>Chinese, Indian, Vietnamese and Pakistani families</td><td>Fort Bend was 22.2% Asian in the 2020 Census, per {SRC['cikaty']}.</td></tr>
 <tr><td>Katy Asian Town</td><td>Off the Grand Parkway near I-10</td><td>Chinese, Korean, Vietnamese and Indian families on the west side</td><td>Opened in 2018 with an H Mart anchor ({SRC['ciasian']}). Katy ISD’s Asian enrollment went from 11.1% to 16.1% in a decade.</td></tr>
-<tr><td>North Houston and The Woodlands</td><td>Spring, Cypress, Tomball, The Woodlands</td><td>Fast-growing, mostly professional families</td><td>Montgomery County’s Asian population grew 180% from 2010 to 2023. Fewer hubs, more Facebook groups and HOA channels.</td></tr>
+<tr><td>North Houston and The Woodlands</td><td>Spring, Cypress, Tomball, The Woodlands</td><td>Fast-growing and spread out across many subdivisions</td><td>Montgomery County’s Asian population grew 180% from 2010 to 2023. Fewer hubs, more Facebook groups and HOA channels.</td></tr>
 </tbody></table></div>
 <p>For a business in The Woodlands, the takeaway isn’t to open a branch on Bellaire. It’s to stop assuming your customers there look like your customers in 2010. A radius around Sugar Land or the Grand Parkway west of I-10 reaches a very different mix than one around Market Street, and your ad creative should know that. Our {L('/blog/marketing-your-business-katy-cypress-tx/', 'Katy and Cypress marketing guide')} has more on the west side.</p>"""),
 
@@ -135,7 +137,7 @@ POSTS = [
 <ul>
 <li><b>Chinese.</b> {SRC['sng']}, founded in Houston by Wea Lee, publishes community newspapers and runs the ITV channel. Its {SRC['scd']} site still publishes the Houston Chinese yellow pages (休斯顿黄页) as an e-book, which tells you something about how many Chinese-speaking customers still look up a dentist or a roofer.</li>
 <li><b>Vietnamese.</b> {SRC['saigon']} is a Vietnamese-language AM station that ABC13 profiled in 2021 as a connection point for the area’s Vietnamese community. Call-in shows and paid segments with a host who speaks to your service are worth more than a 30-second spot.</li>
-<li><b>South Asian.</b> {SRC['voa']}, a weekly founded in 1987 by Koshy Thomas, covers the Houston Asian American community, and the Indo-American News has been published weekly from southwest Houston for decades. Both are mostly English.</li>
+<li><b>South Asian.</b> {SRC['voa']}, a weekly founded in 1987 by Koshy Thomas, covers the Houston Asian American community, and {SRC['ian']} has been published weekly from southwest Houston for decades.</li>
 <li><b>Filipino.</b> In our experience the reach here runs through community associations, parishes and Facebook groups more than a single publication. We couldn’t verify a current Houston Filipino-language paper, so we won’t name one.</li>
 </ul>
 <p>Rates and circulation change, so ask each outlet for current numbers and a sample of an ad that ran for a business like yours. Then give every placement its own phone number or landing page URL so you can tell what worked. The {L('/blog/call-tracking-which-ads-make-phone-ring/', 'call tracking guide')} covers how.</p>"""),
@@ -144,9 +146,9 @@ POSTS = [
 <div class="bp-tbl"><table>
 <thead><tr><th>Platform</th><th>Strongest with</th><th>What a Houston business can realistically do</th></tr></thead>
 <tbody>
-<tr><td>WeChat</td><td>Mainland Chinese immigrants and their parents</td><td>Organic: a business account, QR code at checkout, posts shared into community groups. Paid WeChat ads are built mostly for reaching users in China, so for a local shop the organic side is what’s practical.</td></tr>
+<tr><td>WeChat</td><td>Mainland Chinese immigrants and their parents</td><td>Organic: a business account, QR code at checkout, posts shared into community groups. In our experience, paid WeChat ads are hard to aim at a few Houston ZIP codes, so for a local shop the organic side is what’s practical.</td></tr>
 <tr><td>Zalo</td><td>Recent Vietnamese arrivals and people with close ties to Vietnam</td><td>Mostly one-to-one messaging. Offer it as a contact option if your staff speaks Vietnamese. Facebook is still the bigger Vietnamese channel in Houston in our experience.</td></tr>
-<tr><td>KakaoTalk</td><td>Korean Americans, especially first generation</td><td>Contact option and community group sharing. Korean churches and H Mart-area businesses are the usual connectors.</td></tr>
+<tr><td>KakaoTalk</td><td>Korean Americans, especially first generation</td><td>Contact option and community group sharing. In our experience Korean churches and community groups are the usual connectors.</td></tr>
 <tr><td>WhatsApp</td><td>Indian, Pakistani and many Filipino families</td><td>A WhatsApp Business number for quotes and appointments. Click-to-WhatsApp ads run through Meta Ads Manager.</td></tr>
 <tr><td>Facebook and YouTube (in-language)</td><td>Everyone, especially Vietnamese and Filipino adults</td><td>Vietnamese-language Facebook ads and video, and YouTube ads next to in-language content. Nationally, {SRC['pew']} found 84% of adults use YouTube and 71% use Facebook.</td></tr>
 </tbody></table></div>
@@ -251,7 +253,7 @@ POSTS = [
             },
             "mistakes": {
                 "type": "checklist",
-                "title": "Mistakes to avoid",
+                "title": "Check every ad for these mistakes",
                 "sub": "What we catch most often in creative reviews",
                 "items": ["Treating “Asian” as one audience", "Calling Tết or Seollal “Chinese New Year”", "Using the current Vietnam flag in Little Saigon ads", "East Asian stock photos for a Diwali post", "Machine translation with no native review", "Wrong Chinese script for the audience", "Ads in a language nobody on staff speaks", "Holiday promos that start the day of"],
                 "alt": "Checklist of mistakes to avoid when marketing to Asian American communities in Houston and The Woodlands",
@@ -425,7 +427,7 @@ POSTS = [
         "desc": "A plain-English A-Z digital marketing glossary for Houston and The Woodlands owners: CPC, CPL, ROAS, MER, GBP, LSA, PMax, AI Overviews, UTMs and more.",
         "category": "Strategy",
         "icons": ["Google Analytics", "Google Ads", "Search Console"],
-        "art": "b6",
+        "art": "b3",
         "hero": "layout",
         "hero_alt": "Illustration of a page layout for a digital marketing glossary for Houston and The Woodlands business owners",
         "related": ["measure-marketing-success-metrics", "clicks-to-customers-conversion-funnel", "understanding-cost-per-lead"],
