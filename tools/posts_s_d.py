@@ -533,6 +533,16 @@ POSTS = [
 <p>Geography changes the math too. Targeting 10 miles around The Woodlands is a very different budget from covering the whole metro out to Pearland and Fulshear.</p>
 <!--fig:radius-->"""),
 
+            ("Agency, freelancer or in-house: what each option costs", f"""<p>The same $5,000 a month buys very different things depending on who you hand it to.</p>
+<p><b>A freelancer</b> is usually the cheapest per hour and often excellent at one thing, like Google Ads or design. The risk is coverage. When they’re booked, on vacation or gone, your ads keep spending with nobody watching. Ask who has access to your accounts if they disappear for two weeks.</p>
+<p><b>An agency</b> costs more per hour but spreads the work across specialists: someone on search, someone on social, a designer, someone who sets up tracking. You’re paying for the bench as much as the hours. The risk is getting a junior account manager after a senior person sold you, so ask who actually does the work.</p>
+<p><b>An in-house hire</b> makes sense once there’s a full week of marketing work every week. Add salary, payroll taxes, benefits, software seats and training before you compare. One person rarely covers ads, SEO, design and analytics equally well, which is why many Houston companies pair one in-house coordinator with outside specialists. Our {L('/blog/fractional-cmo-vs-agency-vs-in-house-houston/', 'fractional CMO vs. agency vs. in-house comparison')} has the full trade-off, and {L('/blog/diy-vs-hiring-an-agency/', 'DIY vs. hiring an agency')} covers doing it yourself.</p>"""),
+
+            ("What changed in 2026, and what to budget for 2027", f"""<p>Three shifts are worth a line in next year’s plan.</p>
+<p><b>Search is splitting.</b> {SRC['bl']} found use of ChatGPT and other AI tools for local recommendations jumped from 6% to 45% in a year. Those tools draw on reviews, your Google Business Profile and the content on your site. That makes review generation and solid service pages a budget line rather than an afterthought, typically a few hundred dollars a month of software and staff time.</p>
+<p><b>Social leads got slightly cheaper, search didn’t.</b> WordStream’s median Facebook lead cost dipped from $27.66 to $27.39, and traffic clicks fell from $0.70 to $0.60, per {SRC['fb']}. Search remains the more expensive click with the higher intent. Neither number tells you which channel produces customers for you; your own tracking does.</p>
+<p><b>Creative is the new bottleneck.</b> Meta, YouTube and CTV all reward fresh video. If you plan to run those in 2027, budget for a shoot each quarter, not a single brand video you run for a year. Our {L('/blog/marketing-plan-2027-small-business-houston/', '2027 marketing plan for Houston businesses')} lays out the calendar.</p>"""),
+
             ("Hidden costs nobody puts on the first quote", f"""<p>These show up in month two if nobody mentioned them in month one.</p>
 <!--fig:hidden-->
 <p>None of these are scams. They’re just real. Ask for an all-in monthly number with media, management, creative and tools on separate lines, and ask what happens to your accounts, pages and data if you leave.</p>

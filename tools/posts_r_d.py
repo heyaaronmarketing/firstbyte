@@ -103,12 +103,12 @@ POSTS = [
 <tr><td>Website bookings or sales</td><td>Sales objective with pixel and Events API firing</td><td>$2,000 a month and up</td><td>Booked or purchased events, matched against your booking system</td></tr>
 <tr><td>Grand opening or event</td><td>Reach plus Spark Ads of creator posts, lifetime budget</td><td>$620 minimum for a 31-day ad group, more for a short push</td><td>Reach in target ZIPs, RSVPs, opening-week traffic</td></tr>
 </tbody></table></div>
-<p>The table is our planning ranges, not benchmarks. Your real costs depend on how good the videos are, how small the area is and what time of year it is. Ad prices across platforms climb from Black Friday through Christmas, and a Houston boutique running its first test the week before Thanksgiving is paying holiday prices to learn.</p>
+<p>The table is our planning ranges, not benchmarks. Your real costs depend on how good the videos are, how small the area is and what time of year it is. In accounts we've run, ad prices climb from Black Friday through Christmas, and a Houston boutique running its first test the week before Thanksgiving is paying holiday prices to learn.</p>
 <p>Budget for the videos too. Phone content shot by the owner costs an afternoon. Creator content and edited batches cost more, which our {L(VP, 'Houston video production cost guide')} breaks down.</p>"""),
 
             ("Is your customer on TikTok?", f"""<p>Before any setup, check the age math. {SRC['pew']} found 37% of U.S. adults use TikTok, up from 21% in 2021. Use falls hard with age:</p>
 <!--fig:ages-->
-<p>That's national data, and Houston skews younger than the country, so if anything the local numbers lean in TikTok's favor. Still, a business that sells mostly to people over 60 will find more of them on Facebook and YouTube.</p>
+<p>That's national data, and your own customer list is the better guide. Still, a business that sells mostly to people over 60 will find more of them on Facebook and YouTube.</p>
 <p>Businesses we think are good TikTok candidates in the Houston area:</p>
 <ul>
 <li><b>Restaurants, bars, coffee and dessert spots.</b> The food is the ad. A 12-second pour or a cheese pull near Market Street sells itself. Our {L('/blog/restaurant-marketing-the-woodlands-houston/', 'restaurant marketing post')} covers the rest of the mix.</li>
@@ -121,7 +121,7 @@ POSTS = [
 
             ("Setting up TikTok Ads Manager, click by click", f"""<p>Here's the order we'd set things up in, before spending a dollar.</p>
 <!--fig:setup-->
-<p><b>1. Create the account at ads.tiktok.com.</b> Use a company email that won't leave when an employee does, and add a second admin. Set the time zone to Central; you can't change it later without a new account, and a UTC account makes daily budgets reset at 7 p.m. Houston time.</p>
+<p><b>1. Create the account at ads.tiktok.com.</b> Use a company email that won't leave when an employee does, and add a second admin. Set the time zone to Central so daily budgets and reports line up with your business day instead of someone else's midnight.</p>
 <p><b>2. Connect the pixel before the first campaign.</b> The path, per {SRC['pixel']}: <i>Tools</i> &gt; <i>Events Manager</i> &gt; <i>Connect Data Source</i> &gt; <i>Web</i>, then enter your URL and pick <i>Partner Integration</i> (Shopify and Google Tag Manager are both listed) or <i>Manual Setup</i>. TikTok recommends setting up the Events API alongside the pixel, which sends events from your server and survives ad blockers and browser privacy settings better.</p>
 <p><b>3. Pick an objective.</b> Go to the <i>Campaign</i> tab and click <i>+ Create</i>. {SRC['obj']} lists Reach under Awareness; Traffic, Video views, Community interaction and Branded Mission under Consideration; and App promotion, Lead generation and Sales under Conversion. For most local businesses it's one of three:</p>
 <div class="bp-tbl"><table>
@@ -133,7 +133,7 @@ POSTS = [
 <tr><td>Lead generation</td><td>You sell consultations, estimates or appointments</td><td>Nobody can call the lead back within the hour</td></tr>
 <tr><td>Sales</td><td>Online booking or ecommerce, with the pixel firing on the confirmation page</td><td>Fewer than a handful of conversions a week</td></tr>
 </tbody></table></div>
-<p><b>4. Set up the ad group.</b> This is where placement, targeting, budget, schedule and optimization live. Leave TikTok as the placement and turn off the partner apps (Pangle and the others) for a first local test; it keeps the reporting readable. Set location (next section), age if your business genuinely has a floor (a med spa's 18+ is reasonable), and leave interests broad. TikTok's delivery does a decent job of finding the right people inside a small area, and stacking interests on top of ten ZIP codes starves the ad group.</p>
+<p><b>4. Set up the ad group.</b> This is where placement, targeting, budget, schedule and optimization live. Leave TikTok as the placement and turn off the partner app placements for a first local test; it keeps the reporting readable. Set location (next section), age if your business genuinely has a floor (a med spa's 18+ is reasonable), and leave interests broad. TikTok's delivery does a decent job of finding the right people inside a small area, and stacking interests on top of ten ZIP codes starves the ad group.</p>
 <p><b>5. Build the ad.</b> Upload videos or add Spark posts, write the caption, choose a call to action and a destination. Use UTM parameters on every URL so Google Analytics can see the traffic. Then click <i>Publish all</i> and expect a review before ads go live.</p>"""),
 
             ("Local targeting in Houston and The Woodlands: what TikTok can and can't do", f"""<p>{SRC['loc']} lists the U.S. options: country, state, DMA region, county, city and ZIP code. That's better than many owners expect. But there are three rules every Houston advertiser needs to know before setup:</p>
@@ -148,7 +148,7 @@ POSTS = [
 <ul>
 <li><b>The Woodlands core:</b> 77380, 77381, 77382, 77384, 77385, then 77389 if you want Creekside Park. Add 77354 for Magnolia and 77386 for Spring north of the Grand Parkway if you serve them.</li>
 <li><b>North Houston suburbs along I-45:</b> the list above plus Spring (77373, 77379, 77388) and Conroe ZIPs, rather than the Houston DMA, which drags in counties you'll never drive to.</li>
-<li><b>West side:</b> Katy and Cypress ZIP codes for a Grand Parkway corridor business. Don't use “Katy, Texas” the city alone; a big share of Katy addresses sit outside city limits.</li>
+<li><b>West side:</b> Katy and Cypress ZIP codes for a Grand Parkway corridor business. Don't use “Katy, Texas” the city alone; many Katy addresses sit outside city limits.</li>
 </ul>
 <p>Size check. Ten Woodlands-area ZIPs is plenty for a $50 a day campaign. Three ZIPs at $50 a day usually means the same few thousand people see your ad until they're sick of it. Watch frequency in the reporting columns and widen the area before it climbs past what you'd tolerate from a billboard.</p>
 <p>One more limit: some businesses fall under TikTok's housing, employment and credit policy, which restricts targeting. Home builders, apartment communities, mortgage brokers and job ads should expect fewer options.</p>"""),
@@ -340,6 +340,7 @@ POSTS = [
 <p><b>Inside City of Houston limits.</b> The {SRC['hfc']} asks productions filming on general public property to submit a {SRC['hfcform']} before production, which gets a registration number you keep on set. You also need a liability insurance certificate of one million dollars per incident on file before filming. Blocking a lane or controlling traffic means hiring City of Houston police officers through the office. Most city parks need a separate permit, amplified playback needs a noise permit, and squibs or pyrotechnics need a Fire Marshal on set. The FAQ doesn't publish fees or lead times, so call them at 713-853-8386 early.</p>
 <p><b>In The Woodlands.</b> The Woodlands has been a {SRC['ffw']} since September 2020, and the Film Commission runs through Visit The Woodlands. Per {SRC['wfc']}, a permit is needed when filming is commercial, will be seen by the public and takes place on property including public spaces. Apply through the {SRC['wfcapp']} with a certificate of insurance. The current FAQ asks for at least 5 business days' notice, an older version said 10, and complex or multi-location shoots need more, so we plan on two weeks. Traffic interruptions need off-duty officers, paid directly by you, and road closures go through Montgomery or Harris County depending on the spot.</p>
 <p><b>Unincorporated areas</b> (much of Spring, Cypress, Klein and Magnolia) fall to the county for roads, and HOA-run parks and pools have their own rules. Shopping centers like Market Street and Hughes Landing are private property; ask management in writing.</p>
+<!--fig:permitsteps-->
 <p>State parks are slow. The Texas Parks and Wildlife Department typically needs several weeks, so Lake Houston Wilderness Park or Brazos Bend is not a next-Tuesday idea.</p>
 <p><b>Drones</b> are their own category. Anyone flying for a business needs an FAA Part 107 remote pilot certificate, and each drone must be registered ($5, good for three years), per the {SRC['faa']}. A lot of the Houston area sits under controlled airspace around Bush Intercontinental, Hobby, Ellington, Sugar Land Regional and Conroe-North Houston Regional, which means an airspace authorization, usually through {SRC['laanc']}. Ask any drone operator for their certificate number and proof of insurance. A cousin with a DJI doesn't count.</p>"""),
 
