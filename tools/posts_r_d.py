@@ -81,7 +81,7 @@ POSTS = [
         "related": ["facebook-vs-instagram-vs-tiktok-local-business", "youtube-ads-cost-local-business-houston", "ugc-vs-influencers-creator-content"],
         "sections": [
             (None, f"""<p>“Can I run TikTok ads only to people in The Woodlands, for like $10 a day?”</p>
-<p>A med spa owner asked us that last spring, and it's the most common TikTok question we get from Houston owners. The answer is yes to the first half and no to the second. TikTok will let you target a handful of ZIP codes. It won't let you spend $10 a day doing it.</p>
+<p>It's one of the most common TikTok questions Houston owners ask. The answer is yes to the first half and no to the second. TikTok will let you target a handful of ZIP codes. It won't let you spend $10 a day doing it.</p>
 <p><b>The short answer:</b> TikTok ads for a Houston or Woodlands business start at a $50 daily campaign budget and a $20 daily ad group budget, so a real local test runs about $1,000 to $1,500 a month. You can target ZIP codes, cities, counties or the Houston DMA, but you can't exclude areas. It works best for visual businesses whose customers are under 50.</p>
 <p>This is a setup guide. It walks through Ads Manager in the order you'll click through it, with the settings we'd pick for a local business and the places TikTok's defaults will cost you money. If you're still deciding between platforms, read our {L('/blog/facebook-vs-instagram-vs-tiktok-local-business/', 'Facebook vs. Instagram vs. TikTok comparison')} first and come back.</p>
 <!--fig:minimums-->"""),
@@ -304,7 +304,7 @@ POSTS = [
         "hero_alt": "Illustration of a video play button for video production cost in Houston and The Woodlands",
         "related": ["youtube-ads-cost-local-business-houston", "streaming-tv-ads-worth-it-small-business", "ugc-vs-influencers-creator-content"],
         "sections": [
-            (None, f"""<p>Three quotes for “a 30-second commercial” landed in a client's inbox in the same week: $1,800, $9,500 and $38,000. All three were from legitimate Houston shops. None of them were wrong.</p>
+            (None, f"""<p>Ask three Houston production companies to quote “a 30-second commercial” and you can easily get numbers like $1,800, $9,500 and $38,000. All three can be legitimate. None of them is necessarily wrong.</p>
 <p>They were quoting three different jobs that happened to share a name. That's the problem with asking what video production costs.</p>
 <p><b>The short answer:</b> in Houston and The Woodlands, expect roughly $500 to $2,500 for a freelancer half day with simple editing, $3,000 to $12,000 for a one-day shoot with a small crew and a finished spot plus cut-downs, and $15,000 to $75,000 and up for a scripted commercial with talent, locations and a full crew. Phone-shot content can cost almost nothing but time.</p>
 <p>Those are our planning ranges from quotes we've seen and bid, not a survey. The rest of this guide is about what moves a quote up or down, so you can compare bids that look nothing alike.</p>
