@@ -715,3 +715,5 @@ if __name__ == "__main__":
     apply_contact_cta.run()
     import remove_brands_nov_2026  # noqa: E402
     remove_brands_nov_2026.run()
+    import seo_topics_nov_2026  # noqa: E402
+    seo_topics_nov_2026.main()

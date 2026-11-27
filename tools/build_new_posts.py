@@ -94,6 +94,7 @@ tpl = read(TEMPLATE)
 new_slugs = {p["slug"] for p in POSTS}
 for p in POSTS:
     p["date"] = p.get("date", DATE)
+    p["modified"] = p.get("modified", p["date"])
     p["words"] = words(p)
     if not p["seo_title"].endswith(" | First Byte") and len(p["seo_title"] + " | First Byte") <= 60:
         p["seo_title"] += " | First Byte"
@@ -114,7 +115,7 @@ for p in POSTS:
     s = re.sub(r'(<meta property="article:published_time" content=")[^"]*(")', lambda m: m.group(1) + p["date"] + m.group(2), s)
     graph = [
         {"@type": "BlogPosting", "@id": url + "#article", "headline": p["title"], "description": p["desc"],
-         "datePublished": p["date"], "dateModified": p["date"],
+         "datePublished": p["date"], "dateModified": p["modified"],
          "author": {"@type": "Organization", "name": "First Byte", "url": BASE + "/"},
          "publisher": {"@type": "Organization", "@id": BASE + "/#organization", "name": "First Byte",
                        "logo": {"@type": "ImageObject", "url": BASE + "/icon-512.png"}},
@@ -139,7 +140,7 @@ for p in POSTS:
     s = re.sub(r'<span class="pill-cat">.*?</span>', f'<span class="pill-cat">{esc(p["category"])}</span>', s, count=1)
     s = re.sub(r'<h1 class="bp-h1">.*?</h1>', lambda _: f'<h1 class="bp-h1">{esc(p["title"])}</h1>', s, count=1, flags=re.S)
     s = re.sub(r'<p class="bp-dek">.*?</p>', lambda _: f'<p class="bp-dek">{esc(p["desc"])}</p>', s, count=1, flags=re.S)
-    s = re.sub(r'(<div class="bp-meta">.*?<small>).*?(</small>)', lambda m: m.group(1) + f"{human_date(p['date'])} · {mins} min read" + m.group(2), s, count=1, flags=re.S)
+    s = re.sub(r'(<div class="bp-meta">.*?<small>).*?(</small>)', lambda m: m.group(1) + (f"Updated {human_date(p['modified'])}" if p['modified'] != p['date'] else human_date(p['date'])) + f" · {mins} min read" + m.group(2), s, count=1, flags=re.S)
     s = re.sub(r"https://firstbyte\.agency/blog/digital-marketing-cost-the-woodlands-houston/", url, s)
     s = re.sub(r'<div class="post-art b\d bp-art"><div class="pa-grid"></div>.*?</div></div>',
                lambda _: f'<div class="post-art {p["art"]} bp-art"><div class="pa-grid"></div>{icons(p["icons"], 64)}</div></div>', s, count=1, flags=re.S)
@@ -198,48 +199,56 @@ for p in POSTS:
 newest = sorted(POSTS, key=lambda x: x["date"])  # oldest of the batch first
 idx_path = f"{SITE}/blog/index.html"
 idx = read(idx_path)
-# drop any cards for these posts from a previous run
-idx = re.sub(r'<a class="post rv[^"]*" href="/blog/(' + "|".join(map(re.escape, new_slugs)) + r')/">.*?</a>', "", idx, flags=re.S)
-feat_m = re.search(r'(<div class="hub-feat">)((?:<a class="post.*?</a>)?)(</div>)', idx, re.S)
-old_feat = feat_m.group(2)
-lead = POSTS[0]
-rest = [card(p) for p in POSTS[1:]]
-idx = idx[:feat_m.start()] + feat_m.group(1) + card(lead) + feat_m.group(3) + idx[feat_m.end():]
-grid = idx.index('<div class="posts">', feat_m.start()) + len('<div class="posts">')
-idx = idx[:grid] + "".join(rest) + old_feat + idx[grid:]
-total = len(re.findall(r'<a class="post rv[^"]*" href="/blog/[^"]+/">', idx))
-idx = re.sub(r"\d+ articles and counting\.", f"{total} articles and counting.", idx)
-cats = {}
-for c in re.findall(r'<span class="post-cat">([^<]+)</span>', idx):
-    cats[c] = cats.get(c, 0) + 1
-idx = re.sub(r'<div class="hub-cats">.*?</div>', lambda _: '<div class="hub-cats">' + "".join(
-    f"<span>{c}<b>{n}</b></span>" for c, n in sorted(cats.items(), key=lambda x: -x[1])) + "</div>", idx, count=1, flags=re.S)
+REFRESH = getattr(_mod, "REFRESH", False)  # refreshed existing posts keep their place in the index
+if REFRESH:
+    for p in POSTS:
+        idx = re.sub(r'<a class="post rv([^"]*)" href="/blog/' + re.escape(p["slug"]) + r'/">.*?</a>',
+                     lambda m: card(p, m.group(1).strip()), idx, count=1, flags=re.S)
+    write(idx_path, idx)
+total = len(re.findall(r'<a class="post rv[^"]*" href="/blog/[^"]+/">', idx)); home_cards = []
+if not REFRESH:
+    # drop any cards for these posts from a previous run
+    idx = re.sub(r'<a class="post rv[^"]*" href="/blog/(' + "|".join(map(re.escape, new_slugs)) + r')/">.*?</a>', "", idx, flags=re.S)
+    feat_m = re.search(r'(<div class="hub-feat">)((?:<a class="post.*?</a>)?)(</div>)', idx, re.S)
+    old_feat = feat_m.group(2)
+    lead = POSTS[0]
+    rest = [card(p) for p in POSTS[1:]]
+    idx = idx[:feat_m.start()] + feat_m.group(1) + card(lead) + feat_m.group(3) + idx[feat_m.end():]
+    grid = idx.index('<div class="posts">', feat_m.start()) + len('<div class="posts">')
+    idx = idx[:grid] + "".join(rest) + old_feat + idx[grid:]
+    total = len(re.findall(r'<a class="post rv[^"]*" href="/blog/[^"]+/">', idx))
+    idx = re.sub(r"\d+ articles and counting\.", f"{total} articles and counting.", idx)
+    cats = {}
+    for c in re.findall(r'<span class="post-cat">([^<]+)</span>', idx):
+        cats[c] = cats.get(c, 0) + 1
+    idx = re.sub(r'<div class="hub-cats">.*?</div>', lambda _: '<div class="hub-cats">' + "".join(
+        f"<span>{c}<b>{n}</b></span>" for c, n in sorted(cats.items(), key=lambda x: -x[1])) + "</div>", idx, count=1, flags=re.S)
 
 
-def add_blogposts(m):
-    data = json.loads(m.group(2))
-    nodes = data.get("@graph", [data])
-    for n in nodes:
-        if n.get("@type") == "Blog":
-            posts = [x for x in n.get("blogPost", []) if not any(x.get("url", "").endswith(f"/blog/{s}/") for s in new_slugs)]
-            for p in reversed(POSTS):
-                posts.insert(0, {"@type": "BlogPosting", "headline": p["title"], "url": f"{BASE}/blog/{p['slug']}/", "datePublished": p["date"]})
-            n["blogPost"] = posts[:20]
-    return m.group(1) + "\n" + json.dumps(data, ensure_ascii=False, indent=1) + "\n" + m.group(3)
+    def add_blogposts(m):
+        data = json.loads(m.group(2))
+        nodes = data.get("@graph", [data])
+        for n in nodes:
+            if n.get("@type") == "Blog":
+                posts = [x for x in n.get("blogPost", []) if not any(x.get("url", "").endswith(f"/blog/{s}/") for s in new_slugs)]
+                for p in reversed(POSTS):
+                    posts.insert(0, {"@type": "BlogPosting", "headline": p["title"], "url": f"{BASE}/blog/{p['slug']}/", "datePublished": p["date"]})
+                n["blogPost"] = posts[:20]
+        return m.group(1) + "\n" + json.dumps(data, ensure_ascii=False, indent=1) + "\n" + m.group(3)
 
 
-idx = re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)', add_blogposts, idx, count=1, flags=re.S)
-write(idx_path, idx)
+    idx = re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)', add_blogposts, idx, count=1, flags=re.S)
+    write(idx_path, idx)
 
-# ---- homepage blog section: six newest -------------------------------------------------
-home_path = f"{SITE}/index.html"
-home = read(home_path)
-hm = re.search(r'(<section class="sec blog" id="blog".*?<div class="posts">)(.*?)(</div>\n<div style="display: flex; justify-content: center)', home, re.S)
-cards_now = re.findall(r'<a class="post rv[^"]*" href="/blog/[^"]+/">.*?</a>', hm.group(2), re.S)
-cards_now = [c for c in cards_now if not any(f'/blog/{s}/"' in c for s in new_slugs)]
-home_cards = [card(p) for p in POSTS] + cards_now
-home = home[:hm.start()] + hm.group(1) + "".join(home_cards[:6]) + hm.group(3) + home[hm.end():]
-write(home_path, home)
+    # ---- homepage blog section: six newest -------------------------------------------------
+    home_path = f"{SITE}/index.html"
+    home = read(home_path)
+    hm = re.search(r'(<section class="sec blog" id="blog".*?<div class="posts">)(.*?)(</div>\n<div style="display: flex; justify-content: center)', home, re.S)
+    cards_now = re.findall(r'<a class="post rv[^"]*" href="/blog/[^"]+/">.*?</a>', hm.group(2), re.S)
+    cards_now = [c for c in cards_now if not any(f'/blog/{s}/"' in c for s in new_slugs)]
+    home_cards = [card(p) for p in POSTS] + cards_now
+    home = home[:hm.start()] + hm.group(1) + "".join(home_cards[:6]) + hm.group(3) + home[hm.end():]
+    write(home_path, home)
 
 # ---- sitemap --------------------------------------------------------------------------
 sm_path = f"{SITE}/sitemap.xml"

@@ -50,8 +50,8 @@ def main(modname):
             continue
         if not re.fullmatch(r"[a-z0-9-]+", sl):
             E("slug must be lowercase-hyphenated")
-        if sl in existing:
-            E("slug already exists on the blog")
+        if sl in existing and not p.get("modified"):
+            E("slug already exists on the blog (set \"modified\" and \"date\" to refresh an existing post)")
         if len(p["seo_title"]) > 60:
             E(f"seo_title {len(p['seo_title'])} chars (max 60)")
         if not 120 <= len(p["desc"]) <= 158:

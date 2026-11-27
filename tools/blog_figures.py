@@ -343,6 +343,26 @@ def funnel(s):
         parts.append(f'<rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="{row - 10}" rx="12" fill="{CYAN}" fill-opacity="{0.16 * op + 0.04:.2f}" stroke="{CYAN}" stroke-opacity="{0.6 * op:.2f}"/>')
         parts.append(f'<text x="{36 + base / 2:.0f}" y="{y + 30}" text-anchor="middle" fill="{INK}" font-family="{FONT}" font-size="15" font-weight="600">{e(lab)}</text>')
         parts.append(f'<text x="{36 + base + 18:.0f}" y="{y + 30}" fill="{CYAN}" font-family="{DISPLAY}" font-size="17" font-weight="600">{e(disp)}</text>')
+    # Long labels or values don't fit beside a tapered bar (common at the 440px phone width):
+    # switch to a stacked layout with the label and value centred inside each bar.
+    dispw = max(len(str(d)) for _, d in st) * 17 * 0.6
+    base = W - 300 if W >= 600 else min(W - 140, W - 54 - (max(len(str(d)) for _, d in st) * 9.5 + 24))
+    fits = all(len(str(lab)) * 15 * 0.56 <= base - 12 for lab, _ in st) \
+        and 36 + base + 18 + dispw <= W - 16
+    if not fits:
+        parts, y, fw = [], top, W - 72
+        for i, (lab, disp) in enumerate(st):
+            w = fw * (1 - i * 0.05)
+            x = 36 + (fw - w) / 2
+            lines = wrap(lab, max(12, int((w - 32) / (14 * 0.56))))
+            hh = 22 + 18 * len(lines) + 24
+            op = 1 - i * 0.12
+            cx = 36 + fw / 2
+            parts.append(f'<rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="{hh}" rx="12" fill="{CYAN}" fill-opacity="{0.16 * op + 0.04:.2f}" stroke="{CYAN}" stroke-opacity="{0.6 * op:.2f}"/>')
+            parts.append(tspans(lines, f"{cx:.0f}", y + 26, 18, text_anchor="middle", fill=INK, font_family=FONT, font_size="14", font_weight="600"))
+            parts.append(f'<text x="{cx:.0f}" y="{y + 26 + 18 * len(lines) + 4}" text-anchor="middle" fill="{CYAN}" font-family="{DISPLAY}" font-size="16" font-weight="600">{e(disp)}</text>')
+            y += hh + 8
+        return frame(y + 36, s["title"], s.get("sub"), "".join(parts), s.get("note"), s.get("alt"))[0]
     h = top + row * len(st) + 44
     return frame(h, s["title"], s.get("sub"), "".join(parts), s.get("note"), s.get("alt"))[0]
 
