@@ -89,7 +89,7 @@ POSTS = [
         "related": ["grand-opening-marketing-plan-30-days", "billboard-advertising-cost-houston", "small-business-marketing-ideas-the-woodlands"],
         "sections": [
             (None, f"""<p>“Can we just stick a few signs out by the road for the grand opening?”</p>
-<p>A new client asks us some version of that about once a month, usually a week before they open, usually holding a box of 18-by-24 corrugated signs they already paid for. The short answer in The Woodlands is no. The short answer in Houston is also no. The longer answer is more useful, because a lot of signs <i>are</i> allowed, and the businesses that know the rules get more out of their storefront than the ones who learn them from a code officer.</p>
+<p>We hear some version of that a lot, usually a week before they open, usually holding a box of 18-by-24 corrugated signs they already paid for. The short answer in The Woodlands is no. The short answer in Houston is also no. The longer answer is more useful, because a lot of signs <i>are</i> allowed, and the businesses that know the rules get more out of their storefront than the ones who learn them from a code officer.</p>
 <p>This is a working guide to business sign rules in The Woodlands, with the City of Houston, unincorporated Harris County and the state highway rules alongside for comparison. We’re marketers, not lawyers, and the rules below come straight from the documents we link. Read the source before you print anything, and treat this as the map rather than the permit.</p>"""),
 
             ("First question: who controls the ground your sign stands on?", f"""<p>Most sign confusion north of Houston comes from one fact. The Woodlands isn’t a city.</p>
@@ -281,15 +281,15 @@ POSTS = [
 <p>So when a customer types “dentist The Woodlands,” Google isn’t checking a city limit line, because for most of The Woodlands there isn’t one. It works from where your business is, where the searcher is, and what your profile and the rest of the web say about you.</p>"""),
 
             ("What USPS actually accepts for The Woodlands ZIP codes", f"""<p>{SRC['usps_faq']} says it directly: “ZIP Codes do not necessarily adhere to city or municipal boundaries.” A ZIP code is built around a post office and its carrier routes. Each ZIP has one default city name, and many have additional acceptable names the post office will also deliver to.</p>
-<p>We checked ZIP databases built from USPS city-state data for every ZIP that touches The Woodlands. The pattern is consistent: the default name is usually Spring or Conroe, and The Woodlands is an accepted alternate.</p>
+<p>We checked ZIP databases built from USPS city-state data for every ZIP that touches The Woodlands. They agree that The Woodlands is an accepted city name across the area. They don’t all agree on which name comes first: some list Spring, Conroe or Magnolia as the main name for these ZIPs, others list The Woodlands. That disagreement is exactly why you should check your own address with USPS before you print anything.</p>
 <div class="bp-tbl"><table>
-<thead><tr><th>ZIP</th><th>Default USPS city</th><th>Also accepted</th><th>Notes</th></tr></thead>
+<thead><tr><th>ZIP</th><th>Name some ZIP databases list first</th><th>Also accepted</th><th>Notes</th></tr></thead>
 <tbody>
 <tr><td>{SRC['z80']}</td><td>Spring</td><td>The Woodlands, Shenandoah</td><td>Street delivery</td></tr>
 <tr><td>77381</td><td>Spring</td><td>The Woodlands, Shenandoah</td><td>Street delivery</td></tr>
 <tr><td>77382</td><td>Spring</td><td>The Woodlands</td><td>Street delivery</td></tr>
-<tr><td>{SRC['z84']}</td><td>Conroe</td><td>The Woodlands, Shenandoah</td><td>Conroe default surprises people</td></tr>
-<tr><td>{SRC['z85']}</td><td>Conroe</td><td>The Woodlands, Shenandoah, Oak Ridge North</td><td>Conroe default</td></tr>
+<tr><td>{SRC['z84']}</td><td>Conroe</td><td>The Woodlands, Shenandoah</td><td>A Conroe listing surprises people</td></tr>
+<tr><td>{SRC['z85']}</td><td>Conroe</td><td>The Woodlands, Shenandoah, Oak Ridge North</td><td>Often listed as Conroe</td></tr>
 <tr><td>77386</td><td>Spring</td><td>The Woodlands, Oak Ridge North</td><td>Street delivery</td></tr>
 <tr><td>{SRC['z89']}</td><td>Spring</td><td>The Woodlands, Klein</td><td>Harris County side, incl. Creekside Park addresses</td></tr>
 <tr><td>{SRC['z54']}</td><td>Magnolia</td><td>The Woodlands, Decker Prairie</td><td>Includes part of Sterling Ridge</td></tr>
@@ -366,7 +366,7 @@ POSTS = [
             ("Is The Woodlands, TX a city?",
              "No. The Woodlands is an unincorporated master-planned community governed by The Woodlands Township, a special-purpose district. Voters chose in November 2021 to keep that model instead of incorporating. It spans Montgomery and Harris counties, and the counties handle roads and law enforcement. Nearby Shenandoah, Oak Ridge North and Conroe are incorporated cities, while Spring is an unincorporated area served by the Spring post office."),
             ("Which ZIP codes accept The Woodlands as a city name?",
-             "ZIP databases built from USPS data list The Woodlands as an accepted city name for 77380, 77381, 77382, 77384, 77385, 77386, 77389 and 77354, plus the P.O. box ZIPs 77387 and 77393. The default USPS name is usually Spring, Conroe or Magnolia. Confirm your exact street address with the USPS ZIP Code lookup, since third-party ZIP sites can lag behind postal updates."),
+             "ZIP databases built from USPS data list The Woodlands as an accepted city name for 77380, 77381, 77382, 77384, 77385, 77386, 77389 and 77354, plus the P.O. box ZIPs 77387 and 77393. Some databases list Spring, Conroe or Magnolia first and others list The Woodlands, so confirm your exact street address with the USPS ZIP Code lookup, since third-party ZIP sites can lag behind postal updates."),
             ("Should my Google Business Profile say Spring or The Woodlands?",
              "Use the city name that USPS accepts for your ZIP and that matches where your business really is. For a location inside The Woodlands, we usually recommend The Woodlands. Then use that exact address everywhere, including your website, citations and business filings. The city label does not move your map pin, and Google ranks by distance and relevance, so consistency matters more than the label."),
             ("Can I use a virtual office address in The Woodlands for Google?",
@@ -385,14 +385,11 @@ POSTS = [
                 "caption": "Your pin sits where your door is. The city name is a label on top of it.",
             },
             "defaults": {
-                "type": "bars",
-                "title": "Default USPS city for Woodlands-area ZIPs",
-                "sub": "Count of ZIPs (including P.O. box ZIPs) where The Woodlands is an accepted alternate",
-                "items": [["Spring is the default", 7, "7 ZIPs"], ["Conroe is the default", 2, "2 ZIPs"], ["Magnolia is the default", 1, "1 ZIP"], ["The Woodlands is the default", 0, "0"]],
-                "highlight": [0],
-                "note": "Source: ZIP databases built from USPS city-state data; confirm with USPS",
-                "alt": "Bar chart of default USPS city names for The Woodlands ZIP codes, mostly Spring and Conroe, for local SEO",
-                "caption": "That’s why so many Woodlands businesses end up listed as Spring without ever choosing it.",
+                "type": "checklist",
+                "title": "Confirm your Woodlands-area city name before you print",
+                "items": ["Run your exact street address through the USPS ZIP Code lookup", "Note every city name USPS returns as acceptable for it", "Pick the one that matches where customers find you (usually The Woodlands)", "Use it identically on Google, your website, citations and filings", "Don't change it later without updating every listing at once"],
+                "alt": "Checklist for confirming the USPS city name for a The Woodlands, Spring or Conroe ZIP code for local SEO",
+                "caption": "ZIP databases disagree on which name comes first. USPS's own lookup settles it for your address.",
             },
             "steps": {
                 "type": "steps",
