@@ -116,7 +116,7 @@ POSTS = [
 <ul>
 <li><b>The Woodlands isn’t a city.</b> It’s a township with eight villages per {SRC['twp']}, and Creekside Park sits across Spring Creek in Harris County. People search “The Woodlands” far more than “Alden Bridge,” so one strong Woodlands page usually beats eight village pages.</li>
 <li><b>“Spring” and “Cypress” are mostly mailing addresses.</b> Huge unincorporated areas with no city hall. People search them by name constantly, so they deserve pages even though there’s no municipal anything to write about.</li>
-<li><b>Some places are searched as neighborhoods.</b> “Kingwood” gets searched more than “Humble” for a lot of home services, and “The Heights” or “Memorial” behave like towns inside Houston. Check before you assume.</li>
+<li><b>Some neighborhoods are searched like towns.</b> Kingwood is part of the City of Houston, but people search “Kingwood” on its own, and “The Heights” and “Memorial” behave the same way. Check the keyword data before you assume a city name is what people type.</li>
 <li><b>Permits split along city lines.</b> A fence or patio job inside the City of Houston goes through the city’s permitting center, unincorporated Harris County through the county engineer, and Conroe or Montgomery through their own offices. That’s real, page-worthy local detail for contractors.</li>
 </ul>
 <p>If you’re in The Woodlands or Spring, our {L('/blog/the-woodlands-spring-conroe-address-local-seo/', 'post on Woodlands, Spring and Conroe addresses')} covers how the address on your profile affects all of this.</p>"""),
@@ -273,7 +273,7 @@ POSTS = [
         "hero_alt": "Illustration of review stars for a Google Business Profile guide for Houston and The Woodlands businesses",
         "related": ["rank-in-google-map-pack-houston", "complete-guide-google-reviews", "google-business-profile-suspended-reinstatement"],
         "sections": [
-            (None, f"""<p>A dentist in Spring asked us last year whether she still needed a website, since “everybody calls from the Google thing anyway.” Fair question. Her profile was producing more calls than her site. She still needed the website (we’ll get to why), but she was right about which one people saw first.</p>
+            (None, f"""<p>“Do I even need a website if everybody calls from the Google thing?” We hear some version of that from owners in Spring and The Woodlands more than you’d think. It’s a fair question. For a lot of local businesses the profile produces more calls than the site. You still need the website (we’ll get to why), but the instinct about which one people see first is right.</p>
 <p><b>Short answer:</b> for a local business in Houston or The Woodlands, the Google Business Profile is usually the most valuable marketing asset you own because it’s where people compare you, read reviews, call and get directions, often without visiting your site. It’s free. Most profiles are half finished, which is your opening.</p>
 <p>This is the field-by-field version: what Google says decides rankings, the settings most Houston profiles get wrong, what changed between 2024 and 2026, and how to tell whether the profile is working.</p>"""),
 

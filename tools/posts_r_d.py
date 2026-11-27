@@ -87,14 +87,14 @@ POSTS = [
 <!--fig:minimums-->"""),
 
             ("How much do TikTok ads cost for a Houston business?", f"""<p>TikTok doesn't publish average prices, and the third-party “average CPM” numbers floating around rarely say where they came from. What TikTok does publish are the floors. Per {SRC['budget']}, a campaign's daily budget has to be more than $50 and an ad group's daily budget more than $20. On a lifetime budget, the ad group minimum is $20 times the number of days in the flight, so a 31-day ad group needs at least $620.</p>
-<p>Those floors shape everything. One campaign with one ad group at the minimum is roughly $1,500 a month if the campaign budget is the thing that caps spend. Run two ad groups (say, one for Spring and Klein ZIPs and one for The Woodlands and Shenandoah) and you're still working inside that same campaign budget, just split thinner.</p>
+<p>Those floors shape everything. One campaign at the minimum is roughly $1,500 a month. Split it into two ad groups (Spring and Klein ZIPs in one, The Woodlands and Shenandoah in the other) and each gets thinner.</p>
 <p>A few budget rules from the same page that trip people up:</p>
 <ul>
 <li>Keep the campaign budget at or above the ad group budget, or delivery gets weird.</li>
 <li>While an ad group is in its learning phase, raise the budget no more than 40% at a time. After it exits, no more than 30%. Wait at least two days between changes.</li>
 <li>You can't switch between daily and lifetime budgets once something is live. Pick daily for a first test.</li>
 </ul>
-<p>The learning phase matters for small accounts. {SRC['learn']} says volatility starts to come down after about 25 results or 7 days. If you're optimizing for leads and you get four a week, you'll be “learning” for a long time. That's the main reason we often start local accounts on a cheaper, more frequent event (landing page views, or video views for a warm-up audience) and move to lead optimization once there's volume.</p>
+<p>The learning phase matters for small accounts. {SRC['learn']} says volatility starts to come down after about 25 results or 7 days. If you're optimizing for leads and you get four a week, you'll be “learning” for a long time. That's why we often start local accounts on a more frequent event, like landing page views, and move to lead optimization once there's volume.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Goal</th><th>Setup</th><th>Planning budget</th><th>Judge it on</th></tr></thead>
 <tbody>
@@ -115,7 +115,6 @@ POSTS = [
 <li><b>Med spas, salons, lash and brow studios, gyms.</b> Before-and-after (where it's allowed), trainer tips and treatment walk-throughs. See {L('/blog/med-spa-marketing-the-woodlands-houston/', 'med spa marketing')} for the policy side.</li>
 <li><b>Visual home services.</b> Pressure washing, pool remodels, epoxy floors, landscape lighting. Satisfying transformations are basically a TikTok genre.</li>
 <li><b>Boutiques and local retail</b>, especially with new arrivals weekly.</li>
-<li><b>Hiring.</b> Lots of Houston trades and restaurants find TikTok works better for recruiting than for customers. Job ads fall under TikTok's housing, employment and credit policy, so expect fewer targeting options.</li>
 </ul>
 <p>Weaker fits: estate planning attorneys, commercial B2B, anything sold to a procurement department, and emergency services where the customer is searching on Google with water on the floor. Someone whose slab leak just started isn't scrolling for inspiration.</p>"""),
 
@@ -150,8 +149,8 @@ POSTS = [
 <li><b>North Houston suburbs along I-45:</b> the list above plus Spring (77373, 77379, 77388) and Conroe ZIPs, rather than the Houston DMA, which drags in counties you'll never drive to.</li>
 <li><b>West side:</b> Katy and Cypress ZIP codes for a Grand Parkway corridor business. Don't use “Katy, Texas” the city alone; many Katy addresses sit outside city limits.</li>
 </ul>
-<p>Size check. Ten Woodlands-area ZIPs is plenty for a $50 a day campaign. Three ZIPs at $50 a day usually means the same few thousand people see your ad until they're sick of it. Watch frequency in the reporting columns and widen the area before it climbs past what you'd tolerate from a billboard.</p>
-<p>One more limit: some businesses fall under TikTok's housing, employment and credit policy, which restricts targeting. Home builders, apartment communities, mortgage brokers and job ads should expect fewer options.</p>"""),
+<p>Size check. Ten Woodlands-area ZIPs is plenty for $50 a day. Three ZIPs at $50 a day means the same few thousand people see your ad until they're sick of it, so watch frequency and widen the area early.</p>
+<p>One more limit: TikTok's location page notes some advertisers fall under its housing, employment and credit policy. Home builders, apartment communities, lenders and job ads should expect fewer targeting options.</p>"""),
 
             ("Spark Ads: put money behind real posts", f"""<p>If you take one thing from this guide, make it this. {SRC['spark']} describes Spark Ads as a native format that lets you advertise organic TikTok posts, with the views, likes and follows credited to the original post. The ad shows your real handle and a real follow button and reads like any other post on the For You feed.</p>
 <!--fig:spark-->
@@ -172,7 +171,7 @@ POSTS = [
 </ul>
 <p>Speed is the whole game with social leads. These people weren't searching for you; they were watching dog videos. Call within five minutes if you can and text right away. Our {L('/blog/speed-to-lead-response-time-follow-up-crm/', 'speed-to-lead guide')} has the follow-up sequence, and {L('/blog/facebook-lead-ads-bad-leads-fix-quality/', 'fixing bad Facebook lead ads')} has form tactics that carry over to TikTok almost word for word. If you text these leads later for marketing, read our notes on {L('/blog/sms-marketing-small-business-texas-rules/', 'Texas SMS rules')} first.</p>"""),
 
-            ("What creative works for local businesses on TikTok", f"""<p>Creative decides more of your results on TikTok than any targeting setting, and the ads that work look like posts. The ones that flop look like TV commercials somebody shrank down.</p>
+            ("What creative works for local businesses on TikTok", f"""<p>On TikTok the ads that work look like posts. The ones that flop look like TV commercials somebody shrank down.</p>
 <p>The technical floor from {SRC['specs']}: vertical 9:16 is recommended (at least 540 x 960 pixels; we shoot 1080 x 1920), files up to 500 MB, and videos up to 10 minutes. Non-Spark captions can't include clickable links, @ mentions or hashtags. Most local ads we'd run are 9 to 30 seconds.</p>
 <!--fig:creative-->
 <p>Hooks we've seen hold attention for Houston service businesses, all of them specific to a place or a moment:</p>
@@ -180,13 +179,13 @@ POSTS = [
 <li>“This is what three Houston summers do to a pool deck.” (Then the pressure washer.)</li>
 <li>“Things I'd never let a patient do before a filler appointment.” (A med spa nurse injector, talking to camera.)</li>
 <li>“New on our menu this week, and yes it comes with queso.” (Owner holding the plate, Market Street patio behind.)</li>
-<li>“You asked what a $[your price] bathroom refresh looks like in Spring. Here.” (Before, after, price on screen.)</li>
+<li>“You asked what a [your price] bathroom refresh looks like in Spring. Here.” (Before, after, price on screen.)</li>
 </ul>
 <p>Say the town out loud. A viewer in Kingwood who hears “Kingwood” in the first two seconds stops scrolling at a much higher rate in our experience than one who hears “the Greater Houston area.”</p>
 <p>Music: business accounts should use the {SRC['cml']}, TikTok's pre-cleared library of about a million songs for organic posts, video ads and branded content. TikTok says businesses can't use the general music library commercially. That trending audio your 22-year-old employee wants to use is often off limits for a business ad.</p>
-<p>Plan on fresh videos every two to four weeks. TikTok audiences in a small ZIP set see the same ad a lot, and fatigue shows up fast as rising cost per result. A shoot day that produces ten rough verticals is worth more here than one polished spot.</p>"""),
+<p>Plan on fresh videos every two to four weeks; a small ZIP set sees the same ad a lot. Ten rough verticals beat one polished spot here.</p>"""),
 
-            ("Pixel, Events API and measuring TikTok honestly", f"""<p>TikTok's reporting, like every platform's, is generous to itself. You need your own view.</p>
+            ("Pixel, Events API and measuring TikTok honestly", f"""<p>TikTok's reporting is generous to itself, like every platform's.</p>
 <p>Start in Events Manager. After the pixel is in, verify it with the TikTok Pixel Helper Chrome extension and the <i>Test Events</i> tool, then check the <i>Diagnostics</i> tab, all described in {SRC['pixel']}. Set up events that mean money: a booked appointment, a submitted estimate form, a completed order. A “ViewContent” event on your homepage is not a conversion.</p>
 <!--fig:funnel-->
 <p>Then cross-check outside TikTok:</p>
@@ -194,7 +193,6 @@ POSTS = [
 <li><b>UTMs into Google Analytics</b>, with TikTok traffic as its own source. Our {L('/blog/track-form-submissions-phone-calls-ga4-google-ads/', 'GA4 tracking guide')} covers forms and calls.</li>
 <li><b>Branded search.</b> Most TikTok viewers don't tap the ad. They remember your name and Google it later. Watch branded searches in Google Search Console and branded clicks in Google Ads during the test, by week.</li>
 <li><b>Ask at intake.</b> “How did you hear about us?” with TikTok as a choice, on the form and at the front desk. Crude, and it catches things no pixel will.</li>
-<li><b>An on-screen offer code</b> for walk-in businesses. “Say TIKTOK at the counter.” It undercounts, but what it counts is real.</li>
 </ul>
 <p>Give a test 45 to 60 days before you judge it. One week of TikTok data at $50 a day is mostly noise, especially when the algorithm is still in its learning phase.</p>"""),
 
@@ -297,7 +295,7 @@ POSTS = [
     {
         "slug": "video-production-cost-houston",
         "title": "How Much Does Video Production Cost in Houston? Commercials, Social Clips and Testimonials",
-        "seo_title": "Video Production Cost in Houston: 2027 Price Guide",
+        "seo_title": "Video Production Cost in Houston: A Price Guide",
         "desc": "What video production costs in Houston and The Woodlands: phone, freelancer and production company tiers, permits, drones, music licensing and a shot list.",
         "category": "Branding",
         "icons": ["YouTube", "Instagram", "TikTok"],
