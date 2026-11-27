@@ -270,6 +270,13 @@ def main():
             if changed:
                 new = json.dumps(data, ensure_ascii=False, indent=1)
                 s = s.replace(m.group(0), m.group(1) + "\n" + new + "\n" + m.group(3), 1)
+        # article:modified_time / article:section mirror the schema
+        dm = info.get("dateModified")
+        if dm and 'property="article:published_time"' in s:
+            s = re.sub(r'\n?<meta property="article:(?:modified_time|section)" content="[^"]*">', "", s)
+            s = re.sub(r'(<meta property="article:published_time" content="[^"]*">)',
+                       lambda m: m.group(1) + f'\n<meta property="article:modified_time" content="{esc(dm)}">'
+                                              f'\n<meta property="article:section" content="{esc(h[1])}">', s, count=1)
         if s != orig:
             write(p, s)
         posts[slug] = info
