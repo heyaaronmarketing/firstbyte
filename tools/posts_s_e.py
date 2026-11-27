@@ -130,7 +130,7 @@ POSTS = [
 
             ("Does Texas charge sales tax on website design?", f"""<p>Often, yes, and plenty of owners find out from their accountant after the fact. {SRC['tx96']} lists “web hosting, web site creation and maintenance” as examples of data processing, a taxable service in Texas, and says 20 percent of the charge for data processing is exempt.</p>
 <p>The rule was amended in 2025. Per {SRC['gt']}, design that only produces a blueprint or plan for a website isn’t taxable, while creation, repair and maintenance are taxable when they involve storing, manipulating, compiling or entering data. In practice, most website builds land on the taxable side.</p>
-<p>Rates: the state rate is 6.25 percent, and cities, counties and special districts can add up to 2 percent, for a combined maximum of 8.25 percent, per {SRC['txrate']}. Most of The Woodlands, Spring and Conroe sit at that 8.25 percent cap.</p>
+<p>Rates: the state rate is 6.25 percent, and cities, counties and special districts can add up to 2 percent, for a combined maximum of 8.25 percent, per {SRC['txrate']}. Much of the Houston area, including The Woodlands, sits at that 8.25 percent cap, but check the exact rate for your address.</p>
 <p>An illustrative example: on a $10,000 build that’s fully taxable as data processing, 20 percent is exempt, so tax applies to $8,000. At 8.25 percent, that’s $660. Ask your bidders whether their quote includes tax, and ask your CPA how your specific contract should be treated. We’re marketers; this paragraph is a heads-up, not tax advice.</p>"""),
 
             ("The costs owners forget: photos, speed and accessibility", f"""<p>Three things rarely show up in the first quote and almost always come up later.</p>
@@ -244,7 +244,7 @@ POSTS = [
         "modified": "2026-11-27",
         "title": "How to Show Up in ChatGPT and AI Search (AEO): A Playbook for Houston and The Woodlands Businesses",
         "seo_title": "How to Show Up in ChatGPT and AI Search (AEO) in Houston",
-        "desc": "How Houston and The Woodlands businesses get named in ChatGPT, Google AI Mode, Gemini and Copilot answers: crawler settings, Business Profile, mentions, tracking.",
+        "desc": "How Houston and The Woodlands businesses get named in ChatGPT, Google AI Mode and Copilot answers: crawler settings, Business Profile, mentions, tracking.",
         "category": "SEO",
         "icons": ["Google", "Google Business Profile", "Search Console"],
         "art": "b4",
@@ -325,7 +325,7 @@ POSTS = [
 
             ("How do you track whether ChatGPT is recommending you?", f"""<p>Imperfectly, but better than a year ago. Three sources, from most to least reliable:</p>
 <p><b>GA4 referrals.</b> In GA4, go to Reports, then Acquisition, then Traffic acquisition, and look at session source for chatgpt.com, perplexity.ai, copilot.microsoft.com and gemini.google.com. ChatGPT also adds a utm_source=chatgpt.com tag to many links it shows. Counts are small for most local businesses, and people who read your name in an answer often call or search your name instead of clicking, so treat this as a floor.</p>
-<p><b>Bing’s citation data.</b> The {SRC['bing']}, launched in public preview in February 2026, shows how often your pages are cited in Copilot and Bing’s AI summaries, which pages get cited, and a sample of the queries the AI used to find them. It’s the first first-party citation report from a major engine. Google’s Search Console doesn’t break AI Mode out the same way.</p>
+<p><b>Bing’s citation data.</b> The {SRC['bing']}, launched in public preview in February 2026, shows how often your pages are cited in Copilot and Bing’s AI summaries, which pages get cited, and a sample of the queries the AI used to find them. It’s one of the first citation reports to come straight from a major engine. Google’s Search Console doesn’t break AI Mode out the same way.</p>
 <p><b>A monthly prompt audit.</b> Write 15 to 20 prompts your customers would use, run them in ChatGPT, Google AI Mode, Gemini and Copilot on the same day each month, and log the results in a sheet like this one.</p>
 <div class="bp-tbl"><table>
 <thead><tr><th>Prompt</th><th>Tool</th><th>Were we named?</th><th>Who was named</th><th>Sources it cited</th></tr></thead>
@@ -429,7 +429,7 @@ POSTS = [
         "modified": "2026-11-27",
         "title": "Google Ads for Small Businesses in Houston and The Woodlands: The 2026 Guide",
         "seo_title": "Google Ads for Small Businesses: 2026 Houston Guide",
-        "desc": "A step-by-step 2026 Google Ads guide for Houston and The Woodlands small businesses: budgets, tracking, campaign types, keywords, negatives, targeting and bids.",
+        "desc": "A step-by-step 2026 Google Ads guide for Houston and The Woodlands small businesses: budgets, tracking, campaign types, keywords, negatives and targeting.",
         "category": "Paid search",
         "icons": ["Google Ads", "Google Analytics", "Tag Manager"],
         "art": "b6",
@@ -509,7 +509,8 @@ POSTS = [
 
             ("How long does it take for Google Ads to work?", f"""<p>Calls can start the first week. Knowing whether the account is profitable takes longer: two to three months for most small businesses, because you need enough leads to judge quality, and enough closed jobs to know what a lead is worth.</p>
 <!--fig:funnel-->
-<p>Judge the account on cost per customer, not cost per click. A $12 click that books a $4,000 repair beats a $3 click that never calls. That means someone has to tell the ad account, or at least a spreadsheet, which leads turned into jobs. Our post on {L('/blog/understanding-cost-per-lead/', 'understanding cost per lead')} shows the math.</p>"""),
+<p>Judge the account on cost per customer, not cost per click. A $12 click that books a $4,000 repair beats a $3 click that never calls. That means someone has to tell the ad account, or at least a spreadsheet, which leads turned into jobs. Our post on {L('/blog/understanding-cost-per-lead/', 'understanding cost per lead')} shows the math.</p>
+<p>A weekly 30-minute routine covers most of what a small account needs. Read the search terms from the last seven days and add negatives. Listen to two or three recorded calls from ads, because the recordings tell you more about lead quality than any dashboard. Check that spend is pacing where you expect for the month. Look at which ad groups produced leads and which only produced clicks. Then leave everything else alone. Ignore impression share swings and the auto-generated recommendations tab for now; accepting every recommendation is a reliable way to raise spend without raising leads.</p>"""),
 
             ("Your first 90 days, and the mistakes we see most", f"""<p>Here’s the order we’d run a new small business account in.</p>
 <!--fig:plan-->

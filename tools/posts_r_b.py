@@ -265,7 +265,7 @@ POSTS = [
         "desc": "A LinkedIn Ads playbook for Houston and The Woodlands B2B firms: targeting, real costs, Lead Gen Forms, ABM company lists, OTC timing, when to skip it.",
         "category": "Paid ads",
         "icons": ["LinkedIn", "HubSpot", "Google Analytics"],
-        "art": "b4",
+        "art": "b1",
         "hero": "industry",
         "hero_alt": "Illustration of industrial facilities for LinkedIn Ads for B2B companies in Houston and The Woodlands",
         "related": ["b2b-marketing-houston-energy-industrial", "trade-show-marketing-houston-otc-conventions", "speed-to-lead-response-time-follow-up-crm"],
