@@ -370,6 +370,33 @@ def main():
             s = s.replace(b.group(0), "", 1)
         write(f"{SITE}/topics/{slug}/index.html", s)
 
+    # ---- service / industry / city pages: "All guides" button goes to the matching topic hub -------
+    page_hub = {"/services/search-marketing/": "google-ads", "/services/paid-social-advertising/": "social-media-influencer",
+                "/services/web-design-seo-pr/": "seo-local-search", "/services/creative-branding/": "websites-branding",
+                "/services/ctv-ooh-streaming-radio/": "marketing-strategy-budgets", "/industries/service/": "home-services-marketing",
+                "/industries/restaurants/": "restaurants-hospitality-events", "/industries/hospitality/": "restaurants-hospitality-events",
+                "/industries/live-entertainment/": "restaurants-hospitality-events", "/industries/sports-fitness/": "fitness-beauty-studios",
+                "/industries/ecommerce/": "retail-ecommerce-auto", "/industries/beverage-spirits/": "retail-ecommerce-auto",
+                "/industries/technology/": "professional-services-b2b"}
+    for p in glob.glob(f"{SITE}/digital-marketing-agency-*/index.html"):
+        page_hub["/" + p.split("/")[-2] + "/"] = "houston-local-guides"
+    BTN_TEXT = {"google-ads": "All Google Ads guides", "social-media-influencer": "All social media guides",
+                "seo-local-search": "All SEO guides", "websites-branding": "All website & branding guides",
+                "marketing-strategy-budgets": "All strategy guides", "home-services-marketing": "All home service guides",
+                "restaurants-hospitality-events": "All restaurant & event guides", "fitness-beauty-studios": "All fitness & beauty guides",
+                "retail-ecommerce-auto": "All retail & eCommerce guides", "professional-services-b2b": "All professional services guides",
+                "houston-local-guides": "All Houston local guides"}
+    btn = re.compile(r'(<section class="sec sv-sec fb-related">.*?)<a class="btn btn-g" href="[^"]*">All [^<]*guides <span class="arr">→</span></a>', re.S)
+    for u, hb in page_hub.items():
+        p = f"{SITE}{u}index.html"
+        if not os.path.exists(p):
+            continue
+        s = read(p)
+        text = BTN_TEXT[hb]
+        n = btn.sub(lambda m: m.group(1) + f'<a class="btn btn-g" href="/topics/{hb}/">{esc(text)} <span class="arr">→</span></a>', s, count=1)
+        if n != s:
+            write(p, n)
+
     # ---- other pages with short descriptions (case studies) ---------------------------------------
     for u, d in DESCS.items():
         if u.startswith("/blog/"):
